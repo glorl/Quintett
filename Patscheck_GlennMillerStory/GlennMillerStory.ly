@@ -20,6 +20,6 @@ global= {
 }
 \include "../Patscheck_GlennMillerStory/GlennMillerStory_eins.ly"
 \include "../Patscheck_GlennMillerStory/GlennMillerStory_zwei.ly"
-% \include "../Patscheck_Opening/Opening_drei.ly"
+\include "../Patscheck_GlennMillerStory/GlennMillerStory_drei.ly"
 % \include "../Patscheck_Opening/Opening_vier.ly"
 \include "../Patscheck_GlennMillerStory/GlennMillerStory_bass.ly"

@@ -100,7 +100,7 @@ r4 f4\p ~f2
 ~f2 r8 g8-- \f c4-.
 g2-> gis4-.-^ a-> 
 ~a g4-.-^ gis2--->
-f4-^ f2.
+f8-^ r f2.
 r8 a4-^ a-^ a-^ f8-- 
 f4-- r8 f8-- e4-- r8 e-- 
 es4-- r8 es8-- d4-- r8 d8-- 
@@ -134,8 +134,8 @@ e2\p ~e8 e-- e4-.
 c2 ~c8 e (g a ) 
 e2 ~e8 e8-- d4-.
 c4 (c8 b~ b2) 
-c4-- c-. e-- e-.
-g4-- e-. g-- f-.
+c4-- \< c-. e-- e-.
+g4-- \f  e-. g-- f-.
 e4 r r2
 g8 \> (fis f e~e2)\! \fermata \bar"||"\time 2/2 
 c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
