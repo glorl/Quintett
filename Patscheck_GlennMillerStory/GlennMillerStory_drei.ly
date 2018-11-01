@@ -49,7 +49,7 @@ r4 d r d
 r4 d r d 
 r4 d r d 
 r4 d r e 
-d4 c d2
+d4-. c-. d2
 d4-. b8-- d8-. r8 g4.-> \f 
 a4-. a-. a4.-- a8--
 g8-- g4-. a8-- g (g e4-.) 
