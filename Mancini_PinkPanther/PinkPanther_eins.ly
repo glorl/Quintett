@@ -13,12 +13,12 @@ eins = \new Voice \relative c''' {
 a4.-^\f a8-- e-- e-^ r4
 bes'4.-- f8-. r2 
 as8-- as4-. as8-- as4-. as8-- g-^
-r2 \tuplet 3/2{r4\mp cis,,8(} \tuplet 3/2{d8) r8 dis8(} 
+r2 \tuplet 3/2{r8 r \mp cis,,8(} \tuplet 3/2{d8) r8 dis8(} 
 e1)
 ~e2 ~ \tuplet 3/2 {e8 r8 cis8(} \tuplet 3/2{d8) r8 dis8(} 
 e1)
 ~e2 ~e8 r8 r8 gis8( \bar"||" 
-a4-.\segno ) \tuplet 3/2{r4 b8(} c4-.) \tuplet 3/2{r4 gis8(}
+a4-.\segno ) \tuplet 3/2{r8 r b8(} c4-.) \tuplet 3/2{r8 r gis8(}
 \tuplet 3/2{a8) r8 b8(} \tuplet 3/2{c8) r f8(} \tuplet 3/2{e8) r a,8(} \tuplet 3/2{c8) r e8(}
 es2 \tuplet 3/2{es8 d c } \tuplet 3/2{a8 g a) }
 a8 \bendAfter #-3 r8 r4 r4 r8 gis8
@@ -98,7 +98,7 @@ c4 \glissando as8-- f ~f4 r8 gis,8
 \tuplet 3/2 {a4-- c-- d--} es4 \! \glissando c8-- a-.
 r4 r8 a8 (es d c a) 
 \tuplet 3/2 {es'8 (d4) } \tuplet 3/2 {es8 (d8 c) } \tuplet 3/2 {a'8 (gis4) } \tuplet 3/2 {b8 (c8 b) }
-a4-^ r8 gis,8 ( \tuplet 3/2 {a8) r f' (} \tuplet 3/2 {e8) r b'(}
+a4-^ \tuplet 3/2 {r8 r8 gis,8( } \tuplet 3/2 {a8) r f' (} \tuplet 3/2 {e8) r b'(}
 a4-.) r r2
 \bar"||"
  \cadenzaOn 

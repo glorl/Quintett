@@ -44,7 +44,6 @@ c2 (e)
 d2 ~d8 g (d b) 
 d2 (c 
 b2 ) r2
-\override Glissando.style = #'zigzag
 c \glissando c'4. (a8) 
 g8 ([fis] \tuplet 3/2 {g [a b]~ } b2)
 ~b8 (d b bes a c a as) 
@@ -71,7 +70,7 @@ g4) r r g,8 (f)
 \startStaff 
 \cadenzaOff
 \break
-\bar"|"
+% \bar"|"
 c''4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r c4-.-^\f
 \bar"||" \key f \major 
 c2->^\markup{Trio} a8 (f d c~

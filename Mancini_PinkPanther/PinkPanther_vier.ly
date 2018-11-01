@@ -20,7 +20,7 @@ a1)
 ~a2 ~ \tuplet 3/2 {a8 r8 fis8(} \tuplet 3/2{g8) r8 gis8(} \bar"||" 
 a1 \segno )
 ~a1
-c1
+(c1)
 (c8 \bendAfter #-3 ) r8 r4 \tuplet 3/2 {r8 r8 fis,8(} \tuplet 3/2 {g8) r gis8(}
 a1)
 ~a2 \tuplet 3/2 {r8 r8 as8(} \tuplet 3/2 {g8) r8 ges8(}
@@ -101,7 +101,7 @@ a8-- c4-. b-. f'8 (e[) c']
 \tuplet 3/2 {g'4-- a-- bes--} c4 \! \glissando a8-- g-.
 r4 r8 a8 (es d c a) 
 \tuplet 3/2 {es'8 (d4) } \tuplet 3/2 {es8 (d8 c) } \tuplet 3/2 {a'8 (gis4) } \tuplet 3/2 {b8 (c8 b) }
-g4-^ r8 b,8 ( \tuplet 3/2 {g8) r gis' (} \tuplet 3/2 {fis8) r gis!(}
+g4-^ \tuplet 3/2 {r8 r8 b,8( } \tuplet 3/2 {g8) r gis' (} \tuplet 3/2 {fis8) r gis!(}
 g!8-.) a,4. \tuplet 3/2 {r8 r8 fis8(} \tuplet 3/2 {g8) r8 gis8 }
 \bar"||"
  \cadenzaOn 

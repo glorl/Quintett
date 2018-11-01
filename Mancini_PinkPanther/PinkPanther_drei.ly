@@ -13,7 +13,7 @@ drei = \new Voice \relative c'' {
 bes4.-^\f bes8-- fis-- fis-^ r4
 b4.-- bes8-. r2 
 c8-- c4-. c8-- c4-. c8-- b-^
-r8 g,4.-> \tuplet 3/2{r4\mp fis8(} \tuplet 3/2{g8) r8 gis8(} 
+r8 g,4.-> \tuplet 3/2{r8 r \mp fis8(} \tuplet 3/2{g8) r8 gis8(} 
 a1)
 ~a2 ~ \tuplet 3/2 {a8 r8 fis8(} \tuplet 3/2{g8) r8 gis8(} 
 a1)
@@ -83,7 +83,7 @@ cis) r e2
 ~bes1
 e2. (e8-- e8 \bendAfter #-3 ) 
 r2 b4-- e--
-e2 dis4 dis8 b
+e2 dis4 dis8-- b
 ~b r r4 r2
 g'4-- b,8-- e, ~e8 r r4 \bar"||"
 c''4.---> \f^\markup{unisono chorus} a8-> ~a4 r8 dis, \mf (
@@ -100,7 +100,7 @@ d4 \glissando bes8-- as ~as4 r8 gis,8
 \tuplet 3/2 {c4-- es-- f--} f4 \! \glissando es8-- c-.
 r4 r8 a8 (es d c a) 
 \tuplet 3/2 {es'8 (d4) } \tuplet 3/2 {es8 (d8 c) } \tuplet 3/2 {a'8 (gis4) } \tuplet 3/2 {b8 (c8 b) }
-c4-^ r8 d,8 ( \tuplet 3/2 {c8) r b' (} \tuplet 3/2 {a8) r d(}
+c4-^ \tuplet 3/2 {r8 r8 d,8( } \tuplet 3/2 {c8) r b' (} \tuplet 3/2 {a8) r d(}
 c4-.) r \tuplet 3/2 {r8 r8 fis,,8(} \tuplet 3/2 {g8) r8 gis8 }
 \bar"||"
  \cadenzaOn 

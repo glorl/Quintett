@@ -1,77 +1,109 @@
+#(define (scoop-stencil grob)
+         (ly:stencil-add
+             (ly:note-head::print grob)
+             (grob-interpret-markup grob
+                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
+                                            #:translate '(-0.2 . -0.5)
+                                                         #:path 0.25 '((moveto 0 0)
+                                                                       (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
+scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+
 bass = \new Voice \relative c' {
 \compressFullBarRests
-\override Glissando.style = #'trill
-c2\f b 
-a a4 as
-g2 f4 f8-- g-.
-r8 g4.-> r2 \bar"||"
-c4---.\segno \mf a---. g---. a---.
-c4._\markup{\italic simile} g8 a4 b
-c a g a 
-c g bes cis 
-d a f a 
-g b d g,
-c a g c 
-c g8-- c-. r g4.->
-c4 a g b
-c4. g8 a4 b 
-c a g a 
-c g bes cis 
-d a f a 
-g b d g,
-c a g a
-c^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} g8-- c-. r2
+c4.-^\f c8-- d-- d-^ r4
+des4.-- es8-. r8 f8-- g4-.
+as8-- ges4-. f8-- e4-. f8-- g-^
+r8 g,4.-> \tuplet 3/2{r8 r8 \mp fis8(} \tuplet 3/2{g8) r8 gis8(} 
+a1)
+~a2 ~ \tuplet 3/2 {a8 r8 fis8(} \tuplet 3/2{g8) r8 gis8(} 
+a1)
+~a2 ~ \tuplet 3/2 {a8 r8 fis8(} \tuplet 3/2{g8) r8 gis8(} \bar"||" 
+a4) \segno \tuplet 3/2 {r8 r b(} c4-.) \tuplet 3/2 {r8 r gis(} 
+\tuplet 3/2 {a8) r b (} \tuplet 3/2 {c8) r f (} \tuplet 3/2 {e8) r a, (} \tuplet 3/2 {c8) r e (}
+es2) ~ \tuplet 3/2 {es8( d c} \tuplet 3/2 {a8 g a}
+a8 \bendAfter #-3 ) r8 r4 r4 \tuplet 3/2 {r8 r gis8(}
+a4) \tuplet 3/2 {r8 r b(} c4-.) \tuplet 3/2 {r8 r gis(} 
+\tuplet 3/2 {a8) r b (} \tuplet 3/2 {c8) r f (} \tuplet 3/2 {e8) r c (} \tuplet 3/2 {e8) r a (}
+as2) \glissando d,4 f 
+bes,4 as f r8 gis (
+a4) \tuplet 3/2 {r8 r b(} c4-.) \tuplet 3/2 {r8 r gis(} 
+\tuplet 3/2 {a8) r b (} \tuplet 3/2 {c8) r f (} \tuplet 3/2 {e8) r a, (} \tuplet 3/2 {c8) r e (}
+es2) ~ \tuplet 3/2 {es8( d c} \tuplet 3/2 {a8 g a}
+a8 \bendAfter #-3 ) r8 r4 r2
+r4 a'8 (g e d c a)
+es'16-> (d8.) es16-> (d8.) es16-> (d8.) es16-> (d8.)
+\tuplet 3/2 {c8 (a g} a8 a~ a2 \bendAfter #-3 ) 
+r1
+r4 r8 a8 es' d ~d a 
+as8 f ~f4 r2 
+\tuplet 3/2 {c'8 (a g} a8 a) ~a2
+~a8 \bendAfter #-3 r e'4-^ dis8-^ (e) b4-^ \bar"||" \key g \major
+dis4\mf e g e 
+dis e g e 
+c e, g a 
+bes a g fis 
+e fis g e
+g a b g
+f a c a 
+f c' f f 
+e d cis b
+bes b cis e 
+c!-- c-- c-- c-- 
+c g' e d 
+e dis cis b 
+e b c! dis 
+d g e b
+e b8-- e,8-. r b'4.-> \bar"||" \key c \major
+cis4--^\markup{Solo} e g4. dis8(
+\tuplet 3/2 {e8) r b (} cis4)  b8 (e) e (g,) 
+bes4-- a-. g8. (e16 g4)  
+bes8 (a g e ~e2)
+r8 e8-- f4-. e'4. (dis8) 
+e4-- f4-. g8-. c, (d) e
+(es4. d8) c4-. a-. 
+es'8 (d c a ~a4.) es'!8
+(e!8-.) f, (g) c (b4) g
+\tuplet 3/2 {e4-- f-- g-- } \tuplet 3/2 {b4-- cis-- dis-- }
+e4-. b8 (bes ~bes4.) g8--
+e8 (g a bes8 ~bes4.) g8--
+b!4-. g-. e8 (g b4-.) 
+c4. (bes8-- b4) b8-- bes-^
+r8 e8-- b4-. g8-- fis ~fis4 
+b8 (cis dis e) r8 b4. \bar"||"
+cis4 e g b, 
+g d' cis b 
+c d e g,
+c bes a g
+e g b b 
+g' f e g 
+fis es c a 
+f c' es f 
+e! b e cis 
+e e g e 
+c e, g bes 
+d c b g 
+e' b g b 
+c e b b8 e
+~e r8 dis4-. fis-. b,-.
+e4-- b8-- e, ~e8 r r4 \bar"||"
+a4.---> \f^\markup{unisono chorus} a8-> ~a4 r8 dis \mf (
+\tuplet 3/2 {e8) r gis( } \tuplet 3/2 {a8) r b( } c8) b (e, es
+~es4 d8 c) \tuplet 3/2 {es8 (d c } \tuplet 3/2 {d es g)}
+f4 f8-- f ~f4 r8 gis8
+(a4.) ais16 (b c4.) e,16 (gis) 
+a8 (b c f, \tuplet 3/2 {d8 c a} \tuplet 3/2 {c8 e a)}
+bes4.-- bes16 (f) \tuplet 3/2 {bes4-- f-- d--}
+bes4 f'8-- bes, ~bes4 r8 gis8
+a8-- c4-. b-. d8 (e[) c]
+(b4) gis8 ( a e' c d es
+~es4.) d16 ( c) \tuplet 3/2 {f4--\< es-- c--}
+\tuplet 3/2 {c4-- a-- g--} f4 \! f8-- f-.
+r4 r8 a'8 (es d c a) 
+\tuplet 3/2 {es'8 (d4) } \tuplet 3/2 {es8 (d8 c) } \tuplet 3/2 {a8 (gis4) } \tuplet 3/2 {b8 (c8 b) }
+a4-^ \tuplet 3/2 {r8 r8 e8( } \tuplet 3/2 {a8) r e (} \tuplet 3/2 {a8) r e'(}
+a8-.) a,4. r4 \tuplet 3/2 {r8 r8 gis8 }
 \bar"||"
-c4 \p a g a 
-c g a g 
-c g a b 
-c c cis e
-d c b a 
-g g b b 
-c a g c
-g b c8 g (a b)
-c4 a g a 
-c e c a
-c a d d 
-c a g e'
-d c a f 
-g g a b 
-c e g c,
-g g8-- c-. r g4.-> \bar"||" 
-c4 \f g c a 
-g a b g 
-c \p g c a 
-g a b g 
-c \f a g g 
-e g b e
-b a fis es
-e! fis g b 
-c b a c 
-g a b d 
-c\p b a c 
-g c d g,
-c c cis bes 
-a g fis a 
-g d' b g 
-c r r2 \bar"||"
-c4 \p c e d 
-g es8 (d) b4 d 
-c c e c 
-e d g, d'
-c c a g 
-e b'8-- e-. r8 g,8-- a4-. 
-b b fis' dis
-e c g b 
-c d e g 
-f es d f 
-c c g c 
-g d' b g 
-c b bes bes 
-a f fis c' 
-g b d g,8-- c8-. 
-r8 g4-> (g8) r2
-\bar"||"
- \cadenzaOn 
+\cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5
 \once \override TextScript #'X-offset = #0
@@ -88,63 +120,13 @@ r8 g4-> (g8) r2
 \cadenzaOff
 \break
 % \bar"|"
-c4 ^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} }  c8-- d8-. r2
-% \bar"|:" 
-\key g \major 
-\repeat volta 2{
-d4-.^\markup{Trio} \mf b4-. e2
-d8-- b4-. e8 ~ e2
-r8 d4-. b8-- e4.-- d8-- 
-g2 e8-- d-. r4
-d8.-- d16 (b8 e ~e2) 
-d8.-- d16 (b8 e ~e2) 
-fis8( f fis g fis e d cis ) 
-b4. d8-- ~ d8 b-- a4-. \bar"||"
-g b d e8 (fis) 
-g4 e d b 
-g b d b 
-g d' g, fis 
-e gis b gis 
-a e' c a 
-d d8-- d8-. r d-- d4-. \bar"||"}
-\alternative{{
-g4-. fis8 (e dis e b4-.) 
-e,4 \f b' fis cis' 
-b4.-- e8-. r2 
-e4 r r2
-r1
-e,2-> fis2-> 
-b4. e8 r2 
-b4 r r2
-r1
-e,4 b' fis cis' 
-b4. e8 r2 
-e4 r r2
-r1
-e4 d b gis 
-a b a c 
-d b d d 
-g d g, r }
-{
-g'4-. fis8 (e dis e b4-.)}}
-e,4 \f b' fis cis'
-b4.-- e8-. r2 
-e4 r r2
-r1
-e,4 b' fis cis'
-b dis8 e r2
-b4 r r2
-r1
-e,4 b' c fis,
-b fis'8-- e-. r4 r8 b8
-(e,4-.) g8 (a c b e dis 
-g fis c' b e dis g, fis) 
-\tuplet 3/2 {e8 \< (es d} \tuplet 3/2 {des8 c b} \tuplet 3/2 {bes8 a as} \tuplet 3/2 {g8 ges f)}
-e4-.\!\ff r4 r2 
-r1 
-a4 r b r 
-e r r8 ais,8-- b4-. 
-e,4.-> e8-^ r2
+a4-.^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } e'4-. dis8 (e c4) \bar"||"
+a8 a4.-> gis4-^ a-^
+dis8-- e4-. e8-- f4-. gis8-- a-.
+r8 a,4-.^\markup{Solo} dis8 (e ) gis (a) c
+(b8) e,4.-> \tuplet 3/2 {a8 (dis, e} \tuplet 3/2 {f8 e c}
+a4) r8 f'8 (e-.) a ( gis-.) c ( 
+a4.) a8-^ r2
 \bar"|."
 }
  
