@@ -166,7 +166,7 @@ g f d' g,
 c2 \p \< (f,) 
 as4. g8 ~g g8-- \f g4-. }
 {c2 \> f,
-as8\p g4 c8 ~c2 }}
+as8--\p g4-. c8 ~c2 }}
 \repeat volta 2{
 c2 \f c4 es8-- d
 ~d2 g, 

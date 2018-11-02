@@ -159,10 +159,10 @@ b8 (d f-> b, d f-> b, d
 f8-> b, d f->~f4) r4
 }
 \alternative {{
-c2\p \< d
+c2\p \< (d)
 f4. d8 ~d4 \f r4 }
-{c2\p \< d
-es8-- d4 e8 ~e4 \f r4 }}
+{c2\p \< (d)
+es8-- d4-. e8 ~e4 \f r4 }}
 \repeat volta 2{
 g8--\f e4-. fis8-> ~fis2 
 r8 b, (d f a a4.) 
@@ -198,7 +198,7 @@ r8 f8-- a4-. fis8-- f4-. as8
 (g4-.) r b2-^
 \repeat volta 3{
 \repeat percent 2 { 
-g,8_\markup{\dynamic mf - p - \dynamic pp} (a e'-> g, a e'-> g, a 
+g,8_\markup{\dynamic mf - \dynamic p - \dynamic pp} (a e'-> g, a e'-> g, a 
 e'8-> g, a e'->~e4) r4
 }
 c8 (d f-> c d f-> c d 

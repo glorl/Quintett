@@ -146,106 +146,99 @@ c4 r r c
 r2 r8 c4.-^\sfz
 b4 r r b
 r1
-% \repeat volta 2{
-% \repeat percent 2 { 
-% g,8_\markup{\dynamic mf - \dynamic f} (a e'-> g, a e'-> g, a 
-% e'8-> g, a e'->~e4) r4
-% }
-% c8 (d f-> c d f-> c d 
-% f8-> c d f->~f4) r4
-% g,8 (a e'-> g, a e'-> g, a 
-% e'8-> g, a e'->~e4) r4
-% b8 (d f-> b, d f-> b, d
-% f8-> b, d f->~f4) r4
-% }
-% \alternative {{
-% c2\p \< d
-% f4. d8 ~d4 \f r4 }
-% {c2\p \< d
-% es8-- d4 e8 ~e4 \f r4 }}
-% \repeat volta 2{
-% g8--\f e4-. fis8-> ~fis2 
-% r8 b, (d f a a4.) 
-% g8-- e4-. fis8-> ~fis2 
-% r8 b, (d f a b4.) 
-% g8-- e4-. fis8-> ~fis2 
-% r8 b, (d f) a-- b4-. a8--
-% }
-% \alternative {{
-% f8--\p \< f-- f-- f-- e-- e-- e-- e--
-% f4-- fis8-- f-. ~f8 \f e4. }
-% {b'8--\f b-. r g-- bes-- bes-. r bes--}}
-% b4-- as8-- g-. ~g8 g4.---> 
-% c,4--\p c-. r c
-% r d-. r b4-.
-% c4-- c-. r a
-% r c r b 
-% c4-- c-. r a4-. 
-% r c r b 
-% b'8-- b-. r g8-- bes8-- bes-. r bes8-- 
-% a4-- fis8-- f8-. ~f e8-. r4 
-% r4 c r a 
-% r4 a r b 
-% g4-- g-. r a
-% r a r b 
-% c4-- c-. r a 
-% r a r b 
-% f'8-- f-. r g-- bes-- bes-. r g--
-% f4-- fis8-- f-. ~f e4.-> 
-% c8 \f (d e f) g-- c4-. g8-- 
-% gis8 (fis4-.) g8-> ~g2 
-% r8 f8-- a4-. fis8-- f4-. as8
-% (g4-.) r b2-^
-% \repeat volta 3{
-% \repeat percent 2 { 
-% g,8_\markup{\dynamic mf - p - \dynamic pp} (a e'-> g, a e'-> g, a 
-% e'8-> g, a e'->~e4) r4
-% }
-% c8 (d f-> c d f-> c d 
-% f8-> c d f->~f4) r4
-% g,8 (a e'-> g, a e'-> g, a 
-% e'8-> g, a e'->~e4) r4
-% b8 (d f-> b, d f-> b, d
-% f8-> b, d f->~f4) r4
-% r8 ^\markup {\translate-scaled #'(-1 . 0) 1.}_\markup {\translate-scaled #'(-3 . 0) 2.-3.}
-% \new Voice <<
-%   \relative c''{  c8-. c-. c-. c-. cis-. d-. dis-. }
-%   \relative c'{  c8-. c-. c-. c-. cis-. d-. dis-. }
-% >>
-% }
-% \alternative{
-% {
-% \new Voice <<
-%   \relative c''{e4-^}
-%   \relative c'{e4}
-% >>
-% r r2
-% r1 
-% r1}
-% {e4-^ r r8 e'4-^ \ff e8-^ ~
-% }
-% }
-% e2 r2
-% r2 r8 e4-^ e8-^
-% ~e2 r2
-% r2 r8 e4-^ d8-^
-% ~d2 r2
-% r2 r8 d4-^ e8-^
-% ~e2 r2
-% r2 r8 e4-^ f8-^
-% ~f2 r2
-% r1
-% c,4-- \f \cresc c8-. c-. d-. cis-. c-. f-.
-% e4-- dis8-. e-. g-. fis-. f bes-. 
-% a4-- a8-. as-. g-. c-. b-. bes-. 
-% cis4-- c8-. cis-. d4-. d-. 
-% cis8-. d-. dis4-. dis-. d8-. e-.
-% e2 \!\ff
-% r2
-% c,8 (e g-> c, e g-> c, e
-% g8-> c, e g ~g4) r
-% r1
-% e'1\fermata
-% \bar"|."
+\repeat volta 2{
+\repeat percent 2 { 
+a8_\markup{\dynamic mf - \dynamic f} (c g'-> a, c g'-> a, c 
+g'8-> a, c g'->~g4) r4
+}
+a,8 (c d-> a c d-> a c 
+d8-> a c d->~d4) r4
+a8 (c g'-> a, c g'-> a, c 
+g'8-> a, c g'->~g4) r4
+d8 (f g-> d f g-> d f
+g8-> d f g->~g4) r4
+}
+\alternative {{
+g,2\p \< (a)
+b4. a8 ~a4 \f r4 }
+{g2\p \< (a)
+bes8-- a4-. a8 ~a4 \f r4 }}
+\repeat volta 2{
+e'8--\f c4-. es8-> ~es2 
+r8 a, (c d f f4.) 
+e8-- c4-. es8-> ~es2 
+r8 a, (c d f f4.) 
+e8-- c4-. es8-> ~es2 
+r8 a, (c d) f-- f4-. f8--
+}
+\alternative {{
+d8--\p \< d-- d-- d-- cis-- cis-- cis-- cis--
+d4-- c!8-- b-. ~b8 \f a4. }
+{f'8--\f f-. r f-- e-- e-. r g--}}
+f4-- fis8-- f-. ~f8 e4.---> 
+g,4--\p g-. r a
+r a-. r f4-.
+g4-- g-. r fis
+r f! r f 
+g4-- g-. r fis4-. 
+r a r f! 
+f'8-- f-. r f8-- e8-- e-. r g8-- 
+d4-- c8-- b8-. ~b a8-. r4 
+g-- g-. r fis
+r4 f! r f 
+e4-- e-. r fis
+r f! r f 
+g4-- g-. r fis 
+r f! r f 
+d'8-- d-. r f-- e-- e-. r cis--
+d4-- c8-- b-. ~b a4.-> 
+c8 \f (d e f) g-- c4-. g8-- 
+gis8 (fis4-.) g8-> ~g2 
+r8 d8-- d4-. c8-- b4-. es8
+(d4-.) r f2-^
+\repeat volta 3{
+\repeat percent 2 { 
+a,8_\markup{\dynamic mf - \dynamic p - \dynamic pp} (c g'-> a, c g'-> a, c 
+g'8-> a, c g'->~g4) r4
+}
+a,8 (c d-> a c d-> a c 
+d8-> a c d->~d4) r4
+a8 (c g'-> a, c g'-> a, c 
+g'8-> a, c g'->~g4) r4
+d8 (f g-> d f g-> d f
+g8-> d f g->~g4) r4
+r8 g8-. fis-. g-. gis-. a-. ais-. b-. 
+}
+\alternative{
+{
+c4-^ 
+<< { \voiceOne  r4 r2 r1 r1}
+  \new Voice { \voiceTwo c,2. ~c1 ~c2. c4-.-^}
+>> \oneVoice
+}
+{c'4-^ r r8 a'4-^ \ff a8-^ ~
+}
+}
+a2 r2
+r2 r8 a4-^ a8-^
+~a2 r2
+r2 r8 g4-^ f8-^
+~f2 r2
+r2 r8 f4-^ a8-^
+~a2 r2
+r2 r8 a4-^ a8-^
+~a2 r2
+r1
+r1
+c,,4--\f \cresc b8-. c-. cis-. d-. dis e-. 
+f4-- dis8-. e-. f-. fis-. g-. gis-. 
+a4-- gis8-. a-. bes4-. bes-. 
+a8-. bes-. b4-. b-. ais8-. b-.
+c2 \!\ff r2
+g,8 (c e-> g, c e-> g, c
+e8-> g, c e ~e4) r
+r1
+a1\fermata
+\bar"|."
 }
  

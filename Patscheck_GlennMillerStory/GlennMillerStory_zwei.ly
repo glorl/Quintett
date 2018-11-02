@@ -162,9 +162,9 @@ f8 (g b-> f g b-> f g
 b8-> f g b->~b4) r4
 }
 \alternative {{
-e,2\p \< f
+e,2\p \< (f)
 fis4. f8 f4 \f r4 }
-{e2\p \< f
+{e2\p \< (f)
 fis4. f8 f4 \f r4 }}
 \repeat volta 2{
 a8--\f g4-. a8-> ~a2 
