@@ -11,12 +11,12 @@ global= {
 }
 \paper{
   system-system-spacing #'basic-distance = #13
-  paper-width=#237
-  score-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+%   paper-width=#237
+%   score-system-spacing =
+%     #'((basic-distance . 12)
+%        (minimum-distance . 6)
+%        (padding . 1)
+%        (stretchability . 12))
 }
 \include "../Patscheck_GlennMillerStory/GlennMillerStory_eins.ly"
 \include "../Patscheck_GlennMillerStory/GlennMillerStory_zwei.ly"
