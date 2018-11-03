@@ -43,7 +43,7 @@ e4. fis8 ~fis8 d8 (e fis g a)
 b4. cis8 ~cis a (b4-- e4-.) 
 b4.-- cis8~cis a (b cis d e) 
 \repeat percent 10 { 
-r8 e,4-. r8 e4-. r4 d4-.
+r8 g,,4-. r8 g4-. r4 fis4-.
 } \bar"||"
 \repeat percent 16 { 
 r8 b4-. r8 b4-. r4 a4-.

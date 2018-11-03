@@ -39,7 +39,7 @@ r8 g4-. r8 g4-. r4 fis4-.
 }
 \scoop fis''2~fis4 \grace{d16 (a} g4-.) r
 e'4. (cis8 a4-.) r2
-d2 \grace{b16 g} fis8 (d e fis g a) 
+d2 \grace{b16 (g} fis8 d e fis g a) 
 b8 (e,4 b8) e2 r4 
 a,4. a'8-^ r a,8 g' (fis e4) 
 a,4. a'8-^ r4 e8 fis g4-.
@@ -69,7 +69,7 @@ r8 g4-. r8 g4-. r4 fis4-.
 % \bar"|"
 r8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } g4-. r8 g4-. r4 fis4-. \bar"||"
 \repeat percent 8{ 
-r8 g4-. \mf \decresc r8 g4-. r4 fis4-.}
+r8 g4-. \mf \decresc r8 g4-. r4 a4-.}
 e4 \pp r r r2
 \bar"|."
 }
