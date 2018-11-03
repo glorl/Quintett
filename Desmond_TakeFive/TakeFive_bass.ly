@@ -1,43 +1,35 @@
 bass = \new Voice \relative c {
 \compressFullBarRests
 \set countPercentRepeats = ##t
-r8 e4-.\mf \decresc r8 e8 r b'4-. b4-.
-r8 e,4-. r8 e8 r b'4-. b4-.
-r8 e,4-. r8 e8 r b'4-. b4-.
-r8 e,4-.\p  r8 e8 r\< b'4-. b4-.\!
-\bar"||"
+e4 \mf r8 e8 r4 b'4 b4
+e,4 r8 e8 r4 b'4 b4
+e,4 r8 e8 r4 b'4 b4
+e,4 r8 e8 r4 b'4 b4 \bar"||"
 \repeat percent 8{
-r8\segno g4-. r8 g4-. r4 fis4-.}\bar"||"
-e'8-- \f g4-. e8-- c4 a8 (b c cis) 
-d8-- fis4-. d8-- b4 g8 (a ais b) 
-c8-- e4-. c8-- a4 fis8 (g a ais) 
-b8 (ais b c) d4 d8 (cis d dis) 
-e8-- g4-. e8-- c4 a8 (b c cis) 
-d8-- fis4-. d8-- b4 g8 (a ais b) 
-c8-- e4-. c8-- a4 fis8 \>(a d c) 
-cis8-- cis4-. cis8-- cis4-. \!r r  \bar"||"
+e,4 \segno r8 e8 r4 b'4 b4}\bar"||"
+c4\f r8 c8 r4 fis,4 c'4
+b4 r8 b8 r4 e,4 b'4
+a4 r8 a8 r4 d4 a4
+g4 r8 g8 r4 g4 d'4
+c4 r8 c8 r4 fis,4 c'4
+b4 r8 b8 r4 e,4 b'4
+a4 r8 a8 r4 a4 g4
+fis4 r8 fis8 r4 b4 b4 \bar"||"
 \repeat percent 7{
-r8 e4-. r8 e4-. r4 d4-.}
-r8 ^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} e4-. r8 e4-. r4 d4-.
+e,4 r8 e8 r4 b'4 b4 }
+e,4 ^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r8 e8 r4 b'4 b4 \bar"||"
+\repeat percent 8 { 
+e,4 r8 e8 r4 b'4 b4 
+}
+\repeat percent 8 { 
+e,4 r8 e8 r4 b'4 b4 
+}
+\repeat percent 10 { 
+e,4 r8 e8 r4 b'4 b4 
+}
 \bar"||"
-\repeat percent 8 { 
-r8 g,4-. r8 g4-. r4 fis4-.
-}
-\repeat percent 8 { 
-r8 g4-. r8 g4-. r4 fis4-.
-}
-\scoop fis''2~fis4 \grace{d16 (a} g4-.) r
-e'4. (cis8 a4-.) r2
-d2 \grace{b16 g} fis8 (d e fis g a) 
-b8 (e,4 b8) e2 r4 
-a,4. a'8-^ r a,8 g' (fis e4) 
-a,4. a'8-^ r4 e8 fis g4-.
-a,4. a'8-^ r4 g8 fis e4-.
-a,4. fis'8~fis8 d8 e4. cis8
-b2.~b2
-~b8 e,4-. r8 e4-. r fis \bar"||"
 \repeat percent 16 { 
-r8 g4-. r8 g4-. r4 fis4-.
+e,4 r8 e8 r4 b'4 b4 
 } \bar "||" 
 \cadenzaOn 
 \stopStaff 
@@ -56,9 +48,10 @@ r8 g4-. r8 g4-. r4 fis4-.
 \cadenzaOff
 \break
 % \bar"|"
-r8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } g4-. r8 g4-. r4 fis4-. \bar"||"
+e,4 ^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } r8 e8 r4 b'4 b4  \bar"||"
 \repeat percent 8{ 
-r8 g4-. \mf \decresc r8 g4-. r4 fis4-.}
+e,4\mf \decresc r8 e8 r4 b'4 b4 
+}
 e4 \pp r r r2
 \bar"|."
 }
