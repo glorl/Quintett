@@ -11,61 +11,42 @@ scoop = \once \override NoteHead #'stencil = #scoop-stencil
 zwei = \new Voice \relative c' {
 \compressFullBarRests
 \set countPercentRepeats = ##t
-r8 e4-.\mf \decresc r8 e4-. r4 d4-.
-r8 e4-. r8 e4-. r4 d4-.
-r8 e4-. r8 e4-. r4 d4-.
-r8 e4-^ r8 e4-^\p \< b8 (e g a) \!
+r8 b4-.\mf \decresc r8 b4-. r4 a4-.
+r8 b4-. r8 b4-. r4 a4-.
+r8 b4-. r8 b4-. r4 a4-.
+r8 b4-. r8 b4-.\p \<r4 a4-.\! \bar"||"
+\repeat percent 8{
+    r8 \segno e'4-. r8 e4-. r4 d4-.} 
 \bar"||"
-ais8 (\segno b ais a) g4-. b,4 \glissando d
-e2. \tuplet 3/2 {fis8 ( g fis} d4)
-e2. \tuplet 3/2 {d8 ( e d} a4)
-b2. b8 (e g a) 
-ais (b ais a) g4-. b,4 \glissando d 
-e2. \tuplet 3/2 {d8 ( e d} a4)
-b2. \tuplet 3/2 {fis'8 ( g fis} d4)
-e2. ~e2 \bar"||"
-e'8-- \f g4-. e8-- c4 a8 (b c cis) 
-d8-- fis4-. d8-- b4 g8 (a ais b) 
-c8-- e4-. c8-- a4 fis8 (g a ais) 
-b8 (ais b c) d4 d8 (cis d dis) 
-e8-- g4-. e8-- c4 a8 (b c cis) 
-d8-- fis4-. d8-- b4 g8 (a ais b) 
-c8-- e4-. c8-- a4 fis8 \>(a d c) 
-b2. b,8 \mf(e g a) \bar"||"
-ais8 (b ais a) g4-. b,4 \glissando d
-e2. \tuplet 3/2 {fis8 ( g fis} d4)
-e2. \tuplet 3/2 {d8 ( e d} a4)
-b2. b8 (e g a) 
-ais (b ais a) g4-. b,4 \glissando d 
-e2. \tuplet 3/2 {d8 ( e d} a4)
-b2. \tuplet 3/2 {fis'8 ( g fis} d4)
-e2.^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} ~e2 \bar"||"
+b'8-- \f d4-. b8-- g4 e8 (fis g gis) 
+a8-- b4-. a8-- fis4 d8 (e f fis) 
+g8-- b4-. g8-- e4 c8 (d e f) 
+fis!8 (f fis g) a4 a8 (gis a bes) 
+b!8-- d4-. b8-- g4 e8 (fis g gis) 
+a8-- b4-. a8-- fis4 d8 (e f fis) 
+g8-- b4-. g8-- e4 c8 \>(e a g) 
+a8-- a4-. a8-- a4-.\! b,4-^ r \bar"||"
+\repeat percent 7{
+r8 b4-. r8 b4-. r4 a4-.}
+r8^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} b4-. r8 b4-. r4 a4-. \bar"||"
+b'2~b8 e,16( cis b2->)
+e4. (fis8 g4-.) r2
+e'8 (b a g a-> e~e4 g)
+e4. (fis8 g b8-.) r2 
+e,4. g8~g8 e fis4-- a-- 
+e4. g8~g8 e fis d b a 
+e'4. g8~g8 e fis4-- a-- 
+e4. g8~g8 e g b r4
 \repeat percent 8 { 
-r8 e4-. r8 e4-. r4 d4-.
+r8 b,4-. r8 b4-. r4 a4-.
+} 
+\repeat percent 10 { 
+r8 b4-. r8 b4-. r4 a4-.
+} 
+\repeat percent 16 { 
+r8 e'4-. r8 e4-. r4 d4-.
 }
-\repeat percent 8 { 
-r8 e4-. r8 e4-. r4 d4-.
-}
-\repeat percent 9 { 
-r8 e4-. r8 e4-. r4 d4-.
-}
-r4 r4 r4 b8 (fis' e a) \bar"||"
-g8 (e g fis~fis e) b'8 (c16 cis) d4--
-r4 r8 fis8 (g a b a ~a ais) 
-b16 (ais g e g fis e b fis'8 b, ~b d fis ais 
-b2. ) r2
-b2 (~b8 g16 e) b4-. fis'4
-~fis8 g (fis c) b4-. ais8 (b d4) 
-e8 (dis e fis g b ~b g) a4-.
-e8-- fis4-. e16 (fis d4) b2
-e8 (b \tuplet 3/2 {a8 b a} g4 a8 g fis4) 
-e4. (fis8 g a b16 d e fis g fis g a 
-b8 bes a g~g4) r a
-g8-- e4-. b-. e8-- c'8 (b ~b4) 
-ais8 ( b c b~b g) e4 \glissando d
-e2. d8 (b a' fis) 
-e8 (dis16 e g fis g a b bes a g fis8) b,4-. d16 (fis) 
-e2 r4 b,8 (e g a) \bar "||" 
+\bar "||" 
 \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5
@@ -83,16 +64,10 @@ e2 r4 b,8 (e g a) \bar "||"
 \cadenzaOff
 \break
 % \bar"|"
-e2. ^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } ~e2 \bar"||"
-r8 e4-.\mf \decresc r8 e4-. \tuplet 3/2 {d8 (e d)} a4
-b2. ~b2
-~b2. \tuplet 3/2 {d8 (e d)} a4
-b2. ~b2
-~b2. \tuplet 3/2 {fis'8 (g fis)} d4
-e2. ~e2
-~e2. ~e2
-~e2. ~e2
-~e4 \pp r r r2
+r8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } e4 r8 e4 r d \bar"||"
+\repeat percent 8{
+    r8 e4-.\mf \decresc r8 e4-. r d }
+e,4 \pp r r r2
 \bar"|."
 }
  

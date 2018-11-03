@@ -14,7 +14,7 @@ eins = \new Voice \relative c' {
 r8 e4-.\mf \decresc r8 e4-. r4 d4-.
 r8 e4-. r8 e4-. r4 d4-.
 r8 e4-. r8 e4-. r4 d4-.
-r8 e4-^ r8 e4-^\p \< b8 (e g a) \!
+r8 e4-. r8 e4-.\p \< b8 (e g a) \!
 \bar"||"
 ais8 (\segno b ais a) g4-. b,4 \glissando d
 e2. \tuplet 3/2 {fis8 ( g fis} d4)

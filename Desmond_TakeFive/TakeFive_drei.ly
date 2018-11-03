@@ -15,7 +15,7 @@ drei = \new Voice \relative c' {
 r8 g4-.\mf \decresc r8 g4-. r4 fis4-.
 r8 g4-. r8 g4-. r4 fis4-.
 r8 g4-. r8 g4-. r4 fis4-.
-r8 g4-^\p  r8 g4-^\< r4 fis4-.\!
+r8 g4-. \p  r8 g4-. \< r4 fis4-.\!
 \bar"||"
 \repeat percent 8{
 r8\segno g4-. r8 g4-. r4 fis4-.}\bar"||"
@@ -25,8 +25,8 @@ e8-- g4-. e8-- c4 a8 (b c cis)
 d8 (cis d e) fis4 fis8 (f fis fis)
 g8-- b4-. g8-- e4 c8 (d e f) 
 fis!8-- g4-. fis8-- d4 b8 (c d dis) 
-e8-- g4-. e8-- c4 a8 (c fis e) 
-e8-- e4-. e8-- e4-. fis,4-^ r \bar"||"
+e8-- g4-. e8-- c4 a8 \>(c fis e) 
+e8-- e4-. e8-- e4-.\! fis,4-^ r \bar"||"
 \repeat percent 7{
 r8 g4-. r8 g4-. r4 fis4-.}
 r8 ^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} g4-. r8 g4-. r4 fis4-.
@@ -43,10 +43,10 @@ e4. fis8 ~fis8 d8 (e fis g a)
 b4. cis8 ~cis a (b4-- e4-.) 
 b4.-- cis8~cis a (b cis d e) 
 \repeat percent 10 { 
-r8 e,,4-. r8 e4-. r4 d4-.
+r8 e,4-. r8 e4-. r4 d4-.
 } \bar"||"
 \repeat percent 16 { 
-r8 b'4-. r8 b4-. r4 a4-.
+r8 b4-. r8 b4-. r4 a4-.
 } \bar "||" 
 \cadenzaOn 
 \stopStaff 
