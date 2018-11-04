@@ -56,9 +56,9 @@ es8-- d16 (c) a4 \fermata
 | s1*1 \bar""
 | s1*1 \bar""
 | s1*1 \bar""
-| s1*1 \bar""
-| s1*1 \bar""
-| s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
 % | s1*1 \bar""
 \startStaff 
 \cadenzaOff

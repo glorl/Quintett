@@ -36,7 +36,7 @@ c'8\mf  f, bes4
 g4\< es\!
 f4  bes
 g4\> es\!
-a4  d_\markup{\italic dim.}
+a4_\markup{\italic dim.}  d
 g,4\p es
 f4  bes4
 g4\< es\!

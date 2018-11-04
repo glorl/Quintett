@@ -54,10 +54,10 @@ c8-- a16 g fis4\fermata  \bar"||"
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda"} } } 
 | s1*1 \bar""
 | s1*1 \bar""
-| s1*1 \bar""
-| s1*1 \bar""
-| s1*1 \bar""
-| s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
 % | s1*1 \bar""
 \startStaff 
 \cadenzaOff
