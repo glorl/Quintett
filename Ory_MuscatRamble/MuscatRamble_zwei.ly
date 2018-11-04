@@ -2,7 +2,7 @@ zwei = \new Voice \relative c'' {
 \compressFullBarRests
 c4.-> \f c8-^ r2 
 c4.->  c8-^ r2 
-d4.-- d8 r2 
+d4.-> d8-^ r2 
 e4-^ r r2 \bar"||"
 c8 \segno \mf (a c c ~c a c c)
 c8 (bes c c ~c4) r

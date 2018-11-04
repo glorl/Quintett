@@ -2,7 +2,7 @@ eins = \new Voice \relative c'' {
 \compressFullBarRests
 f4.-> \f f8-^ r2 
 fis4.->  fis8-^ r2 
-g4.-- g8 r2 
+g4.-> g8-^ r2 
 g4-^ r r2 \bar"||"
 f8 \segno \mf (a, c f ~f a, c f)
 e8 (bes c e ~e4) r

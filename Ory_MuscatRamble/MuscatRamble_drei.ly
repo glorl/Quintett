@@ -2,7 +2,7 @@ drei = \new Voice \relative c'' {
 \compressFullBarRests
 a4.-> \f a8-^ r2 
 a4.->  a8-^ r2 
-bes4.-- bes8 r2 
+bes4.-> bes8-^ r2 
 bes4-^ r r2 \bar"||"
 a8 \segno \mf (a c a ~a a c a)
 bes8 (bes c bes ~bes4) r

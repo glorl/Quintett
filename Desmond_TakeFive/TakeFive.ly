@@ -13,12 +13,12 @@ global= {
 }
 \paper{
   system-system-spacing #'basic-distance = #13
-  paper-width=#237
-  score-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 6)
-       (padding . 1)
-       (stretchability . 12))
+%   paper-width=#237
+%   score-system-spacing =
+%     #'((basic-distance . 12)
+%        (minimum-distance . 6)
+%        (padding . 1)
+%        (stretchability . 12))
 }
 \include "../Desmond_TakeFive/TakeFive_eins.ly"
 \include "../Desmond_TakeFive/TakeFive_zwei.ly"
