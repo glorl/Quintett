@@ -31,7 +31,7 @@ b,16--\! [r32  d (b16) r32 d] (g16) [r32 g (b16) r32 g]
 d4. \> r8 \bar "||" \key bes \major
 d,4^\markup{\italic {a tempo}}\f g8-- f16\< (es) \!
 a,8 (c) bes4
-d4 g
+d4\> g\!
 es4 \mf  (d)
 d4\< g8--\! f16 (es)
 a,4-> bes16 (d8. )
@@ -56,9 +56,9 @@ es8-- d16 (c) a4 \fermata
 | s1*1 \bar""
 | s1*1 \bar""
 | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
+| s1*1 \bar""
+| s1*1 \bar""
+| s1*1 \bar""
 % | s1*1 \bar""
 \startStaff 
 \cadenzaOff
