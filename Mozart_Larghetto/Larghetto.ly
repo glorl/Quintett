@@ -26,5 +26,5 @@ global= {
 \include "../Mozart_Larghetto/Larghetto_eins.ly"
 \include "../Mozart_Larghetto/Larghetto_zwei.ly"
 \include "../Mozart_Larghetto/Larghetto_drei.ly"
-%\include "/home/georg/Schreibtisch/Quintett/Dvorak_Humoreske/Humoreske_vier.ly"
+\include "../Mozart_Larghetto/Larghetto_vier.ly"
 \include "../Mozart_Larghetto/Larghetto_bass.ly"

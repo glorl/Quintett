@@ -10,7 +10,7 @@ bes8 \< (f bes f bes f)\!
 g8 (e f a g bes) 
 f8 \> (a e g e g) \! 
 g8 (e g e g e) 
-a8 \< (f a f f f ) 
+a8 \< (f a f-- f-- f-- ) 
 f8\> (d f d g d) \!
 g8 (d g e g f) 
 f8 (a f a f a) 
@@ -43,7 +43,7 @@ e8. (f32 g32 c,4 b)
 a8_\markup{\dynamic pp \italic dolce} ( f a f-- f-- f--)  
 a4\ff\> g8 (f e d\!) 
 c8-. e-. r e \pp (es) es-.
-r8 a8 g-- g-- g-- g-- 
+r8 a8 (g-- g-- g-- g-- )
 e4 r g
 c4 bes ~bes
 ~bes a2
@@ -51,12 +51,12 @@ c4 bes ~bes
 e2\f \fermata r4^\markup{ \italic Cadenza}  \bar "||"
 f8 \pp (c f c f c) 
 f8 (d f d f d) 
-g8 (d g g f e) 
+g8 (d g) g (f e) 
 a,8 (c f a bes c) 
 bes8 (f bes f bes f) 
 bes8 (f a f a f) 
 bes8 (g bes g bes g)
-g8 (e f f g bes) 
+g8 (e f) f (g bes) 
 f8 (a e g e g) 
 g8 (e g e g e) 
 a8 (f a f f f ) 

@@ -36,8 +36,8 @@ g-. g-. a-. a-. g-. g-.
 f2.
 ~f2.
 g2.
-f8 \p (a f a f a )
-f4\ff r8 d'( e f) 
+f8 _\markup{\dynamic p \italic dolce} (a f a f a )
+f4\ff\> r8 d'( e f)\! 
 g8-. g-. r g\pp (fis) fis-. 
 r fis (g) g-. g,4
 c8-- c'-. c-. c-.  e,-. e-. 
