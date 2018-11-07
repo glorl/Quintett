@@ -44,7 +44,7 @@ c8-- c'-. c-. c-.  e,-. e-.
 f-. f-. g-. g-. f-. f-. 
 e-. e-. f-. f-. e-. e-. 
 d-.\< d-. d-. d-. des-. des-. \!
-c2^\markup{\fermata \italic Cadenza} \f r4 \bar"||"
+c2 \f \fermata r4^\markup{ \italic Cadenza} \bar"||"
 f,2.\pp
 bes2. 
 g2 (c4) 
