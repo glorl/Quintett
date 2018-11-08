@@ -97,6 +97,6 @@ R2.*1
 r4 r4 bes\p 
 (c2.)
 f8 r c r a r 
-f4--\fermata r r
+f2\fermata r4
 \bar "|."
 }
