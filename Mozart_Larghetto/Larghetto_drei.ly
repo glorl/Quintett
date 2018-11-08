@@ -72,7 +72,7 @@ a,8-- f'8-. f-. f-. f-. f-.
 c8-- c8-. c-. c-. c-. c-.  
 c8-- c8-. c-. c-. c-. c-.  
 f8-- c-. c-. c-. c-. c-.  
-a'4\pp (g f) 
+a'4 (g f) 
 e4 (c d) 
 bes (c2) 
 c4 (bes a) 

@@ -6,7 +6,7 @@ g4 bes8 (g f e)
 f8. (g16) a4 r\breathe 
 bes4 (d,8) d (es e) 
 f8. (d16 c4.)\breathe f8 
-e2 (f4) 
+e2\< (f4) \!
 g4 (a bes) 
 a4 \> (g) \! r 
 g4 f16 (e d c) c8 c 
