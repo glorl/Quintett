@@ -58,7 +58,7 @@ c'\p r r
 c--\f c-- c-- 
 c-- r r 
 c--\f^\markup{\italic sostenuto} g-- e-- 
-c'-- r r^\markup{\fermata\italic Cadenza}
+c'-- r r\fermata_\markup{\italic Cadenza}
 f2.\pp
 c4-- f-- r 
 f2.
