@@ -8,7 +8,7 @@
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
 
-eins = \new Voice \relative c''' {
+WildCatBlueseins = \new Voice \relative c''' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 g8\f (c g ges f) b4-. f8--

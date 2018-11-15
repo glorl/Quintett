@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+Klarinettenmucklbass = \new Voice \relative c' {
 \compressFullBarRests
 c2\f d
 d' d,4 f
@@ -62,15 +62,10 @@ g d8 (g,) ~g4 r
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
-\bar"|"
+\mBar
 c4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } bes a8 (as) g4-.-^ \f
 \bar"||" \key f \major 
 f4->^\markup{Trio} a c e

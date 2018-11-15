@@ -98,5 +98,5 @@ r4 r4 bes'8-- r
 a8-- r <f' f,>-- r <e e,>-- r 
 <c c,>-- r c,-- r c-- r
 <c f,>2 \fermata r4
-% \bar "|."
+\bar "|."
 }

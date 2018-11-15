@@ -8,7 +8,7 @@
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
 
-vier = \new Voice \relative c {
+Openingvier = \new Voice \relative c {
 \compressFullBarRests
 f4-.\f a-. c8-- d4-. c8-- 
 f,4-. a-. c8-- d4-. c8-- 

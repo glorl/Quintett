@@ -1,4 +1,4 @@
-zwei = \new Voice \relative c'' {
+TicoTicozwei = \new Voice \relative c'' {
 \compressFullBarRests
 \partial 4. a8 \f (as g) 
 f8\< (d e f a g f g )

@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+WildCatBluesbass = \new Voice \relative c' {
 \compressFullBarRests
 \override Glissando.style = #'trill
 c2\f b 

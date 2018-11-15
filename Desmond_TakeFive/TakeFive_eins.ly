@@ -8,7 +8,7 @@
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
 
-eins = \new Voice \relative c' {
+TakeFiveeins = \new Voice \relative c' {
 \compressFullBarRests
 \set countPercentRepeats = ##t
 r8 e4-.\mf \decresc r8 e4-. r4 d4-.

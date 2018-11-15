@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+Klarinettenmucklvier = \new Voice \relative c' {
 \compressFullBarRests
 c2 \f d
 c c
@@ -62,15 +62,10 @@ b r r8  g4-. f8--
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
-\bar"|"
+\mBar
 g'4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r c4-.-^\f
 \bar"||" \key f \major 
 c2->^\markup{Trio} a8 (g e c~

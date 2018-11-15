@@ -1,4 +1,4 @@
-bass = \new Voice \relative c {
+TicoTicobass = \new Voice \relative c {
 \compressFullBarRests
 \partial 4. r8 r4
 f2\f\< g 

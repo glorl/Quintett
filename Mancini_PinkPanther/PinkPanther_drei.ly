@@ -8,7 +8,7 @@
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
 
-drei = \new Voice \relative c'' {
+PinkPantherdrei = \new Voice \relative c'' {
 \compressFullBarRests
 bes4.-^\f bes8-- fis-- fis-^ r4
 b4.-- bes8-. r2 

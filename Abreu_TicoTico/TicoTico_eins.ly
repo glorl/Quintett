@@ -1,4 +1,4 @@
-eins = \new Voice \relative c'' {
+TicoTicoeins = \new Voice \relative c'' {
 \compressFullBarRests
 \partial 4. c8 \f (b bes) 
 a8 \<(gis a b d c b c )
@@ -109,14 +109,10 @@ gis4-.) e''4-^ r8 e,8 (dis e) \bar"||"
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
-% | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
+\mBar
 a'4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } e4-. r8 c8 \f (b bes
 a \f \< gis a b d c b c 
 e f fis g \! a\> g f e 

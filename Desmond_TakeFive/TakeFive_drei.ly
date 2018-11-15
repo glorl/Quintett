@@ -9,7 +9,7 @@
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
 
 
-drei = \new Voice \relative c' {
+TakeFivedrei = \new Voice \relative c' {
 \compressFullBarRests
 \set countPercentRepeats = ##t
 r8 g4-.\mf \decresc r8 g4-. r4 fis4-.

@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+TicoTicovier = \new Voice \relative c' {
 \compressFullBarRests
 \partial 4. c8 \f (b bes) 
 a8\< (gis a b d c b c )

@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+TicoTicodrei = \new Voice \relative c' {
 \compressFullBarRests
 \partial 4. e8 \f (d des) 
 c8\< (b c d f e d e )

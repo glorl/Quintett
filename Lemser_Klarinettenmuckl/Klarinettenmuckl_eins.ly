@@ -1,4 +1,4 @@
-eins = \new Voice \relative c''' {
+Klarinettenmuckleins = \new Voice \relative c''' {
 \compressFullBarRests
 g8\f (a e es d g d c)
 d-- f4-. g8-- a4. (as8) 
@@ -70,7 +70,7 @@ g4) r r g,8 (f)
 \startStaff 
 \cadenzaOff
 \break
-% \bar"|"
+% \bar""
 c''4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r c4-.-^\f
 \bar"||" \key f \major 
 c2->^\markup{Trio} a8 (f d c~

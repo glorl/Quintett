@@ -1,4 +1,4 @@
-bass = \new Voice \relative c {
+TakeFivebass = \new Voice \relative c {
 \compressFullBarRests
 \set countPercentRepeats = ##t
 e4 \mf r8 e8 r4 b'4 b4
