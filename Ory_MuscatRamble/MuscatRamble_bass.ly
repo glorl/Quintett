@@ -1,4 +1,4 @@
-bass = \new Voice \relative c {
+MuscatRamblebass = \new Voice \relative c {
 \compressFullBarRests
 f2-> \f ~f8 f'-- e4
 es2->  ~es8 es-- d4-. 

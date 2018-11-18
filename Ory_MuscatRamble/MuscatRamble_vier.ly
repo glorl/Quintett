@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+MuscatRamblevier = \new Voice \relative c' {
 \compressFullBarRests
 d4.-> \f d8-^ r2
 es4.-> es8-^ r2

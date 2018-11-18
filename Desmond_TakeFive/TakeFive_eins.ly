@@ -40,13 +40,7 @@ ais (b ais a) g4-. b,4 \glissando d
 e2. \tuplet 3/2 {d8 ( e d} a4)
 b2. \tuplet 3/2 {fis'8 ( g fis} d4)
 e2.^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} ~e2 \bar"||"
-\repeat percent 8 { 
-r8 e4-. r8 e4-. r4 d4-.
-}
-\repeat percent 8 { 
-r8 e4-. r8 e4-. r4 d4-.
-}
-\repeat percent 9 { 
+\repeat percent 25 { 
 r8 e4-. r8 e4-. r4 d4-.
 }
 r4 r4 r4 b8 (fis' e a) \bar"||"

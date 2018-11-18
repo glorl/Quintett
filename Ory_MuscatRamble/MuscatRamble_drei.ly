@@ -1,4 +1,4 @@
-drei = \new Voice \relative c'' {
+MuscatRambledrei = \new Voice \relative c'' {
 \compressFullBarRests
 a4.-> \f a8-^ r2 
 a4.->  a8-^ r2 

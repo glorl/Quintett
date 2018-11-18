@@ -1,4 +1,4 @@
-eins = \new Voice \relative c'' {
+MuscatRambleeins = \new Voice \relative c'' {
 \compressFullBarRests
 f4.-> \f f8-^ r2 
 fis4.->  fis8-^ r2 
