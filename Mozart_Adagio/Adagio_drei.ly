@@ -23,11 +23,11 @@ e c'4 (b8 a gis)
 a8\mf (c, bes4 c) 
 f8 (d c g') c,4
 d4 \> (f e) \!
-f8 d'\f (c bes a g) 
+f8-- d'\f (c bes a g) 
 a8 (f a g f e) 
-d8 d'4 (c8 bes a) 
+d8-- d'4 (c8 bes a) 
 bes8 (g d' c bes a) 
-e'8 e4 (d8 c b) 
+e'8-- e4 (d8 c b) 
 e8 (c e d c bes) 
 a8 (bes g' c, f c) 
 d4 \>a8 (c e c) \!
@@ -66,17 +66,17 @@ e8 (c f c f c)
 e8 (c e c f c ) 
 e8 (c e c d f) 
 c8 (e c e b d) 
-c8 d' (c bes a g) 
+c8-- d' (c bes a g) 
 f8_\markup{\dynamic p \italic {poco cresc.}}(c f c f c) 
-d8 bes'4 (a8 g fis) 
+d8-- bes'4 (a8 g fis) 
 g8 (d g d g d) 
-e8 c'4 \> (b8 a gis) 
+e8-- c'4 \> (b8 a gis) 
 a8 \p (e d g e bes') 
 f8 (d c4)  c
 d8 (bes' f c' e, g) 
-f8 d' \f (c bes a g) 
+f8-- d' \f (c bes a g) 
 a8 a4 a a8 
-f8 bes4 a8 g fis 
+f8-- bes4 a8 g fis 
 bes8 bes4 bes b8 
 g8 c4 b8 (a gis) 
 c8 c4 c c8 
@@ -86,9 +86,9 @@ a8-. a-. \p a-. a-. a-. a-.
 r8 bes-. bes-. bes-. bes-. bes-. 
 r8 bes-. bes-. bes-. a-. a-. 
 r8 g-. f-. f-. c-. c-. 
-r8 c-. c-. c-. c-. c-. 
-r8 c-. c-. c-. c-. c-. 
-r8 g''-. g-. g-. f-. f-. 
+r8 c-.\< c-. c-. c-. c-. \!
+r8 c-.\p c-. c-. c-. c-. 
+r8 g''-.\pp g-. g-. f-. f-. 
 d4-- r8 g, (a bes) 
 r8 f-. \< f-. f-. f-. f-. 
 f16 (c f c ) e( c e c) e\> (c e c)\!
