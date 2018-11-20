@@ -7,7 +7,7 @@ c4-- f-- r
 c2.
 ~c2 f4
 g,-- g-- g-- 
-c-- r r 
+c r r 
 f,--\f r f-- 
 c'-- f,-- r 
 f-- r f-- 
@@ -15,7 +15,7 @@ c'-- f,-- r
 c'-- r r 
 c-- r f,-- 
 g-- g-- g-- 
-c-- r r 
+c r r 
 f2.\p
 bes,4_\markup{\italic {poco cresc.}} (c d )
 g,2.
@@ -66,7 +66,7 @@ c4-- f-- r
 c2.
 ~c2 f,4--
 g-- g-- g-- 
-c-- r r 
+c r r 
 f2.\p
 bes,4_\markup{\italic {poco cresc.}} (c d )
 g,2.

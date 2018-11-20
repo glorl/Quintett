@@ -7,7 +7,7 @@ e8 (c f c f c)
 e8 (c e c f c ) 
 e8 (c e c d f) 
 c8 (e c e b d) 
-c8 \f bes' (a g f e) 
+c8-- bes' \f (a g f e) 
 f8 (c a' c a c ) 
 e8 (c a c a c) 
 g8 c, (a'c f a) 
@@ -17,9 +17,9 @@ e4. c8 (a f)
 e8 (g e g f g) 
 c8-- d8 (\p c bes a g) 
 f8_\markup{\italic {poco cresc.}} (c f c f c) 
-d8 bes'4 (a8 g fis) 
+d8-- bes'4 (a8 g fis) 
 g8 (d g d g d) 
-e c'4 (b8 a gis) 
+e-- c'4 (b8 a gis) 
 a8\mf (c, bes4 c) 
 f8 (d c g') c,4
 d4 \> (f e) \!
@@ -51,13 +51,13 @@ r8 c8-. a-. f'-. c-. f-.
 r8 g,-. d-. d'-. g,-. f'-. 
 r8 c,-. e-. g-. c-. e-. 
 r8 d,-. f-. a-. d-. f-. 
-r8 e,-. e-. e-. e-. e-.
+r8 c,-. c-. c-. c-. c-.
 c16 \< (g c g b g b g b f b f ) 
-e8 g'4\f c e8
-g8 c,,-. \p c-. c-. c-. c-. 
-d8 f4 \f b d8
-f8 b,,-.\p b-. b-. b-. b-. 
-bes8 g'4 \f^\markup{\italic sostenuto} b e8
+e8\f g'4 c e8
+g8 c,,-. [\p c-. c-. c-. c-. ]
+d8 \f f4 b d8
+f8 b,,-.[\p b-. b-. b-. b-. ]
+bes8 \f g'4^\markup{\italic sostenuto} b e8
 g4-- r r\fermata_\markup{\italic Cadenza}
 f,8 \pp (c f c f c)
 e8 (c f c f c) 
@@ -78,20 +78,20 @@ f8-- d' \f (c bes a g)
 a8 a4 a a8 
 f8-- bes4 a8 g fis 
 bes8 bes4 bes b8 
-g8 c4 b8 (a gis) 
+g8-- c4 b8 (a gis) 
 c8 c4 c c8 
 c8 (bes f') f, (fis es') 
 d4-- a8 (c bes c )
-a8-. a-. \p a-. a-. a-. a-. 
-r8 bes-. bes-. bes-. bes-. bes-. 
-r8 bes-. bes-. bes-. a-. a-. 
+a8-. a-. \p\< a-. a-. a-. a-. \!
+r8 bes-.\> bes-. bes-. bes-. bes-. \!
+r8 bes-.\pp bes-. bes-. a-. a-. 
 r8 g-. f-. f-. c-. c-. 
 r8 c-.\< c-. c-. c-. c-. \!
 r8 c-.\p c-. c-. c-. c-. 
 r8 g''-.\pp g-. g-. f-. f-. 
 d4-- r8 g, (a bes) 
-r8 f-. \< f-. f-. f-. f-. 
-f16 (c f c ) e( c e c) e\> (c e c)\!
+r8 f-. \< f-. f-. f-. f-. \!
+f16 \> (c f c ) e( c e c) e (c e c)\!
 d4\p r r 
 r2.
 r4 r4 bes'8-- r 

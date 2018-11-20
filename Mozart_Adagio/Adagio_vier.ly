@@ -7,8 +7,8 @@ c'4-- f-- r
 c2. 
 ~c2 a4-- 
 g4-- g-- g-- 
-c8-- d' (c bes a g) 
-f,8\f( c' f c f, c')
+c8-- d'\f (c bes a g) 
+f,8 ( c' f c f, c')
 bes' (c a c, a' c,)
 f, (c' f c a' c) 
 c4\> (a8\! c f, c) 
@@ -53,12 +53,12 @@ bes,4 r r
 f4 r r 
 r8 g-. g-. g-. g-. g-. 
 g4\< g g 
-c8 e4\f g c8
+c8\f e4 g c8
 e8 r r4 r 
-bes,8 d4\f f bes8
+bes,8\f d4 f bes8
 d8 r r4 r 
-g,,8 e'4\f^\markup{\italic sostenuto} g b8 
-e4 r r \fermata_\markup{\italic Cadenza} 
+g,,8\f e'4^\markup{\italic sostenuto} g b8 
+c4-- r r \fermata_\markup{\italic Cadenza} 
 f,,2.\pp
 c'4-- f-- r
 f,2. 
@@ -82,8 +82,8 @@ bes,4-- e (d)
 c8 c4 (e8 f g) 
 d4 (des c) 
 bes4 c e
-f8-. f-.\p f-. f-. f-. f-. 
-r8 g-. g-. g-. a-. a-. 
+f8-. f-.\p \< f-. f-. f-. f-. \!
+r8 g-.\> g-. g-. a-. a-. \!
 r8 g-.\pp g-. g-. a-. a-. 
 r8 d,-. f-. f-. bes,-. bes-. 
 a8-. \< a-. a-. a-. a-. a-. \!

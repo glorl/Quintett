@@ -90,7 +90,7 @@ d32 \((fis g bes cis d bes g) f4 \acciaccatura a8 g8. (f16)
 f4\) r \tuplet 6/4 {f,,16\< (a c f a c)\!}
 c4 (~c16 b bes g ) bes(a) a (f)
 c4\pp (~c16 b bes g ) bes(a) a (f)
-g8 (\< d''' c\> bes a g) 
+g8 (\< d'''[ c\> bes a g) ]
 \tuplet 3/2 {f16 \p \< [c d] } \tuplet 3/2 {es16 [e f ]} \tuplet 3/2 {fis16 [g gis]} \tuplet 3/2 {a16 [bes b]\!} c16-. (b-. bes-. a-.)
 \afterGrace{g2.\trill(\>}{f16 g}
 f4)\! r f16 \p \((e) \tuplet 3/2 {g16 (f d)} 
