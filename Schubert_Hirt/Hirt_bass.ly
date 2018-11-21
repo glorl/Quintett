@@ -22,7 +22,7 @@ g,2 r4
 c2\pp r4
 e2 r4
 d2 r4
-g,2 r4
+    g,2 r4
 gis2\> r4 \!
 gis2 r4 
 a2 r4
@@ -32,7 +32,7 @@ bes2\> r4 \!
 b2 r4 
 b2\< r4 \!
 b2\f \> r4 
-c4 r\!  cis
+c4\p r  cis
 (d4) r b
 c4 r e, \pp
 (f2) r4 
@@ -234,8 +234,8 @@ b,8--\p g' g g
 c,8-- g' g g 
 b,8-- g' g g 
 c,8-- g' g g 
-f,8--\< a' a a 
-f,8--\f\> a' a a\! 
+f,8--\f\< a' a a 
+f,8--\> a' a a\! 
 g,8-- g' g f 
 c8 g' e gis
 a,8 a'\< e gis 

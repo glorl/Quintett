@@ -80,19 +80,19 @@ as2 r4
 \tuplet 3/2 {r8 as-.\mf g-.} \tuplet 3/2 {r8 as-. g-.} \tuplet 3/2 {r8 as-. bes-.} 
 \tuplet 3/2 {r8 as-. as-.} \tuplet 3/2 {as8-. as-. as-.} \tuplet 3/2 {as8 as-. as-.} 
 \tuplet 3/2 {r8 as-.\< as-.} \tuplet 3/2 {r8 as-. as-.} \tuplet 3/2 {r8 as-. bes-.\!} 
-\tuplet 3/2 {r8 b!-. \> b-.} \tuplet 3/2 {b8 b-. b-.} \tuplet 3/2 {r8 a-.\p a-.} 
+\tuplet 3/2 {r8 b!-. \> b-.} \tuplet 3/2 {b8 b-. b-.\!} \tuplet 3/2 {r8 a-.\p a-.} 
 \tuplet 3/2 {r8 gis-. gis-.} \tuplet 3/2 {gis8-. gis-. gis-.} \tuplet 3/2 {gis8-. gis-. gis-.} 
 \tuplet 3/2 {r8 b-. b-. } \tuplet 3/2 {b8-. b-. b-. } \tuplet 3/2 {b8-. \< b-. b-. } 
 \tuplet 3/2 {r8\fp \> e-. e-. } \tuplet 3/2 {e8-. e-. e-. } \tuplet 3/2 {e8-. e-. e-. \!} 
 \tuplet 3/2 {r8 b-.\pp b-. } \tuplet 3/2 {b8-. b-. b-. } \tuplet 3/2 {r8 a-. a-. } 
 \tuplet 3/2 {r8 gis-. gis-. } \tuplet 3/2 {gis8-. gis-. gis-. } \tuplet 3/2 {gis8-. gis-. gis-. } 
 \tuplet 3/2 {r8 gis-. gis-. } \tuplet 3/2 {gis8-. gis-. gis-. } \tuplet 3/2 {gis8-. gis-. gis-. } 
-e''2.^\markup{Solo}
+e''2.^\markup{Solo}\mf
 e4-. (e-. e-.)
 e2.
 e8-. \< (e-. e-. e-.) f (g)
 g4\> (f8) \! r8 r8. d16
-f4 (e8) r8 \tuplet 3/2 {r8 bes,8-. bes-.}
+f4 (e8) r8 \tuplet 3/2 {r8 bes,8-.\pp bes-.}
 \tuplet 3/2 {r8 a-. a-.} \tuplet 3/2 {a8-. a-. a-. } \tuplet 3/2 {a8-. a-. a-. } 
 \tuplet 3/2 {r8 c-. c-.} \tuplet 3/2 {c8-. c-. c-. } \tuplet 3/2 {b8-. b-. b-. } 
 \tuplet 3/2 {r8 c-. c-.} \tuplet 3/2 {c8-. c-. c-. } \tuplet 3/2 {d8-. d-. d-. } 
@@ -216,8 +216,8 @@ r8 d\p d d
 r8 c c c 
 r8 d d d 
 r8 c c c 
-r8 c\< c c 
-r8 c\f \>  c c \!
+r8 c\f \< c c 
+r8 c\>  c c \!
 r8 c r b 
 r8 g r d'
 r8 c\< r d 
