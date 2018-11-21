@@ -26,5 +26,5 @@ global= {
 % \include "../Mozart_Adagio/Adagio_eins.ly"
 % \include "../Mozart_Adagio/Adagio_zwei.ly"
 % \include "../Mozart_Adagio/Adagio_drei.ly"
-% \include "../Mozart_Adagio/Adagio_vier.ly"
+\include "../Schubert_Hirt/Hirt_vier.ly"
 \include "../Schubert_Hirt/Hirt_bass.ly"
