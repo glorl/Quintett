@@ -6,7 +6,7 @@ c4\> c \! r c
 r4 c (b c) 
 g'4 g, r2
 c2\mf b4.\< \trill (a16 b) 
-c4-- \> c-- \! e-> e,  
+c4-- \> c-- \! e-> e,->  
 f4 f8 (a) g4 g 
 c4 r}
 \repeat volta 2{
@@ -34,11 +34,11 @@ g4 r c,8-.\mf c-. e-. e-.
 gis,4 r8 gis (a4) r8 a
 (b4) r8 b (a-.) a-. a-. a-. 
 gis4_\markup{\dynamic mf \italic cresc} r8 e8 (f4) r8 f8 
-e4\f r8 f (e4) r 
+(e4)\f r8 f (e4) r 
 r4 r8 a' gis (b) e, c-.
 gis8 (b) e,-. r r2 
 r2 r4 r8 c'-. 
-g'-. g-. g-. g-. e'--\p r e-- r \bar"||"
+g'-. \> g-. g-. g-. e'--\p r e-- r \bar"||"
 e4.^\markup{Vi=} \< (g8) f (d f a) 
 g8.\> (e16 g8\!) r c c4 (b8)
 a8 a4 (g8)  g8\> (f16\!) r f8 \>(e16\!) r 
@@ -51,7 +51,7 @@ c4 r \key es \major
 r2 
 r4 g8-. \mp b,\turn (c) r r4 
 r4 g'8-. b,\turn (c) r r4 
-bes!4. (c8) as4 (bes) 
+bes!4.\sf (c8) as4 (bes) 
 es8 r r4
 }
 r2
@@ -78,12 +78,12 @@ g4 r r2
 a2.\p \< g4\!
 g4\> ~g8\! r g4-> g->
 g4-> a-> g-> g-> 
-c4 r e,--\f r 
+c4-- r e,--\f r 
 f4-- r fis-- r 
 g2\p g 
 c8-- r r4 c8-- r r4
 c8\< (g c e d b d f\!) 
 f8_\markup{\italic{dim. e rit.}} (d e b c g c g) 
 c8 (g c e d b d f) 
-f2 (e8) r r4 \bar"|."
+f2\> (e8) r\! r4 \bar"|."
 }
