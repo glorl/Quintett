@@ -22,7 +22,7 @@ g,2 r4
 c2\pp r4
 e2 r4
 d2 r4
-    g,2 r4
+g,2 r4
 gis2\> r4 \!
 gis2 r4 
 a2 r4

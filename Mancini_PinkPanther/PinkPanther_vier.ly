@@ -58,12 +58,12 @@ cis4.->^\markup{Solo} cis8 ~cis4 r8 dis8(
 \tuplet 3/2 {e8) r b (} cis4)  b8 (e) e (g) 
 bes,4-- a-. g8. (e16 g4)  
 bes8 (a g e ~e2)
-r8 e'8-- f4-. g4. (dis8) 
-e4-- f4-. g8-. c, (d) e
+r8 e'8-- fis4-. g4. (dis8) 
+e4-- fis4-. g8-. c, (d) e
 (es4. d8) c4-. a-. 
 es'8 (d c a ~a4.) r8
-e8-. f (g) c (b4) g
-\tuplet 3/2 {e4-- f-- g-- } \tuplet 3/2 {b4-- cis-- dis-- }
+e8-. fis (g) c (b4) g
+\tuplet 3/2 {e4-- fis-- g-- } \tuplet 3/2 {b4-- cis-- dis-- }
 e4-. b8 (bes ~bes4.) g8--
 e8 (g a bes8 ~bes4.) g8--
 b4-. g-. e8 (g b4-.) 
@@ -130,4 +130,3 @@ a4) r8 f'8 (e-.) a ( gis-.) c (
 g4.) g8-^ r2
 \bar"|."
 }
- 

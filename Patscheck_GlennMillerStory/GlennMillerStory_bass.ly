@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+GlennMillerStorybass = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 

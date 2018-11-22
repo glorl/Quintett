@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+GlennMillerStorydrei = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
