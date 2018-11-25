@@ -36,7 +36,7 @@ a4 ~a8 a ~a2
 ~a2 ~\tuplet 3/2 {a8 r as8(} \tuplet 3/2 {g8) r ges8(}
 f1)
 ~f2 ~\tuplet 3/2 {f8 r fis8(} \tuplet 3/2 {g8) r gis8(}
-a2.\bendAfter #-3 ) r4
+a2\bendAfter #-3 ) r2
 r1 ^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} \bar"||" \key g \major
 bes'8--^\markup{Klar. Soli}\mf (b ~b2) \bendAfter #-3 r4
 c8 (cis ~cis4 cis8 dis e g

@@ -36,24 +36,81 @@ e4 ~e8 e ~e2
 ~e2 ~\tuplet 3/2 {e8 r es8(} \tuplet 3/2 {d8) r des8(}
 c1)
 ~c2 ~\tuplet 3/2 {c8 r cis8(} \tuplet 3/2 {d8) r dis8(}
-e2.\bendAfter #-3 ) r4
+e2\bendAfter #-3 ) r2
 r1 ^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} \bar"||" \key g \major
-c8-- \mf (cis ~cis2) \bendAfter #-3 r4
-dis8 (e ~e4 e8 fis g bes
+<< { \voiceOne \override Stem.direction = #DOWN 
+c8 (\mf cis) ~ cis2 \bendAfter #-3
+}
+  \new Voice { \override Stem.direction = #UP 
+c'8(cis)  ~ cis2 \bendAfter #-3 
+  }
+>> \oneVoice r4 
+<< { \voiceOne \override Stem.direction = #DOWN 
+        dis,8 _(e ~e4 e8 fis g bes
 ~bes2 ~bes8 bes g e) 
-r2 r4 r8 d8-- 
-(e16 fis e cis dis8 cis) r4 r8 e8 
-(g16 a g e fis8 e ~e4) cis8-- \sfp \< a
+}
+  \new Voice { \override Stem.direction = #UP 
+dis'8 ^(e e4 e8 fis g bes
+~bes2 ~bes8 bes g e ) 
+  }
+>> \oneVoice 
+r2 r4 r8 
+<< { \voiceOne \override Stem.direction = #DOWN 
+d,8-- 
+_(e16 fis e cis dis8 cis) 
+}
+  \new Voice { \override Stem.direction = #UP 
+d'8
+^(e16 fis e cis dis8 cis) 
+  }
+>> \oneVoice
+r4 r8 
+<< { \voiceOne \override Stem.direction = #DOWN 
+e,8 
+_(g16 a g e fis8 e ~e4) cis8-- \sfp \< a
 ~a1 
 ~a2. \! c8-- cis-^
-r2 r8. cis16-. e8-. [r16 fis-.]
-g8. (g16 \tuplet 3/2 {fis8 e dis} cis8 e) r8 cis--
-\tuplet3/2 {e4--\< fis-- g-- } \tuplet3/2 {g4--\> fis-- e-- \!}
-d2. d8-- b-^
-~b4\bendAfter #-3 r4 r2
-d16-- e-^ r8 e4-- c16-- cis-^ r8 d4--
-cis2.\bendAfter #-5 r4
-r2 r8 dis'4.-> \f \bar"||" \key c \major
+}
+  \new Voice { \override Stem.direction = #UP 
+e'8 
+^(g16 a g e fis8 e ~e4) cis8-- a
+~a1 
+~a2. c8 cis
+  }
+>> \oneVoice
+r2 r8. 
+<< { \voiceOne \override Stem.direction = #DOWN 
+cis,16-. e8-. [s16 fis-.]
+g8. _(g16 \tuplet 3/2 {fis8 e dis} cis8 e) s8 cis!--
+\override TupletBracket.bracket-visibility = ##f
+\once \omit TupletNumber
+\tuplet3/2 {e4--\< fis-- g-- } \once \omit TupletNumber \tuplet3/2 {g4--\> fis-- e-- \!}
+\override TupletBracket.bracket-visibility = ##t
+d2. d8-- b 
+~b4\bendAfter #-3 
+}
+  \new Voice { \override Stem.direction = #UP 
+cis'16 e8 [r16 fis]
+g8. ^(g16 \tuplet 3/2 {fis8 e dis} cis8 e) r8 cis!
+\tuplet3/2 {e4fis g } \tuplet3/2 {g4 fis e }
+d2. d8 b
+~b4\bendAfter #-3 
+  }
+>> \oneVoice
+r4 r2
+<< { \voiceOne \override Stem.direction = #DOWN 
+d,16-- e-^ s8 e4-- c16-- cis-^ s8 d4--
+cis2.\bendAfter #-5 
+}
+  \new Voice { \override Stem.direction = #UP 
+d'16 e r8 e4 c16 cis r8 d4
+cis2.\bendAfter #-5 
+  }
+>> \oneVoice
+r4
+r2 r8 dis4.-> \f 
+\revert Stem.direction
+\bar"||" \key c \major
 b4.->^\markup{Bass Soli} g8 ~g4\bendAfter #-3 r
 r2 b8 \p (g b bes 
 ~bes1 

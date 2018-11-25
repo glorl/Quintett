@@ -17,7 +17,7 @@ global= {
 }
 
 \header {
-	piece = ""
+	piece = "Andante"
 	title = "Eine kleine Nachtmusik"
     subtitle = "2. Romanze"
 	composer = "W.A. Mozart"
@@ -25,7 +25,7 @@ global= {
 }
 
 % \include "../Mozart_Adagio/Adagio_eins.ly"
-% \include "../Mozart_Adagio/Adagio_zwei.ly"
+\include "../Mozart_Romanze/Romanze_zwei.ly"
 % \include "../Mozart_Adagio/Adagio_drei.ly"
 \include "../Mozart_Romanze/Romanze_vier.ly"
 \include "../Mozart_Romanze/Romanze_bass.ly"
