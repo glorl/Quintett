@@ -51,7 +51,7 @@ g (b e, d ~d4 ) r4
 r8 d4. \glissando (d'8 des c ais)
 b8-- g4-. d8-- b4. (c8) 
 d (e fis a d des c a
-g4) r r g,8 (f) 
+g4) r r8 g,4 (f8) 
 \key c \major
 \bar"||"
  \cadenzaOn 

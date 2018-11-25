@@ -52,7 +52,7 @@ r g r g
 fis4-- fis-. r fis
 r g r g 
 fis4-- fis-. r fis
-g r r e8 (d)  
+g r r8 e4 (d8)  
 \key c \major
 \bar"||"
  \cadenzaOn 
@@ -91,7 +91,7 @@ f4-- \mf f-. r f4-.
 r e r g
 r8 e'4.->\f bes8 (e bes4) 
 bes8-- c4-. bes8 (e,4) g8 (bes)
-a8 ([c d e] c [a] \tuplet 3/2 {a [b d]}
+a8 ([c d e] c [a] \tuplet 3/2 {a [b c]}
 d4) r r8 g,4-. f8--
 \key c \major \bar"||"
 c8--^\markup{Unisono Chorus} e4-. dis8-- \tuplet 3/2 {e ([a c]} \tuplet 3/2 {d [e g])}
@@ -127,7 +127,7 @@ f8-- f4-. f8 ~f4 f8 (es)
 d8 (f d des c b a as )
 g4 r r2
 c,8-- e4-. e-. g-. c8--
-e8 \<(dis e f d dis d f) 
+e8 \<(dis e f c dis d f) 
 g4-^\ff r r c,,->\fermata
 \bar"|."
 }
