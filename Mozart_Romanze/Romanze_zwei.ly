@@ -24,36 +24,46 @@ e8 r e r e4.^(g8)
 <d a>8 (<a' c,> <g b,>16 <f a,> <e g,> <d f,>) <c e,>4\> <e g,>16 (<d f,> <c e,> <d f,>) \!
 <c e,>4 r 
 }
-% \repeat volta 2{
-% r2 
-% b8-.\p\< b-. b-. b-. c-. c-. c-. c-. 
-% g4\> ~g8\! r r2
-% b8-.\< b-. b-. b-. c-. c-. a-.\> a-. 
-% b4\! r r2 
-% a2.\p\<  g4
-% g4\> ~g8 r g2\mf 
-% g4 a g g 
-% c4 r
-% }
-% c8-.\p c-. c-. c-. 
-% cis4 (d8 ) r c-. c-. c-. c-. 
-% e8 (g16 f e d c b) c8-.\< c-. a-. a-. 
-% g4\f r8 bes8-. b4-- r8 c8-. 
-% a4\> g8\! r e''8-.\p e-. e-. e-. 
-% e8 (g16 f e d c b) c8-. c-. c-. c-. 
-% cis4\> (d8\!) r e8-. \< e-. fis-. fis-. 
-% g16\f (b a g fis e d cis d e d c b a g fis) 
-% a4\> (g8)\! r g8-.\mf g-. g-. g-.
-% a4 r f8-. f-. f-. f-.
-% g4 r c,8-.\mf c-. e-. e-. 
-% gis,4 r8 gis (a4) r8 a
-% (b4) r8 b (a-.) a-. a-. a-. 
-% gis4_\markup{\dynamic mf \italic cresc} r8 e8 (f4) r8 f8 
-% (e4)\f r8 f (e4) r 
-% r4 r8 a' gis (b) e, c-.
-% gis8 (b) e,-. r r2 
-% r2 r4 r8 c'-. 
-% g'-. \> g-. g-. g-. e'--\p r e-- r \bar"||"
+\repeat volta 2{
+<< { \voiceTwo \override Stem.direction = #DOWN 
+r2 
+d,8-.\p\< f-. f-. f-. g-. g-. g-. g-. 
+c4\> _(b8)\! r r2
+d,8-.\< f-. f-. g-. g-. g-. fis-. d-. 
+g4\! r c8 _(g c g)
+cis( a cis e) }
+  \new Voice { \override Stem.direction = #UP 
+cis16 ^(d f e) dis ^(e g f) 
+f4 a8. ^(g16) g4 f16 ^(e d c)
+e4 ^(d8) s cis16 ^(d f e) dis ^(e g f) 
+f4 b8. ^(c16) c4 b16 ^(a g fis)
+g16 ^(a g fis g gis a f) e8-- r e-- r 
+e4. ^(g16)}
+>> \oneVoice 
+<d f>8( <b d> <d f> <f a>) 
+<e g>8.\>  (<e c> 16 <g e>8-.)\! r <g e>8\mf \>(<c e,>16) r\! <b f>8\> (<f b,>16) r\!
+<e c>8\> (<g e>16) r\! <f c>8\> (<a c,>16) r\! <c, g>4 <e g,>16 (<d f,> <c e,> <d f,>) 
+<c e,>4 r
+}
+g8-.\p g-. g-. g-. 
+g4 (f8 ) r g-. g-. g-. g-. 
+g4 (g8) r c8-.\< c-. c-. c-. 
+b4\f r8 g8-. g4-- r8 c,8-. 
+c4\> b8\! r c8-.\p c-. c-. c-. 
+cis4 (d8) r c8-. c-. c-. c-. 
+e4\> (g8\!) r c,8-. \< c-. a-. a-. 
+g4\f r8 g'-. g4-- r8 c,8-. 
+a'4\> (g8)\! r b8-.\mf b-. bes-. bes-.
+a4-- r a8-. a-. as-. as-.
+g4-- r g8-.\mf g-. c-. c-.
+b4 r8 d, (c4) r8 dis
+(e4.) b'8 (a-.) a-. a-. a-. 
+e4_\markup{\dynamic mf \italic cresc.} r8 d8 (c4) r8 dis8 
+(e4)\f r8 dis (e4) r8 a' 
+gis8 (b) e,-. r r2
+r2 r4 r8 d\p
+cis8 (e) a,-. b-. c4. (b16 a)
+g8 \> b4 (d8) c\p r r4 \bar"||"
 % e4.^\markup{Vi=} \< (g8) f (d f a) 
 % g8.\> (e16 g8\!) r c c4 (b8)
 % a8 a4 (g8)  g8\> (f16\!) r f8 \>(e16\!) r 

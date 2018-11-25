@@ -33,7 +33,7 @@ a4 r f8-. f-. f-. f-.
 g4 r c,8-.\mf c-. e-. e-. 
 gis,4 r8 gis (a4) r8 a
 (b4) r8 b (a-.) a-. a-. a-. 
-gis4_\markup{\dynamic mf \italic cresc} r8 e8 (f4) r8 f8 
+gis4_\markup{\dynamic mf \italic cresc.} r8 e8 (f4) r8 f8 
 (e4)\f r8 f (e4) r 
 r4 r8 a' gis (b) e, c-.
 gis8 (b) e,-. r r2 
