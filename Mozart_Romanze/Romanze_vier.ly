@@ -7,8 +7,8 @@ r4 c (b c)
 g'4 g, r2
 c2\mf b4.\< \trill (a16 b) 
 c4-- \> c-- \! e-> e,->  
-f4 f8 (a) g4 g 
-c4 r}
+f4 f8 (a) g4\> g 
+c4\! r}
 \repeat volta 2{
 r2 
 b8-.\p\< b-. b-. b-. c-. c-. c-. c-. 
