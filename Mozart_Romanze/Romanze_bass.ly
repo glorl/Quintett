@@ -62,7 +62,7 @@ r2 r4 c8 fis,\turn
 (g4) r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
 g'8 r r4 r2
-g,4. (a16 b) c8 r r4\bar"||"\key c \major 
+g,4. (a16 b) c8^\markup{\italic rit.} r r4\bar"||"\key c \major 
 c4\p^\markup{=de}\< c c c 
 c4\> c4\! r4 c4 
 r4 c (b c) 

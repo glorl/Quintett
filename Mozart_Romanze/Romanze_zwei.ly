@@ -64,51 +64,51 @@ gis8 (b) e,-. r r2
 r2 r4 r8 d\p
 cis8 (e) a,-. b-. c4. (b16 a)
 g8 \> b4 (d8) c\p r r4 \bar"||"
-% e4.^\markup{Vi=} \< (g8) f (d f a) 
-% g8.\> (e16 g8\!) r c c4 (b8)
-% a8 a4 (g8)  g8\> (f16\!) r f8 \>(e16\!) r 
-% g8.\> (e16 d8\!) r e8-- \mf r e-- r 
-% e4. \< (g8) f (d f a) 
-% g8.\> (e16) g8 \! r c8\> (g16)\! r g8 \> (e16\!) r 
-% d8 (a') g16 (f e d) c4 e16 (d c e) 
-% c4 r \key es \major 
-% \repeat volta 2{
-% r2 
-% r4 g8-. \mp b,\turn (c) r r4 
-% r4 g'8-. b,\turn (c) r r4 
-% bes!4.\sf (c8) as4 (bes) 
-% es8 r r4
-% }
-% r2
-% r4 c8 e, (f) r r4
-% r4 d'8 fis,\turn (g) r r4
-% r2 r4 c8 fis,\turn 
-% (g8) as (g) f! (es') b\turn (c) as
-% (g4) r4 g'8-. b,\turn (c) r
-% g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
-% g'8 r r4 fis8 r r4 
-% g,4. (a16 b) c8 r r4\bar"||"\key c \major 
-% g2\p^\markup{=de}\< g
-% g4\> ~g8\! r r4 c4 
-% r4 c (b c) 
-% g'4 g, r2
-% g2\mf \< b4.\trill a16 (b) 
-% c4\> ~c8\!  r c4 c 
-% f,4 f8 (a) g4 g 
-% c4 r r2
-% g4\p g g g 
-% g\> ~g8 \! r r2
-% g4\< g g g \!
-% g4 r r2
-% a2.\p \< g4\!
-% g4\> ~g8\! r g4-> g->
-% g4-> a-> g-> g-> 
-% c4-- r e,--\f r 
-% f4-- r fis-- r 
-% g2\p g 
-% c8-- r r4 c8-- r r4
-% c8\< (g c e d b d f\!) 
-% f8_\markup{\italic{dim. e rit.}} (d e b c g c g) 
-% c8 (g c e d b d f) 
-% f2\> (e8) r\! r4 \bar"|."
+g,2^\markup{Vi=} \< b4.\trill (a16 b) 
+c4\> ~c8\!r r4 c
+r4 c (b c) 
+g'4 ~g8 r r2
+g,2 \< b4.\trill (a16 b) 
+c4\> ~c8\! r c8\> ~c16 r \! c8\> ~c16 r \!
+f4 f g g 
+c4 r \key es \major 
+\repeat volta 2{
+es,8-. d-. es-. f-. 
+g8-. as-. g-. f-. es-. d-. es-. f-. 
+g8-. as-. g-. f-. es-. d-. es-. g-. 
+f8-. f-. f-. e-. as-. as-. as-. as-. 
+g8-. as-. g-. f-. 
+}
+g8-. f-. g-. as-. 
+bes8-. des-. c-. bes-. as-. g-. as-. bes-. 
+c8-. es-. d-. c-. b-. a-. b-. c-. 
+d8-. es-. d-. as!-. g-. f-. g-. c-. 
+b8-. gis-. g-. as-. g-. d-. es-. c-. 
+b8-. f'-. e-. es-. d-. d'-. c-. c-. 
+bes8-. d-. c-. c-. bes-. as-. g-. c-.
+b8-. bes-. b-. d-. c-. b-. c-. es-. 
+d8-. cis-. d-. d-. c--^\markup{\italic rit.}\p r c-- r \bar"||"\key c \major 
+c8\p^\markup{=de}\< (g c e) d (b d f) 
+e8. \> (c16) e8\! r a8-. a4 (g8) 
+f8-. f4 (e8) e8 \>(d16) r\! d8 \> (c16) r \! 
+e8.\> (c16 b8-.)\! r c8 \mf (g c g) 
+c8\mf \< (g c e) d (b d f)\! 
+e8.\> (c16) e8 \! r e8\> ~e16 r\! e8\> (c16) r\!
+a8 (c) b16 (a g f e4) g16 (f e f
+e4 ) r r2
+d8-.\p d-. d-. d-. e-. e-. g-. g-. 
+g4\> ~g8 \! r r2
+d8-.\< d-. f-. f-. e-. e-. c-. c-.\!
+d4 r c'8--\p r c-- r 
+cis8\p \< (a cis e) d (b d f) \!
+e8.\> (cis16) e8\! r e8\> (e16) r \! f8\> (b,16) r \! 
+c8\> (e16) r \! c8\> (f16) r \!  g,4-- g16 (f e f) 
+e4-- r g'--\f r 
+f4-- r a-- r 
+e,4.\p f32 (e d e g4 f8. e16) 
+e8-- r r4 c'8-- r c-- r
+g1\<
+g4\!_\markup{\italic{dim. e rit.}} (g8) r c8-- r c-- r 
+g1 
+b2\> (c8) r\! r4 \bar"|."
 }
