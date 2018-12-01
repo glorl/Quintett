@@ -7,7 +7,7 @@ a4 r r2\bar"||"
 f4--\mp f---. a-.-- r 
 f-- g---. bes8 bes ~bes4
 e,4-- e---. e---. r 
-f-- e---. f---. r 
+f-- e---. f---. r \bar"||"
 f8-- f4-. f8-- f4-- r 
 f-- bes---. g---. r
 e4-- e4---. e4---. e4---. 
@@ -41,11 +41,11 @@ r4 f-. f-. a-.
 << { \voiceOne \override Stem.direction = #UP
 a4 (cis8 d f e f g 
 a) e'4-. f8 (e bes a g) 
-f8 (a f g f a d e f 
+f8 (a g f a d e f 
 e8 d~d4) r2
-c8 (b c e ~e g bes b 
-c4-. b4-. a8 (e c b 
-bes a d cis d f gis a
+c8 (b c e ~e g bes b)
+c4-. bes!4-. a8 (e c b 
+bes! a d cis d f gis a
 ~a2.) s4
 }
   \new Voice { \override Stem.direction = #DOWN 
@@ -64,7 +64,7 @@ g4-- g2-. g4-.
 r4 f-. f2-- 
 f4-. r r a
 bes4. bes8 ~bes4 bes4-.
-bes4-. cis8~cis4 cis4-. 
+bes4. cis8~cis4 cis4-. 
 a4. a8~a4 a4-.
 a4. a8~a4 a4-.
 a'8 (as g f d des bes a 
