@@ -2,7 +2,7 @@ GlennMillerStorybass = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4
+r4^\markup{American Patrol}
 c \mf r g r 
 c r g r 
 c r g r 
@@ -57,7 +57,7 @@ b r b r
 e, r e r 
 c'2\f c4 c 
 g4 r g g 
-r8 d'4.->\sp \< c-> b8->
+r8 d'4.->\sp \< cis-> b8->
 ~b4 a4->~a8 as4.->
 g8-^\ff r d' g,~g4\fermata r \bar"||" \key c \major
 g1^\markup{Moderato}\ff
@@ -112,12 +112,12 @@ g, r g c8-- g
 ~g2  ~ g8\fermata \noBeam g8 \tuplet 3/2 {a8-- [r b]} \bar"||"\time 4/4 \key c \major
 c4\mf ^\markup{Slow} e c  g 
 c4^\markup{A Sentimental Journey} a g a8 (g) 
-c4 e c g 
-g4 a b8-- a-. as-- g-.
+c4 e c a 
+g4 a b8 a as g
 c4 e c g
 f4 a c as
 g c r8 g4.
-g8 (a b c ~c ) g-- g-. g--
+g8 (a b c ~c ) g g g
 c4\p a g a 
 c4 g e g 
 c4 a g b 
@@ -125,15 +125,15 @@ g4 a b8 (a as g)
 c4 a g e 
 f4 es' c as
 c4 a r8 g4. 
-g8 (a b c ~c ) g-. g-- g-.
+g8 (a b c ~c ) g g g
 f4 \mf a c a 
 f4 a fis a 
 c4 g e a 
 c a fis g8-- c
 cis4 e8 d c4 a8 c 
 cis4 d a d 
-g,4 a c8 g-- g-. g-- 
-r8 g8-. g-- g-. r8 g8-. g-- g-. \bar"||" 
+g,4 a c8 g g g 
+r8 g8 g g r8 g8 g g \bar"||" 
 c8--\mf ^\markup{Solo unisono} e4-. c8-- e4. (c8) 
 e8 (c e c e c4.) 
 r8 e4-. c8-- e4. (f8) 

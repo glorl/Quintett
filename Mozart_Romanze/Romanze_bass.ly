@@ -5,7 +5,7 @@ c4 \p \< c c c
 c4\> c \! r c 
 r4 c (b c) 
 g'4 g, r2
-c2\mf b2
+c2\mf g2
 c4-- \> c-- \! e-> e,-> 
 f4 f g\> g 
 c4\! r}
@@ -62,7 +62,7 @@ r2 r4 c8 fis,\turn
 (g4) r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
 g'8 r r4 r2
-g,4. (a16 b) c8^\markup{\italic rit.} r r4\bar"||"\key c \major 
+g,4.^\markup{\italic rit.} (a16 b) c8 r r4\bar"||"\key c \major 
 c4\p^\markup{=de}\< c c c 
 c4\> c4\! r4 c4 
 r4 c (b c) 
