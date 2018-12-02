@@ -1,5 +1,4 @@
-omanzebass=\relative c'{
-\repeat volta 2{
+Romanzebass=\relative c'{
 \partial 2 r2
 c4 \p \< c c c 
 c4\> c \! r c 
@@ -8,9 +7,15 @@ g'4 g, r2
 c2\mf g2
 c4-- \> c-- \! e-> e,-> 
 f4 f g\> g 
-c4\! r}
-\repeat volta 2{
-r2 
+c4\! r r2
+c4 \p \< c c c 
+c4\> c \! r c 
+r4 c (b c) 
+g'4 g, r2
+c2\mf g2
+c4-- \> c-- \! e-> e,-> 
+f4 f g\> g 
+c4\! r r2 
 g4\p\< g g g 
 g4\> ~g8\! r r2
 g4\< g g \>g  
@@ -18,9 +23,15 @@ g4\! r r2
 a2\p\< d4 b
 c4\> ~c8 r\! e4  \mf d 
 c4 f g\> g, 
-c4 r \!
-}
-c8-.\p c-. c-. c-. 
+c4 r \! r2 
+g4\p\< g g g 
+g4\> ~g8\! r r2
+g4\< g g \>g  
+g4\! r r2 
+a2\p\< d4 b
+c4\> ~c8 r\! e4  \mf d 
+c4 f g\> g, 
+c4 r \! c8-.\p c-. c-. c-. 
 g4 (d'8 ) r c-. c-. c-. c-. 
 g8 (g'16 f e d c b) c8-.\< c-. a-. a-. 
 g4\f r8 e'8-. d4-- r8 d8-. 

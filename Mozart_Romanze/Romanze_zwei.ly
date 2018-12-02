@@ -1,8 +1,8 @@
 Romanzezwei=\relative c''{
 \partial 2 c8-- \p r c-- r 
-c8 \< g c e  d8 b  d f \!
+c8 (\< g c e  )d8 (b  d f )\!
 e8. \> (c16) e8 \! r a8-. a4 (g8)
-f8-. f4 e8 e8 (d16) r d8 (c16) \!r 
+f8-. f4 e8 e8\> (d16) r\! d8 \> (c16) \!r 
 e8. \> c16 b8 r\! c8 (g c g) 
 c8\mf  \< (g c e) d  (b d f) \!
 e8. \> (c16) e8\! r e8\> (e16) r\! c8\> (c16 ) r \!
@@ -10,32 +10,28 @@ a8 (c b16 a g f) e4\> g16 (f e f) \!
 e4 r e'8-- \p r e-- r 
 e4. ^(g8 ) f8^(d f a)
 g8. \> (e16) g8 \! r c8-. c4 (b8) 
-a8-. a4 g8 g8 (f16) r f8 (e16) \! r 
-g8. e16 d8 r e8-- r e-- r 
-e4.^(g8) f (d f a) \!
+a8-. a4 (g8) g8 (f16) r f8 (e16) \! r 
+g8. (e16 d8) r e8-- r e-- r 
+e4.\mf \< (g8) f (d f a) \!
 g8. \> (e16) g8\! r c8\> (g16) r\! g8\> (e16 ) r \!
 d8 (a' g16 f e d) c4\> e16 (d c d) \!
-c4 r 
-
-r2 
+c4 r r2 
 d,8-.\p\< f-. f-. f-. g-. g-. g-. g-. 
 c4\> (b8)\! r r2
 d,8-.\< f-. f-. g-. g-. g-. fis-. d-. 
 g4\! r c8 (g c g)
-cis( a cis e) d8( b d f) 
-e8.\>  (c16 e8-.)\! r e8\mf \>(e16) r\! f8\> (b,16) r\!
-c8\> (e16) r\! c8\> (c16) r\! g4 g16 (f e f) 
-e4 r cis'16 (d f e) dis (e g f) 
+cis\< ( a cis e) d8( b d f) 
+e8.\>  (c16 e8-.)\! r\mf\> e8 (e16) r\! f8\> (b,16) r\!
+c8\> (e16) r\! c8\> (c16) r\! g4 g16\> (f e f) \!
+e4-- r cis'16 \p\< (d f e) dis (e g f) \!
 f4 a8. (g16) g4 f16 (e d c)
-e4 ^(d8) r cis16 (d f e) dis (e g f) 
-f4 b8. (c16) c4 b16 (a g fis)
-g16 (a g fis g gis a f) e8-- r e-- r 
-e4. (g8) f( d f a) 
-g8.\>  (e16 g8-.)\! r c8\mf \>(c16) r\! b8\> (f16) r\!
+e4\> (d8)\! r cis16\< (d f e) dis (e g f) 
+f4 b8. \mf (c16) c4 b16 (a g fis)
+g16 \> (a g fis g gis a f) e8--\p r e-- r 
+e4. \< (g8) f( d f a) 
+g8.\>  (e16 g8-.)\! r\mf \>c8 (c16) r\! b8\> (f16) r\!
 e8\> (g16) r\! f8\> (a16) r\! c,4 e16 (d c d) 
-c4 r
-
-g8-.\p g-. g-. g-. 
+c4 r g8-.\p g-. g-. g-. 
 g4 (f8 ) r g-. g-. g-. g-. 
 g4 (g8) r c8-.\< c-. c-. c-. 
 b4\f r8 g8-. g4-- r8 c,8-. 
@@ -77,12 +73,12 @@ b8-. gis-. g-. as-. g-. d-. es-. c-.
 b8-. f'-. e-. es-. d-. d'-. c-. c-. 
 bes8-. d-. c-. c-. bes-. as-. g-. c-.
 b8-. bes-. b-. d-. c-. b-. c-. es-. 
-d8-. cis-. d-. d-. c--^\markup{\italic rit.}\p r c-- r \bar"||"\key c \major 
+d8-.^\markup{\italic rit.} cis-. d-. d-. c--\p r c-- r \bar"||"\key c \major 
 c8\p^\markup{=de}\< (g c e) d (b d f) 
 e8. \> (c16) e8\! r a8-. a4 (g8) 
 f8-. f4 (e8) e8 \>(d16) r\! d8 \> (c16) r \! 
 e8.\> (c16 b8-.)\! r c8 \mf (g c g) 
-c8\mf \< (g c e) d (b d f)\! 
+c8 \< (g c e) d (b d f)\! 
 e8.\> (c16) e8 \! r e8\> ~e16 r\! e8\> (c16) r\!
 a8 (c) b16 (a g f e4) g16 (f e f
 e4 ) r r2
