@@ -151,10 +151,10 @@ a4-- a2-. a4-.
 a4-- a-. a-- a-. 
 d8\f (dis e g) r e (b c) 
 cis!8 (e d e  g e g e 
-d4) r a4->_\markup{\italic cresc.} (es') 
+d4-.) r a4->_\markup{\italic cresc.} (es') 
 d4-> (g) a8 (d, dis e) 
-es2\ff  e
-f2 gis 
-f1 ~
-f8 cis-> d4-. d-^ r\bar"|."
+es2--->\ff  e--->
+f2---> gis---> 
+f1-> ~
+f8 cis-> (d4-.) d-^ r\bar"|."
 }

@@ -1,3 +1,16 @@
+#(define (scoop-stencil grob)
+         (ly:stencil-add
+             (ly:note-head::print grob)
+             (grob-interpret-markup grob
+                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
+                    #:translate '(-0.2 . -0.5)
+                    #:path 0.25 '((moveto 0 0)
+                        (curveto -0.5 -1 -1.5 -1.5 -2 0))))))
+%                         (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
+scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+
+
+
 Montieins=\new Voice \relative c''{
     d4\f ^\markup{Vivo} r a r 
 g4-^ bes2.\bar"||"
@@ -113,36 +126,36 @@ r4 r8 a'8 (d cis d e
 f \< g a bes a b c cis) \!
 d8-- d4-^ bes-^ a-^ f8--
 e8-- d4 cis8-- d2 \bar"||"\key d \major 
-% a4-- a2-. a4-.
-% r4 a4-. a2-- 
-% a4-- a2-- a4-. 
-% r4 a4-. a2-- 
-% fis4-- fis-. fis-- fis-. 
-% fis4-- fis2 fis4-. 
-% b4-- b4-. b-- b-. 
-% b4-- b2-. b4-. 
-% r4 a a2 
-% fis4-- fis2-. d'4
-% r4 gis, gis2 
-% b4-- b2-. b4-. 
-% cis4-^ a2-^ a4-^
-% as4-^ a-^ bes-^ a-^
-% b4-. d-. r a
-% r4 a-. a-. a-. 
-% r4 a r a 
-% r4 a-. a-. a-. 
-% r4 b4 r b
-% c4-- c-. r8 c8-- c4-. 
-% r4 b r b 
-% r4 b-. b-. b-. 
-% a4-- a2-. a4-. 
-% a4-- a-. a-- a-. 
-% d8\f (dis e g) r e (b c) 
-% cis!8 (e d e  g e g e 
-% d4) r a4->_\markup{\italic cresc.} (es') 
-% d4-> (g) a8 (d, dis e) 
-% es2\ff  e
-% f2 gis 
-% f1 ~
-% f8 cis-> d4-. d-^ r\bar"|."
+d8 \glissando d'4. ~d4. b16 (ais 
+b8 fis e d~d2) 
+r4 d8 (e fis e d e
+fis8 a b d) r8 e4 f8
+(fis!4 e8 dis e d b g 
+fis8) e4. r2
+g8 ( a b a~a ais b4) 
+d2 (~d4 b8 a 
+fis g a g fis e d b
+a fis d a ~a4) r 
+r4 e'4 gis8-- b4-. cis8-- 
+d8 (b e d fis f e gis 
+a4) r r2 
+r1
+d,8-- d'4-. b8 (a f fis a
+e a es d ~d2) 
+r4 d' \scoop d2 
+fis8 (d b bes a e f fis
+g8 fis e dis e b a g 
+fis8) e4. r2
+r4 g8 (e g a ais b
+e d a' g a ais b d) 
+r2 fis,8 (d f fis 
+fis4\glissando a,8 b c cis d dis)
+e8 \f (dis e g) r8 e (g a)
+b8 (a gis a b a b cis 
+d4-.) r a,,4->_\markup{\italic cresc.} (es') 
+d4-> (g) a8 (d dis e) 
+f2--->\ff  fis--->
+g2---> gis---> 
+a1-> ~
+a8 cis,-> (d4-.) d,-^ r\bar"|."
 }
