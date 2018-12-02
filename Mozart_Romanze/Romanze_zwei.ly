@@ -1,50 +1,40 @@
 Romanzezwei=\relative c''{
-\repeat volta 2{
-    \partial 2 <c e>8--_\markup{\translate-scaled #'(-2 . 0) 1.} ^\markup{\translate-scaled #'(-2 . 0) 2. volta}
-r <c e>-- \p r 
-<< { \voiceOne \override Stem.direction = #DOWN 
+\partial 2 c8-- \p r c-- r 
 c8 \< g c e  d8 b  d f \!
-}
-  \new Voice { \override Stem.direction = #UP 
+e8. \> (c16) e8 \! r a8-. a4 (g8)
+f8-. f4 e8 e8 (d16) r d8 (c16) \!r 
+e8. \> c16 b8 r\! c8 (g c g) 
+c8\mf  \< (g c e) d  (b d f) \!
+e8. \> (c16) e8\! r e8\> (e16) r\! c8\> (c16 ) r \!
+a8 (c b16 a g f) e4\> g16 (f e f) \!
+e4 r e'8-- \p r e-- r 
 e4. ^(g8 ) f8^(d f a)
-  }
->> \oneVoice 
-<g e>8. \> (<c, e>16) <e g>8 \! r <a c>8-. <a c>4 (<g b>8) 
-<f a>8-. <f a>4 <e g>8 <e g>8 (<d f>16) r <d f>8 (<c e>16) \!r 
-<g' e>8. <e c>16 <d b>8 r 
-<< { \voiceOne \override Stem.direction = #DOWN 
-c8 _(g c g) c8\mf  \< _(g c e) 
-}
-  \new Voice { \override Stem.direction = #UP 
-e8 r e r e4.^(g8) 
-  }
->> \oneVoice 
-<d f> (<b d> <d f> <f a>) \!
-<e g>8. \> (<c e>16) <e g>8\! r <c' e,>8\> (<g e>16) r\! <g c,>8\> (<e c>16 ) r \!
-<d a>8 (<a' c,> <g b,>16 <f a,> <e g,> <d f,>) <c e,>4\> <e g,>16 (<d f,> <c e,> <d f,>) \!
-<c e,>4 r 
-}
-\repeat volta 2{
-<< { \voiceTwo \override Stem.direction = #DOWN 
+g8. \> (e16) g8 \! r c8-. c4 (b8) 
+a8-. a4 g8 g8 (f16) r f8 (e16) \! r 
+g8. e16 d8 r e8-- r e-- r 
+e4.^(g8) f (d f a) \!
+g8. \> (e16) g8\! r c8\> (g16) r\! g8\> (e16 ) r \!
+d8 (a' g16 f e d) c4\> e16 (d c d) \!
+c4 r 
+
 r2 
 d,8-.\p\< f-. f-. f-. g-. g-. g-. g-. 
-c4\> _(b8)\! r r2
+c4\> (b8)\! r r2
 d,8-.\< f-. f-. g-. g-. g-. fis-. d-. 
-g4\! r c8 _(g c g)
-cis( a cis e) }
-  \new Voice { \override Stem.direction = #UP 
-cis16 ^(d f e) dis ^(e g f) 
-f4 a8. ^(g16) g4 f16 ^(e d c)
-e4 ^(d8) s cis16 ^(d f e) dis ^(e g f) 
-f4 b8. ^(c16) c4 b16 ^(a g fis)
-g16 ^(a g fis g gis a f) e8-- r e-- r 
-e4. ^(g16)}
->> \oneVoice 
-<d f>8( <b d> <d f> <f a>) 
-<e g>8.\>  (<e c> 16 <g e>8-.)\! r <g e>8\mf \>(<c e,>16) r\! <b f>8\> (<f b,>16) r\!
-<e c>8\> (<g e>16) r\! <f c>8\> (<a c,>16) r\! <c, g>4 <e g,>16 (<d f,> <c e,> <d f,>) 
-<c e,>4 r
-}
+g4\! r c8 (g c g)
+cis( a cis e) d8( b d f) 
+e8.\>  (c16 e8-.)\! r e8\mf \>(e16) r\! f8\> (b,16) r\!
+c8\> (e16) r\! c8\> (c16) r\! g4 g16 (f e f) 
+e4 r cis'16 (d f e) dis (e g f) 
+f4 a8. (g16) g4 f16 (e d c)
+e4 ^(d8) r cis16 (d f e) dis (e g f) 
+f4 b8. (c16) c4 b16 (a g fis)
+g16 (a g fis g gis a f) e8-- r e-- r 
+e4. (g8) f( d f a) 
+g8.\>  (e16 g8-.)\! r c8\mf \>(c16) r\! b8\> (f16) r\!
+e8\> (g16) r\! f8\> (a16) r\! c,4 e16 (d c d) 
+c4 r
+
 g8-.\p g-. g-. g-. 
 g4 (f8 ) r g-. g-. g-. g-. 
 g4 (g8) r c8-.\< c-. c-. c-. 

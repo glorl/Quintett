@@ -1,4 +1,4 @@
-Romanzebass=\relative c'{
+omanzebass=\relative c'{
 \repeat volta 2{
 \partial 2 r2
 c4 \p \< c c c 
