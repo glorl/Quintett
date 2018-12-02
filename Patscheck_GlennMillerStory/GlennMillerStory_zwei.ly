@@ -2,7 +2,7 @@ GlennMillerStoryzwei = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4 
+r4 ^\markup{American Patrol}
 r4 e \mf r e 
 r4 e r e 
 r4 e r e
@@ -26,11 +26,11 @@ c2) r8 a4.--->
 b4-. b-. bes-. bes8-- b-.
 r8 bes8 (b4 ~b8) b4.->
 c8-- c4-. c8 (~c b a b
-c2.) r8 c,8
+c2.) r8 c,8--
 f4-. f-. a4. (f8) 
 e8-- e4-. f8 (e d c4-.) 
 f4-. f-. b,4. (d8) 
-c8-- c4-. c8 (c b a4-.) 
+c8-- c4-. d8 (c b a4-.) 
 r4 \tuplet 3/2 {f'8 (fis gis)} a4. (f8) 
 e4 e8 (f e d c4-.) 
 d4-. d-. b8 (ais b c-.) 
@@ -95,7 +95,7 @@ r8 c4.-> c8-- d4-. f,8-^
 r4 f4\p ~f2
 f1
 c'2->\f c4.-> c8-> 
-r8 c4.-> as8-- a4-. d,8-^
+r8 c4.-> as8-- as4-. d,8-^
 r4 f4\p ~f2
 ~f2 r8 g8-- \f c4-.
 g2-> gis4-.-^ a-> 
@@ -135,8 +135,8 @@ c2 ~c8 e (g a )
 e2 ~e8 e8-- d4-.
 c4 (c8 b~ b2) 
 c4-- \< c-. e-- e-.
-g4-- \f  e-. g-- f-.
-e4 r r2
+g4--  e-. g-- f-.
+e4\f r r2
 g8 \> (fis f e~e2)\! \fermata \bar"||"\time 2/2 
 c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 
@@ -147,7 +147,7 @@ r2 r8 b4.-^\sfz
 a4 r r a
 r2 
 << { \voiceOne r2 }
-  \new Voice { \voiceTwo r8 f4 ^(e8)}
+  \new Voice { \voiceTwo r8 e4 ^(e8)}
 >> \oneVoice
 \repeat volta 2{
 \repeat percent 2 { 
@@ -165,7 +165,7 @@ b8-> f g b->~b4) r4
 e,2\p \< (f)
 fis4. f8 f4 \f r4 }
 {e2\p \< (f)
-fis4. f8 f4 \f r4 }}
+fis4. g8 g4 \f r}}
 \repeat volta 2{
 a8--\f g4-. a8-> ~a2 
 r8 d, (f a b b4.) 
@@ -176,7 +176,7 @@ r8 d, (f a) b-- e4-. d8--
 }
 \alternative {{
 b8--\p \< b-- b-- b-- bes-- bes-- bes-- bes--
-b!4-- as8-- a-. ~a8 \f g4. }
+b!4-- as8-- g-. ~g8 \f g4. }
 {d'8--\f d-. r c-- cis-- cis-. r cis--}}
 d4-- c8-- b-. ~b8 a4.---> 
 e4--\p e-. r fis
@@ -188,7 +188,7 @@ r d r d
 d'8-- d-. r c8-- cis8-- cis-. r cis8-- 
 b4-- as8-- g8-. ~g g8-. r4 
 e4-- e-. r c 
-r d r8 d' ^\markup{Solo} (es d
+r d r8 c' ^\markup{Solo} (es d
 c8) c, (e a fis es c a) 
 f'8 (a f a,16 ais b8) f'4.->
 e4-- e-. r c 
@@ -212,15 +212,15 @@ f8 (g b-> f g b-> f g
 b8-> f g b->~b4) r 
 r8 ^\markup {\translate-scaled #'(-1 . 0) 1.}_\markup {\translate-scaled #'(-3 . 0) 2.-3.}
 \new Voice <<
-  \relative c''{  d8-. cis-. d-. f-. fis-. g-. gis-. }
-  \relative c'{  d8 cis d f fis g gis }
+  \relative c''{  e8-. dis-. e-. f-. fis-. g-. gis-. }
+  \relative c'{  e8 dis e f fis g gis }
 >>
 }
 \alternative{
 {
 \new Voice <<
-  \relative c'''{g4-^}
-  \relative c''{g4}
+  \relative c'''{g!4-^}
+  \relative c''{g!4}
 >>
 r r2
 r1 
@@ -243,11 +243,9 @@ gis4-- g8-. gis-. a-. ais-. b c-.
 cis4-- b8-. c-. cis-. d-. dis-. e-. 
 f4-- e8-. f-. fis4-. fis-. 
 f8-. fis-. g4-. g-. fis8-. g-.
-gis2 \!\ff
-<< { \voiceOne \override Stem.direction = #DOWN gis8-. a-. ais-. b-. c2\revert Stem.direction}
-  \new Voice { \voiceTwo r2 e,,8 ^(g c-> e, g c-> e, g 
-c-> e, g c-> ~c4) r }
->> \oneVoice
+gis2 \!\ff r2 
+e,8 ^(g c-> e, g c-> e, g 
+c-> e, g c-> ~c4) r 
 r1
 g'1\fermata
 \bar"|."

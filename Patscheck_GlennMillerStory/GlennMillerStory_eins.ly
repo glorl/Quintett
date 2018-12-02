@@ -144,7 +144,7 @@ g2 ~g8 e (g a )
 g2 ~g8 a8-- as4-.
 g4 (fis8 f~ f) a (as g) 
 e8^\markup{Solo} \< (c e g16 a c8 b16 c e g c d) 
-es8 (c es \f c es d4.) 
+es8 (c es c es d4. \f) 
 r8 \scoop e4 (c16 a g8 \glissando dis16 e c g a c) 
 e8 \> (es d c~c2)\! \fermata \bar"||"\time 2/2 
 c,8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.

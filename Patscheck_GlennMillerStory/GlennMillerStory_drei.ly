@@ -2,7 +2,7 @@ GlennMillerStorydrei = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4 
+r4 ^\markup{American Patrol}
 r4 c \mf r c 
 r4 c r c 
 r4 c r c 
@@ -135,8 +135,8 @@ a2 (c8) r r4
 a2 ~a8 c-- d4-.
 a4 (a8-- g8 g2)
 a4-- \< a-. bes-- bes-.
-es4--\f c-. es-- c-.
-c4 r r2
+es4-- c-. es-- c-.
+c4\f r r2
 a'8 \> (a g g~g2)\! \fermata \bar"||"\time 2/2 
 c,8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 

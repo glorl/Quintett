@@ -2,7 +2,7 @@ GlennMillerStoryvier = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4 
+r4 ^\markup{American Patrol}
 r4 g \mf r g 
 r4 g r g 
 r4 g r g 
@@ -134,9 +134,9 @@ c8--\mf ^\markup{Solo unisono} e4-. c8-- e4. (c8)
 e8 (c e c e c4.) 
 r8 e4-. c8-- e4. (f8) 
 e4 (es8 d ~d2) 
-g,4-- g-. g-- bes-. 
+g,4--\< g-. g-- bes-. 
 a4-- g-. a-- as-.
-g4-- r r2
+g4-- \f r r2
 c8\> (c b a ~a2)\! \fermata \bar"||"\time 2/2 
 c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 

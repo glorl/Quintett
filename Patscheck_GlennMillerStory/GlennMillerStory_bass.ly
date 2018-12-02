@@ -138,9 +138,9 @@ c8--\mf ^\markup{Solo unisono} e4-. c8-- e4. (c8)
 e8 (c e c e c4.) 
 r8 e4-. c8-- e4. (f8) 
 e4 (es8 d ~d2) 
-c4-- e-. c-- g-. 
+c4-- \< e-. c-- g-. 
 f4-- a-. c-- as-.
-g4-- r r2
+g4-- \f r r2
 g8\> (a b c ~c2)\! \fermata \bar"||"\time 2/2 
 c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 
