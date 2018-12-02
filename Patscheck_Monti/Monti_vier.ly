@@ -1,5 +1,5 @@
 Montivier=\new Voice \relative c'{
-a4\f r a r 
+a4\f^\markup{Vivo}  r a r 
 g4-^ g2.\bar"||"
 g4 r r2\fermata\bar"||" 
 d2 g 
@@ -28,11 +28,11 @@ a4-- a-. g-- g-.
 g4-- g-. cis-. r 
 a4-- f-. a-- e-.
 a-- \> e-. f--\! r \bar"||"
-f4-^\f^\markup{Vivace} r r f-^
+f4-^\f^\markup{Satz 2: Vivace} r r f-^
 e4-^ r r f4-^
-f4--\mf  f2 f4-. 
+f4--\mf  f2-. f4-. 
 r4 f-. f2-- 
-g4-- g2 g4-. 
+g4-- g2-. g4-. 
 r4 bes-.  bes2-- 
 g4-- g2-. g4-. 
 r4 g-. g2-- 
@@ -59,21 +59,21 @@ f4 r r a4
 a4 r r a 
 }
 >> \oneVoice 
-r4 cis4-. g2
+r4 cis4-. g2--
 g4-- g2-. g4-. 
 r4 f-. f2-- 
 f4-. r r a
-bes4. bes8 ~bes4 bes4-.
-bes4. cis8~cis4 cis4-. 
-a4. a8~a4 a4-.
-a4. a8~a4 a4-.
+bes4.-> bes8-> ~bes4 bes4-.
+bes4.-> cis8-> ~cis4 cis4-. 
+a4.-> a8-> ~a4 a4-.
+a4.-> a8-> ~a4 a4-.
 a'8 (as g f d des bes a 
 g4) cis-. a8 a4 cis8-- 
 f8 (a g f e es d cis 
 d4) r r2 \bar"||"\key d \major 
-b4.^\markup{Bossanova}\mf b8 b8-- b4-. c8
-r8 c4. c4-.-- c-.-- 
-es4. es8 e8 f4 fis8 
+b4.^\markup{Bossanova}\mf b8-- b8-- b4-. c8-.
+r8 c4.-> c4-. c-. 
+es4. es8-- e8-- f4-. fis8-- 
 a8 a, (bes a d) g, (a cis) \bar"||"
 d4-. a8-- d-. d4-.-- a---. 
 fis4-- r8 fis8-. b4-- r8 b-.
