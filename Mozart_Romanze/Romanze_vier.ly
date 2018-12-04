@@ -86,7 +86,7 @@ g2\mf \< b4.\trill a16 (b)
 c4\> ~c8\!  r c4 c 
 f,4 f8 (a) g4 g 
 c4 r r2
-g4\p g g g 
+g4\p \< g g g 
 g\> ~g8 \! r r2
 g4\< g g g \!
 g4 r r2

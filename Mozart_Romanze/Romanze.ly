@@ -26,6 +26,6 @@ global= {
 
 \include "../Mozart_Romanze/Romanze_eins.ly"
 \include "../Mozart_Romanze/Romanze_zwei.ly"
-% \include "../Mozart_Adagio/Adagio_drei.ly"
+\include "../Mozart_Romanze/Romanze_drei.ly"
 \include "../Mozart_Romanze/Romanze_vier.ly"
 \include "../Mozart_Romanze/Romanze_bass.ly"

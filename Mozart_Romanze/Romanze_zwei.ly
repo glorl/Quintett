@@ -82,7 +82,7 @@ c8 \< (g c e) d (b d f)\!
 e8.\> (c16) e8 \! r e8\> ~e16 r\! e8\> (c16) r\!
 a8 (c) b16 (a g f e4) g16 (f e f
 e4 ) r r2
-d8-.\p d-. d-. d-. e-. e-. g-. g-. 
+d8-.\p \< d-. d-. d-. e-. e-. g-. g-. 
 g4\> ~g8 \! r r2
 d8-.\< d-. f-. f-. e-. e-. c-. c-.\!
 d4 r c'8--\p r c-- r 

@@ -78,7 +78,7 @@ e4.\p^\markup{=de}\< (g8) f (d f a)
 g8. \> (e16) g8\! r c8-. c4 (b8) 
 a8-. a4 (g8) g8 \>(f16) r\! f8 \> (e16) r \! 
 g8.\> (e16 d8-.)\! r e8-- \mf r e-- r 
-e4.\mf \< (g8) f (d f a)\! 
+e4. \< (g8) f (d f a)\! 
 g8.\> (e16) g8 \! r c8\> (g16) r\! g8\> (e16) r\!
 d8 (a') g16 (f e d c4) e16 (d c d
 c4 ) r cis16 \p \< (d f e dis e g f) \!

@@ -82,7 +82,7 @@ c2\mf \< g2
 c4\> c \!  e e,  
 f4 f g \>g 
 c4\! r r2
-g4\p g g g 
+g4\p\< g g g 
 g\> ~g8 \! r r2
 g4\< g g g \!
 g4 r r2
