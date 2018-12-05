@@ -73,7 +73,7 @@ r4 b'8-. d,\turn
 r4 c'8-. fis,\turn^\markup{\natural} (g) r c8-. fis,\turn^\markup{\natural} 
 (g) r c8-. fis,\turn^\markup{\natural} (g) r c8-. fis,\turn^\markup{\natural}
 (g)\> r r4 fis8 r r4
-f8\!^\markup{\italic rit.} r r4 e8--\p r e-- r \bar"||"\key c \major 
+f8\!^\markup{\italic rit.} r r4 e8--\p^\markup{\italic{a tempo}} r e-- r \bar"||"\key c \major 
 e4.\p^\markup{=de}\< (g8) f (d f a) 
 g8. \> (e16) g8\! r c8-. c4 (b8) 
 a8-. a4 (g8) g8 \>(f16) r\! f8 \> (e16) r \! 

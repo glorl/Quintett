@@ -34,9 +34,8 @@ b4\! r r2
 a2.\p\<  g4
 g4\> ~g8 r g2\mf 
 g4 a g g 
-c4 r
-c8-.\p c-. c-. c-. 
-cis4 (d8 ) r c-. c-. c-. c-. 
+c4 r c8-.\p c-. c-. c-. 
+cis4\> (d8 ) r\! c-. c-. c-. c-. 
 e8 (g16 f e d c b) c8-.\< c-. a-. a-. 
 g4\f r8 bes8-. b4-- r8 c8-. 
 a4\> g8\! r e''8-.\p e-. e-. e-. 
@@ -50,7 +49,7 @@ gis,4 r8 gis (a4) r8 a
 (b4) r8 b (a-.) a-. a-. a-. 
 gis4_\markup{\dynamic mf \italic cresc.} r8 e8 (f4) r8 f8 
 (e4)\f r8 f (e4) r 
-r4 r8 a' gis (b) e, c-.
+r4 r8 a' gis (b) e, a,-.
 gis8 (b) e,-. r r2 
 r2 r4 r8 c'-. 
 g'-. \> g-. g-. g-. e'--\p r e-- r \bar"||"
@@ -77,7 +76,7 @@ r2 r4 c8 fis,\turn
 (g4) r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
 g'8 r r4 fis8 r r4 
-g,4.^\markup{\italic rit.} (a16 b) c8 r r4\bar"||"\key c \major 
+g,4.^\markup{\italic rit.} (a16 b) c8^\markup{\italic{a tempo}} r r4\bar"||"\key c \major 
 g2\p^\markup{=de}\< g
 g4\> ~g8\! r r4 c4 
 r4 c (b c) 

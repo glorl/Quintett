@@ -32,7 +32,7 @@ e'2 \p\<  f2
 g4\> ~g8\! r\mf \> c8~c16 r\! g8\> ~g16 r \!
 g8\> ~g16 r \! f8\> ~f16 r \! g4\> b, 
 c4\! r e8-.\p e-. e-. e-. 
-e4 (f8 ) r e-. e-. e-. e-. 
+e4 \> (f8 ) r\! e-. e-. e-. e-. 
 g4\>~g8 r\! g8-.\< g-. d-. d-. 
 d4\f r8 g,8-. g4-- r8 a8-. 
 fis4\> g8\! r e'8-.\p e-. e-. e-. 
@@ -62,18 +62,18 @@ c4 r \key es \major
 c8-.\p b-. c-. d-. 
 es8-. f-. es-. d-. c-. b-. c-. d-. 
 es8-. f-. es-. d-. c-. b-. c-. es-. 
-d8-. d-. d-. c-. c-. c-. f-. f-. 
+d8-.\sfz d-. d-. c-. c-. c-. f-. f-. 
 es8-. f-. es-. d-. 
 }
-es8-. d-. es-. f-. 
+es8-._\markup{\italic cresc.} d-. es-. f-. 
 g8-. bes-. as-. g-. f-. e-. f-. g-. 
 as8-. c-. bes-. a-. g-. fis-. g-. a-. 
 b8-. c-. b-. b,-. c-. d-. es-. a-. 
-d,8-.c-. b-. b-. c-. as-. b-. fis-. 
-g8-. b-. c-. c-. b-. f'-. es-. es-. 
-d8-. f-. e-. es-. d-. f-. es-. as-.
+d,8-. c-.\> b-.  b-. c-. as-. b-. fis-. 
+g8-.\< b-. c-. c-. b-. f'-. es-. es-. 
+d8-.\mf f-. e-. es-. d-. _\markup{\italic decresc.}f-. es-. as-.
 g8-. fis-. g-. b-. a-. gis-. a-. c-. 
-b8-.^\markup{\italic rit.} ais-. b-. f-. c (g c g) \bar"||"\key c \major 
+b8-.^\markup{\italic rit.} ais-. b-. f-. c^\markup{\italic{a tempo}} (g c g) \bar"||"\key c \major 
 g'2\p^\markup{=de}\< g
 g4\> ~g8\! r c8-. c4 (b8) 
 a8-. a4 (g8) g8\> (f16) r \!f8 \> (e16) r \!

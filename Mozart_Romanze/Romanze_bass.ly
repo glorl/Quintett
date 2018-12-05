@@ -32,7 +32,7 @@ a2\p\< d4 b
 c4\> ~c8 r\! e4  \mf d 
 c4 f g\> g, 
 c4 r \! c8-.\p c-. c-. c-. 
-g4 (d'8 ) r c-. c-. c-. c-. 
+g4 \>(d'8 ) r\! c-. c-. c-. c-. 
 g8 (g'16 f e d c b) c8-.\< c-. a-. a-. 
 g4\f r8 e'8-. d4-- r8 d8-. 
 g,4\> ~g8\! r c8-.\p c-. c-. c-. 
@@ -73,7 +73,7 @@ r2 r4 c8 fis,\turn
 (g4) r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
 g'8 r r4 r2
-g,4.^\markup{\italic rit.} (a16 b) c8 r r4\bar"||"\key c \major 
+g,4.^\markup{\italic rit.} (a16 b) c8^\markup{\italic{a tempo}} r r4\bar"||"\key c \major 
 c4\p^\markup{=de}\< c c c 
 c4\> c4\! r4 c4 
 r4 c (b c) 

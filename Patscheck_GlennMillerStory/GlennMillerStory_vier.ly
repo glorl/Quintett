@@ -39,7 +39,7 @@ r8 b'4.->\p b4-. b8-- e,-.
 r1
 r8 d'4.-> \mf d4-. d8-- g,-.
 r1
-r8 e'4.-> \f f4-. f8-- f-.
+r8 e'4.-> \f fis4-. fis8-- fis-.
 r1
 r8 g4.-> \ff a4-. a8-- a-.
 r1  \bar"||"
