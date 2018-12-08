@@ -245,7 +245,7 @@ d8-> g, b d->~d4) r
 g,4-- \f \cresc fis8-. g-. gis-. a-. ais-. b-.
 c4-- b8-. c-. cis-. d-. dis e-. 
 f4-- dis8-. e-. f-. fis-. g-. gis-. 
-a4-- gis8-. a-. b4-. b-. 
+a4-- gis8-. a-. bes4-. bes-. 
 a8-. ais-. b4-. b-. ais8-. b-.
 c2 \!
 \new Voice <<
