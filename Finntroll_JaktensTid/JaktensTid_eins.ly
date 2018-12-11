@@ -41,11 +41,11 @@ e16 f e d e8 c a c e a
 b8. c16 b8 a b4 e,
 %
 d'8. c16 b8 c d c d c
-b c b a b4 e,4
+b c b a gis4 e,4
 d'8. c16 b8 c d c b a
 gis a gis f e2
 d'8. c16 b8 c d c d c
-b c b a b4 e,4
+b c b a gis4 e,4
 d'8. c16 b8 c d c d dis
 e2~e8 d c b \bar"||"
 }
