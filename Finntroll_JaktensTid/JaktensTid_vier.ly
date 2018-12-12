@@ -83,16 +83,19 @@ e1
 r4 d2.
 gis,1
 }
+
 vierCoda= \new Voice \relative c'{
+r1
+r2 r4 r8 \tuplet 3/2 {e,16 fis gis}
 %%% Thema1 
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
-a8 c c \tuplet 3/2 {e,16 fis gis} a8 c c \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis \tuplet 3/2 {f,16 g a} ais8 cis cis \tuplet 3/2 {e,16 fis gis}
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
 % Coda
 a,8 r r4 c8 r r4 
 a2\fermata r \bar"|."

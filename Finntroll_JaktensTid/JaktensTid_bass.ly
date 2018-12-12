@@ -83,16 +83,18 @@ e'8 r b r b r e, r
 d'8 r r8 a8 d r r a
 e'8 r b r e d c b
 }
-vierCoda= \new Voice \relative c'{
+bassCoda= \new Voice \relative c'{
+    r1 
+    r1 
 %%% Thema1 
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
-a8 c c \tuplet 3/2 {e,16 fis gis} a8 c c \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
-ais8 cis cis \tuplet 3/2 {f,16 g a} ais8 cis cis \tuplet 3/2 {e,16 fis gis}
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
+a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
+a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
+a8 r8 r8 \tuplet 3/2 {e16 fis gis} a8 r8 r8 \tuplet 3/2 {f16 g a}
+ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
+ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
+ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
+ais8 r8 r8 \tuplet 3/2 {f16 g a} ais8 r8 r8 \tuplet 3/2 {e16 fis gis}
+a8 r8 r4 r4 r4
 % Coda
 a,8 r r4 c8 r r4 
 a2\fermata r \bar"|."

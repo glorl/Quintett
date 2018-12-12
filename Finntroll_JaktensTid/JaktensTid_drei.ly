@@ -1,7 +1,7 @@
-dreierstezwei = \new Voice \relative c'{
+dreierstezwei = \new Voice \relative c''{
 %%% erste 2 Takte 
-c'8-> g' g g g g g g
-r8-> c,, c c c c c \tuplet 3/2 {e,16 fis gis}
+r8-> c c c c c c c 
+r8-> c, c c c c c \tuplet 3/2 {e,16 fis gis}
 }
 dreiThemaeins = \new Voice \relative c'{
 %%% Thema 1 
@@ -87,6 +87,8 @@ r8 f8 f8 r8 r f8 f8 r8
 r8 b8 r8 b8 r8 b8 r8 b8  
 }
 dreiCoda= \new Voice \relative c'{
+c'8-> g' g g g g g g
+r8-> c,, c c c c c \tuplet 3/2 {e,16 fis gis}
 %%% Thema1 
 a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
 a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
@@ -95,8 +97,8 @@ ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
 ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
 ais8 cis cis cis c cis cis \tuplet 3/2 {f,16 g a}
 ais8 cis cis \tuplet 3/2 {f,16 g a} ais8 cis cis \tuplet 3/2 {e,16 fis gis}
-a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
+a8 c c c b c c r
 % Coda
-a,8 r r4 c8 r r4 
+a8 r r4 c8 r r4 
 a2\fermata r \bar"|."
 }
