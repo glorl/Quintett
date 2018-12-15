@@ -86,9 +86,9 @@ r8 gis8 r8 gis8 r8 gis8 r8 gis8
 r8 f8 f8 r8 r f8 f8 r8
 r8 b8 r8 b8 r8 b8 r8 b8  
 }
-dreiCoda= \new Voice \relative c'{
-c'8-> g' g g g g g g
-r8-> c,, c c c c c \tuplet 3/2 {e,16 fis gis}
+dreiCoda= \new Voice \relative c''{
+r8-> c c c c c c c 
+r8-> c, c c c c c \tuplet 3/2 {e,16 fis gis}
 %%% Thema1 
 a8 c c c b c c \tuplet 3/2 {e,16 fis gis}
 a8 c c c b c c \tuplet 3/2 {e,16 fis gis}

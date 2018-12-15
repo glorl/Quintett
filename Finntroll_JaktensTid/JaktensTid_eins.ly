@@ -5,24 +5,24 @@ r1 \bar"||"
 }
 einsThemaeins = \new Voice \relative c'{
 %%% Thema1 
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+a'8 r r4 r2
+a8 r r4 r2
+a8 r r4 a8 r r4
+ais8 r r4 r2
+ais8 r r4 r2
+ais8 r r4 r2
+ais8 r r4 ais8 r r4
+a8 r r4 r2
 \bar"||"
 %%% Thema1 laut 
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+r8 c c c b c c r 
+r8 c c c b c c r 
+e,4 a dis e 
+f1
+r8 cis cis cis c cis cis r 
+r8 cis cis cis c cis cis r 
+e,4 ais e' f 
+e1
 \bar"||"
 }
 einsUebergang = \new Voice \relative c'{
@@ -84,8 +84,37 @@ einsCoda = \new Voice \relative c''{
 r1
 r1 \bar"||"
 %%% Thema1 
-R1*8\bar"||"
+a8 r r4 r2
+a8 r r4 r2
+a8 r r4 a8 r r4
+ais8 r r4 r2
+ais8 r r4 r2
+ais8 r r4 r2
+ais8 r r4 ais8 r r4
+a8 r r4 r2\bar"||"
 % Coda
-a,8 r r4 c8 r r4 
+a8 r r4 c8 r r4 
 a2\fermata r \bar"|."
+}
+
+einsTomheteins = \new Voice \relative c''{
+r1 
+r1 
+b4 b8 b~ b8 b8 a4
+a4 d8 d~ d8 d8 a4
+a4 b8 b~ b8 a8 g4
+e4 r4 e4 fis
+g4 g8 g~ g8 a8 b4
+fis4 fis8 e~ e8 e8 d4
+a'4 a8 a~ a8 g8 fis4
+e4 r4 e4 fis
+%
+b4 b8 b~ b8 b8 a4
+a4 d8 d~ d8 d8 a4
+a4 b8 b~ b8 a8 g4
+e4 r4 e4 fis
+g4 g8 g~ g8 a8 b4
+fis4 fis8 e~ e8 e8 d4
+a'4 a8 a~ a8 g8 fis4
+e4 r4 e4 fis
 }

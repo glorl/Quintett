@@ -100,6 +100,6 @@ cis,8 f f f e f f r
 cis'8 f f r cis,8 f f r 
 c'8 e e e dis e e r\bar"||"
 % Coda
-a,8 r r4 c8 r r4 
-a2\fermata r \bar"|."
+c,8 r r4 e8 r r4 
+c2\fermata r \bar"|."
 }

@@ -3,25 +3,25 @@ viererstezwei = \new Voice \relative c'{
 r1
 r1
 }
-vierThemaeins = \new Voice \relative c'{
+vierThemaeins = \new Voice \relative c''{
 %%% Thema 1 
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+e,8 r r4 r2
+e,8 r r4 r2
+e'8 r r4 e,8 r r4
+f'8 r r4 r2
+f8 r r4 r2
+f,8 r r4 r2
+f'8 r r4 f,8 r r4
+e'8 r r4 r2
 %%% Thema1 laut 
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+r8 a a a gis a a r 
+r8 a a a gis a a r 
+r8 a a r r a a r 
+r8 ais ais ais a ais ais r 
+r8 ais ais ais a ais ais r 
+r8 ais ais ais a ais ais r 
+r8 ais ais r r ais ais r 
+r8 a a a gis a a r 
 }
 vierUebergang = \new Voice \relative c''{
 %%% Übergang 
@@ -86,17 +86,17 @@ gis,1
 
 vierCoda= \new Voice \relative c'{
 r1
-r2 r4 r8 \tuplet 3/2 {e,16 fis gis}
+r1 
 %%% Thema1 
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+e8 r r4 r2
+e,8 r r4 r2
+e'8 r r4 e,8 r r4
+f'8 r r4 r2
+f8 r r4 r2
+f,8 r r4 r2
+f'8 r r4 f,8 r r4
+e'8 r r4 r2
 % Coda
-a,8 r r4 c8 r r4 
-a2\fermata r \bar"|."
+e,8 r r4 a8 r r4 
+e'2\fermata r \bar"|."
 }
