@@ -1,11 +1,9 @@
-einserstezwei = \new Voice \relative c'' {
+einsJaktensTid = \new Voice \relative c'' {
 %% erste 2 Takte
 r1
 r1 \bar"||"
-}
-einsThemaeins = \new Voice \relative c'{
 %%% Thema1 
-a'8 r r4 r2
+a8 r r4 r2
 a8 r r4 r2
 a8 r r4 a8 r r4
 ais8 r r4 r2
@@ -24,14 +22,10 @@ r8 cis cis cis c cis cis r
 e,4 ais e' f 
 e1
 \bar"||"
-}
-einsUebergang = \new Voice \relative c'{
 %%% Übergang 
 R1*8
-}
-einsThemazwei = \new Voice \relative c'{
 %%% Thema 2
-e16 f e d e8 c a c e a
+e,16 f e d e8 c a c e a
 g8 fis e d e2
 e16 f e d e8 c a c e a
 b8. a16 g8 b e,2
@@ -48,10 +42,8 @@ d'8. c16 b8 c d c d c
 b c b a gis4 e4
 d'8. c16 b8 c d c d dis
 e2~e8 d c b \bar"||"
-}
-einsThemazweireprise = \new Voice \relative c'{
 %%% Thema 2 reprise
-e16 f e d e8 c a c e a
+e,16 f e d e8 c a c e a
 g8 fis e d e2
 e16 f e d e8 c a c e a
 b8. a16 g8 b e,2
@@ -77,9 +69,6 @@ d'8. c16 b8 c d c d c
 b c b a gis4 e4
 d'8. c16 b8 c d c d dis
 e2~e8 d c b \bar"||"
-}
-
-einsCoda = \new Voice \relative c''{
 %%% erste 2 Takte 
 r1
 r1 \bar"||"

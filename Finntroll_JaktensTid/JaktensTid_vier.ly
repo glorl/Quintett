@@ -1,11 +1,9 @@
-viererstezwei = \new Voice \relative c'{
+vierJaktensTid = \new Voice \relative c'{
 %%% erste 2 Takte 
 r1
 r1
-}
-vierThemaeins = \new Voice \relative c''{
 %%% Thema 1 
-e,8 r r4 r2
+e8 r r4 r2
 e,8 r r4 r2
 e'8 r r4 e,8 r r4
 f'8 r r4 r2
@@ -22,8 +20,6 @@ r8 ais ais ais a ais ais r
 r8 ais ais ais a ais ais r 
 r8 ais ais r r ais ais r 
 r8 a a a gis a a r 
-}
-vierUebergang = \new Voice \relative c''{
 %%% Übergang 
 a1
 g1
@@ -33,8 +29,6 @@ a1
 g1
 a1
 g1
-}
-vierThemazwei = \new Voice \relative c''{
 %%% Thema 2 
 a1
 g1
@@ -53,9 +47,7 @@ r4 d'2.
 e1
 r4 d2.
 gis,1
-}
-vierThemazweireprise= \new Voice \relative c''{
-a1
+a'1
 g1
 a1
 g2 b 
@@ -82,13 +74,10 @@ r4 d'2.
 e1
 r4 d2.
 gis,1
-}
-
-vierCoda= \new Voice \relative c'{
 r1
 r1 
 %%% Thema1 
-e8 r r4 r2
+e'8 r r4 r2
 e,8 r r4 r2
 e'8 r r4 e,8 r r4
 f'8 r r4 r2
