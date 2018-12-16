@@ -1,3 +1,22 @@
+bassIntro = \new Voice \relative c{
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r4 r4 r8 a32 b c d 
+e2. \trill ~
+e2 ~e8 e32 d c b
+a8 r r4 r  
+r4 r4 r8 a32 b c d 
+e2. \trill ~
+e2 ~e8 e32 d c b
+a8 r r4 r  
+r2. 
+}
+
 bassJaktensTid = \new Voice \relative c'{
 %%% erste 2 Takte 
 r1
