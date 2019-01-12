@@ -34,8 +34,8 @@ g4 \< (gis a
 ~a4\f \>) g8 (f16) r e8 (d16 ) r 
 dis4\p (e8) r r8. e16
 g4 (f8 ) r r8. d16
-f4 \> (e8\!) r r8. cis16
-e2\pp (d4
+f4 \> (e8\!) r r8. cis16\pp
+e2 (d4
 a4. b16 \< c b g'\> f d\!
 c2.
 ~c4) \tuplet 3/2 {e,8-.\p e-. e-.} \tuplet 3/2 {e8-. e-. e-.}
@@ -110,11 +110,10 @@ c8 r r4 r8 g'->~
 (~g g' e4) r4
 \tuplet 3/2 {r8 e,-. \pp g-.} \tuplet 3/2 {c8-. g-. e-. } \tuplet 3/2 {c'8-. g-. e-. } 
 \tuplet 3/2 {r8 c-. e-.} \tuplet 3/2 {g8-. e-. c-. } \tuplet 3/2 {e8-. g-. c-. } 
-\tuplet 3/2 {r8 b-. d-.} \tuplet 3/2 {f8-. d-. b-. } \tuplet 3/2 {d8-. b-. f-. } 
-\tuplet 3/2 {r8 b-. g-.} \tuplet 3/2 {d8-. g-. b-. } \tuplet 3/2 {g8-. d-. d-. } 
-\tuplet 3/2 {r8 d-.\< d-.} \tuplet 3/2 {d8-. d-. d-. } \tuplet 3/2 {r8 d-. d-. \!} 
-\tuplet 3/2 {r8 es-.\f\> es-.} \tuplet 3/2 {es8-. es-. es-. } \tuplet 3/2 {r8 es-. es-. \!} 
-\tuplet 3/2 {r8 d-. d-.} \tuplet 3/2 {d8-. d-. d-. } \tuplet 3/2 {d8-. d-. d-.} 
+\tuplet 3/2 {r8 f,-. f-.} \tuplet 3/2 {f8-. f-. f-. } \tuplet 3/2 {f8-. f-. f-. } 
+\tuplet 3/2 {r8 d-. d-.} \tuplet 3/2 {d8-. d-. d-. } \tuplet 3/2 {d8-. d-. d-. } 
+\tuplet 3/2 {r8 es-.\< es-.} \tuplet 3/2 {es8-. es-. es-. } \tuplet 3/2 {r8 es-. es-. \!} 
+\tuplet 3/2 {r8 d-.\f\> d-.} \tuplet 3/2 {d8-. d-. d-. } \tuplet 3/2 {d8-. d-. d-.\!} 
 d'16 (bes' f d bes2
 ~bes4) r8 bes8 \p( a as) 
 g4. (b8 d e  

@@ -43,10 +43,11 @@ r8 c,8\mp r8 c8 r8 c8 r8 c8
 r8 b8 r8 b8 r8 b8 r8 b8 
 r8 c8 r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 
-r8 c8 r8 c8 r8 c8 r8 c8 
-r8 b8 r8 b8 r8 b8 r8 b8 
-r8 c8 r8 c8 r8 c8 r8 c8 
-r8 b8 r8 b8 r8 b8 r8 b8 
+% r8 c8 r8 c8 r8 c8 r8 c8 
+% r8 b8 r8 b8 r8 b8 r8 b8 
+% r8 c8 r8 c8 r8 c8 r8 c8 
+% r8 b8 r8 b8 r8 b8 r8 b8 
+\bar"||"
 %%% Thema 2
 r8 c8 r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 

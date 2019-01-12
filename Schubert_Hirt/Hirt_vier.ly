@@ -125,7 +125,6 @@ f4 (e8) r8 \tuplet 3/2 {r8 bes,8-.\pp bes-.}
 \tuplet 3/2 {r8 g,-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {r8_\markup{\italic {poco sost.}} c-. c-. } \tuplet 3/2 {c8-. c-. c-. } \tuplet 3/2 {c8-. c-. c-. } 
 b2.\fermata
-r2.\fermata_\markup{\italic Cadenza}
 \bar"||" \time 2/4 
 \repeat percent 8{
 r8^\markup{Allegretto} g\p g g

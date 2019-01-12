@@ -25,10 +25,11 @@ r8 a8\mp r8 a8 r8 a8 r8 a8
 r8 g8 r8 g8 r8 g8 r8 g8 
 r8 a8 r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8 
-r8 a8 r8 a8 r8 a8 r8 a8 
-r8 g8 r8 g8 r8 g8 r8 g8 
-r8 a8 r8 a8 r8 a8 r8 a8 
-r8 g8 r8 g8 r8 g8 r8 g8 
+% r8 a8 r8 a8 r8 a8 r8 a8 
+% r8 g8 r8 g8 r8 g8 r8 g8 
+% r8 a8 r8 a8 r8 a8 r8 a8 
+% r8 g8 r8 g8 r8 g8 r8 g8 
+\bar"||"
 %%% Thema 2 
 r8 a8 r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8 

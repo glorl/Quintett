@@ -124,10 +124,9 @@ bes2\f \> r4 \!
 \tuplet 3/2 {c,8-- g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {c,8--_\markup{\italic {poco sost.}} g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 g,2.\fermata
-r2.\fermata_\markup{\italic Cadenza}
 \bar"||" \time 2/4 
 c4^\markup{Allegretto} r 
-c4 r 
+c4\p r 
 d4 r 
 g,4 r 
 e4 r 

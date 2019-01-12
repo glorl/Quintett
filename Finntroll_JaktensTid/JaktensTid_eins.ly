@@ -21,16 +21,16 @@ a8 r c r b r
 
 einsJaktensTid = \new Voice \relative c'' {
 %% erste 2 Takte
-    R1*2^\markup{Bakom Varje Fura}\bar"||"
+R1*2^\markup{Bakom Varje Fura}\bar"||"
 %%% Thema1 
-a8-> \pp r r4 r2
+a8-> \p r r4 r2
 a8-> r r4 r2
 a8-> r r4 a8-> r r4
 ais8-> r r4 r2
 ais8-> r r4 r2
 ais8-> r r4 r2
 ais8-> r r4 ais8-> r r4
-a8-> r r4 r2
+a!8-> r r4 r2
 \bar"||"
 %%% Thema1 laut 
 r8 c-.\f c-. c-. b (c-.) c-. r 
@@ -43,7 +43,9 @@ e,4 (\<ais e' f \!
 e1)
 \bar"||"
 %%% Übergang 
-R1*8
+R1*4
+% R1*4
+\bar"||"
 %%% Thema 2
 e,16\mp (f e d) e8 c a (c) e a
 g8 (fis) e d e2
@@ -92,14 +94,14 @@ e2~e8 d c b \bar"||"
 %%% erste 2 Takte 
 R1*2 \bar"||"
 %%% Thema1 
-a8 r r4 r2
-a8 r r4 r2
-a8 r r4 a8 r r4
-ais8 r r4 r2
-ais8 r r4 r2
-ais8 r r4 r2
-ais8 r r4 ais8 r r4
-a8 r r4 r2\bar"||"
+a8->\p r r4 r2
+a8-> r r4 r2
+a8-> r r4 a8-> r r4
+ais8-> r r4 r2
+ais8-> r r4 r2
+ais8-> r r4 r2
+ais8-> r r4 ais8-> r r4
+a!8-> r r4 r2\bar"||"
 % Coda
 a8-^\f r r4 c8-^ r r4 
 a2\fermata r \bar"|."

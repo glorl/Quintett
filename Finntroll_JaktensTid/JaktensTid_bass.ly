@@ -17,19 +17,20 @@ a8 r r4 r
 r2. 
 }
 
+
 bassJaktensTid = \new Voice \relative c'{
 %%% erste 2 Takte 
-r1
-r2 r4 r8 \tuplet 3/2 {e,16 fis gis}
+r1^\markup{Bakom Varje Fura}
+r2 r4 r8 \tuplet 3/2 {e,16\p (fis gis}
 %%% Thema 1 
-a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r8 \tuplet 3/2 {e16 fis gis} a8 r8 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r8 \tuplet 3/2 {f16 g a} ais8 r8 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r4 r4 r8 e8
+a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r8 \tuplet 3/2 {e16 (fis gis} a8->) r8 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r8 \tuplet 3/2 {f16 (g a} ais8->) r8 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r4 r4 r8 e8\f
 %%% Thema1 laut 
 a2 ~a4 r8 e8
 a2 ~a4 r8 e8
@@ -38,16 +39,17 @@ ais2 ~ais4 r8 f8
 ais2 ~ais4 r8 f8
 ais2 ~ais4 r8 f8
 ais4. f8 ais4. e8
-a2 ~a4 r4
+a2 ~a4 r4\bar"||"
 %%% Übergang 
-a8 r c r a r c r 
+a8\mp r c r a r c r 
 e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
-a8 r c r a r c r
-e,8 r g r e r g r
-a8 r c r a r c r
-e,8 r g r e r g r\bar"||"
+% a8 r c r a r c r
+% e,8 r g r e r g r
+% a8 r c r a r c r
+% e,8 r g r e r g r
+\bar"||"
 %%% Thema 2 
 a8 r c r a r c r 
 e,8 r g r e r g r
@@ -58,16 +60,16 @@ e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
 % 
-d'8 r r8 a8 d r r a
-e'8 r b r e r b r
-d8 r r8 a8 d r r a
-e'8 r b r b r e, r
-d'8 r r8 a8 d r r a
-e'8 r b r b r e, r
-d'8 r r8 a8 d r r a
+d'8\mf r r8 a8 d r r a
+e'8\mp r b r e r b r
+d8\mf r r8 a8 d r r a
+e'8\mp r b r b r e, r
+d'8\mf r r8 a8 d r r a
+e'8\mp r b r b r e, r
+d'8\mf r r8 a8 d r r a
 e'8 r b r e d c b
 %
-a8 r c r a r c r 
+a8\mp r c r a r c r 
 e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
@@ -76,7 +78,7 @@ e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
 %
-a8 r c r a r c r 
+a8\f r c r a r c r 
 e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
@@ -85,28 +87,28 @@ e,8 r g r e r g r
 a8 r c r a r c r
 e,8 r g r e r g r
 %
-d'8 r r8 a8 d r r a
-e'8 r b r e r b r
-d8 r r8 a8 d r r a
-e'8 r b r b r e, r
-d'8 r r8 a8 d r r a
-e'8 r b r b r e, r
-d'8 r r8 a8 d r r a
+d'8\mf r r8 a8 d r r a
+e'8\mp r b r e r b r
+d8\mf r r8 a8 d r r a
+e'8\mp r b r b r e, r
+d'8\mf r r8 a8 d r r a
+e'8\mp r b r b r e, r
+d'8\mf r r8 a8 d r r a
 e'8 r b r e d c b
 % erste 2 Takte 
 r1 
-r2 r4 r8 \tuplet 3/2 {e,16 fis gis}
+r2 r4 r8 \tuplet 3/2 {e,16\p (fis gis}
 %%% Thema1 
-a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r4 r4 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r8 \tuplet 3/2 {e16 fis gis} a8 r8 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r4 r4 r8 \tuplet 3/2 {f16 g a}
-ais8 r8 r8 \tuplet 3/2 {f16 g a} ais8 r8 r8 \tuplet 3/2 {e16 fis gis}
-a8 r8 r4 r4 r4
+a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r8 \tuplet 3/2 {e16 (fis gis} a8->) r8 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r4 r4 r8 \tuplet 3/2 {f16 (g a}
+ais8->) r8 r8 \tuplet 3/2 {f16 (g a} ais8->) r8 r8 \tuplet 3/2 {e16 (fis gis}
+a8->) r8 r4 r4 r4
 % Coda
-a8 r r4 c8 r r4 
+a8-^\f r r4 c8-^ r r4 
 a2\fermata r \bar"|."
 }
 
