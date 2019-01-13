@@ -2,7 +2,7 @@ Montivier=\new Voice \relative c'{
 a4\f^\markup{Vivo}  r a r 
 g4-^ g2.\bar"||"
 g4 r r2\fermata\bar"||" 
-d2 g 
+d2^\markup{Lento} g 
 a4 r r2\bar"||"
 f4--\mp f---. a-.-- r 
 f-- g---. bes8 bes ~bes4
@@ -10,14 +10,14 @@ e,4-- e---. e---. r
 f-- e---. f---. r \bar"||"
 f8-- f4-. f8-- f4-- r 
 f-- bes---. g---. r
-e4-- e4---. e4---. e4---. 
+e4-- e4---. e4-- e4---. 
 f4-- g---. f2
 e4-- e4---. g4---. bes4---. 
-g4-- g4---. g4---. g4---. 
+g4-- g4---. g4-- g4---. 
 a2 a4-- a-.
 a4. d8 \< (f) gis (a) bes16 (b)
-cis4\mf r r g,\mp
-cis4 . d8 (e) f (e) cis 
+cis4\mf r r g,--\mp
+cis4. d8 (e) f (e) cis 
 (d4--) a-.-- g-- g---. 
 f4. cis'8 (d) g, (a4) 
 g1
@@ -29,7 +29,7 @@ g4-- g-. cis-. r
 a4-- f-. a-- e-.
 a-- \> e-. f--\! r \bar"||"
 f4-^\f^\markup{Satz 2: Vivace} r r f-^
-e4-^ r r f4-^
+e4-^ r r f4-^ \bar"||"
 f4--\mf  f2-. f4-. 
 r4 f-. f2-- 
 g4-- g2-. g4-. 
@@ -69,8 +69,8 @@ a4.-> a8-> ~a4 a4-.
 a4.-> a8-> ~a4 a4-.
 a'8 (as g f d des bes a 
 g4) cis-. a8 a4 cis8-- 
-f8 (a g f e es d cis 
-d4) r r2 \bar"||"\key d \major 
+f8 (a g f e es d cis) 
+d4-^ r r2 \bar"||"\key d \major 
 b4.^\markup{Bossanova}\mf b8-- b8-- b4-. c8-.
 r8 c4.-> c4-. c-. 
 es4. es8-- e8-- f4-. fis8-- 

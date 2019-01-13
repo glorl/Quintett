@@ -15,7 +15,7 @@ Montieins=\new Voice \relative c''{
     d4\f ^\markup{Vivo} r a r 
 g4-^ bes2.\bar"||"
 a4 \breathe \afterGrace{a,2.\fermata}{bes8._\markup{\italic {ad lib.}} (a16 gis16.[ a32 d16. cis32] f16. [e32 g16. a32]) \tuplet 6/4 {bes16 ([cis e f g a])}bes4\fermata \glissando cis,!4 } \bar"||" 
-d2 bes 
+d2^\markup{Lento} bes 
 a4 \breathe a,\mf \( \slashedGrace{c8(} bes4.) a8\) \bar"||"
 a'2 \(~a8 f f g 
 \grace{f16 (g} f8) e8 bes'2 ~bes8\) bes,
@@ -42,7 +42,7 @@ a4. (e8) bes8 (a) \glissando e'4
 \(~e4. (d8) d4 cis\) 
 d4 \>(\tuplet 3/2 { gis8 a cis} d4--\!) r \bar"||"
 d,8--\f^\markup{Satz 2: Vivace} d'4-. bes8 (~bes a g f) 
-e8-- d4-. cis8 (d2) 
+e8-- d4-. cis8 (d2) \bar"||"
 d4--\mf  d2-. d4-. 
 r4 d-. d2-- 
 d4-- d2-. d4-. 
@@ -69,8 +69,8 @@ f4.-> f8-> ~f4 f4-.
 f4.-> f8-> ~f4 f4-.
 a8 (b cis d f e g a 
 bes4-.) e,-. g8 cis,4-. e8-- 
-d8 (f g gis a ais bes cis 
-d4) r r2 \bar"||"\key d \major 
+d8 (f g gis a ais bes cis) 
+d4-^ r r2 \bar"||"\key d \major 
 d,4.^\markup{Bossanova}\mf d8-- d8-- d4-. es8-.
 r8 es4.-> es4-. es-.
 f4. f8-- fis8-- g4-. gis8-- 

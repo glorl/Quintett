@@ -19,7 +19,7 @@ globalMonti= {
 % %        (stretchability . 12))
 % }
 \include "../Patscheck_Monti/Monti_eins.ly"
-% \include "../Patscheck_GlennMillerStory/GlennMillerStory_zwei.ly"
+\include "../Patscheck_Monti/Monti_zwei.ly"
 % \include "../Patscheck_GlennMillerStory/GlennMillerStory_drei.ly"
 \include "../Patscheck_Monti/Monti_vier.ly"
 % \include "../Patscheck_GlennMillerStory/GlennMillerStory_bass.ly"
