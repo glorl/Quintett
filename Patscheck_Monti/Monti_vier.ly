@@ -108,7 +108,7 @@ e'8 dis (e d g,) a (gis a)
 b4. (a8) a (gis) g4
 d8 (gis a d~d4) r \bar"||" \key f \major 
 a4-^\f ^\markup{Swing} r a-^r 
-bes4-^ r bes-^ r 
+bes4-^ r bes-^ r \bar"||"
 bes4--\mf bes2-.bes4-. 
 r4 bes4-. bes2-- 
 a4-- a2-. a4-.
@@ -139,7 +139,7 @@ r4 gis, gis2
 b4-- b2-. b4-. 
 cis4-^ a2-^ a4-^
 as4-^ a-^ bes-^ a-^
-b4-. d-. r a
+b4-- d-. r a
 r4 a-. a-. a-. 
 r4 a r a 
 r4 a-. a-. a-. 

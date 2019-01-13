@@ -109,7 +109,7 @@ b2 a8 (\glissando cis, b cis)
 e4. (d8 d b cis4) 
 d2. r4 \bar"||" \key f \major 
 d'8--\f ^\markup{Swing} a4-. gis8-- (a f e d 
-bes8 g bes b c4) r 
+bes8 g bes b c4) r \bar"||"
 c8 \mf (b c e g bes g e) 
 c'8-- ces4-. bes-. g8-- e d 
 c8 (d f d f g gis a) 
