@@ -25,7 +25,7 @@ d8-- d4-. d8-- d4 r
 d4-- e-.-- e---. r
 g,4-- a---. cis-- cis---.
 a4-- a---. d2 
-bes4-- bes---. e-- e---.
+bes4--\f bes---. e-- e---.
 e4-- e---. e-- e---.
 f2 f4-- f-.
 f4.\< b8 (c) e (f) g16 (gis
