@@ -106,7 +106,7 @@ b4. r8 \tuplet 3/2 {f8 (as  b\noBeam}  \tuplet 3/2 {as8 b  d)}
 a4. b8 cis (d b a) 
 e'8 dis (e d g,) a (gis a) 
 b4. (a8) a (gis) g4
-d8 (gis a d~d4) r \bar"||" \key f \major 
+d'8 (gis, a d~d4) r \bar"||" \key f \major 
 a4-^\f ^\markup{Swing} r a-^r 
 bes4-^ r bes-^ r \bar"||"
 bes4--\mf bes2-.bes4-. 
