@@ -23,11 +23,11 @@ d'8->\f r d4
 ~d8 e16-. f-. g (f) e-. d-.
 d8-> r c4
 ~c8 b16-. c-. b (c) e-. d-. 
-c8-> \f r bes4
+c8-> r bes4
 ~bes8 a16-. bes-. a (bes) d-. c-. 
 a2
-(g8) c16-. c-. c8. c16 
-r8 d16-. d-. d8 d8 
+(g8) c16-. c-. c8.\< c16 
+r8 d16-.\f d-. d8 d8 
 r8 d16-. d-. d8 d8 
 f,8-. c'16-. c-. c8-. c-. 
 f,8-. c'16-. c-. c8-. c-. 

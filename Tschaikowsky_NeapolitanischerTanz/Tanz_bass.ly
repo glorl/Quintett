@@ -26,8 +26,8 @@ f8-. a16-. a-. a8-. a-.
 c,8 bes'16-. bes-. bes8-. bes-. 
 c,8 c'16-. c-. c8-. bes-. 
 f8-. a16-. a-. a8-. a-. 
-f8-. a16-. a-. a8-. a-. 
-bes,8-. bes'16-. bes-. bes8-. bes-. 
+f8-. a16-. a-.\< a8-. a-. 
+bes,8-.\f bes'16-. bes-. bes8-. bes-. 
 bes,8-. bes'16-. bes-. bes8-. bes-. 
 f8-. a16-. a-. a8-. a-. 
 f8-. a16-. a-. a8-. a-. 
@@ -35,7 +35,7 @@ c,8 bes'16-. bes-. bes8-. bes-.
 c,8 c'16-. c-. c8-. bes-. 
 f8-. a16-. a-. a8-. a-. 
 f8-. a8-. r4 \bar"||"
-bes,8^\markup{piu mosso} r bes r 
+bes,8\p^\markup{piu mosso} r bes r 
 bes8 r bes r 
 f'8 r f r 
 f8 r f r 

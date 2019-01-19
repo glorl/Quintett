@@ -9,6 +9,7 @@ c8-> r bes4
 ~bes8 bes16-. bes-. c (bes) a-. g-. 
 a8 r f4
 ~f2 
+~f8 r r4
 r8 c'16-.\< d-. f (e) d-. c-. 
 e8->\!  r e4
 ~e8 d16-. e-. f(e) d-. e-. 
@@ -34,7 +35,7 @@ c8-> r bes4
 ~bes8 a16-. bes-. a (bes) d-. c-. 
 f,2
 ~f4 r \bar"||"
-\repeat percent 2 {r8 ^\markup{piu mosso} d r d }
+\repeat percent 2 {r8 ^\markup{piu mosso} d\p r d }
 \repeat percent 2 {r8 c r c} 
 \repeat percent 2 {r8 e r e} 
 r8 f r e 
