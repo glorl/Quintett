@@ -1,4 +1,4 @@
-Tanzeins = \new Voice \relative c'' {
+Tanzzwei= \new Voice \relative c'' {
 r2
 r8 c16-.\mf \< d-. f (e) d-. c-. 
 e8->\!  r e4
