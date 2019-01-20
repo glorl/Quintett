@@ -41,9 +41,9 @@ gis4\< (f ) d2\!
 f4--\mf gis (a e) 
 a2 (f 
 ~f4) e2 e8 (d) 
-c4-- r r r8 c8--\f 
+c4-- r r r8 c8--\mf 
 f16 (g a8) a (g) bes (a) bes, (a) 
-a'16 (f g8) bes8 (a) e8 (f) r4 
+a'16 (f g8) bes,8 (a) e'8 (f) r4 
 r4 r8 c'8-- c4-- bes16 (a g f 
 g16 f e d c8) d16 (e f g a g bes a g f
 a8 g) r f8-- d'\< (e4 f8)
@@ -51,6 +51,6 @@ bes,16\> (a bes8)\! r8 d8-- e\<(f4 g8)
 bes16 \> (a bes8)\! r g8-- a16 (g f8~ f16 e f8
 ~f16 es d c bes a g f g a bes8 ~bes16 a bes8
 ~bes16) e (f g f e d c f8-.) c8-- a'16 (g f e 
-f16 bes a g a8-.) c,-- d8. (e16 \tuplet 6/4 {e16 f e f e f)}
+f16 bes a g a8-.) c,-- d8. (e16 \tuplet 6/4 {e16_\markup{\italic rit.} f e f e f)}
 f1\fermata \bar"|."
 }

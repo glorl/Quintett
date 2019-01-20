@@ -24,3 +24,4 @@ global= {
 }
 
 \include "../Bach_WachetAuf/WachetAuf_eins.ly"
+\include "../Bach_WachetAuf/WachetAuf_vier.ly"
