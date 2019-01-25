@@ -31,7 +31,7 @@ c8-.) g-- e'\trill (d16 c c f e d ) e8-. c--
 a8. (b16) b32 ([c b c] \tuplet 3/2 {b16 a b)} c4 \breathe c,4--\f ^\markup{Mel.}
 c4-- bes-- a-- g-- 
 f2-- r 
-r4 c'4-- c-- bes-- 
+r4 c'4--\mp c-- bes-- 
 a4-- g-- f2-- 
 bes4--\mp f (g a) 
 g4--\f^\markup{Mel.} \< a-- bes2\!
