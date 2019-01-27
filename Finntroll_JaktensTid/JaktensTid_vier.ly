@@ -1,7 +1,7 @@
-vierJaktensTid = \new Voice \relative c'{
+JaktensTidvier = \new Voice \relative c'{
 %%% erste 2 Takte 
-r1^\markup{Bakom Varje Fura}
-r1
+\compressFullBarRests
+R1*2% ^\markup{Bakom Varje Fura}
 %%% Thema 1 
 e8->\p r r4 r2
 e,8-> r r4 r2

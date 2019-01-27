@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+NussknackerBlumenwalzerdrei = \new Voice \relative c' {
 \compressFullBarRests
 e4\f g g 
 a2\sfz\> g4\! 

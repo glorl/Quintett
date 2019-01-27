@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+NussknackerFloetentanzvier = \new Voice \relative c' {
 g8-.^\markup{\italic leggiero} \p d'-. g,-. d'-.
 g,-.^\markup{ Solo} d'-. g,-. d'-.
 g,-. d'-. g,-. d'-.

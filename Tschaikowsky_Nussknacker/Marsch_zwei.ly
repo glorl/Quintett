@@ -1,4 +1,4 @@
-zwei = \new Voice \relative c'' {
+NussknackerMarschzwei = \new Voice \relative c'' {
 % \set Staff.instrumentName = #"2. Stimme "
 b8\p r \tuplet 3/2 {b\< b b} b r b \! r
 b r b r b2\mf  

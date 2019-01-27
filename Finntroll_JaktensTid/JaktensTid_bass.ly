@@ -18,10 +18,11 @@ r2.
 }
 
 
-bassJaktensTid = \new Voice \relative c'{
+JaktensTidbass = \new Voice \relative c'{
 %%% erste 2 Takte 
 \set countPercentRepeats = ##t
-r1^\markup{Bakom Varje Fura}
+\compressFullBarRests
+r1% ^\markup{Bakom Varje Fura}
 r2 r4 r8 \tuplet 3/2 {e,16\p (fis gis}
 %%% Thema 1 
 a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}

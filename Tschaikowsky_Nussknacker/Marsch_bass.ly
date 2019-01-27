@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+NussknackerMarschbass = \new Voice \relative c' {
 \compressFullBarRests
 R1*4
 a8-. gis-. a-. b-. c-. cis-. d-. fis,-. 

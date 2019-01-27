@@ -16,10 +16,12 @@ r2.
 }
 
 
-zweiJaktensTid = \new Voice \relative c'' {
+JaktensTidzwei = \new Voice \relative c'' {
 \set countPercentRepeats = ##t
+\compressFullBarRests
 %% erste 2 Takte
-a8^\markup{Bakom Varje Fura}\p e'-. e-. e-. e-. e-. e-. e-.
+% ^\markup{Bakom Varje Fura}
+a8\p e'-. e-. e-. e-. e-. e-. e-.
 a,,8 e'-. e-. e-. e-. e-. e-. r \bar"||"
 %%% Thema1 
 c'8 e-. e-. e-. dis (e-.) e-. r

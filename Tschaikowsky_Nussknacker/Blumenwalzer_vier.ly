@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+NussknackerBlumenwalzervier = \new Voice \relative c' {
 g4\f c c 
 es2\sfz\> e4\! 
 e2 r4

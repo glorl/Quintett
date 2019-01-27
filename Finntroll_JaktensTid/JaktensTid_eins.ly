@@ -19,9 +19,11 @@ a8 r c r b r
 %
 }
 
-einsJaktensTid = \new Voice \relative c'' {
+JaktensTideins = \new Voice \relative c'' {
 %% erste 2 Takte
-R1*2^\markup{Bakom Varje Fura}\bar"||"
+%^\markup{Bakom Varje Fura}
+\compressFullBarRests
+R1*2\bar"||"
 %%% Thema1 
 a8-> \p r r4 r2
 a8-> r r4 r2

@@ -1,7 +1,8 @@
-dreiJaktensTid = \new Voice \relative c''{
+JaktensTiddrei = \new Voice \relative c''{
 \set countPercentRepeats = ##t
-%%% erste 2 Takte 
-    r8^\markup{Bakom Varje Fura} c-.\p c-. c-. c-. c-. c-. c-. 
+%%% erste 2 Takte
+% ^\markup{Bakom Varje Fura}
+    r8 c-.\p c-. c-. c-. c-. c-. c-. 
 r8 c,-. c-. c-. c-. c-. c-. \tuplet 3/2 {e,16 (fis gis}
 %%% Thema 1 
 a8) c-. c-. c-. b (c-.) c-. \tuplet 3/2 {e,16 (fis gis}

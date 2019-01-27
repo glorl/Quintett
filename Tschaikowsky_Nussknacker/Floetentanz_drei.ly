@@ -1,4 +1,4 @@
-drei = \new Voice \relative c'' {
+NussknackerFloetentanzdrei = \new Voice \relative c'' {
 % \set Staff.instrumentName = #"2. Stimme "
 \compressFullBarRests
 R2*2

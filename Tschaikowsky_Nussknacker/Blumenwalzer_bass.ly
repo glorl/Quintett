@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+NussknackerBlumenwalzerbass = \new Voice \relative c' {
 c4\f g e 
 fis2\sfz\> e4\! 
 c'8 c16 (g c e g c) r4 

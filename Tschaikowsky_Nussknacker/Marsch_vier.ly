@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+NussknackerMarschvier = \new Voice \relative c' {
 \compressFullBarRests
 d8\p r \tuplet 3/2 {d8\< d d} e r e\! r
 b r d r e2\mf 
