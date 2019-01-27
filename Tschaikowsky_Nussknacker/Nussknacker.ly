@@ -1,19 +1,36 @@
-\version "2.18.2"
-
-Marsch_global= {
+% Marsch 
+globalMarsch= {
 \time 4/4
 \key g \major
 }
-Floetentanz_global= {
+\include "../Tschaikowsky_Nussknacker/Marsch_eins.ly"
+\include "../Tschaikowsky_Nussknacker/Marsch_zwei.ly"
+\include "../Tschaikowsky_Nussknacker/Marsch_drei.ly"
+\include "../Tschaikowsky_Nussknacker/Marsch_vier.ly"
+\include "../Tschaikowsky_Nussknacker/Marsch_bass.ly"
+
+% Flötentanz
+globalFloetentanz= {
 \time 2/4
 \key g \major
 }
+\include "../Tschaikowsky_Nussknacker/Floetentanz_eins.ly"
+\include "../Tschaikowsky_Nussknacker/Floetentanz_zwei.ly"
+\include "../Tschaikowsky_Nussknacker/Floetentanz_drei.ly"
+\include "../Tschaikowsky_Nussknacker/Floetentanz_vier.ly"
+\include "../Tschaikowsky_Nussknacker/Floetentanz_bass.ly"
 
-\include "Marsch_zwei.ly"
-\include "Marsch_bass.ly"
+% Blumenwalzer 
+globalBlumenwalzer= {
+\time 3/4
+\key f \major
+}
+\include "../Tschaikowsky_Nussknacker/Blumenwalzer_eins.ly"
+\include "../Tschaikowsky_Nussknacker/Blumenwalzer_zwei.ly"
+\include "../Tschaikowsky_Nussknacker/Blumenwalzer_drei.ly"
+\include "../Tschaikowsky_Nussknacker/Blumenwalzer_vier.ly"
+\include "../Tschaikowsky_Nussknacker/Blumenwalzer_bass.ly"
 
-\include "Floetentanz_eins.ly"
-\include "Floetentanz_bass.ly"
 
 \book {
 \paper {

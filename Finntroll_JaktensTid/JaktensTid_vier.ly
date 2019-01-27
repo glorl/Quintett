@@ -49,7 +49,7 @@ e1
 r4 d4-> ~d2
 gis,1
 % 
-a''1 \p
+a''1 \pp
 (g1
 a1
 g2 b )
@@ -81,11 +81,11 @@ r1
 %%% Thema1 
 e'8->\p r r4 r2
 e,8-> r r4 r2
-e'8-> r r4 e,8 r r4
+e'8-> r r4 e,8-> r r4
 f'8-> r r4 r2
 f8-> r r4 r2
 f,8-> r r4 r2
-f'8-> r r4 f,8 r r4
+f'8-> r r4 f,8-> r r4
 e'8-> r r4 r2
 % Coda
 e,8-^\f r r4 a8-^ r r4 
