@@ -1,6 +1,6 @@
-bass = \new Voice \relative c' {
+Cujusbass = \new Voice \relative c' {
 \compressFullBarRests
-f4 es8. des16 c4\fermata r4
+f4 \ff ^\markup{Maestoso} es8. des16 c4\fermata r4
 es4 des8. c16 bes4\fermata r4
 R1*3
 r2 es4--_\markup{\italic ritenuto} r 
@@ -27,7 +27,7 @@ bes8-- r8 r4 r2
 bes,8 r d8.\f (g16) f8 r bes,8. (es16)
 d4 d8. (es16) f4 f, (bes8) r r4 r2
 r4 d8.\p (es16) f8 (g32 f e f) f,4
-bes8 r bes4--\f r2 
+bes8 r bes4--\f r2\bar"||" 
 \tuplet 3/2 {g8\f bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
 \tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
 \tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r r4 
