@@ -21,5 +21,6 @@ g4. a16 (b) c8 b16-. a-. g (f) e-. d-.
 c16 (d) e-. f-. g8 c, e4 d\trill 
 c4 r8 d\p e d r f 
 e8 d r g,\f c16 (d) c-. d-. e (f) e-. f-. 
-g4. f8 e8. d16 d8.\trill (c16) c2.
+g4. f8_\markup{2x \italic{poco rit.}}  e8. d16 d8.\trill (c16) 
+c2.
 }}
