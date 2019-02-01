@@ -31,53 +31,56 @@ d4-- r f4. es8
 es8 (d) r4 r2
 r2 d4.\p (c8) 
 bes8 r bes'4--\f r2 \bar"||"
-% bes8 r bes4--\f r2 
-% \tuplet 3/2 {g8\f bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
-% \tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
-% \tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r r4 
-% d'8 r d r d r r4 
-% \tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
-% \tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
-% \tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
-% g8 r g r g r r4
-% R1*4
-% R1*2
-% bes,2.\mf \tuplet 3/2 {c8_\markup{\italic {poco rit.}} a f} d'8 r r4 r2
-% R1*1
-% \bar "||"
-% \tuplet 3/2 {bes8\mf (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)}
-% \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)}
-% \tuplet 3/2 {bes8 (es g} \tuplet 3/2 {bes8 g es)} \tuplet 3/2 {bes8 (es ges} \tuplet 3/2 {bes8 ges es)}
-% \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)}
-% \tuplet 3/2 {c8 (f a} \tuplet 3/2 {es'8 a, f)} \tuplet 3/2 {c8 (f a} \tuplet 3/2 {c8 a f)}
-% \tuplet 3/2 {d8 (a' d,} \tuplet 3/2 {d8 a' d,)} \tuplet 3/2 {g,8 (b d} \tuplet 3/2 {g,8 b d)}
-% \tuplet 3/2 {c8 (g' c} \tuplet 3/2 {c,8 g' c)} \tuplet 3/2 {f,8 (a c} \tuplet 3/2 {f,8 a c)}
-% \tuplet 3/2 {bes,8 (f' d} \tuplet 3/2 {bes8 d f)} \tuplet 3/2 {d8 (f bes} \tuplet 3/2 {d8 bes f)}
-% \tuplet 3/2 {c8 (f a} \tuplet 3/2 {es8 c a')} \tuplet 3/2 {f8 (a c} \tuplet 3/2 {a8 c f,)}
-% \tuplet 3/2 {bes,8 (d f} \tuplet 3/2 {d8 bes f')} \tuplet 3/2 {d8 (f bes} \tuplet 3/2 {d bes f)}
-% \tuplet 3/2 {c8 (f a} \tuplet 3/2 {es'8 c, a')} \tuplet 3/2 {f8 (a c} \tuplet 3/2 {a c f,)}
-% \tuplet 3/2 {bes,8 \mf (des f} \tuplet 3/2 {bes8\cresc f des)} \tuplet 3/2 {des8 (f as} \tuplet 3/2 {des, f as)}
-% \tuplet 3/2 {ges8 (bes des} \tuplet 3/2 {bes8 ges des)} \tuplet 3/2 {es8 (g bes} \tuplet 3/2 {es, g bes)}
-% \tuplet 3/2 {as8 (c as} \tuplet 3/2 {es8 c es)} \tuplet 3/2 {f8 (a c} \tuplet 3/2 {a f es)}
-% \tuplet 3/2 {d8 \f (f bes} \tuplet 3/2 {f8 bes f)} \tuplet 3/2 {es8 (ges b} \tuplet 3/2 {ges es ges)}
-% \tuplet 3/2 {f8 (bes, d} \tuplet 3/2 {f8 d bes)} \tuplet 3/2 {f'8 (bes, d} \tuplet 3/2 {f d bes)}
-% \tuplet 3/2 {f'8\dim (a c} \tuplet 3/2 {a8 f es)} \tuplet 3/2 {f8 (a c} \tuplet 3/2 {a f es)}
-% \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes f d)}
-% \tuplet 3/2 {f,8\mf (f' a} \tuplet 3/2 {c8 a f)} r4 f
-% \tuplet 3/2 {bes,8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes f d)}
-% \tuplet 3/2 {f,8 (f' a} \tuplet 3/2 {c8 a f)} r4 f,
-% ~f8 r r4 r2 
-% r1\fermata
-% \tuplet 3/2 {bes8^\markup{\italic solo}\mf (d f} d8. bes16 f4) r  
-% \tuplet 3/2 {bes8 (f' as} f8. d16 b4) r  
-% \tuplet 3/2 {bes8^\markup{\italic {poco ritenuto e diminuendo}} (e g} e8. c16 g4) r  
-% \tuplet 3/2 {bes8 (es ges} es8. bes16 ges4) r  
-% \tuplet 3/2 {bes8 (d f} d8. bes16 f4) r  
-% \tuplet 3/2 {bes8 (des ges} des8. bes16 ges4) r  
-% \tuplet 3/2 {bes8 (e g} c,8. g16 es4) r  
-% \tuplet 3/2 {bes'8 (es f} c8. a16 f4) es'8. (c16  )
-% \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes8 f d)} r4 d8. (g16)
-% \tuplet 3/2 {f8 \pp (d f} \tuplet 3/2 {bes,8 d f,)} r4 d'8.\> (c16)
-% \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes,8 d bes)\!} r2
-% \bar "|."
+g2. es8. (f16) 
+g2. es8. (f16) 
+g2 ~\tuplet 3/2{g8 cis, (d } \tuplet 3/2{es d bes)}
+a2 (\acciaccatura{c16 bes} a8) r r4
+d2. bes8. (c16) 
+d2. bes8. (c16) 
+d2 ~\tuplet 3/2{d8 a (bes } \tuplet 3/2{c a d)}
+bes2 (\acciaccatura{a16 g} g8) r r4
+es'2~\p (es8 g f es) 
+a2~ (a8 fis cis d) 
+es2~ (es8 g f! es) 
+a2~ (a8 fis cis d) 
+es2~\mf (es8 g d es) 
+f2~ (f8 as e f) 
+bes,8.(es16) g2 g4 
+fis2_\markup{\italic{poco rit.}} (~\tuplet 3/2 {fis4 e d)}
+d2 (cis4 c)  \bar "||"
+r4 f,8.\mf f16 f4 r 
+r4 d'8. d16 d8 r r4
+r4 es8. es16 es8 r r4 
+r4 d8. d16 d8 r r4 
+r4 c8. c16 c8 r r4
+r4 c8. c16 b8 r r4
+r4 bes!8. bes16 a8 r r4
+r4 f8. d16 d8 r f r 
+r4 f8. es16 es8 r a r 
+r4 bes8. d,16 d8 r f r
+r4 f8. es16 es8 r es'8.\mf es16
+es4\cresc  (des) f4. f8 
+fis4. fis8 g4. g8 
+as4. as8 a4. a8 
+bes2\f b
+~b4 bes ~(bes8 f e f ) 
+g4. \dim (a,8) g'4. (f8) 
+bes4(~ bes8. g16 f4 ) d8. (es16 ) 
+f1 
+d4\mf ( bes8. g'16 f4 d8. es16) 
+f1 
+~(f2 _\markup{\italic Cadenza} \acciaccatura{g16 f e f} \tuplet 3/2 {es'8 c a } \tuplet 3/2 {f8 e f}
+ges8 es c bes \acciaccatura {a8} g'4.\fermata f8\fermata ) \bar"||"
+bes,2. d8. (es16) 
+f1 
+e2._\markup{\italic {poco ritenuto e diminuendo}} c8. (d16) 
+es1 
+d2. bes8. (c16) 
+des1 
+c2. g8. (b16) 
+c1 
+bes!2 r 
+d,4--\pp r r2 
+d4-- r r2 
+\bar "|."
 }

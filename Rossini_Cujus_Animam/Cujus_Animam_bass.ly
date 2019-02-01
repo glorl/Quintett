@@ -63,10 +63,10 @@ R1*1
 \tuplet 3/2 {bes,8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes f d)}
 \tuplet 3/2 {f,8 (f' a} \tuplet 3/2 {c8 a f)} r4 f,
 ~f8 r r4 r2 
-r1\fermata
-\tuplet 3/2 {bes8^\markup{\italic solo}\mf (d f} d8. bes16 f4) r  
+r1\fermata\bar"||"
+\tuplet 3/2 {bes8^\markup{Solo}\mf (d f} d8. bes16 f4) r  
 \tuplet 3/2 {bes8 (f' as} f8. d16 b4) r  
-\tuplet 3/2 {bes8^\markup{\italic {poco ritenuto e diminuendo}} (e g} e8. c16 g4) r  
+\tuplet 3/2 {bes8_\markup{\italic {poco ritenuto e diminuendo}} (e g} e8. c16 g4) r  
 \tuplet 3/2 {bes8 (es ges} es8. bes16 ges4) r  
 \tuplet 3/2 {bes8 (d f} d8. bes16 f4) r  
 \tuplet 3/2 {bes8 (des ges} des8. bes16 ges4) r  
