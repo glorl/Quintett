@@ -28,13 +28,13 @@ bes,8 r d8.\f (g16) f8 r bes,8. (es16)
 d4 d8. (es16) f4 f, (bes8) r r4 r2
 r4 d8.\p (es16) f8 (g32 f e f) f,4
 bes8 r bes4--\f r2\bar"||" 
-\tuplet 3/2 {g8\f bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
-\tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r g'4
-\tuplet 3/2 {g,8 bes c}\tuplet 3/2 {cis8 d bes}g8 r r4 
+\tuplet 3/2 {g8-.\f bes-. c-.}\tuplet 3/2 {cis8-. d-. bes-.} g8 r g'4
+\tuplet 3/2 {g,8-. bes-. c-.}\tuplet 3/2 {cis8-. d-. bes-.} g8 r g'4
+\tuplet 3/2 {g,8-. bes-. c-.}\tuplet 3/2 {cis8-. d-. bes-.} g8 r r4 
 d'8 r d r d r r4 
-\tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
-\tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
-\tuplet 3/2 {d8 fis g}\tuplet 3/2 {gis8 a fis}d8 r d4 
+\tuplet 3/2 {d8-. fis-. g-.}\tuplet 3/2 {gis8-. a-. fis-.}d8 r d4 
+\tuplet 3/2 {d8-. fis-. g-.}\tuplet 3/2 {gis8-. a-. fis-.}d8 r d4 
+\tuplet 3/2 {d8-. fis-. g-.}\tuplet 3/2 {gis8-. a-. fis-.}d8 r d4 
 g8 r g r g r r4
 R1*4
 R1*2
@@ -62,7 +62,7 @@ R1*1
 \tuplet 3/2 {f,8\mf (f' a} \tuplet 3/2 {c8 a f)} r4 f
 \tuplet 3/2 {bes,8 (d f} \tuplet 3/2 {bes8 f d)} \tuplet 3/2 {bes8 (d f} \tuplet 3/2 {bes f d)}
 \tuplet 3/2 {f,8 (f' a} \tuplet 3/2 {c8 a f)} r4 f,
-~f8 r r4 r2 
+~f8_\markup{\italic Cadenza} r r4 r2 
 r1\fermata\bar"||"
 \tuplet 3/2 {bes8^\markup{Solo}\mf (d f} d8. bes16 f4) r  
 \tuplet 3/2 {bes8 (f' as} f8. d16 b4) r  

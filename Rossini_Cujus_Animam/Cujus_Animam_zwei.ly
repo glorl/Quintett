@@ -74,7 +74,7 @@ ges8 es c bes \acciaccatura {a8} g'4.\fermata f8\fermata ) \bar"||"
 bes,2. d8. (es16) 
 f1 
 e2._\markup{\italic {poco ritenuto e diminuendo}} c8. (d16) 
-es!1 
+es1 
 d2. bes8. (c16) 
 des1 
 c2. g8. (b16) 
