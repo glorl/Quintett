@@ -58,34 +58,34 @@ g8 (fis) e d e2
 e16 (f e d) e8 c a (c) e a
 b8. (c16) b8 a b4 e,
 %
-d'8. \mf (c16) b8 c d (c) d c
-b \mp(c) b a gis4 e4
-d'8.\mf (c16) b8 c d (c) b a
-gis \mp (a) gis f e2
-d'8. \mf (c16) b8 c d (c) d c
-b \mp (c) b a gis4 e4
-d'8. \mf (c16) b8 c d (c) d dis
-e2~e8 d c b \bar"||"
+r8 d8^\markup{\bold 1}\mf d8 r8 r d8 d8 r8
+r8 e8\mp r8 e8 r8 e8 r8 e8 
+r8 d8^\markup{\bold 2}\mf d8 r8 r d8 d8 r8
+r8 e8\mp r8 e8 r8 e8 r8 e8 
+r8 d8^\markup{\bold 3}\mf d8 r8 r d8 d8 r8
+r8 e8\mp r8 e8 r8 e8 r8 e8 
+r8 d8^\markup{\bold 4}\mf d8 r8 r d8 d8 r8
+r8 e8\mp r8 e8 r8 e8 r8 e8  \bar"||"
 %%% Thema 2 reprise
-e,16 (f e d) e8 c a (c) e a
-g8( fis) e d e2
-e16 (f e d) e8 c a (c) e a
-b8. (a16) g8 b e,2
-e16 (f e d) e8 c a (c) e a
-g8 (fis ) e d e2
-e16 (f e d) e8 c a (c) e a
-b8. (c16) b8 a b4 e, 
+r8 a,8^\markup{\bold 1} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8
+r8 a8^\markup{\bold 2} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8
+r8 a8^\markup{\bold 3} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8
+r8 a8^\markup{\bold 4} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 \bar"||"
 %
-e'16\f (f e d) e8 c a (c) e a
+e'16 \f(f e d) e8 c a (c) e a
 g8 (fis) e d e2
 e16 (f e d) e8 c a (c) e a
 b8. (a16) g8 b e,2
 e16 (f e d) e8 c a (c) e a
 g8 (fis) e d e2
-e16 (f e d) e8 c a (c) e a
+e16 (f e d) e8 c a c e a
 b8. (c16) b8 a b4 e, 
 % 
-d8.\mf (c16) b8 c d (c) d c
+d'8.\mf (c16) b8 c d (c) d c
 b \mp (c) b a gis4 e4
 d'8. \mf (c16) b8 c d (c) b a
 gis \mp (a) gis f e2

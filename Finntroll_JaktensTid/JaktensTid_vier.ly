@@ -40,34 +40,34 @@ a1
 a1
 g1)
 % 
-r4 d4->\mf ~d2
-e1 
-r4 d4-> ~d2
-gis,1
-r4 d'4-> ~d2
-e1
-r4 d4-> ~d2
-gis,1
+d'8. \mf (c16) b8 c d (c) d c
+b \mp(c) b a gis4 e4
+d'8.\mf (c16) b8 c d (c) b a
+gis \mp (a) gis f e2
+d'8. \mf (c16) b8 c d (c) d c
+b \mp (c) b a gis4 e4
+d'8. \mf (c16) b8 c d (c) d dis
+e2~e8 d c b \bar"||"
+% Thema 2 reprise 
+r8 c,8^\markup{\bold 1} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 2} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 3} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 4} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 \bar"||"
 % 
-a''1 \pp
-(g1
-a1
-g2 b )
-a1
-(g1
-a1
-b2 g )
+r8 a8^\markup{\bold 1}\f r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 2} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 3} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 4} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
 % 
-e,16 \f(f e d) e8 c a (c) e a
-g8 (fis) e d e2
-e16 (f e d) e8 c a (c) e a
-b8. (a16) g8 b e,2
-e16 (f e d) e8 c a (c) e a
-g8 (fis) e d e2
-e16 (f e d) e8 c a c e a
-b8. (c16) b8 a b4 e, 
-% 
-r4 d4->\mf ~d2
+r4 d'4->\mf ~d2
 (e1)
 r4 d4-> ~d2
 (gis,1)

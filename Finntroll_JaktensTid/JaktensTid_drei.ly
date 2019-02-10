@@ -23,28 +23,58 @@ ais8) cis-. cis-. cis-. c (cis-.) cis-. \tuplet 3/2 {f,16 (g a}
 ais8) cis-. cis-. \tuplet 3/2 {f,16 (g a} ais8) cis-. cis-. \tuplet 3/2 {e,16 (fis gis}
 a8) c-. c-. c-. b (c-.) c-. r 
 %%% Übergang 
-\repeat percent 2 { r8 a8\mp r8 a8 r8 a8 r8 a8 
-    r8 g8 r8 g8 r8 g8 r8 g8 }
-% r8 a8 r8 a8 r8 a8 r8 a8 
-% r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 1}\mp r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 2} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
 % r8 a8 r8 a8 r8 a8 r8 a8 
 % r8 g8 r8 g8 r8 g8 r8 g8 
 \bar"||"
 %%% Thema 2 
-\repeat percent 4 { r8 a8 r8 a8 r8 a8 r8 a8 
-    r8 g8 r8 g8 r8 g8 r8 g8} 
+r8 a8^\markup{\bold 1} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 2} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 3} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 4} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 \bar"||"
 %
-\repeat percent 4 { r8 f8\mf f8 r8 r f8 f8 r8
-    r8 gis8\mp r8 gis8 r8 gis8 r8 gis8} \bar"||"
+r4 d'4->\mf ~d2
+e1 
+r4 d4-> ~d2
+gis,1
+r4 d'4-> ~d2
+e1
+r4 d4-> ~d2
+gis,1 \bar"||"
 % Thema 2 reprise 
-\repeat percent 4 { r8 a8 r8 a8 r8 a8 r8 a8 
-    r8 g8 r8 g8 r8 g8 r8 g8} 
+e'16 (f e d) e8 c a (c) e a
+g8( fis) e d e2
+e16 (f e d) e8 c a (c) e a
+b8. (a16) g8 b e,2
+e16 (f e d) e8 c a (c) e a
+g8 (fis ) e d e2
+e16 (f e d) e8 c a (c) e a
+b8. (c16) b8 a b4 e,  \bar"||"
 % 
-\repeat percent 4 { r8 a8\f r8 a8 r8 a8 r8 a8 
-    r8 g8 r8 g8 r8 g8 r8 g8 }
+r8 c8\f^\markup{\bold 1} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 2} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 3} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 4} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8  \bar"||"
 %
-\repeat percent 4 { r8 f8\mf f8 r8 r f8 f8 r8
-    r8 gis8\mp r8 gis8 r8 gis8 r8 gis8 } \bar"||"
+r8 f8^\markup{\bold 1}\mf f8 r8 r f8 f8 r8
+r8 gis8\mp r8 gis8 r8 gis8 r8 gis8 
+r8 f8^\markup{\bold 2}\mf f8 r8 r f8 f8 r8
+r8 gis8\mp r8 gis8 r8 gis8 r8 gis8  
+r8 f8^\markup{\bold 3}\mf f8 r8 r f8 f8 r8
+r8 gis8\mp r8 gis8 r8 gis8 r8 gis8  
+r8 f8^\markup{\bold 4}\mf f8 r8 r f8 f8 r8
+r8 gis8\mp r8 gis8 r8 gis8 r8 gis8   \bar"||"
 % erste 2 Takte 
 r8 c'-.\p c-. c-. c-. c-. c-. c-. 
 r8 c,-. c-. c-. c-. c-. c-. \tuplet 3/2 {e,16 (fis gis}
