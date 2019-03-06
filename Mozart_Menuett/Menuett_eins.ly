@@ -7,8 +7,8 @@ c2.--
 bes,,8-. c-. a-. c-. bes-. c-. 
 a8-. bes-. f'-. a-. c-. f-. 
 a4-.-- a,-.-- a-.-- \p
-e8\mf (g\p\> c g c a\!) 
-e8\mf (g\p\> c g c a\!)
+e8_\markup{\dynamic mf \dynamic p} (g c g \> c a\!) 
+e8_\markup{\dynamic mf \dynamic p} (g c g \> c a\!)
 d,8 \< (f bes g bes g)\!
 e8 (g bes g a f ) 
 c'2\p (d4) 
@@ -32,8 +32,8 @@ c---. c---. c---.
 c---. c---. c---.
 c---. a---. a---.
 a---. \> a---. a'--^\markup{Solo}\p
-g4\mf (e\p\> f) 
-g4\mf (e\p\> f) 
+g4_\markup{\dynamic mf \dynamic p} (e f\> ) 
+g4\!_\markup{\dynamic mf \dynamic p} (e f\> ) 
 \acciaccatura c'8 \! bes4-. bes-. bes-.
 bes2 (a4) 
 \acciaccatura a8 g4-. g-. g-.
@@ -43,7 +43,7 @@ a8 (g) g(f) f (e)
 f8 (c') c (bes) bes (a) 
 a8 (g) g(f) f (e) 
 f4---. f \> (a)
-f4--\! r r _\markup{Fine}\break
+f4---.\! r r _\markup{Fine}\break
 }
 \repeat volta 2{
 f2_\markup{\dynamic mp \italic cantabile} ^\markup{Trio \italic espressivo} (c4) 

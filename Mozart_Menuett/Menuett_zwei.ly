@@ -8,14 +8,14 @@ e4---. c---. c---.
 c4---. c---. c---.
 c4---. a---. a---.
 a4-.-- a-.-- a'-.-- \mp^\markup{Solo}
-g4\mf (c,\p\> f\!) 
-g4\mf (c,\p\> f\!) 
-\acciaccatura c'8 bes4-. bes-. bes-. 
-bes2 (a4) 
+g4_\markup{\dynamic mf \dynamic p} (c, f\>) 
+g4\!_\markup{\dynamic mf \dynamic p}(c, f\>) 
+\acciaccatura c'8\! bes4-. bes-. bes-. 
+bes2 (a4-.--) 
 g4-. g-. a8 (f) 
 e4-. e-. f8 (d) 
-c4---. c (e) 
-c4---. r r }
+c4---. c\>(e) 
+c4---.\! r r }
 \repeat volta 2{
 e-.--\f e---. c---.
 c---.\cresc c---. c---.
@@ -33,8 +33,8 @@ c2.
 bes,,8-. c-. a-. c-. bes-. c-. 
 a8-. f'-. a-. c-. f-. a-. 
 c4---. \> a,---. a--\p
-e8\mf (g\p\> c a c a ) 
-e8\mf (g\p\> c g c a)\! 
+e8_\markup{\dynamic mf \dynamic p} (g c a\> c a ) 
+e8\!_\markup{\dynamic mf \dynamic p} (g c g\> c a)\!
 d,8 ( f bes g bes g ) 
 c,8 (g' bes g a f) 
 d8 ( f bes g bes g ) 
@@ -44,7 +44,7 @@ c8 (bes) bes (a) a (g)
 c4---. c---. c---.
 c8 (bes) bes (a) a (g) 
 a4---. c \> (f)
-f4--\! r r _\markup{Fine}\break
+f4---.\! r r _\markup{Fine}\break
 }
 \repeat volta 2{
 f,8_\markup{\dynamic mp \italic cantabile} ^\markup{Trio} (a c a c a) 
