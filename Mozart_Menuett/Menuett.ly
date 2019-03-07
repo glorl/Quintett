@@ -27,5 +27,5 @@ global= {
 \include "../Mozart_Menuett/Menuett_eins.ly"
 \include "../Mozart_Menuett/Menuett_zwei.ly"
 \include "../Mozart_Menuett/Menuett_drei.ly"
-% \include "../Mozart_Romanze/Romanze_vier.ly"
+\include "../Mozart_Menuett/Menuett_vier.ly"
 % \include "../Mozart_Romanze/Romanze_bass.ly"
