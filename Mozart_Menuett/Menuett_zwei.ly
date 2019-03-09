@@ -47,7 +47,7 @@ a4---. c \> (f)
 f4---.\! r r _\markup{Fine}\break
 }
 \repeat volta 2{
-f,8_\markup{\dynamic mp \italic cantabile} ^\markup{Trio} (a c a c a) 
+f,8_\markup{\dynamic mp} ^\markup{Trio \italic cantabile} (a c a c a) 
 f8 (a c a c a) 
 g8 (bes g bes g bes)
 e,8\mp (g bes a g f) 
@@ -77,6 +77,6 @@ e,4-. e-. e-.
 e8 (g c g c g) 
 e8\< (g c g c g) 
 a8\mf (c f, c' e, c') 
-f,8 (a c a bes g)_\markup{D.C. al Fine}
+f,8 (a c a_\markup{D.C. al Fine} bes g)
 }
 }

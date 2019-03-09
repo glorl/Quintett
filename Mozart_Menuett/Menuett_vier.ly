@@ -45,37 +45,36 @@ a4---. e'---. f---.
 bes,4---. c---. c---.
 f4---. f---. \> f---.
 f4---.\! r r _\markup{Fine}\break
-% }
-% \repeat volta 2{
-% r4_\markup{\dynamic p \italic cantabile} ^\markup{Trio} f4---. f---.
-% r4 f---. f---.
-% r4 e---. e---.
-% r4 e---. e---.
-% r4 e---. e---.
-% r4 e---.\< e---. 
-% a8\mf \> (f a f g4) \!
-% }
-% \alternative {
-% { 
-% f8\mp\< ^\markup{Solo}(a c a \>bes g) \!}
-% {f8\mp\<^\markup{Solo}(a c a \>bes g) \!}
-% }
-% \repeat volta 2{
-% c2_\markup{\dynamic mp } c4--
-% e2.--
-% f2.--
-% d2.
-% (c8) r r4 r
-% e,2 g4 
-% e4^\markup{Solo}_\markup{hervortreten}(\< g a
-% bes4\mf \> a g) \!
-% r4 f4---.\p f4---.
-% r4 f4---. f4---.
-% r4 e4---. e4---.
-% e8\mp\< (g bes a\> g f\!) 
-% e4---. e4---. e4---. 
-% r4 e4---.\< e4---. 
-% c2\mf (g'4) 
-% a4-- r r_\markup{D.C. al Fine}
+}
+\repeat volta 2{
+f,4---._\markup{\dynamic p} ^\markup{Trio \italic cantabile} a4---. a---.
+f4---. a---. a---.
+c4---. c---. bes---.
+c4---. c---. bes---.
+c4---. bes---. bes---.
+c4---. \< bes---. bes---.
+f4---.\mf \> a---. bes---.\!
+}
+\alternative {
+{ f4---. a---. c---.}
+{ f,4 (f' e)}
+}
+\repeat volta 2{
+f,2._\markup{\dynamic p }
+e2.
+d'2 (c4) 
+d2.
+c4---.\< c---. c---. 
+e2\! (g4) 
+g,8^\markup{Solo}_\markup{hervortreten}(\< c e c f c
+g'4\mf \> f c) \!
+f,4---.\p a4---.a4---.
+f4---. a4---.a4---.
+c4---. c4---.bes4---.
+c4---. c4---.bes4---.
+c4---. bes4---.bes4---. 
+c4---. bes4---.bes4---. 
+f4---. a4---. c4---.  
+f,4---. a4---._\markup{D.C. al Fine} c4---. 
 }
 }

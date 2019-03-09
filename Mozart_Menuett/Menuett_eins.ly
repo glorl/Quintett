@@ -46,7 +46,7 @@ f4---. f \> (a)
 f4---.\! r r _\markup{Fine}\break
 }
 \repeat volta 2{
-f2_\markup{\dynamic mp \italic cantabile} ^\markup{Trio \italic espressivo} (c4) 
+f2_\markup{\dynamic mp \italic espressivo} ^\markup{Trio \italic cantabile} (c4) 
 a'4 (g f) 
 e8 (g bes a g f 
 e4 ) r r 
@@ -76,6 +76,6 @@ e4) r r
 g2 (c,4) 
 bes'4\< (a g) 
 f8\mf (a c a bes g
-f4--) r r _\markup{D.C. al Fine}
+f4--) r_\markup{D.C. al Fine} r 
 }
 }
