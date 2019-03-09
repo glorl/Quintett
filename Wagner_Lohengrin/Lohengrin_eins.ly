@@ -6,7 +6,7 @@ g4 (d'8[) r16 b]
 c4. r8
 g4 (c8. e16)
 f4 \<(e8. d16)
-c4 (b8. c16)
+c4 (\grace{d16 c} b8. c16)
 d4.\! r8
 g,4\mf (c8[) r16 c]
 c4. r8
@@ -46,19 +46,26 @@ g4 (d'8[) r16 b]
 c4. r8
 g4 \mf \<(c8. e16)
 f4 (e8. d16)
-c4 (b8. c16)
+c4 (\grace{d16 c} b8. c16)
 d4.\! r8
 g,4\f (c8[) r16 c]
 c4. r8
 g4 (d'8[) r16 b]
 c4. r8
-g4 (c8. e16
+g4 \<(c8. e16
 g4 e8. c16 
 a'2
-g8 f e8. d16 )
+g8\>_\markup{2x \italic rit.} f e8. d16 
 }
 \alternative{
-    {c4) r }
-    {c4 g}
+    {c4)\! r }
+    {c4 \breathe g_\markup{\dynamic p Lento}(}
 }
+c4 e 
+\acciaccatura g8 f4. e8
+g2
+~g4) r 
+e2\pp 
+~e2
+~e4 r \bar"|."
 }
