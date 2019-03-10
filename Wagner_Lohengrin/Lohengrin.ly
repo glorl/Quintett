@@ -12,7 +12,6 @@ global= {
 }
 
 \include "../Wagner_Lohengrin/Lohengrin_eins.ly"
-% \include "../Mozart_Menuett/Menuett_zwei.ly"
-% \include "../Mozart_Menuett/Menuett_drei.ly"
-% \include "../Mozart_Menuett/Menuett_vier.ly"
-% \include "../Mozart_Menuett/Menuett_bass.ly"
+\include "../Wagner_Lohengrin/Lohengrin_zwei.ly"
+\include "../Wagner_Lohengrin/Lohengrin_drei.ly"
+\include "../Wagner_Lohengrin/Lohengrin_bass.ly"
