@@ -4,6 +4,6 @@ globalAir= {
 }
 
 \include "../Telemann_Air/Air_eins.ly"
-% \include "../Bach_WachetAuf/WachetAuf_zwei.ly"
+\include "../Telemann_Air/Air_zwei.ly"
 \include "../Telemann_Air/Air_vier.ly"
-% \include "../Bach_WachetAuf/WachetAuf_bass.ly"
+\include "../Telemann_Air/Air_bass.ly"

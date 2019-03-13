@@ -1,4 +1,4 @@
-global= {
+globalMozartMenuett= {
 \time 3/4
 \key f \major
 }

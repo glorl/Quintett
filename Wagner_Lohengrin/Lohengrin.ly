@@ -1,4 +1,4 @@
-global= {
+globalWagnerLohengrin= {
 \time 2/4
 \key c \major
 }
