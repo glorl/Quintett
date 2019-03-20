@@ -15,7 +15,7 @@ g4 d8 g16 g g8 g16 g g8 g16 g
 c,8 g'\p f g16 g g8 g16 g g8 g16 g 
 d8 b a g c4 c 
 d4 d e8\< d e c\!
-b16 (g) a-. b-. c (b ) c-. d-. g4 g 
+b16 (g) a-. b-. c (b ) c-. d-. g4\f g 
 g2 e4 d 
 c4 e8 a g f g g 
 c,8 c b\p g r g\p b g 

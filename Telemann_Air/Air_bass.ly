@@ -20,6 +20,6 @@ b8 a b g a4 b
 c4 e,8 a g f g g 
 c8 c b\p g r g\p b g 
 c8 g r f8\f e4 r8 c'16 d 
-e16 (c) d-. e-._\markup{2x \italic{poco rit.}} f (g) a-. b-. c8 f,, g g 
+e16 (c) d-. e-. f_\markup{2x \italic{poco rit.}} (g) a-. b-. c8 f,, g g 
 c2. 
 }}
