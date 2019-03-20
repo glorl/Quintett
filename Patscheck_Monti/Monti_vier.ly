@@ -14,7 +14,7 @@ e4-- e4---. e4-- e4---.
 f4-- g---. f2
 e4--\f e4---. g4---. bes4---. 
 g4-- g4---. g4-- g4---. 
-a2 a4-- a-.
+a2 a4-- a-.--
 a4. d8 \< (f) gis (a) bes16 (b)
 cis4\mf r r g,--\mp
 cis4. d8 (e) f (e) cis 
@@ -68,7 +68,7 @@ bes4.-> cis8-> ~cis4 cis4-.
 a4.-> a8-> ~a4 a4-.
 a4.-> a8-> ~a4 a4-.
 a'8 (as g f d des bes a 
-g4) cis-. a8 a4 cis8-- 
+g4) cis-. a8-- a4-. cis8-- 
 f8 (a g f e es d cis) 
 d4-^ r r2 \bar"||"\key d \major 
 b4.^\markup{Bossanova}\mf b8-- b8-- b4-. c8-.

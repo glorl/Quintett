@@ -27,7 +27,7 @@ g,4-- a---. cis-- cis---.
 a4-- a---. d2 
 bes4--\f bes---. e-- e---.
 e4-- e---. e-- e---.
-f2 f4-- f-.
+f2 f4-- f-.--
 f4.\< b8 (c) e (f) g16 (gis
 a4\mf ) r r e,-- \mp
 g4. gis8 (a) b (cis) a (
@@ -79,7 +79,7 @@ a c g f~f2)% }
 % f4.-> f8-> ~f4 f4-.}
 % >> \oneVoice 
 a,8 (b cis d f e g e
-cis4-.) a-. cis8 g4-. bes8-- 
+cis4-.) a-. cis8-- g4-. bes8-- 
 a8 (f' g gis a ais bes gis)
 f4-^ r r2 \bar"||"\key d \major 
 a,4.^\markup{Bossanova}\mf a8-- a8-- a4-. bes8-.

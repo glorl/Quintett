@@ -11,77 +11,66 @@ scoop = \once \override NoteHead #'stencil = #scoop-stencil
 
 
 
-Montidrei=\new Voice \relative c''{
-a4\f ^\markup{Vivo} r f r 
-d4-^ e2.\bar"||"
-% e4 r r2\fermata \bar"||" 
-% a2^\markup{Lento} e 
-% e4 r r2 
-% a,4---.\mp d---. f---. r
-% b,4---. d---. f8-- e ~e4
-% g,4---. a---. cis---. r
-% b4---. a---. a---. r \bar"||"
-% d8-- d4-. d8-- d4 r 
-% d4-- e-.-- e---. r
-% g,4-- a---. cis-- cis---.
-% a4-- a---. d2 
-% bes4--\f bes---. e-- e---.
-% e4-- e---. e-- e---.
-% f2 f4-- f-.
-% f4.\< b8 (c) e (f) g16 (gis
-% a4\mf ) r r e,-- \mp
-% g4. gis8 (a) b (cis) a (
-% a4) f---. e-- e---. 
-% d4. bes'8 (a) e (f4) 
-% d2 g,16^\markup{Solo} (bes d e \tuplet 6/4 {g16 [bes d e g a]}
-% bes8-.) r r4 r4 e,,
-% f4. gis,16^\markup{Solo} (a e f a d \tuplet 6/4{ f[a d f a c]}
-% d8) r f,,4-. d-- d-.
-% e4-- e-. e-- cis 
-% e4-- e-. g-. r 
-% a,4-- a-. a-- g-. 
-% d'4--\> cis-. d-- \!r \bar"||"
-% d4-^\f^\markup{Satz 2: Vivace} r r d-^
-% bes4-^ r r d4-^ \bar"||"
-% d4--\mf  d2-. d4-. 
-% r4 d-. d2-- 
-% d4-- d2-. d4-. 
-% r4 g-.  g2-- 
-% e4-- e2-. e4-. 
-% r4 e-. e2-- 
-% d4-- d2-. d4-. 
-% r4 d-. d-. f-. 
-% g4-- cis,2-. e4-. 
-% r4 e4-. e-. e-. 
-% d4-- d2-. d4-. 
-% r4 d r d 
-% e4 r r g4
-% e4 r r d 
-% c4 r r f4
-% f4 r r f 
-% % << { \voiceOne \override Stem.direction = #UP
-% a,8 (gis a cis) e-- g4 gis8
-% a8 (f' e g~g2) 
-% a4 (as8 g cis, d e d 
-% f2.) r4
-% bes8 (a g bes~bes a g a
-% bes4) d4-. bes8-- a ~a4 
-% a8 (g f a~a g f g
-% a c g f~f2)% }
-% % { \voiceTwo \override Stem.direction = #DOWN
-% % s4 g,4-. cis,2--
-% % cis4-- e2-. e4-. 
-% % r4 d-. d2-- 
-% % d4-. s s f
-% % g4.-> g8-> ~g4 g4-.
-% % g4.-> g8-> ~g4 g4-. 
-% % f4.-> f8-> ~f4 f4-.
-% % f4.-> f8-> ~f4 f4-.}
-% % >> \oneVoice 
-% a,8 (b cis d f e g e
-% cis4-.) a-. cis8 g4-. bes8-- 
-% a8 (f' g gis a ais bes gis)
-% f4-^ r r2 \bar"||"\key d \major 
+Montidrei=\new Voice \relative c'{
+f4\f ^\markup{Vivo} r d r 
+bes4-^ d2.\bar"||"
+cis4 r r2\fermata \bar"||" 
+f2^\markup{Lento} d
+cis4 r r2 
+a4---.\mp a---. d---. r
+a4---. bes---. d8-- d ~d4
+e,4---. g---. a---. r
+a4---. g---. a---. r \bar"||"
+a8-- a4-. a8-- a4 r 
+a4-- d-.-- d---. r
+e,4-- g---. a-- g---.
+f4-- g---. a2 
+g4--\f g---. bes-- c---.
+bes4-- bes---. bes-- bes---.
+c2 c4-- c-.--
+c4.\< gis'8 (a) bes (c) e16 (f
+e4\mf ) r r cis,-- \mp
+e4. f8 (g) gis (a) e (
+f4) d---. cis-- cis---. 
+a4. g'8 (f) cis (d4) 
+bes1
+bes4 r4 r4 d
+f1
+d4-- d4-. a-- a-.
+cis4-- cis-. cis-- cis 
+cis4-- cis-. e-. r 
+f,4-- f-. e-- e-. 
+f4--\> g-. a-- \!r \bar"||"
+a4-^\f^\markup{Satz 2: Vivace} r r a-^
+g4-^ r r f4-^ \bar"||"
+d'8^\markup{Solo}\mf  (e f e d e f e) 
+d8-- f4-. a-. cis8-- d4-.
+f8 (a f e ~e d f e~
+e2) r 
+g,8 (a bes a g a bes a) 
+g4-- bes-. d8-- bes4-. a16 (g) 
+f8 (g a g f g a g ) 
+f8 (g gis a~a4) r 
+d4-- a,2-. cis4-. 
+r4 cis4-. cis-. cis-. 
+a4-- a2-. a4-. 
+r4 a r a 
+bes4 r r d4
+bes4 r r bes 
+a4 r r c4
+~c4 r r c
+r4 e4-. a,2--
+a4-- cis2-. cis4-. 
+r4 a-. a2-- 
+a4-. r r d
+d4.-> d8-> ~d4 d4-.
+d4.-> d8-> ~d4 d4-.
+e4.-> e8-> ~e4 e4-. 
+d4.-> d8-> ~d4 d4-.
+a'8 (as g f d des bes a 
+e'4-.) g-. e8-- e4-. g8-- 
+f8 (a g f e es d e)
+a4-^ r r2 \bar"||"\key d \major 
 % a,4.^\markup{Bossanova}\mf a8-- a8-- a4-. bes8-.
 % r8 bes4.-> bes4-. bes-.
 % d4. d8-- dis8-- e4-. f8-- 
