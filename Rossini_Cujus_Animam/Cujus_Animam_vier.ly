@@ -5,7 +5,7 @@ es4 des8. c16 bes4\fermata r4
 R1*3
 f'4--r r2 _\markup{\italic{ritenuto}}
 r1\fermata \bar "||"
-r4_\markup{\italic{a tempo}}\p f,8. f16 f8 r f r 
+r4_\markup{\italic{a tempo}} f,8.\p f16 f8 r f r 
 r4 f8. f16 f8 r f r 
 r4 g8. g16 g8 r g r 
 r4 f8. f16 f8 r f r 
@@ -14,16 +14,16 @@ r4 a8. a16 g8 r a r
 r4 g8. g16 f8 r f r 
 f8 r d'8.\f (g16) f8-- r bes,8. (es16) 
 d8-- r d8. (es16) f8 r a,4 
-bes8 r d8. g16 f8 r bes,8. es16
+bes8 r d8.\p (g16) f8 r bes,8. (es16)
 d8 r r4 r f,4
 bes8 r f8. f16 f8 r f r 
-r4 d'8.. d32 d8 r d r 
-r4 as'8.. as32 as8 r d, r 
-r4 g8.. g32 ges8 r es r 
-r4 f8.. f32 f8 r bes, r 
-r4 f'8.. f32 f8 r c r 
-r4 fis8.. fis32 f8 r d r 
-r4 e8.. e32 es8 r a, r 
+r4 d'8.\mf d16 d8 r d r 
+r4 as'8. as16 as8 r d, r 
+r4 g8. g16 ges8 r es r 
+r4 f8. f16 f8 r bes, r 
+r4 f'8. f16 f8 r c r 
+r4 fis8. fis16 f8 r d r 
+r4 e8. e16 es8 r a, r 
 bes8 r d8.\f (g16) f8-- r bes,8. (es16) 
 d4-- r f,8 (g32 f e f d'8. c16) 
 bes8 r r4 r2 

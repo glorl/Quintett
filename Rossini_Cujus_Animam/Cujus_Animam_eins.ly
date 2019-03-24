@@ -19,13 +19,13 @@ d8-- r d,8. (es16) f8 (g32 f e f  d'8. c16)
 bes8-- r r4 r2
 r2 d,4 \p (f8. es16) 
 d8-- r r4 r2 
-r4 f8.. f32 f8 r bes r 
-r4 d8.. d32 d8 r as r 
-r4 es'8.. es32 es8 r bes r 
-r4 d8.. d32 d8 r f, r 
-r4 c'8.. c32 c8 r f, r 
-r4 c'8.. c32 b8 r g r 
-r4 bes!8.. bes32 a8 r f r 
+r4 f8.\mf f16 f8 r bes r 
+r4 d8. d16 d8 r as r 
+r4 es'8. es16 es8 r bes r 
+r4 d8. d16 d8 r f, r 
+r4 c'8. c16 c8 r f, r 
+r4 c'8. c16 b8 r g r 
+r4 bes!8. bes16 a8 r f r 
 f8 r d'8.\f (g16) f8-- r bes,8. (es16) 
 d4-- r f4. es8 
 es8 (d) r4 r2
