@@ -1,4 +1,5 @@
-Tanzzwei= \new Voice \relative c'' {
+NeapTanzzwei= \new Voice \relative c'' {
+% \set countPercentRepeats = ##t
 r2
 r8 a16-.\mf \< bes-. d (c) bes-. a-. 
 c8->\!  r c4

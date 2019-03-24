@@ -1,4 +1,4 @@
-Tanzbass = \new Voice \relative c' {
+NeapTanzbass = \new Voice \relative c' {
 f8-.\p a16-. a-. a8-. a-. 
 c,8 a'16-. a-. a8-. a-. 
 g8-. bes16-. bes-. bes8-. bes-. 

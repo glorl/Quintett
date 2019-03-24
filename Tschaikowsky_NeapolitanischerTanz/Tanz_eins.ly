@@ -1,4 +1,5 @@
-Tanzeins = \new Voice \relative c'' {
+NeapTanzeins = \new Voice \relative c'' {
+% \set countPercentRepeats = ##t
 r2
 r8 c16-.\mf \< d-. f (e) d-. c-. 
 e8->\!  r e4

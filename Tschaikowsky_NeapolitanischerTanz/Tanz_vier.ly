@@ -1,4 +1,5 @@
-Tanzvier = \new Voice \relative c {
+NeapTanzvier = \new Voice \relative c {
+% \set countPercentRepeats = ##t
 f8-.\p c'16-. c-. c8-. c-. 
 r8 c16-. c-. c8-. c-. 
 g8-. c16-. c-. c8-. c-. 
