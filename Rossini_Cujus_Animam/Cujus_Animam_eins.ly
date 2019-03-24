@@ -48,7 +48,7 @@ f2~ (f8 as e f)
 bes,8.(es16) g2 g4 
 fis2_\markup{\italic{poco rit.}} (~\tuplet 3/2 {fis4 e d)}
 d2 (cis4 c)  \bar "||"
-r4 f,8.\mf f16 f4 r 
+r4 f,8.^\markup{a tempo}\mf f16 f8 r r4
 r4 d'8. d16 d8 r r4
 r4 es8. es16 es8 r r4 
 r4 d8. d16 d8 r r4 
@@ -71,7 +71,7 @@ d4\mf ( bes8. g'16 f4 d8. es16)
 f1 
 ~(f2 _\markup{\italic Cadenza} \acciaccatura{g16 f e f} \tuplet 3/2 {es'8 c a } \tuplet 3/2 {f8 e f}
 ges8 es c bes \acciaccatura {a8} g'4.\fermata f8\fermata ) \bar"||"
-bes,2. d8. (es16) 
+bes,2.\mf d8. (es16) 
 f1 
 e2._\markup{\italic {poco ritenuto e diminuendo}} c8. (d16) 
 es!1 

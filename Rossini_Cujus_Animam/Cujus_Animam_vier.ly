@@ -57,19 +57,19 @@ bes4~ bes8. (g16) f4 bes8. bes16
 bes4 a8. (g16) f4 es'8. es16
 es4 d8. (g,16) f4 bes8. bes16
 bes4 a8. (g16) f4 c8 r 
-r4 des8.\mf des16 f4. f8 
+r4 des8.\mf\cresc des16 f4. f8 
 fis4. fis8 g4. g8  
 as4. as8 a4. a8  
-bes4 bes8. bes16 ges2
+bes4\f bes8. bes16 ges2
 c4 bes f2
-es4. c8 es4. es8 
+es4.\dim c8 es4. es8 
 bes'4~bes8. g16 f8 r d r 
 r4 f8. f16 c8 r c4 
 d4 bes8.\mf g'16 f8 r d8. es16 
 f4 f8. f16 f8 r c4
 ~c8_\markup{\italic Cadenza} r r4 r2 
 r1\fermata  \bar"||"
-bes2. d8. (es16) 
+bes2. \mf d8. (es16) 
 f1 
 e2._\markup{\italic {poco ritenuto e diminuendo}} c8. (d16) 
 es!1 
