@@ -99,7 +99,7 @@ a4 e8-- a-. e4 e
 a4 r8 a e4 r8 e8 
 d'4 g,8-- d'-. a4 a 
 d4 r8 d a4 r8 a 
-b4. b8-- b8-- b4-. a8
+b4.^\markup{Tutti} b8-- b8-- b4-. a8
 r8 a4. b4-.-- b---. 
 e,4 e8-- g-. b4 g
 b4. r8 \tuplet 3/2 {f8 (as  b\noBeam}  \tuplet 3/2 {as8 b  d)}
@@ -122,7 +122,7 @@ r4 bes4-. bes2--
 a4-- a2-. a4-. 
 r4 f4 f2-- 
 g4-- g2-. g4-. 
-r4 cis -. e-. cis-. 
+r4 cis -.\< e-. cis-. \!
 d8-- d4-^ bes-^ a-^ f8--
 e8-- d'4 cis8-- d2 \bar"||"\key d \major 
 a4-- a2-. a4-.
@@ -137,7 +137,7 @@ r4 a a2
 fis4-- fis2-. d'4
 r4 gis, gis2 
 b4-- b2-. b4-. 
-cis4-^ a2-^ a4-^
+cis4-^\f a2-^ a4-^
 as4-^ a-^ bes-^ a-^
 b4-- d-. r a
 r4 a-. a-. a-. 

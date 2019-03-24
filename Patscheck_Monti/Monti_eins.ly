@@ -76,7 +76,7 @@ r8 es4.-> es4-. es-.
 f4. f8-- fis8-- g4-. gis8-- 
 a4 r r2 \bar"||"
 d,4. a8-- a-- a4-. b8-^ 
-r8 a4.->  g4-. fis-. 
+r8 a4.->  g4---. fis---. 
 fis4. e8-- dis8-- e4-. g8-- 
 b1 
 b4. \glissando cis,8 ~cis4 (e'4-.) 
@@ -88,7 +88,7 @@ r4 a4 ~a4. a8
 % e'4. g,8-- g4-- g-. g8-. 
 r4 g2 g4
 r4 gis ~gis8 gis-- gis4-.
-r4 fis ~fis fis 
+r4 fis ~fis fis-.
 g2 g 
 g fis8-- f4-. f8-- 
 fis!4 r8 d'16 (e \tuplet 3/2{g8 [e g]} a16 ais b cis)
@@ -100,7 +100,7 @@ b4. \glissando cis,8 cis4 \glissando a'
 cis4. (b8 a g4.) 
 g4 (fis8\turn fis ~fis4 f8-- fis
 ~fis1) 
-d4. a8-- a-- a4-. b8
+d4.^\markup{Tutti} a8-- a-- a4-. b8
 r8 a4. g4 (fis) 
 fis4. (e8 e dis e g
 b4.) fis16 (g \tuplet 3/2 {as8 [b d] } \tuplet 3/2 {f8 as b) } 

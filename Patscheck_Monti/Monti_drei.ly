@@ -71,90 +71,90 @@ a'8 (as g f d des bes a
 e'4-.) g-. e8-- e4-. g8-- 
 f8 (a g f e es d e)
 a4-^ r r2 \bar"||"\key d \major 
-% a,4.^\markup{Bossanova}\mf a8-- a8-- a4-. bes8-.
-% r8 bes4.-> bes4-. bes-.
-% d4. d8-- dis8-- e4-. f8-- 
-% cis!4 r r2 \bar"||"
-% a4. fis8-- fis-- fis4-. e8-^ 
-% r8 fis4.->  dis4 ~dis
-% b4. b8-- c8-- b4-. e8-- 
-% e4. g,16^\markup{Solo} (fis \tuplet 6/4 {e16 [g b d e g]}\tuplet 6/4 {b16 [d e g a ais])}
-% b8-- e,,4-- a,8-- a4 (g')
-% g4. (e8--) e-- e4-. e8-. 
-% r8 d4. d8 (cis b cis) 
-% d2 r4 fis--\pp
-% r4 fis4 ~fis4. e8
-% ~e2 fis 
-% r4 e2 e4
-% r4 f ~f8 f-- e4-.
-% r4 d ~d d
-% e2 e
-% d2 d8-- cis4-. cis8-- 
-% cis4 r4 r2 
-% fis4.-- fis8-- fis-- fis4-. fis8-. 
-% r8 fis4.-- fis4-.-- fis-.--
-% e4.-- e8-- e-- fis4-. g8
-% r8 e4.-- e4-.-- e-.-- 
-% g4.-- g8-- g-- g4-. g8-. 
-% r8 e4.-- e4-.-- e-.-- 
-% g4.-- a8-- a-- a4-. a8-. 
-% r8 a4.-- a4-.-- a-.-- 
-% a4.^\markup{Tutti} fis8-- fis-- fis4-. e8
-% r8 fis4.-- dis4-.-- dis-.-- 
-% b4. b8 b ( c b e
-% f4.) f16 (g \tuplet 3/2 {as4 as8\noBeam } \tuplet 3/2 {b8 d f) } 
-% fis!4. \glissando d8 e (d d d) 
-% e2 cis8 ( g f g) 
-% g4. (fis!8 fis f e4) 
-% fis!2. r4 \bar"||" \key f \major 
-% f4 \f^\markup{Swing} r f r 
-% e4 r g r \bar"||"
-% g4--\mf g2-. g4-. 
-% r4 g4-. g2-- 
-% f4-- f2-. f4-. 
-% r4 f4-. f2-- 
-% e4-- e2-. e4-. 
-% r4 e4-. e2-- 
-% f4-- f2-. f4-. 
-% r4 f4-. f2-- 
-% g4-- g2-. g4-. 
-% r4 g4-. g2-- 
-% f4-- f2-. f4-. 
-% r4 d4-. d2-- 
-% e4-- e2-. e4-. 
-% r4 g4-. a-. g-. 
-% d8-- d'4-^ bes-^ a-^ f8--
-% e8-- d4 cis8-- d2 \bar"||"\key d \major 
-% fis4-- fis2-. fis4-. 
-% r4 fis4-. fis2-- 
-% fis4-- fis2-. fis4-. 
-% r4 fis4-. fis2-- 
-% d4-- d-. d-- d-. 
-% d4-- d2-. d4-. 
-% e4-- e-. e-- e-. 
-% g4-- g2-. g4-. 
-% r4 fis4-. fis2-- 
-% d4-- d2-. a'4-. 
-% r4 d,4-. e2-- 
-% gis4-- gis2-. gis4-. 
-% g!4-^ a2-^ a4-^ 
-% bes4-^ b4-^ c4-^ cis4-^
-% a4-- a-. r fis
-% r4 fis-. fis-. fis-. 
-% r4 fis r fis 
-% r4 fis-. fis-. fis-. 
-% r4 g r g
-% g4-- g-. r8 g-- g4-. 
-% r4 g r g
-% r4 g-. g-. g-. 
-% fis4-- fis2-. fis4-.
-% fis4-- fis-. fis-- fis-. 
-% b8 \f (a b e) r8 b (e dis)
-% e8 (cis b cis e cis e g
-% fis4-.) r a,,4->_\markup{\italic cresc.} (es') 
-% d4-> (g) a8 (d dis e) 
-% d2--->\ff  dis--->
-% e2---> f---> 
-% e1-> ~
-% e8 cis-> (d4-.) d,-^ r\bar"|."
+fis4.^\markup{Bossanova}\mf fis8-- fis8-- fis4-. g8-.
+r8 g4.-> g4-. g-.
+a4. a8-- ais8-- b4-. c8-- 
+g4 r r2 \bar"||"
+fis4. d8-- d-- d4-. c8-^ 
+r8 c4.->  a4---. a---.
+g4. g8-- a8-- g4-. b8-- 
+g'1
+cis,4.(g8) g4 (cis)
+cis4.-- cis8-- cis-- cis4-. cis8-. 
+r8 b4. a8 (bes a a) 
+a2 r4 cis--
+r4 d4 ~d4. c8
+~c2 dis
+r4 b2 b4
+r4 d ~d8 d-- cis4-.
+r4 a ~a a-.
+b2 cis
+b2 a8-- g4-. g8-- 
+a4 r4 r2 
+d4.-- d8-- d-- d4-. d8-. 
+r8 c4.-- dis4-.-- dis-.--
+b4.-- b8-- b-- dis4-. e8
+r8 e4.-> e4-.-- e-.-- 
+e4.-- e8-- e-- e4-. e8-. 
+r8 cis4.-- cis4-.-- cis-.-- 
+d4.-- fis8-- fis-- fis4-. fis8-. 
+r8 fis4.-> fis4-.-- fis-.-- 
+fis4.^\markup{Tutti} d8-- d-- d4-. c8
+r8 c4.-- a4-.-- a-.-- 
+g4. g8 e ( a g b
+d4.) f16 (g \tuplet 3/2 {d4 f8\noBeam } \tuplet 3/2 {d8 f as) } 
+a!4. \glissando fis!8 g (fis f fis) 
+g8 (fis g fis e e d e) 
+d4. (a8 a gis g4) 
+a2. r4 \bar"||" \key f \major 
+d4 \f^\markup{Swing} r d r 
+d4 r e r \bar"||"
+e4--\mf e2-. e4-. 
+r4 e4-. e2-- 
+c4-- c2-. c4-. 
+r4 c4-. c2-- 
+cis4-- cis2-. cis4-. 
+r4 cis4-. cis2-- 
+d4-- d2-. d4-. 
+r4 d4-. d2-- 
+e4-- e2-. d4-. 
+r4 e4-. d2-- 
+d4-- d2-. d4-. 
+r4 a4-. a2-- 
+cis4-- cis2-. cis4-. 
+r4 e4-.\< g-. e-. \!
+d8-- d'4-^ bes-^ a-^ f8--
+e8-- d4 cis8-- d2 \bar"||"\key d \major 
+d4-- d2-. d4-. 
+r4 d4-. d2-- 
+d4-- d2-. d4-. 
+r4 d4-. d2-- 
+a4-- a-. a-- a-. 
+a4-- a2-. a4-. 
+d4-- d-. d-- d-. 
+e4-- e2-. d4-. 
+r4 d4-. d2-- 
+a4-- a2-. fis'4-. 
+r4 b,4-. b2-- 
+d4-- d2-. d4-. 
+d4-^\f a2-^ a4-^ 
+g'4-^ gis4-^ a4-^ g4-^
+fis4-- fis-. r d
+r4 d-. d-. d-. 
+r4 d r d
+r4 d-. d-. d-. 
+r4 e r e
+e4-- e-. r8 e-- e4-. 
+r4 d r d
+r4 d-. d-. d-. 
+d4-- d2-. d4-.
+d4-- d-. d-- d-. 
+g8 \f (fis! g b) r8 g (g fis)
+g8 (g f g b g b cis!
+a4-.) r a,4->_\markup{\italic cresc.} (es') 
+d4-> (g) a8 (d, dis e) 
+a2--->\ff  bes--->
+b2---> c---> 
+b1-> ~
+b8 cis,!-> (d4-.) d-^ r\bar"|."
 }

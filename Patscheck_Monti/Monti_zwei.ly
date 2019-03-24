@@ -87,7 +87,7 @@ r8 bes4.-> bes4-. bes-.
 d4. d8-- dis8-- e4-. f8-- 
 cis!4 r r2 \bar"||"
 a4. fis8-- fis-- fis4-. e8-^ 
-r8 fis4.->  dis4 ~dis
+r8 fis4.->  dis4---. dis---.
 b4. b8-- c8-- b4-. e8-- 
 e4. g,16^\markup{Solo} (fis \tuplet 6/4 {e16 [g b d e g]}\tuplet 6/4 {b16 [d e g a ais])}
 b8-- e,,4-- a,8-- a4 (g')
@@ -98,16 +98,16 @@ r4 fis4 ~fis4. e8
 ~e2 fis 
 r4 e2 e4
 r4 f ~f8 f-- e4-.
-r4 d ~d d
+r4 d ~d d-.
 e2 e
 d2 d8-- cis4-. cis8-- 
 cis4 r4 r2 
 fis4.-- fis8-- fis-- fis4-. fis8-. 
 r8 fis4.-- fis4-.-- fis-.--
 e4.-- e8-- e-- fis4-. g8
-r8 e4.-- e4-.-- e-.-- 
+r8 e4.-> e4-.-- e-.-- 
 g4.-- g8-- g-- g4-. g8-. 
-r8 e4.-- e4-.-- e-.-- 
+r8 e4.-> e4-.-- e-.-- 
 g4.-- a8-- a-- a4-. a8-. 
 r8 a4.-- a4-.-- a-.-- 
 a4.^\markup{Tutti} fis8-- fis-- fis4-. e8
@@ -133,7 +133,7 @@ r4 g4-. g2--
 f4-- f2-. f4-. 
 r4 d4-. d2-- 
 e4-- e2-. e4-. 
-r4 g4-. a-. g-. 
+r4 g4-.\< a-. g-. \!
 d8-- d'4-^ bes-^ a-^ f8--
 e8-- d4 cis8-- d2 \bar"||"\key d \major 
 fis4-- fis2-. fis4-. 
@@ -148,7 +148,7 @@ r4 fis4-. fis2--
 d4-- d2-. a'4-. 
 r4 d,4-. e2-- 
 gis4-- gis2-. gis4-. 
-g!4-^ a2-^ a4-^ 
+g!4-^\f a2-^ a4-^ 
 bes4-^ b4-^ c4-^ cis4-^
 a4-- a-. r fis
 r4 fis-. fis-. fis-. 
