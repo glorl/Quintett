@@ -23,12 +23,12 @@ b2\fermata \pp r4 \bar"||"
 \tuplet 3/2 {r8 c-. e-. } \tuplet 3/2 {g8-. e-. c-. } \tuplet 3/2 {e8-. g-. c-. }
 \tuplet 3/2 {r8 b-. d-. } \tuplet 3/2 {f8-. d-. b-. } \tuplet 3/2 {d8-. b-. f-. }
 \tuplet 3/2 {r8 b-. f-. } \tuplet 3/2 {d8-. f-. b-. } \tuplet 3/2 {d8-. b-. f-. }
-\tuplet 3/2 {r8 d-. e-. } \tuplet 3/2 {fis8-. b-. d-. } \tuplet 3/2 {b8-. g-. d-. }
-\tuplet 3/2 {r8 d-.\> b-. } \tuplet 3/2 {e8-. d-. b-. } \tuplet 3/2 {gis8-. b-. d-. \!}
+\tuplet 3/2 {r8 d-.\> e-. } \tuplet 3/2 {fis8-. b-. d-. } \tuplet 3/2 {b8-. g-. d-. \!}
+\tuplet 3/2 {r8 d-. b-. } \tuplet 3/2 {e8-. d-. b-. } \tuplet 3/2 {gis8-. b-. d-.}
 \tuplet 3/2 {r8 f-. f-. } \tuplet 3/2 {f8-. f-. f-. } \tuplet 3/2 {es8-. es-. es-.}
 \tuplet 3/2 {r8 f-. \< f-. } \tuplet 3/2 {f8-. f-. f-. } \tuplet 3/2 {f8-. f-. f-.\!}
 \tuplet 3/2 {r8 fis-.\< fis-. } \tuplet 3/2 {fis8-. fis-. fis-. } \tuplet 3/2 {fis8-. fis-. fis-.\!}
-\tuplet 3/2 {r8 fis-. fis-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-.}
+\tuplet 3/2 {r8 fis-.\> fis-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-.\!}
 \tuplet 3/2 {r8 fis-. fis-. } \tuplet 3/2 {fis8-. fis-. fis-. } \tuplet 3/2 {fis8-. fis-. g-.\!}
 \tuplet 3/2 {r8 g-.\< g-. } \tuplet 3/2 {gis8-. gis-. gis-. } \tuplet 3/2 {a8-. a-. a-.\!}
 \tuplet 3/2 {r8 a-.\f\> a-. } \tuplet 3/2 {a8-. a-. a-. } \tuplet 3/2 {g8-. g-. g-.\!}
