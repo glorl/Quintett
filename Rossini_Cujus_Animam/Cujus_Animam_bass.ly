@@ -1,11 +1,11 @@
 Cujusbass = \new Voice \relative c' {
 \compressFullBarRests
-f4 \ff ^\markup{Maestoso} es8. des16 c4\fermata r4
+f4 \ff es8. des16 c4\fermata r4
 es4 des8. c16 bes4\fermata r4
 R1*3
 r2 es4--_\markup{\italic ritenuto} r 
 c r f,\fermata  r\fermata \bar "||"
-bes4--\p r r2
+bes4--\p^\markup{\italic {a tempo}} r r2
 bes4-- r r2
 bes4-- r r2
 bes4-- r r2

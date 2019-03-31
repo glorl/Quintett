@@ -1,13 +1,13 @@
 Cujuseins = \new Voice \relative c' {
 \compressFullBarRests
-f4 \ff ^\markup{Maestoso} es8. des16 c4\fermata r4
+f4 \ff es8. des16 c4\fermata r4
 es4 des8. c16 bes4\fermata r4
 R1
 r2 c2 
 (des2 es 
 f4) r r2 _\markup{\italic{ritenuto}}
 r1\fermata \bar "||"
-bes2._\markup{\italic{a tempo}}^\markup{Solo}\mf d8. (es16) 
+bes2.^\markup{\italic{a tempo}}_\markup{\dynamic{mf} Solo} d8. (es16) 
 f2. d8. (bes16) 
 bes'2. bes,8. (g'16) 
 f2. f,8. (f'16) 

@@ -1,11 +1,11 @@
 Cujusdrei = \new Voice \relative c' {
 \compressFullBarRests
-f4 \ff ^\markup{Maestoso} es8. des16 c4\fermata r4
+f4 \ff es8. des16 c4\fermata r4
 es4 des8. c16 bes4\fermata r4
 R1*3
 f4--r r2 _\markup{\italic{ritenuto}}
 r1\fermata \bar "||"
-r4_\markup{\italic{a tempo}} bes8.\p bes16 bes8 r bes r 
+r4^\markup{\italic{a tempo}} bes8.\p bes16 bes8 r bes r 
 r4 bes8. bes16 bes8 r bes r 
 r4 bes8. bes16 bes8 r bes r 
 r4 bes8. bes16 bes8 r bes r 
