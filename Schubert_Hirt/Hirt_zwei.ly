@@ -67,7 +67,7 @@ r4 r r8 g->
 \tuplet 3/2 {r8 es,-. \mf es-. } \tuplet 3/2 {r8 es-. es-. } \tuplet 3/2 {r8 es-. es-. } 
 \tuplet 3/2 {r8 es-. es-. } \tuplet 3/2 {es-. es-. es-. } \tuplet 3/2 {es-. es-. es-. } 
 \tuplet 3/2 {r8 f-. f-. } \tuplet 3/2 {r8 f-. f-. } \tuplet 3/2 {r8 f-. f-. } 
-\tuplet 3/2 {r8 es-. es-. } \tuplet 3/2 {es-. es-. es-. } \tuplet 3/2 {es-. es-. es-. } 
+\tuplet 3/2 {r8 es-. \> es-. } \tuplet 3/2 {es-. es-. es-. } \tuplet 3/2 {es-. es-. es-. \!} 
 es8 \noBeam f'8\pp (es-> des es,!-.) r
 r8 f'8 (es-> c es,!-.) r
 \tuplet 3/2 {r8 es-. es-. } \tuplet 3/2 {r8 es-. es-. } \tuplet 3/2 {r8 es-. es-. } 
@@ -133,24 +133,24 @@ g8 (a16 b c d e f)
 g8 (e'-.) c-. a-. 
 g16 (a f g e f d e) 
 c4 r
-r8 e, e e
-r8 e e e
-r8 f f f
-r8 f f f
-r8 g g g
-r8 e e e
-r8 f f f
-r8 e f g
+r8 e,-.\mf e-. e-.
+r8 e-. e-. e-.
+r8 f-. f-. f-.
+r8 f-. f-. f-.
+r8 g-. g-. g-.
+r8 e-. e-. e-.
+r8 f-. f-. f-.
+r8 e-. f-. g^\markup{Solo}
 g4 (a16 b c d ) 
 e4. g,8
 g8. (a16 b c d e) 
 f4 r
-r8 g, g g
-r8 e e e
-r8 f f f
-r8 e e e
-r8 f r f
-c8 r r g''
+r8 g,-. g-. g-.
+r8 e-. e-. e-.
+r8 f-. f-. f-.
+r8 e-. e-. e-.
+r8 f-. r f-.
+c8-. r-. r-. g''
 (a,4 \< b16 d e f) 
 e4\> (c8)\! r
 r2
@@ -188,19 +188,19 @@ fis8 r r4
 R2*1
 b8 \f ( cis16 dis e fis gis a\!) 
 b4 (a8 fis) 
-e8--\noBeam e, e e 
-r8 e e e 
-r8 e\> e e 
-r8 e e e\!
-r8 e \pp e e
-r8 e e e 
-r8 f f f 
-r8 f f f 
-r8 g g g 
-r8 e e e 
-r8 f f f 
-r8 e e e 
-r8 f r f 
+e8--\noBeam e,-. e-. e-. 
+r8 e-. e-. e-. 
+r8 e-.\> e-. e-. 
+r8 e-. e-. e-.\!
+r8 e-. \pp e-. e-.
+r8 e-. e-. e-. 
+r8 f-. f-. f-. 
+r8 f-. f-. f-. 
+r8 g-. g-. g-. 
+r8 e-. e-. e-. 
+r8 f-. f-. f-. 
+r8 e-. e-. e-. 
+r8 f-. r f-. 
 c8 r r g''\p \<
 (a,4 b16 d\> e f ) 
 e4 (c8\! ) r 

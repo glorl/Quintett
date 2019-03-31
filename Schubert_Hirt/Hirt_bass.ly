@@ -68,15 +68,15 @@ as,8\mf r as r as r
 as2 r4 
 as8 r as r as r 
 as2 r4
-\tuplet 3/2 {g8-- g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
+\tuplet 3/2 {g8--\p g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {as,8-- as'-. as-. } \tuplet 3/2 {as8-. as-. as-. } \tuplet 3/2 {as8-. as-. as-. } 
 as,8 r as r as r 
 as2 r4
 as8 r as r as r 
 as2 \tuplet 3/2 {as'8 as as}
-\tuplet 3/2 {g,8-- \mf g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
+\tuplet 3/2 {g,8-- g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {as,8-- as'-. as-. } \tuplet 3/2 {as8-. as-. as-. } \tuplet 3/2 {as8-. as-. as-. } 
-as,8 r as r as r 
+as,8\mf r as r as r 
 as2 r4
 cis8\< r cis r cis r 
 \> b2 b4\p
@@ -151,8 +151,8 @@ g4 r
 c4 r
 c8 r c r 
 c4 r 
-c8 r c r 
-c8 r c r 
+c8\< r c r 
+c8\> r c\! r 
 c8 r c r 
 c4 r 
 c8 r c r 
@@ -241,7 +241,7 @@ a,8 a'\< e gis
 a,8 a'\f g b
 c,8 g' g, b
 c8 c' c c 
-a,8-^\f a-^ a-^ a-^ 
+a,8-^-.\f a-^-. a-^-. a-^-. 
 a4-^ r 
 g4 c 
 g g'
