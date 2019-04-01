@@ -17,37 +17,37 @@ r4 e8. e16 es8 r es r
 d8 r d8.\f (g16) f8-- r bes8. (es16) 
 d8-- r d,8. (es16) f8 r f8. (es16) 
 f8-- r r4 r2
-% r2 d,4 \p (f8. es16) 
-% d8-- r r4 r2 
-% r4 f8.. f32 f8 r bes r 
-% r4 d8.. d32 d8 r as r 
-% r4 es'8.. es32 es8 r bes r 
-% r4 d8.. d32 d8 r f, r 
-% r4 c'8.. c32 c8 r f, r 
-% r4 c'8.. c32 b8 r g r 
-% r4 bes!8.. bes32 a8 r f r 
-% f8 r d'8.\f (g16) f8-- r bes,8. (es16) 
-% d4-- r f4. es8 
-% es8 (d) r4 r2
-% r2 d4.\p (c8) 
-% bes8 r bes'4--\f r2 \bar"||"
-% g2. es8. (f16) 
-% g2. es8. (f16) 
-% g2 ~\tuplet 3/2{g8 cis, (d } \tuplet 3/2{es d bes)}
-% a2 (\acciaccatura{c16 bes} a8) r r4
-% d2. bes8. (c16) 
-% d2. bes8. (c16) 
-% d2 ~\tuplet 3/2{d8 a (bes } \tuplet 3/2{c a d)}
-% bes2 (\acciaccatura{a16 g} g8) r r4
-% es'2~\p (es8 g f es) 
-% a2~ (a8 fis cis d) 
-% es2~ (es8 g f! es) 
-% a2~ (a8 fis cis d) 
-% es2~\mf (es8 g d es) 
-% f2~ (f8 as e f) 
-% bes,8.(es16) g2 g4 
-% fis2_\markup{\italic{poco rit.}} (~\tuplet 3/2 {fis4 e d)}
-% d2 (cis4 c)  \bar "||"
+r2 bes,4 \p (f'8. es16) 
+d8-- r d8. d16 d8 r d r 
+bes'2.\mf^\markup{Solo} d8. (es16) 
+f2. d8. (bes16) 
+bes'2. bes,8. (g'16) 
+f2. f,8. (f'16) 
+es2. f,8. (es'16) 
+d2. g,8. (d'16) 
+c2. f,8. (c'16) 
+c16 (bes) r8 d8.\f (g16) f8-- r bes,8. (es16) 
+d4-- r r2
+f,8 r r4 r2
+r2 d'4.\p (c8) 
+bes8 r d4--\f r2 \bar"||"
+\tuplet 3/2{r8 g,-.\f g-. } \tuplet 3/2{g8-. g-. g-. } g8-. r g4
+\tuplet 3/2{r8 g-. g-. } \tuplet 3/2{g8-. g-. g-. } g8-. r g4
+\tuplet 3/2{r8 g-. g-. } \tuplet 3/2{g8-. g-. g-. } g8-. r d8. d16
+\tuplet 3/2{d8-. d-. d-. } \tuplet 3/2{d8-. d-. d-. } d8-. r r4
+\tuplet 3/2{a'8-. a-. a-. } \tuplet 3/2{a8-. a-. a-. } a8-. r g4
+\tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{a8-. a-. a-. } a8-. r g4
+\tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{a8-. a-. a-. } a8-. r fis8. fis16 
+\tuplet 3/2{r8 g-. g-. } \tuplet 3/2{g8-. g-. g-. } g8-. r r4
+\tuplet 3/2{bes8-.\p bes-. bes-. } \tuplet 3/2{bes8-. bes-. bes-. } bes8-. r r4
+es2 (d8) r r4
+R1
+es2 (d8) r r4
+\tuplet 3/2{es,8-.\mf es-. es-. } \tuplet 3/2{es8-. es-. es-. }\tuplet 3/2{es8-. es-. es-. } \tuplet 3/2{es8-. es-. es-. } 
+\tuplet 3/2{es8-. es-. es-. } \tuplet 3/2{es8-. es-. es-. }\tuplet 3/2{es8-. es-. es-. } \tuplet 3/2{es8-. es-. es-. } 
+\tuplet 3/2{g8-. g-. g-. } \tuplet 3/2{g8-. g-. g-. } g8-. r es8. es16
+d'2_\markup{\italic{poco rit.}} ~d8 r r4
+R1  \bar "||"
 % r4 f,8.\mf f16 f4 r 
 % r4 d'8. d16 d8 r r4
 % r4 es8. es16 es8 r r4 
