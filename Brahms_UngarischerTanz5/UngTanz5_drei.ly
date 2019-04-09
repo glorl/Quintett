@@ -1,6 +1,6 @@
 UngTanzFdrei = \new Voice \relative c' {
 \compressFullBarRests
-r8^\markup{Allegro} a\mf r a 
+r8 a\mf r a 
 r8 a r a 
 r8 b r a 
 r8 a r a 
