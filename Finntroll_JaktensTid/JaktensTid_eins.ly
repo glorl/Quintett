@@ -111,21 +111,62 @@ a2\fermata r \bar"|."
 
 einsTomheteins = \new Voice \relative c''{
 R1*2
-b4 b8 b~ b8 b8 a4
-a4 d8 d~ d8 d8 a4
+b4 b8 b~ b8 a8 a4
+a4 d8 d~ d4 a4
 a4 b8 b~ b8 a8 g4
-e4 r4 e4 fis
+e4. r8 e4 fis
 g4 g8 g~ g8 a8 b4
-fis4 fis8 e~ e8 e8 d4
-a'4 a8 a~ a8 g8 fis4
-e4 r4 e4 fis
+fis4 fis8 fis~ fis4 d4
+a'4 a8 g~ g4 fis4
+e4. r8 e4 fis
 %
 b4 b8 b~ b8 b8 a4
 a4 d8 d~ d8 d8 a4
 a4 b8 b~ b8 a8 g4
-e4 r4 e4 fis
+e4. r8 e4 fis
+g4 g8 g~ g8 a8 b4
+d4 d8 d~ d8 a8 g4 
+fis4 fis8 fis~ fis8 g8 a4
+g4 r4 g2 
+% 
+b4 b8 b~ b8 b8 a4
+a4 d8 d~ d8 d8 a4
+a4 b8 b~ b8 a8 g4
+e4. r8 e4 fis
 g4 g8 g~ g8 a8 b4
 fis4 fis8 e~ e8 e8 d4
 a'4 a8 a~ a8 g8 fis4
-e4 r4 e4 fis
+e4. r8 e4 fis
+% 
+b4 b8 b~ b8 b8 a4
+a4 d8 d~ d8 d8 a4
+a4 b8 b~ b8 a8 g4
+e4. r8 e4 fis
+g4 g8 g~ g8 a8 b4
+d4 d8 d~ d8 a8 g4 
+fis4 fis8 fis~ fis8 g8 a4
+g4 r4 g2 
+% 
+a8 gis a c a g e es
+r8 e es d c a d a 
+es'8 e es d c a d a 
+c8 d c a b c b g
+a8 c d e es r8 es e 
+g e r e r e d e 
+e'8 es d c a d c a 
+g e es e es d c a 
+r8 e' b' c b g e es
+d des c a e' es d c
+d8 a r4 dis8 e r dis 
+e8 r dis e g es e a
+es8 e g e a e c' e, 
+a8 g e es d c d es  
+e8 c es e c a d c 
+a8 g r g a b c d~
+d1
+~d1 
+
+
+
+
 }

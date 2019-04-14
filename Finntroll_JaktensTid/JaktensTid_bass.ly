@@ -118,10 +118,53 @@ b4 c d dis
 e4 r b r 
 e4 r b r 
 e4 r b r 
-e4 r b r 
-c4 r g r 
+e4 r b d(
+c4) r g r 
 b4 r e, r 
+d'4 r a r8 dis (
+e4) r b d 
+e4 r b r 
+e4 r b r 
+e4 r b r 
+e4 r b d(
+c4) r g r 
 d'4 r a r 
-e'4 r b r 
+b4 r fis r 
+g4 d' g d 
+e4 r b r 
+e4 r b r
+e4 r b r8 d  
+e4 b e d
+c4  r g r 
+b4 r e, r 
+d'4 r a r
+e'4 r b d 
+e4 r b r 
+e4 r b r 
+e4 r b r 
+e4 r b d(
+c4) r g r 
+d'4 r a r 
+b4 r fis r 
+g4 g d' g, 
+a4 a e e  
+a4 a e e  
+a4 a e e  
+c'4 c d d
+a4 a e e  
+a4 a e e
+a4 a e e  
+c'4 c b c
+a4 a e e  
+a4 a e e  
+a4 a e e  
+c'4 c b b
+a4 a e e  
+a4 a e e  
+a4 a e e  
+c'4 c b c
+d1 \breathe 
+b 
+
 \bar"|."
 }

@@ -111,3 +111,26 @@ c'8 e-. e-. e-. dis (e-.) e-. r\bar"||"
 c,8-^\f r r4 e8-^ r r4 
 c2\fermata r \bar"|."
 }
+
+zweiTomheteins=\relative c''{
+R1*2
+R1*7
+r4 \tuplet 3/2{a8 b a } g4 fis
+e1
+~e1
+r2 r4 fis 
+g4 fis g b 
+c2. d8 e 
+d1 
+R1*2
+R1*6
+r4 a g fis 
+g2 fis 
+e1 
+R1*2
+r8 e fis d e fis g a 
+b2. a8 b 
+d1 
+b2. g8 fis 
+g2 g4 r 
+}
