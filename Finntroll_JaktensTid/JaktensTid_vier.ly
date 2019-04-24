@@ -91,3 +91,62 @@ e'8-> r r4 r2
 e,8-^\f r r4 a8-^ r r4 
 e'2\fermata r \bar"|."
 }
+
+
+vierTomheteins = \new Voice \relative c'{
+R1*2
+r4 e8 e r e e r 
+r4 g8 g r d d r 
+r4 e8 e r4 d8 r 
+b4 r b d  
+c4 b8 b r b b r 
+r4 b8 b r b b r 
+r4 b8 b r b b r 
+r4 a4 r2
+% %
+% r4 g8 g r g g r 
+% r4 b8 b r fis fis r 
+% r4 g8 g r4 d8 r 
+% r4 e8 e r e e r 
+% r4 d8 d r d d r 
+% r4 fis8 fis r fis fis r 
+% r4 fis8 fis r d d r 
+% r4 e8 e r e e r 
+% % 
+% r4 g8 g r g g r 
+% r4 b8 b r fis fis r 
+% r4 g8 g r4 d8 r 
+% r4 e8 e r e e r 
+% r4 d8 d r d d r 
+% r4 fis8 fis r fis fis r 
+% r4 fis8 fis r d d r 
+% r4 e8 e r e e r 
+% % 
+% r4 g8 g r g g r 
+% r4 b8 b r fis fis r 
+% r4 g8 g r4 d8 r 
+% r4 e8 e r e e r 
+% r4 d8 d r d d r 
+% r4 fis8 fis r fis fis r 
+% r4 fis8 fis r d d r 
+% r4 e8 e r e e r 
+% % 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% r4 a8 a r4 g8 r 
+% r4 a8 a r g g r 
+% b,1
+% ~b1 
+}

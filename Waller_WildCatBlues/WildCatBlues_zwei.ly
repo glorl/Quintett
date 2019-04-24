@@ -60,7 +60,7 @@ c4. (d8) e8-- e4-. c8--
 d4 (es8 d ~d2)
 e8-- c4-. cis8-> ~cis2
 f4.-- es8->~es2
-d4-. d8-- b8 ~b8 c-- b4-. 
+d4-. d8-- b8 ~b8 b-- b4-. 
 g4-. r4 r2 \bar"||"
 g,2 \p ~g4 r 
 g-. es'8 (d b2) 
@@ -75,9 +75,9 @@ f4-. fis-. g2
 g4. g8 g2
 f2 f'4->\sf \glissando b,4
 g1
-f2 f'4->\sf \glissando a,4
-f2. f8-- e-.
-r2 r8 g'4 (e8) 
+f2 es'4->\sf \glissando a,4
+f2. f8-- g-.
+r2 r4 g'8. (e16) 
 \bar"||"
  \cadenzaOn 
 \stopStaff 
@@ -96,7 +96,7 @@ r2 r8 g'4 (e8)
 \cadenzaOff
 \break
 % \bar"|"
-e8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } c-- c-- c-- r2 
+e8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } (c g-- c) r2 
 % \bar"|:" 
 \key g \major 
 \repeat volta 2{
@@ -114,9 +114,9 @@ r8 b4-. g8 b4. (b8)
 d2 b8-- b8-. r4 
 b4-. d-. d4. (d8) 
 e8-- gis4-. e8-> ~e2
-fis4-. fis8-- a-. r8 b8-- a4-. \bar"||"}
+fis4-. fis8-- a-. r8 fis8-- fis4-. \bar"||"}
 \alternative{{
-d,4 r r2 
+d4 r r2 
 e2->\f e2->
 dis4. e8-. r2
 g,4 r4 r2

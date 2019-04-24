@@ -14,8 +14,8 @@ e2\f f
 e es
 c4-- c-. d-. c8-- b-. 
 r2 r4 e'8.\mf (c16) \bar"||"
-\tuplet 3/2 {c8 \segno  (b c} g fis g fis a f)
-\tuplet 3/2 {e8 (f e} c8-- c) ~c2
+\tuplet 3/2 {c8 \segno  (b c} g fis g fis g f)
+\tuplet 3/2 {e8 (f e} c8-- e) ~e2
 c4. (c8) e8 (f g4-.) 
 c8-- g4-. bes8->~bes2
 r8 a4-. f8-- (d f d4-.) 
@@ -23,14 +23,14 @@ d8 (f d d ~d2)
 c8 ( e e g c a g) c->
 ( ~c a g-- e-.) r8 e'4-. (c8--) 
 \tuplet 3/2 {c8 (b c} g fis g fis g f)
-\tuplet 3/2 {e8 (f e} c8 c) ~c2
+\tuplet 3/2 {e8 (f e} c8 e) ~e2
 c4. c8-- e8 (f g4-.) 
 c8-- g4-. bes8->~bes2
 r8 a4-. f8-- (d f d4-.) 
 d8 (f d d ~d2) 
 c8 ( e e g c a g) c->
 ( ~c^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} a g-- e) r2 \bar"||"
-e2_\markup{\dynamic p} ~e4 r
+e2_\markup{\dynamic p \italic background} ~e4 r
 c4. e8 ~e8 e8-- e4-.
 g4-. c, ~c2
 e4. e8 ~e8 (g) bes4-.
@@ -60,7 +60,7 @@ g4. (a8) c8-- c4-. g8--
 b4 (c8 b ~b2)
 c8-- g4-. bes8-> ~bes2
 c4.-- c8->~c2
-b4-. b8-- g8 ~g8 f-- f4-. 
+b4-. b8-- g8 ~g8 g-- f4-. 
 e4-. r4 r2 \bar"||"
 e,2 \p ~e4 f4 
 e4 r r f
@@ -69,15 +69,15 @@ b2 b4 (d-.)
 e2 e2
 e4. e8-. r2
 dis4. fis8 ~fis2 
-c4-.-- c4-.-- es4-.-- d4-.--
+e4-.-- es4-.-- d4-.-- f4-.--
 e1
 d4-. c-. d2
 e4. e8~ e2
 d2 d'4->\sf \glissando as4
 e1
 c2 c'4->\sf \glissando fis,4
-d2. d8-- c-.
-r2 r8 e'4 (c8) 
+d2. d8-- e-.
+r2 r4 e'8. (c16) 
 \bar"||"
  \cadenzaOn 
 \stopStaff 
@@ -96,7 +96,7 @@ r2 r8 e'4 (c8)
 \cadenzaOff
 \break
 % \bar"|"
-c8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } c-- c-- a-- r2 
+c8^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } (a c-- a) r2 
 \key g \major 
 \repeat volta 2{
 g2->^\markup{Trio} _\markup{\dynamic p} ~g8 r8 r4 
@@ -106,7 +106,7 @@ g4. g8 ~g2
 g2 ~g8 r r4 
 g2 ~g8 (g g b) 
 bes2-- bes-- 
-b8-- b4-. a8 ~a2\bar"||"
+b8-- g4-. a8 ~a2\bar"||"
 g4-. \mf^\markup{Soli} d-. g2
 g8-- d4-. g8-> ~g2
 r8 g4-. d8 g4. (g8) 
@@ -149,7 +149,7 @@ g fis c' b e dis g, fis)
 \tuplet 3/2 {e8 \< (f fis} \tuplet 3/2 {g gis a} \tuplet 3/2 {ais8 b c} \tuplet 3/2 {cis8 d dis)}
 e4-.\!\ff r4 r2
 r1
-c,4 r dis r 
+e,4 r dis r 
 e4 r r8 ais,-- b4-.
 e,4.-> e8-^ r2
 \bar"|."

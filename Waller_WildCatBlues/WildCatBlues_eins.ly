@@ -30,7 +30,7 @@ g8-- e4-. g8->~g2
 r8 f4-. d8-- (b d b4-.) 
 a8 (b as g ~g2) 
 g8 ( a c e g dis e) g->
-( ~g^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} dis e-- c) r4 c'8. (a16) \bar"||"
+( ~g^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} dis e-- c) r4 c'8._\markup{Solo} (a16) \bar"||"
 g4. (e16 dis \tuplet 3/2 {e8 c a} \tuplet 3/2 {g8 e d)}
 c4 (\glissando a8 g ~g2)
 c8-- e4-. g8 (c d \tuplet 3/2 {e f fis)}
@@ -78,7 +78,7 @@ b4 \glissando d2.
 r8 c4. g8 (e g bes) 
 a8 (f a c ~c2) 
 d8 (b g ges) f4 \glissando b,8 c
-r2 r8 c'4 (a8) 
+r2 r4 c'8. (a16) 
 \bar"||"
  \cadenzaOn 
 \stopStaff 

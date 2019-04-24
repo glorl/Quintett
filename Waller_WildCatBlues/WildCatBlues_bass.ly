@@ -9,15 +9,15 @@ c4---.\segno \mf a---. g---. a---.
 c4._\markup{\italic simile} g8 a4 b
 c a g a 
 c g bes cis 
-d a f a 
+d a e b' 
 g b d g,
-c a g c 
+c a g a
 c g8-- c-. r g4.->
-c4 a g b
+c4 a g a
 c4. g8 a4 b 
 c a g a 
 c g bes cis 
-d a f a 
+d a g b 
 g b d g,
 c a g a
 c^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} g8-- c-. r2
@@ -106,7 +106,7 @@ g b d b
 g d' g, fis 
 e gis b gis 
 a e' c a 
-d d8-- d8-. r d-- d4-. \bar"||"}
+b b8-- d8-. r d-- d4-. \bar"||"}
 \alternative{{
 g4-. fis8 (e dis e b4-.) 
 e,4 \f b' fis cis' 

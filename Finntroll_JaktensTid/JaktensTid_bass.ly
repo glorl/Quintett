@@ -112,7 +112,7 @@ a8-^\f r r4 c8-^ r r4
 a2\fermata r \bar"|."
 }
 
-bassTomheteins= \new Voice \relative c'{
+bassTomheteins= \new Voice \relative c{
 r2 r4 r8 bes
 b4 c d dis
 e4 r b r 
@@ -164,7 +164,6 @@ a4 a e e
 a4 a e e  
 c'4 c b c
 d1 \breathe 
-b 
-
+b4 c d dis 
 \bar"|."
 }
