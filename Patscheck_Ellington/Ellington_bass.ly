@@ -53,7 +53,7 @@ c4 r8 c (g4) e'
 c4 c cis cis 
 d4 e g e8 (es) 
 d2\f g4 g, 
-c4. b8 a (b c cis ) 
+c4. b8 a\dim (b c cis ) 
 d2\mf g4 g, 
 c4. b8 a\dim (b c cis ) 
 d2\p g4 g, 

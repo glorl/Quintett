@@ -7,58 +7,58 @@ r8 c,4.-^ e4-.-> g-.->
 f8 (e f fis-> ~fis f fis g->) 
 r8 c,4-. es-. c-. bes8 
 as4.-> g8->~g4 r \bar"||"
-% d'4\mf r8 d (g,4) b 
-% d4 c b g 
-% c4 r8 c (g4) a 
-% c4 c cis cis 
-% d4 r8 d (g,4) b
-% d2 g,4 b 
-% c4 b a8 c-- b4-.
-% bes4 a bes cis 
-% d4 r8 d (g,4) b 
-% d4 d g, b 
-% c4 r8 c (g4) a 
-% c4 c cis cis 
-% d4 r8 d (g,4) b
-% d2 g4 g, 
-% c4 b a8 (as g4)
-% bes8-- b4-. c8--~c r r4
-% r8 b4-. b8-- bes4-. bes-. 
-% b!2 e,4 bes'8 (a
-% ~a8 dis e a, ~a gis a a
-% ~a8 e a dis) e-- e-- a,4-.  
-% r8 a4-. a8-- as4-. as-. 
-% a!2 (d4 as8 g
-% ~g8) g (f g~g4) g8 a
-% ~a8 g4-. g8 r g8-- g4-.
-% d'4 r8 d (g,4) b 
-% d4 c b g 
-% c4 r8 c (g4) a 
-% c4 c cis cis 
-% d4 r8 d (g,4) b
-% d2 g,4 b 
-% c4 b a8-- c-- b4-.
-% bes8-- a4-. as8-- g4~g8 d'(^\markup{Solo unisono}\mf \bar"||"
-% f8 g) r d16 ( des c8 f c a 
-% d8 f a g~g4) r 
-% a8 (as g c g dis e d
-% c g a bes ~bes4.) cis8 (
-% d8) a'4-. as-. f-. d8-- 
-% g8 (b g ges f b, e d ) 
-% c4 \glissando a8-- c-. r c8-- b4-. 
-% bes8-- a4-. as8-- g4-. r \bar"||"
-% d'4\f r8 d (g,4) b 
-% d4 c b g 
-% c4 r8 c (g4) e' 
-% c4 c cis cis 
-% d4 e g e8 (es) 
-% d2\f g4 g, 
-% c4. b8 a (b c cis ) 
-% d2\mf g4 g, 
-% c4. b8 a\dim (b c cis ) 
-% d2\p g4 g, 
-% c4 r8 e,--\f\< f4-. fis-. \!
-% g8 (a bes g ~g2\fermata) \bar"||" \time 4/4 
+f4\mf r4 r8 f4-. r8
+f4-- f-. f-- f-. 
+g4 r4 r8 g4-. r8
+g4-- g-. g-- g-. 
+f4 r4 r8 f4-. r8
+\tuplet 3/2 {a4 (b c} b4. ) b8 
+(g8 a ~a4) r8 bes8-- a4-.
+as4. g8-. r2 
+a4-. r4 r8 b4-. r8 
+a4-- a-. b-- b-. 
+c4-. r r8 c4-. r8 
+b4-- b-. bes-- bes-. 
+a4-. r r8 b4-. r8 
+\tuplet 3/2{a4 (b c} b4.) b8 
+(g8 a~a4) r2 
+f8-- fis4-. g8~g r r4 
+r8 e4-. e8-- e4-. e-. 
+\tuplet 3/2 {d'4 (bes b} b4-.) d8-- cis~ 
+cis2. ~ cis8 d-.
+~d8 cis ~cis2.
+r8 a4-. a8-- as4-. as-. 
+\tuplet 3/2 {c4 (d e} fis4-.) c8-- as~ 
+as2. b8 cis-. ~
+~cis8 b ~b2.
+a4 r4 r8 b4-. r8
+a4-- a-. b-- b-. 
+b4 r4 r8 c4-. r8
+b4-- b-. bes-- bes-. 
+a4 r4 r8 b4-. r8
+\tuplet 3/2 {a4 (b c} b4.) b8 (
+g8 a~a4) r8 bes8-- a4-. 
+as8-- g4-. fis8-- f4~f8 d'(^\markup{Solo unisono}\mf \bar"||"
+f8 g) r d16 ( des c8 f c a 
+d8 f a g~g4) r 
+a8 (as g c, g' dis e d
+c g a bes ~bes4.) cis8 (
+d8) a'4-. as-. f-. d8-- 
+g8 (b g ges f b, e d ) 
+c4 \glissando a8-- c-. r bes8-- a4-. 
+as8-- g4-. fis8-- f4-. r \bar"||"
+c'4 r4 r8 d4 r8 
+d4-- d-. d-- d-.
+b4-- b-. c-- c-.
+b4-- b-. bes-- bes-.
+d4-- d-. d-- r
+\tuplet 3/2 {a4 \f (b c} b4.) b8 (
+g8\dim a ~a4)\! r2 
+\tuplet 3/2 {a4 \mf (b c} b4.) b8 (
+g8\dim a ~a4)\! r2 
+\tuplet 3/2 {a4 \p (b c} b4.) b8 (
+g8 a) r8 e8-- \f \< f4-. fis \!
+g8 (a bes f ~f2\fermata) \bar"||" \time 4/4 
 % c4\mp^\markup{Slow (\bold{Mood Indigo})} b a c 
 % d4 \<c b a 
 % g4\f a g b 
