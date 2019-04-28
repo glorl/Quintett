@@ -1,4 +1,4 @@
-zwei = \new Voice \relative c' {
+Prestozwei = \new Voice \relative c' {
 \compressFullBarRests
 \set Timing.beatStructure = #'(4)
 \partial 8 e'8-.\p

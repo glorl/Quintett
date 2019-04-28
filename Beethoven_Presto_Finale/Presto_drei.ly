@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+Prestodrei = \new Voice \relative c' {
 \compressFullBarRests
 \set Timing.beatStructure = #'(4)
 \partial 8 r8

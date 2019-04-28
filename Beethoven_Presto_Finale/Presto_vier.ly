@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+Prestovier = \new Voice \relative c' {
 \compressFullBarRests
 \set Timing.beatStructure = #'(4)
 \partial 8 g'8-. \p

@@ -1,0 +1,10 @@
+globalEllington= {
+\time 2/2
+\key c \major
+}
+
+\include "../Patscheck_Ellington/Ellington_eins.ly"
+\include "../Patscheck_Ellington/Ellington_zwei.ly"
+\include "../Patscheck_Ellington/Ellington_drei.ly"
+\include "../Patscheck_Ellington/Ellington_vier.ly"
+\include "../Patscheck_Ellington/Ellington_bass.ly"

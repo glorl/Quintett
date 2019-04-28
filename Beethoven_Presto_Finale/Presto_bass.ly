@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+Prestobass = \new Voice \relative c' {
 \compressFullBarRests
 \set Timing.beatStructure = #'(4)
 \partial 8 r8
