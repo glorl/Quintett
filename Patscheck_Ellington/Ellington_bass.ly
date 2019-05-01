@@ -114,7 +114,7 @@ c4 e a, es'
 d4 cis b d 
 e4\< d cis8 (c) b4 
 bes4\f a bes c 
-d4 \grace{r8 a16[^\markup{Cadenza} _(b] d [cis fis e] cis'[ c b bes]} a4\glissando f2) ^\fermata \bar"||" \time 2/2 \key c \major 
+d4\fermata \grace{r8 a16[^\markup{Cadenza} _(b] d [cis fis e] cis'[ c b bes]} a4\glissando f2) ^\fermata \bar"||" \time 2/2 \key c \major 
 \repeat percent 2{f,4\f^\markup{Latin (\bold Caravan)}  r e r 
 f4  r e r }
 \repeat volta 2{

@@ -59,78 +59,80 @@ g8\dim a ~a4)\! r2
 \tuplet 3/2 {a4 \p (b c} b4.) b8 (
 g8 a) r8 e8-- \f \< f4-. fis \!
 g8 (a bes f ~f2\fermata) \bar"||" \time 4/4 
-% c4\mp^\markup{Slow (\bold{Mood Indigo})} b a c 
-% d4 \<c b a 
-% g4\f a g b 
-% c4 \> b a8 (as) g4\!
-% c4\mp g fis g
-% d'4 \<c b a 
-% as4\f c bes as 
-% g4 \> b a g\!
-% c4\mp bes a b 
-% c4\< d c e,\f
-% f4 g a d 
-% bes4 d g, des' 
-% c4 g fis g 
-% d'4 \< c b a 
-% g4\f f g b 
-% c4 c8 \>(b) a (as) g4
-% c4\mf e es c 
-% d4 c a fis' 
-% g4 f g b,
-% c4 a' f e 
-% c4 b fis' c 
-% a'4 fis a c, 
-% d4 c a as 
-% g4 a b g
-% r8^\markup{Solo unisono} c\mf (d g, c--) d4-. g,8(
-% c8 d g, c~c2) 
-% r8 c (d c es4.) c8 
-% (es c d c~c a as g
-% ~g8) r g (gis a4. g8
-% fis8 e' es d~d2) 
-% e8 (d c a c d4. 
-% c8) r^\markup{cl.1 break} r4 r2 \bar"||"
-% c4\p e g e 
-% es4 d c a 
-% g4 d' g, b
-% c4 b a g 
-% c4 g fis fis'
-% e4 es d a
-% as4 c es as
-% a8-. dis, (e) a,-. r2 \bar"||" \key d \major 
-% d4\mf fis, gis a
-% e'4\< d cis b
-% a4\f g a cis 
-% d4 \> cis b8 (bes) a4
-% d4\mf a gis d' 
-% e8 \> (es d cis) b4 e\!
-% bes4 d c bes 
-% a4 e' d a8-- a-.
-% r8 d4. b4 bes 
-% a4 e' d\f fis,
-% g4 a b d 
-% c4 e a, es' 
-% d4 cis b d 
-% e4\< d cis8 (c) b4 
-% bes4\f a bes c 
-% d4 \grace{r8 a16[^\markup{Cadenza} _(b] d [cis fis e] cis'[ c b bes]} a4\glissando f2) ^\fermata \bar"||" \time 2/2 \key c \major 
-% \repeat percent 2{f,4\f^\markup{Latin (\bold Caravan)}  r e r 
-% f4  r e r }
-% \repeat volta 2{
-% \repeat percent 2{f4\mf r e r 
-% f4  r e b'}
-% \repeat percent 2{f4 r e r 
-% f4  r e b'}
-% \repeat percent 2{f4 r e r 
-% f4  r e b'}
-% a1 
-% a1
-% a1 
-% }
-% \alternative{{
-% a2. e4}{
-% a4 r4 e2--\f}}
+e'2\mp^\markup{Slow (\bold{Mood Indigo})} (fis4 e8-- fis
+~fis1)  \<
+f!2\f ( f4. e8 
+e1) \> 
+r4\!e \mp (fis e8-- fis
+fis1 \<) 
+es8--\f (es4. es4 es8-- d
+~d2) c8\> cis d4\!
+r4 bes (\mp es d8-- c
+~c2\< e4\f c8-- c
+~c2 c4 c8 f
+~f2.\>) f4\!
+e2 (fis4 e8-- fis
+~fis1) \< 
+f!2\f (f4. e8)
+e1 \>
+c4\mf e es c 
+d4 c a fis' 
+g4 f g b,
+c4 es d des
+c4 e es e
+c4. fis8~fis2
+fis2. fis4
+f!2 f\> 
+r8\!^\markup{Solo unisono} c\mf (d g, c--) d4-. g,8(
+c8 d g, c~c2) 
+r8 c (d c es4.) c8 
+(es c d c~c a as g
+~g8) r g (gis a4. g8
+fis8 e' es d~d2) 
+e8 (d c a c d4. 
+c8) r^\markup{cl.1 break} r4 r2 \bar"||"
+c1\p 
+c1
+d4. d8 r4 d4 (
+c2 a 
+bes2  a4 a 
+c2) c8-- c-. r4
+es2 (des4 c
+e!8) r r4 r2 \bar"||" \key d \major 
+fis2\mf gis8-- fis4-. d8
+~d2\< ~d8 d4.
+e2\f cis4. fis8
+~fis1 \> 
+r8\! fis4.->\mf gis4-. fis8-- d
+~d1 \> 
+d8--\! d4-. c8 r4 bes8 bes 
+~bes2 d8 (fis e-- g-.)
+r8 c,4. b4-. bes8-- d
+~d2\< \glissando fis4 \f d8-- d
+~d2 d8-- d4-. a8
+~a2 r8 cis4. 
+fis2 gis8-- fis4-. d8
+~d1 \< 
+e2 \f d 
+fis2\fermata d\fermata \bar"||" \time 2/2 \key c \major 
+f,4\f^\markup{Latin (\bold Caravan)}  r e r 
+f4  r e r 
+f4  r e r 
+f4  r e r 
+\repeat volta  2{
+\repeat percent 2{d'4.\mf d8-- d4-. d-. 
+d8-- d4-. d8~d2 }
+\repeat percent 2{d4. d8-- d4-. d-. 
+d8-- d4-. d8~d2 }
+\repeat percent 2{d4. d8-- d4-. d-. 
+d8-- d4-. d8~d2 }
+e,4. e8-- fis4-. e-. 
+fis8-- e4-. fis8~fis2 
+r4 r8 e8-- fis4-. e4-.
+}
+\alternative{{
+fis8-- e4 fis8~fis4 r4}{
+a4-. r d2\f}}
 % a4 b e b 
 % a4 c e a 
 % e4 d b bes 
