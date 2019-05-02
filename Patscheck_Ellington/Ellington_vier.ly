@@ -133,79 +133,79 @@ r4 r8 e8-- fis4-. e4-.
 \alternative{{
 fis8-- e4 fis8~fis4 r4}{
 a4-. r d2\f}}
-% a4 b e b 
-% a4 c e a 
-% e4 d b bes 
-% \tuplet 3/2 {a4-- a-- b!--} \tuplet 3/2 {cis4-- f-- cis--}
-% d4 c b a 
-% d4 b d c 
-% a4 c e c 
-% d4 fis a, c 
-% b4 g f d' 
-% g,4 e f g 
-% a4 d a as
-% g4 f d' b 
-% c4 d e g, 
-% \tuplet 3/2{c4-- b-- c-- }\tuplet 3/2{e4-- d-- c-- }
-% b4 r e,^\markup{break} f 
-% a4 (gis) c8--^\markup{Solo + cl.4} b4-. dis8 
-% e4 (d2 b4) 
-% gis4-> (b) d-> (e) 
-% f2~\tuplet 3/2{f4 e-- b--} 
-% d2 r 
-% r4 f (d) b8 (a) 
-% gis4-> (a) b-> (c) 
-% d4 (gis,2 c4) 
-% b4 (e,2) r4 
-% b'2 ~\tuplet 3/2{b4 d-- e--}
-% f8-- e4-. b'8 a4 gis
-% b4 (e,2) b8 (d) 
-% f4 (e2) r4 
-% a8-- e4-. f8 e (d c4) 
-% a8-- b4-. c8-- f4 (e) 
-% a4 dis,8 (e f e c4) 
-% a4 r^\markup{cl. 1} r2 \bar"||"
-% \repeat percent 2{f4 r e r 
-% f4  r e b'}
-% \repeat percent 2{f4 r e r 
-% f4  r e b'}
-% \repeat percent 2{f4 r e r 
-% f4  r e b'}
-% a4 r e r 
-% a4 r e r 
-% a4 r e r 
-% a4 r a e'\bar"||"
-% f4.\f f8 gis4-. f-. 
-% gis8-- f4-. gis8->~gis4 d
-% f4 f e e 
-% d4 b e e 
-% f4. f8 gis4-. f-. 
-% gis8-- f4-. gis8->~gis4 d
-% f4 f e e 
-% d4 b a e'
-% f4. f8 gis4-. f-. 
-% gis8-- f4-. gis8->~gis4 d
-% f4 d c d 
-% e4 fis g e
-% a,4 r a r 
-% a4 r a e
-% a4 r a e
-% a4\< r a r \bar"||"
-% f4\f r e r 
-% f4 r e b'
-% e,4 r f2--->
-% a2---> b2--->
-% e,2---> fis2--->
-% g2---> e2--->
-% a4 a e' c 
-% a4 r8 f'8--\> e4-. bes-. 
-% a4\mf r e r 
-% f4 r e c'8\> (b) 
-% f4\p r e r 
-% f4 r e c'8\> (b) 
-% f4\pp r e r 
-% f4 r e c'8\> (b) 
-% a4-.\! es'8\f \< ( d des c b bes)
-% a2-^\ff a4-^ r\bar"|."
+e1
+(c2 a 
+d1) 
+\tuplet 3/2 {r4 g,-- g--} \tuplet 3/2 {a4-- a-- a--}
+c1 
+(as2 c 
+g1) 
+r2 c8 \< (d e fis) \!
+d1
+(cis2 b
+c!1
+b2 b 
+a1) 
+\tuplet 3/2{a4-- d-- d-- }\tuplet 3/2{g4-- g-- e-- }
+a,4 r e^\markup{break}\mf (f )
+a4 (gis) c8--^\markup{Solo + b.cl.} b4-. dis8--
+e4 (d2 b4) 
+gis4-> (b) d-> (e) 
+f2~\tuplet 3/2{f4 e-- b--} 
+d2 r 
+r4 f (d) b8 (a) 
+gis4-> (a) b-> (c) 
+d4 (gis,2 c4) 
+b4 (e,2) r4 
+b'2 ~\tuplet 3/2{b4 d-- e--}
+f8-- e4-. b8 a4 gis
+b4 (e,2) b'8 (d) 
+f4-> (e2) r4 
+a8-- e4-. f8 e (d c4) 
+a8-- b4-. c8-- f4 (e) 
+a4 dis,8 (e f e c4) 
+a4 r^\markup{cl. 1} r2 \bar"||"
+\repeat percent 2{gis'4-.\p fis ~fis gis-.
+r4  fis gis2}
+\repeat percent 2{gis4-. fis ~fis gis-.
+r4  fis gis2}
+\repeat percent 2{gis4-. fis ~fis gis-.
+r4  fis gis2}
+a4-. e ~e a-. 
+r4 a-. e2 
+a4-. e ~e a-. 
+r4 a-. a-. r \bar"||"
+b,1\f (
+~b1
+~b4 d-- d-- d-- 
+b4 d-- d-- d-- )
+b1 (
+~b1
+~b4 b d-- d-- 
+d4-- d-- c-- b-- )
+b1 (
+~b1
+~b4 b c-- b-- 
+bes4-- a-- g-- b-- )
+e,4. e8 fis4-. e-. 
+fis8-- e4-. fis8-- ~fis2
+e4. e8 fis4-. e-. 
+cis'2\< e\!\bar"||"
+b4.\f b8 b4-. b-. 
+b8-- b4-. b8~b2 
+~b4 r b2--->
+c2---> b2--->
+bes2---> a2--->
+g2---> b2--->
+a4-. a2 a4-. 
+a4-. r8 f'8--\> e4-. bes-. 
+a4-.\mf r e-. r 
+f4-. r e-. c'8\> (b) 
+f4-.\p r e-. r 
+f4-. r e-. c'8\> (b) 
+f4-.\pp r e-. r 
+f4-. r e-. c'8\> (b) 
+a4-.\! es'8\f \< ( d des c b bes)
+fis'2-^\ff fis4-^ r\bar"|."
 }
 

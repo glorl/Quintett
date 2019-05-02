@@ -145,8 +145,8 @@ a4 d a as
 g4 f d' b 
 c4 d e g, 
 \tuplet 3/2{c4-- b-- c-- }\tuplet 3/2{e4-- d-- c-- }
-b4 r e,^\markup{break} f 
-a4 (gis) c8--^\markup{Solo + cl.4} b4-. dis8 
+b4 r e,^\markup{break}\mf ( f )
+a4 (gis) c8--^\markup{Solo + cl.4} b4-. dis8--
 e4 (d2 b4) 
 gis4-> (b) d-> (e) 
 f2~\tuplet 3/2{f4 e-- b--} 
@@ -156,9 +156,9 @@ gis4-> (a) b-> (c)
 d4 (gis,2 c4) 
 b4 (e,2) r4 
 b'2 ~\tuplet 3/2{b4 d-- e--}
-f8-- e4-. b'8 a4 gis
-b4 (e,2) b8 (d) 
-f4 (e2) r4 
+f8-- e4-. b8 a4 gis
+b4 (e,2) b'8 (d) 
+f4->(e2) r4 
 a8-- e4-. f8 e (d c4) 
 a8-- b4-. c8-- f4 (e) 
 a4 dis,8 (e f e c4) 
@@ -197,12 +197,12 @@ e,2---> fis2--->
 g2---> e2--->
 a4 a e' c 
 a4 r8 f'8--\> e4-. bes-. 
-a4\mf r e r 
-f4 r e c'8\> (b) 
-f4\p r e r 
-f4 r e c'8\> (b) 
-f4\pp r e r 
-f4 r e c'8\> (b) 
+a4-.\mf r e-. r 
+f4-. r e-. c'8\> (b) 
+f4-.\p r e-. r 
+f4-. r e-. c'8\> (b) 
+f4-.\pp r e-. r 
+f4-. r e-. c'8\> (b) 
 a4-.\! es'8\f \< ( d des c b bes)
 a2-^\ff a4-^ r\bar"|."
 }
