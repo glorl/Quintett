@@ -5,7 +5,7 @@ r8 c4-> r8 fis,8 (c'->) r8 d, (
 ~d8 e f g-> ~g) des4.-> (
 c8) c4.-^ e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
-r8 e4-. g-. e-. es8 
+r8 e4-. g-. e-. es8-- 
 des4.-> g,8->~g4 r \bar"||"
 d'4\mf r8 d (g,4) b 
 d4 c b g 
@@ -30,7 +30,7 @@ b!2 e,4 bes'8 (a
 r8 a4-. a8-- as4-. as-. 
 a!2 (d4 as8 g
 ~g8) g (f g~g4) g8 a
-~a8 g4-. g8 r g8-- g4-.
+~a8 g4-. g8 r g8-- g4-.\bar"||"
 d'4 r8 d (g,4) b 
 d4 c b g 
 c4 r8 c (g4) a 
@@ -107,7 +107,7 @@ d4\mf a gis d'
 e8 \> (es d cis) b4 e\!
 bes4 d c bes 
 a4 e' d a8-- a-.
-r8 d4. b4 bes 
+r8 d4.-> b4 bes 
 a4 e' d\f fis,
 g4 a b d 
 c4 e a, es' 

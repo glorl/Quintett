@@ -5,16 +5,16 @@ r8 c4-> r8 fis,8 (c'->) r8 d, (
 ~d8 e f g-> ~g) r8 r4
 r8 c,4.-^ e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
-r8 c,4-. es-. c-. bes8 
+r8 c,4-. es-. c-. bes8--
 as4.-> g8->~g4 r \bar"||"
-f4\mf r4 r8 f4-. r8
+f4-.\mf r4 r8 f4-. r8
 f4-- f-. f-- f-. 
-g4 r4 r8 g4-. r8
+g4-. r4 r8 g4-. r8
 g4-- g-. g-- g-. 
-f4 r4 r8 f4-. r8
-\tuplet 3/2 {a4 (b c} b4. ) b8 
+f4-. r4 r8 f4-. r8
+\tuplet 3/2 {a4 (b c} b4. ) b8--
 (g8 a ~a4) r8 bes8-- a4-.
-as4. g8-. r2 
+as4.-- g8-. r2 
 a4-. r4 r8 b4-. r8 
 a4-- a-. b-- b-. 
 c4-. r r8 c4-. r8 
@@ -29,8 +29,8 @@ cis2. ~ cis8 d-.
 ~d8 cis ~cis2.
 r8 a4-. a8-- as4-. as-. 
 \tuplet 3/2 {c4 (d e} fis4-.) c8-- as~ 
-as2. b8 cis-. ~
-~cis8 b ~b2.
+as2. b8 cis-.
+~cis8 b ~b2.\bar"||"
 a4 r4 r8 b4-. r8
 a4-- a-. b-- b-. 
 b4 r4 r8 c4-. r8
@@ -47,7 +47,7 @@ d8) a'4-. as-. f-. d8--
 g8 (b g ges f b, e d ) 
 c4 \glissando a8-- c-. r bes8-- a4-. 
 as8-- g4-. fis8-- f4-. r \bar"||"
-c'4 r4 r8 d4 r8 
+c'4 r4 r8 d4-. r8 
 d4-- d-. d-- d-.
 b4-- b-. c-- c-.
 b4-- b-. bes-- bes-.
@@ -62,15 +62,15 @@ g8 (a bes f ~f2\fermata) \bar"||" \time 4/4
 e'2\mp^\markup{Slow (\bold{Mood Indigo})} (fis4 e8-- fis
 ~fis1)  \<
 f!2\f ( f4. e8 
-e1) \> 
+~ e1) \> 
 r4\!e \mp (fis e8-- fis
-fis1 \<) 
+~fis1 \<) 
 es8--\f (es4. es4 es8-- d
 ~d2) c8\> cis d4\!
 r4 bes (\mp es d8-- c
 ~c2\< e4\f c8-- c
-~c2 c4 c8 f
-~f2.\>) f4\!
+~c2 c4 c8-- f
+~f2.\>) f4->\!
 e2 (fis4 e8-- fis
 ~fis1) \< 
 f!2\f (f4. e8)
@@ -93,7 +93,7 @@ e8 (d c a c d4.
 c8) r^\markup{cl.1 break} r4 r2 \bar"||"
 c1\p 
 c1
-d4. d8 r4 d4 (
+d4.-- d8 r4 d4 (
 c2 a 
 bes2  a4 a 
 c2) c8-- c-. r4
@@ -107,7 +107,7 @@ r8\! fis4.->\mf gis4-. fis8-- d
 ~d1 \> 
 d8--\! d4-. c8 r4 bes8 bes 
 ~bes2 d8 (fis e-- g-.)
-r8 c,4. b4-. bes8-- d
+r8 c,4.-> b4-. bes8-- d
 ~d2\< \glissando fis4 \f d8-- d
 ~d2 d8-- d4-. a8
 ~a2 r8 cis4. 
@@ -166,11 +166,11 @@ a8-- b4-. c8-- f4 (e)
 a4 dis,8 (e f e c4) 
 a4 r^\markup{cl. 1} r2 \bar"||"
 \repeat percent 2{gis'4-.\p fis ~fis gis-.
-r4  fis gis2}
+r4  fis-. gis2}
 \repeat percent 2{gis4-. fis ~fis gis-.
-r4  fis gis2}
+r4  fis-. gis2}
 \repeat percent 2{gis4-. fis ~fis gis-.
-r4  fis gis2}
+r4  fis-. gis2}
 a4-. e ~e a-. 
 r4 a-. e2 
 a4-. e ~e a-. 
