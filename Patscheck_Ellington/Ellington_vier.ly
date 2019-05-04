@@ -2,7 +2,7 @@ Ellingtonvier=\new Voice \relative c'{
 r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c4-> r8 fis,8 (c'->) r8 d, (
-~d8 e f g-> ~g) r8 r4
+~d8 e f! g-> ~g) r8 r4
 r8 c,4.-^ e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c,4-. es-. c-. bes8--
@@ -66,7 +66,7 @@ f!2\f ( f4. e8
 r4\!e \mp (fis e8-- fis
 ~fis1 \<) 
 es8--\f (es4. es4 es8-- d
-~d2) c8\> cis d4\!
+~d2) c8(\> cis d4)\!
 r4 bes (\mp es d8-- c
 ~c2\< e4\f c8-- c
 ~c2 c4 c8-- f
@@ -113,7 +113,7 @@ r8 c,4.-> b4-. bes8-- d
 ~a2 r8 cis4. 
 fis2 gis8-- fis4-. d8
 ~d1 \< 
-e2 \f d 
+e2 \f d \breathe
 fis2\fermata d\fermata \bar"||" \time 2/2 \key c \major 
 f,4\f^\markup{Latin (\bold Caravan)}  r e r 
 f4  r e r 

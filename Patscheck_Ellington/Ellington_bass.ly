@@ -2,7 +2,7 @@ Ellingtonbass=\new Voice \relative c'{
 r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c4-> r8 fis,8 (c'->) r8 d, (
-~d8 e f g-> ~g) des4.-> (
+~d8 e f! g-> ~g) des4.-> (
 c8) c4.-^ e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 e4-. g-. e-. es8-- 

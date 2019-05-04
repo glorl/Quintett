@@ -1,171 +1,205 @@
-#(define (scoop-stencil grob)
-         (ly:stencil-add
-             (ly:note-head::print grob)
-             (grob-interpret-markup grob
-                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
-                    #:translate '(-0.2 . -0.5)
-                    #:path 0.25 '((moveto 0 0)
-                        (curveto -0.5 -1 -1.5 -1.5 -2 0))))))
-%                         (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
-
-
-
-Ellingtonzwei=\new Voice \relative c''{
-a4\f ^\markup{Vivo} r f r 
-d4-^ e2.\bar"||"
-e4 r r2\fermata \bar"||" 
-a2^\markup{Lento} e 
-e4 r r2 
-a,4---.\mp d---. f---. r
-b,4---. d---. f8-- e ~e4
-g,4---. a---. cis---. r
-b4---. a---. a---. r \bar"||"
-d8-- d4-. d8-- d4 r 
-d4-- e-.-- e---. r
-g,4-- a---. cis-- cis---.
-a4-- a---. d2 
-bes4--\f bes---. e-- e---.
-e4-- e---. e-- e---.
-f2 f4-- f-.--
-f4.\< b8 (c) e (f) g16 (gis
-a4\mf ) r r e,-- \mp
-g4. gis8 (a) b (cis) a (
-a4) f---. e-- e---. 
-d4. bes'8 (a) e (f4) 
-d2 g,16^\markup{Solo} (bes d e \tuplet 6/4 {g16 [bes d e g a]}
-bes8-.) r r4 r4 e,,
-f4. gis,16^\markup{Solo} (a e f a d \tuplet 6/4{ f[a d f a c]}
-d8) r f,,4-. d-- d-.
-e4-- e-. e-- cis 
-e4-- e-. g-. r 
-a,4-- a-. a-- g-. 
-d'4--\> cis-. d-- \!r \bar"||"
-d4-^\f^\markup{Satz 2: Vivace} r r d-^
-bes4-^ r r d4-^ \bar"||"
-d4--\mf  d2-. d4-. 
-r4 d-. d2-- 
-d4-- d2-. d4-. 
-r4 g-.  g2-- 
-e4-- e2-. e4-. 
-r4 e-. e2-- 
-d4-- d2-. d4-. 
-r4 d-. d-. f-. 
-g4-- cis,2-. e4-. 
-r4 e4-. e-. e-. 
-d4-- d2-. d4-. 
-r4 d r d 
-e4 r r g4
-e4 r r d 
-c4 r r f4
-f4 r r f 
-% << { \voiceOne \override Stem.direction = #UP
-a,8 (gis a cis) e-- g4 gis8
-a8 (f' e g~g2) 
-a4 (as8 g cis, d e d 
-f2.) r4
-bes8 (a g bes~bes a g a
-bes4) d4-. bes8-- a ~a4 
-a8 (g f a~a g f g
-a c g f~f2)% }
-% { \voiceTwo \override Stem.direction = #DOWN
-% s4 g,4-. cis,2--
-% cis4-- e2-. e4-. 
-% r4 d-. d2-- 
-% d4-. s s f
-% g4.-> g8-> ~g4 g4-.
-% g4.-> g8-> ~g4 g4-. 
-% f4.-> f8-> ~f4 f4-.
-% f4.-> f8-> ~f4 f4-.}
-% >> \oneVoice 
-a,8 (b cis d f e g e
-cis4-.) a-. cis8-- g4-. bes8-- 
-a8 (f' g gis a ais bes gis)
-f4-^ r r2 \bar"||"\key d \major 
-a,4.^\markup{Bossanova}\mf a8-- a8-- a4-. bes8-.
-r8 bes4.-> bes4-. bes-.
-d4. d8-- dis8-- e4-. f8-- 
-cis!4 r r2 \bar"||"
-a4. fis8-- fis-- fis4-. e8-^ 
-r8 fis4.->  dis4---. dis---.
-b4. b8-- c8-- b4-. e8-- 
-e4. g,16^\markup{Solo} (fis \tuplet 6/4 {e16 [g b d e g]}\tuplet 6/4 {b16 [d e g a ais])}
-b8-- e,,4-- a,8-- a4 (g')
-g4. (e8--) e-- e4-. e8-. 
-r8 d4. d8 (cis b cis) 
-d2 r4 fis--\pp
-r4 fis4 ~fis4. e8
-~e2 fis 
-r4 e2 e4
-r4 f ~f8 f-- e4-.
-r4 d ~d d-.
-e2 e
-d2 d8-- cis4-. cis8-- 
-cis4 r4 r2 
-fis4.-- fis8-- fis-- fis4-. fis8-. 
-r8 fis4.-- fis4-.-- fis-.--
-e4.-- e8-- e-- fis4-. g8
-r8 e4.-> e4-.-- e-.-- 
-g4.-- g8-- g-- g4-. g8-. 
-r8 e4.-> e4-.-- e-.-- 
-g4.-- a8-- a-- a4-. a8-. 
-r8 a4.-- a4-.-- a-.-- 
-a4.^\markup{Tutti} fis8-- fis-- fis4-. e8
-r8 fis4.-- dis4-.-- dis-.-- 
-b4. b8 b ( c b e
-f4.) f16 (g \tuplet 3/2 {as4 as8\noBeam } \tuplet 3/2 {b8 d f) } 
-fis!4. \glissando d8 e (d d d) 
-e2 cis8 ( g f g) 
-g4. (fis!8 fis f e4) 
-fis!2. r4 \bar"||" \key f \major 
-f4 \f^\markup{Swing} r f r 
-e4 r g r \bar"||"
-g4--\mf g2-. g4-. 
-r4 g4-. g2-- 
-f4-- f2-. f4-. 
-r4 f4-. f2-- 
-e4-- e2-. e4-. 
-r4 e4-. e2-- 
-f4-- f2-. f4-. 
-r4 f4-. f2-- 
-g4-- g2-. g4-. 
-r4 g4-. g2-- 
-f4-- f2-. f4-. 
-r4 d4-. d2-- 
-e4-- e2-. e4-. 
-r4 g4-.\< a-. g-. \!
-d8-- d'4-^ bes-^ a-^ f8--
-e8-- d4 cis8-- d2 \bar"||"\key d \major 
-fis4-- fis2-. fis4-. 
-r4 fis4-. fis2-- 
-fis4-- fis2-. fis4-. 
-r4 fis4-. fis2-- 
-d4-- d-. d-- d-. 
-d4-- d2-. d4-. 
+Ellingtonzwei=\new Voice \relative c'{
+r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
+f8 (e f fis-> ~fis f fis g->) 
+r8 c4-> r8 fis,8 (c'->) r8 d, (
+~d8 e f! g-> ~g) r8 r4
+r8 c,4.-^ e4-.-> g-.-> 
+f8 (e f fis-> ~fis f fis g->) 
+r8 g4-. bes-. g-. f8--
+es4.-> e8->~e4 r \bar"||"
+c4-.\mf r4 r8 d4-. r8
+c4-- d-. d-- d-. 
+e4-. r4 r8 e4-. r8
 e4-- e-. e-- e-. 
-g4-- g2-. g4-. 
-r4 fis4-. fis2-- 
-d4-- d2-. a'4-. 
-r4 d,4-. e2-- 
-gis4-- gis2-. gis4-. 
-g!4-^\f a2-^ a4-^ 
-bes4-^ b4-^ c4-^ cis4-^
-a4-- a-. r fis
-r4 fis-. fis-. fis-. 
-r4 fis r fis 
-r4 fis-. fis-. fis-. 
-r4 g r g
-g4-- g-. r8 g-- g4-. 
-r4 g r g
-r4 g-. g-. g-. 
-fis4-- fis2-. fis4-.
-fis4-- fis-. fis-- fis-. 
-b8 \f (a b e) r8 b (e dis)
-e8 (cis b cis e cis e g
-fis4-.) r a,,4->_\markup{\italic cresc.} (es') 
-d4-> (g) a8 (d dis e) 
-d2--->\ff  dis--->
-e2---> f---> 
-e1-> ~
-e8 cis-> (d4-.) d,-^ r\bar"|."
+c4-. r4 r8 d4-. r8
+\tuplet 3/2 {d4 (f a} a4. ) f8--
+(e8 g ~g4) r8 a8-- gis4-.
+g!4.-- fis8-. r2
+c4-. r4 r8 d4-. r8 
+c4-- c-. d-- d-. 
+e4-. r r8 e4-. r8 
+e4-- e-. e-- e-. 
+c4-. r r8 d4-. r8 
+\tuplet 3/2{d4 (f a} a4.) f8 
+(e8 g~g4) r2 
+d8-- d4-. e8~e r r4 
+r8 gis4-. gis8-- g4-. g-. 
+\tuplet 3/2 {gis4 (g gis} b4-.) bes8-- b~ 
+b2. ~ b8 gis-.
+~gis8 g ~g2.
+r8 fis4-. fis8-- f4-. f-. 
+\tuplet 3/2 {fis4 (gis a} c4-.) bes8-- b~ 
+b2. a8 g-.
+~g8 f ~f2.\bar"||"
+c4 r4 r8 d4-. r8
+c4-- d-. d-- d-. 
+e4 r4 r8 e4-. r8
+e4-- e-. e-- e-. 
+c4 r4 r8 d4-. r8
+\tuplet 3/2 {d4 (f a} a4.) f8 (
+e8 g~g4) r8 a8-- gis4-. 
+g8-- fis4-. f8-- e4~e8 r \bar"||"
+f1\p ~
+f2~f8 f-- f4-.
+e1
+~e2 ~e8 e-- e4-.
+f1
+~f1
+(e2) r8 a-- gis4-.
+g8-- fis4-. f8-- e4-. r \bar"||"
+f4\f r4 r8 f4-. r8 
+f4-- f-. f-- f-.
+e4-- e-. e-- e-.
+e4-- e-. e-- e-.
+f4-- f-. f-- r
+\tuplet 3/2 {d4 \f (f a} a4.) f8 (
+e8\dim g ~g4)\! r2 
+\tuplet 3/2 {d4 \mf (f a} a4.) f8 (
+e8\dim g ~g4)\! r2 
+\tuplet 3/2 {d4 \p (f a} a4.) f8 (
+e8 g) r8 e8-- \f \< f4-. fis \!
+g8 (a bes g ~g2\fermata) \bar"||" \time 4/4 
+b2\mp^\markup{Slow (\bold{Mood Indigo})} (c4 b8-- c
+~c1)  \<
+d2\f ( b4. b8 
+~b1) \> 
+r4\! b\mp (c b8-- c
+~c1 \<) 
+c8--\f (c4. bes4 as8-- as
+~as2) fis8(\> g gis4)\!
+r4 g (\mp a as8-- g
+~g2\< d'4\f e8-- d
+~d2 d4 d8-- bes
+~bes2.\>) b4->\!
+b2 (c4 b8-- c
+~c1) \< 
+d2\f (b4. b8)
+b1 \>
+r4\! g8_\markup{\dynamic mf unisono} (gis a4. g8
+fis8 e' es d-> ~d2) 
+e!8 (d c a b4 d8 g,
+e4 es d des 
+c4 e es e) 
+c4. (fis8 ~fis2 
+a2. c4
+b2) b8\> (a b4) 
+g1\p
+g1
+f2. (a4
+a2 as
+g4) r r c
+(c1
+b4 a ~a g
+~g8) r^\markup{cl.1 break} r4 r2 \bar"||"
+g1\p 
+a1
+b4.-- b8 r4 g4 (
+g2 f
+e2 es4 d
+a'2) b8-- a-. r4
+as2 (bes4 bes
+cis8) r r4 r2 \bar"||" \key d \major 
+cis2\mf d8-- cis4-. b8
+~b2\< ~b8 b4.->
+cis2\f b4. cis8
+~cis1 \> 
+r8\! cis4.->\mf b4-. cis8-- b
+~b1 \> 
+as8--\! as4-. as8 r4 as8 g
+~g2 gis8 (a cis-- cis-.)
+r8 a4.-> as4-. g8-- a(
+~a2\< \glissando e'4 \f fis8-- e
+~e2) e8-- e4-. c8
+~c2 r8 bes4. 
+cis2 d8-- cis4-. b8
+~b1 \< 
+cis2 \f c \breathe
+cis!2\fermata b \fermata \bar"||" \time 2/2 \key c \major 
+r4^\markup{Latin (\bold Caravan)} r8 d,8--\mf d4-. d4-.
+d8-- d4-. d8~d2
+r4 r8 d-- d4-. d-. 
+d8-- d4-. d8~d2 
+\repeat volta  2{
+\repeat percent 2{gis4.\mf fis8-- gis4-. fis-. 
+gis8-- fis4-. gis8~gis2 }
+\repeat percent 2{gis4. fis8-- gis4-. fis-. 
+gis8-- fis4-. gis8~gis2 }
+\repeat percent 2{gis4. fis8-- gis4-. fis-. 
+gis8-- fis4-. gis8~gis2 }
+e4. e8-- fis4-. e-. 
+fis8-- e4-. fis8~fis2
+r4 r8 e8-- fis4-. e4-.
 }
+\alternative{{
+fis8-- e4 fis8~fis4 r4}{
+e4-. r b'2\f}}
+cis1
+(a2 g~
+g1) 
+\tuplet 3/2 {r4 e-- e--} \tuplet 3/2 {g4-- cis-- g--}
+a1 
+(f2 fis
+c1) 
+r2 c'8 \< (d e fis) \!
+b,1
+(bes2 g
+f1
+f2) f
+g1 ~
+\tuplet 3/2{g4-- a-- a-- }\tuplet 3/2{c4-- b-- a-- }
+f4 r r2
+r1^\markup{cl. 4 + b.cl.}
+\repeat percent 2{f4-.\mp f-. d2
+f4. d8~d2 }
+\repeat percent 2{f4-. f-. d2
+f4. d8~d2 }
+\repeat percent 2{f4-. f-. d2
+f4. d8~d2 }
+e4-. e-. c2
+e4. c8 ~c2
+e4-. e-. c2 
+e4-. r^\markup{cl. 1} r2 \bar"||"
+\repeat percent 2{d4-.\p d ~d d-.
+r4  d-. d2}
+\repeat percent 2{d4-. d ~d d-.
+r4  d-. d2}
+\repeat percent 2{d4-. d ~d d-.
+r4  d-. d2}
+e4-. c ~c e-. 
+r4 e-. c2 
+e4-. c ~c e-. 
+r4 e-. e-. r \bar"||"
+gis1\f (
+~gis1
+~gis4 b-- b-- gis-- 
+gis4 gis-- b-- gis-- )
+gis1 (
+~gis1
+~gis4 gis b-- b-- 
+b4-- b-- a-- e-- )
+gis1 (
+~gis1
+~gis4 gis a-- gis-- 
+g!4-- fis-- e-- e-- )
+e4. e8 fis4-. e-. 
+fis8-- e4-. fis8-- ~fis2
+e4. e8 fis4-. e-. 
+fis2\< a\!\bar"||"
+gis4.\f gis8 a4-. gis-. 
+gis8-- fis4-. gis8~gis2 
+~gis4 r gis2--->
+a2---> gis2--->
+g!2---> fis2--->
+e2---> fis2--->
+e4-. e2 e4-. 
+a4-. r8 f8--\> e4-. bes-. 
+a4-.\mf r8 d-- d4-. d-.
+d8-- d4-. d8~d2 
+r4 r8 d--\p  d4-. d-.
+d8-- d4-. d8~d2 
+r4 r8 d--\pp  d4-. d-.
+d8-- d4-. d8~d2 
+r4 es'8\f \< ( d des c b bes)
+e2-^\ff e4-^ r\bar"|."
+}
+

@@ -2,7 +2,7 @@ Ellingtondrei=\new Voice \relative c'{
 r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c4-> r8 fis,8 (c'->) r8 d, (
-~d8 e f g-> ~g) r8 r4
+~d8 e f! g-> ~g) r8 r4
 r8 c,4.-^ e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 d4-. f-. d-. c8--
@@ -66,7 +66,7 @@ b2\f ( as4. g8
 r4\!g \mp (a g8-- a
 ~a1 \<) 
 fis8--\f (fis4. fis4 fis8-- f
-~f2) dis8\> e f4\!
+~f2) dis8(\> e f4)\!
 r4 e (\mp fis f8-- e
 ~e2\< bes'4\f bes8-- a
 ~a2 a4 a8-- g
@@ -113,7 +113,7 @@ r8 f4.-> g4-. e8-- fis(
 ~g2 r8 g4. 
 a2 b8-- a4-. gis8
 ~gis1 \< 
-g2 \f gis
+g2 \f gis\breathe
 a2\fermata gis\fermata \bar"||" \time 2/2 \key c \major 
 r4^\markup{Latin (\bold Caravan)} r8 b,8--\mf b4-. b4-.
 b8-- b4-. b8~b2
@@ -152,7 +152,7 @@ r1^\markup{cl. 4 + b.cl.}
 \repeat percent 2{gis,4-.\mp gis-. b2
 gis4. b8~b2 }
 \repeat percent 2{gis4-. gis-. b2
-gis4 b ~b2 }
+gis4. b8 ~b2 }
 \repeat percent 2{gis4-. gis-. b2
 gis4. b8 ~b2 }
 c4-. c-. a2
