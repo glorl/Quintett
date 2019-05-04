@@ -7,8 +7,8 @@ r8 a r a
 r8 a r a 
 r8 a r a 
 r8 gis r gis 
-r8 c r c \f 
 r8 c r c 
+r8 c\f r c 
 r8 c r c 
 r8 f r f
 r8 c r c\p 
@@ -45,7 +45,7 @@ r8 e_\markup{\dynamic p\italic rit.} r e
 r8 e r e 
 r8 f r f 
 r8 f r f 
-b8->\ff r r8. e,16
+b8->_\markup{\dynamic ff \italic{a tempo}} r r8. e,16
 fis8-. r gis-. r 
 c8-. c4-> gis16 (a) 
 d4 (c8-.) r 
@@ -77,11 +77,11 @@ r8 a r a
 r8 a r a 
 r8 gis r d'
 r8 c r c 
-r8 a r c 
+r8 a\< r c \!
 r8 e\f r e 
 r8 f r f
-a8-- e-. r e\p 
-c8-. f-. b,-. e-. 
+a8-- e-. r e
+c8-.\p f-. b,-. e-. 
 a,8-. d-. g,-. c-. 
 e,8-. b'-. e,-. b'-. 
 c4 \< (c'8->)\! r 
@@ -98,7 +98,7 @@ r8 e_\markup{\dynamic p\italic rit.} r e
 r8 e r e 
 r8 f r f 
 r8 f r f 
-b8->\ff r r8. e,16
+b8->_\markup{\dynamic ff\italic {a tempo}} r r8. e,16
 fis8-. r gis-. r 
 c8-. c4-> gis16 (a) 
 d4 (c8-.) r 
