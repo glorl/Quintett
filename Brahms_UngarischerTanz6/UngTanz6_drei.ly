@@ -13,7 +13,7 @@ r8 a4->(g8)
 c8 g'\turn_\markup{\italic{piu rit.}} (fis-.) g-.
 r8 a,4->(g8) 
 r8 c4->(g8) \bar"||"
-r8^\markup{Vive} f'\ff r f 
+r8^\markup{Vivo} f'\ff r f 
 r8 e r e 
 r8 d r d 
 r8 c r c 
@@ -46,7 +46,7 @@ d,2\p
 e8-._\markup{\italic{a tempo}} d-. e-. r \fermata 
 }
 \key es \major \repeat volta 2{
-r8^\markup{Molto sostenuto} c r c 
+r8^\markup{Molto sostenuto}\f c r c 
 r8 d-> g-> d->
 r8 c r c 
 b8 g16-. b-. d-. g-. b-. d-. 
@@ -58,7 +58,7 @@ r8 c r c
 {b8 d16-. g-. d-. g-. b,-. d-.}
 {b4 r }}
 \repeat volta 2{
-    es8-._\markup{\dynamic p \italic dolce} e-. g-. bes-. 
+es8-._\markup{\dynamic p \italic dolce} es-. g-. bes-. 
 bes8-. d,-. f-. bes-. 
 bes,8-. d-. f-. bes-. 
 es,8-. g,8-. bes-. es-. 
@@ -67,7 +67,7 @@ g,8-. d'-. as-. c-.
 g8-. c-. g-. d'-. 
 }
 \alternative {{
-es4~es8 r }{
+es4~es8 r_\markup{\italic rit.}}{
 es4~es8 r \fermata }}
 \bar"||"\key c \major 
  \cadenzaOn 
@@ -89,7 +89,7 @@ es4~es8 r \fermata }}
 % \bar"||"
 d2^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } \p 
 e8-._\markup{\italic{a tempo}} d-. e-. r \bar"||" 
-g8-^ r c,4
+g8-^\f r c,4\sfz
 ~c8 r r4 
 r8 a\p r g 
 r8 c r g 
@@ -103,7 +103,7 @@ r8 c,-. r c-.
 r8 e-. r e-. 
 r8 d-.\pp r d-. 
 g4. g8-.
-a8-. d,-. r d-. 
+a8-- d,-. r d-. 
 r8 e-. r e-. 
 r8 d-. r d-. 
 g8-. r r4 
