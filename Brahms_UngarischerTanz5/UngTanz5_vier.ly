@@ -15,7 +15,7 @@ r8 a r a
 a8-.\p c-. g-. b-. 
 f8-. a-. e-. g-. 
 e8-. gis-. e-. gis-. 
-a8\< e' c'->\! r \bar"||"
+a8-.\< e'-. c'->\! r \bar"||"
 r8 a,\f r a
 r8 a r a
 r8 b r d 

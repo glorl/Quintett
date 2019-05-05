@@ -11,11 +11,11 @@ r8 c r c
 r8 c\f r c 
 r8 c r c 
 r8 f r f
-r8 c r c\p 
-r8 f r e 
+r8 c r c
+r8 f\p r e 
 r8 d r c 
 r8 b r b 
-a8\< c a->\! r \bar"||"
+a8-.\< c-. a->\! r \bar"||"
 r8 c\f r c  
 r8 c r c 
 r8 d r d 
