@@ -1,4 +1,4 @@
-UngTanzFdrei = \new Voice \relative c' {
+UngTanzFzwei = \new Voice \relative c' {
 \compressFullBarRests
 r8 a\mf r a 
 r8 a r a 
@@ -61,11 +61,11 @@ r8 cis-. r cis-.
 \repeat volta 2{
 r8 e->_\markup{\italic rit.} r fis->
 r8 e-> r e->
-cis'8-._\markup{\italic {a tempo}} cis-. d-. d-. 
+cis'8-._\markup{\italic a tempo} cis-. d-. d-. 
 e8 (a,) e r 
 r8 e->_\markup{\italic rit.} r fis->
 r8 b-> r a->
-e'8-._\markup{\italic {a tempo}} d-. cis-. b-. 
+e'8-._\markup{\italic a tempo} d-. cis-. b-. 
 cis8-. a-. e-. r 
 }
 \key c \major 

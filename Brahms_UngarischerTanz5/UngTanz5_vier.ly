@@ -61,11 +61,11 @@ r8 a-. r a-.
 \repeat volta 2{
 r8 cis->_\markup{\italic rit.} r d->
 r8 cis-> r b->
-a8-._\markup{\italic a tempo} a'-. fis-. d-. 
+a8-._\markup{\italic {a tempo}} a'-. fis-. d-. 
 a4-- a8-. r 
 r8 cis->_\markup{\italic rit.} r d->
 r8 e-> r a,->
-a8-._\markup{\italic a tempo} d-. e-. e,-. 
+a8-._\markup{\italic {a tempo}} d-. e-. e,-. 
 a4 e8-. r 
 }
 \key c \major 
