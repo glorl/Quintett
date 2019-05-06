@@ -3,7 +3,7 @@ UngTanzSvier = \new Voice \relative c' {
 \repeat volta 2{
 c8->\f r r4\fermata
 c8->\p r r4
-c8-.\p f,4-> (e8)
+c8-. f,4-> (e8)
 e8-. e4->~e8 
 f8-. g4->(f8) 
 d'8 r r4 
@@ -63,7 +63,7 @@ es'8-._\markup{\dynamic p \italic dolce} es-. g-. bes-.
 bes8-. d,-. f-. bes-. 
 bes,8-. d-. f-. bes-. 
 es,8-. g,8-. bes-. es-. 
-b8-. f'-. c-. es-. 
+b8-._\markup{\italic{a tempo}} f'-. c-. es-. 
 g,8-. d'-. as-. c-. 
 g8-. c-. g-. d'-. 
 }

@@ -46,7 +46,7 @@ d,2\p
 e8-._\markup{\italic{a tempo}} d-. e-. r \fermata 
 }
 \key es \major \repeat volta 2{
-r8^\markup{Molto sostenuto}\f c r c 
+r8^\markup{Molto sostenuto} c\f r c 
 r8 d-> g-> d->
 r8 c r c 
 b8 g16-. b-. d-. g-. b-. d-. 
@@ -62,7 +62,7 @@ es8-._\markup{\dynamic p \italic dolce} es-. g-. bes-.
 bes8-. d,-. f-. bes-. 
 bes,8-. d-. f-. bes-. 
 es,8-. g,8-. bes-. es-. 
-b8-. f'-. c-. es-. 
+b8-._\markup{\italic{a tempo}} f'-. c-. es-. 
 g,8-. d'-. as-. c-. 
 g8-. c-. g-. d'-. 
 }
