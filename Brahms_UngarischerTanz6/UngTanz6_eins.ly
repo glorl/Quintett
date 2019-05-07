@@ -23,29 +23,29 @@ a8\sfz r a,4->~ _\markup{\dynamic p \italic rit.} \bar"||"
 a4^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} b
 \acciaccatura d8 c8-._\markup{\italic {a tempo}} b16 (d) c8-. r 
 }
-% \repeat volta 2{
-% c4\f c8-. es,->-.
-% c4-- e-- 
-% c'8-. c-. c-. es,-.->
-% c4-- e-- 
-% r8 f-. e-. f-. 
-% g4-- e-- 
-% fis8-. e-. d-. c
-% ~c4 b
-% c'4-- c8-. es,-.->
-% c4-- d-- 
-% c'8-. c-. e,-. es-.->
-% c4-- d-- 
-% d'8\p (g, d' g,) 
-% c8 (g) r c
-% (d8-.) b-. ais-. b-.
-% c8 (g c g)
-% d'8 (g, d' g,)
-% c8 r r4
-% f8_\markup{\dynamic sfz \italic rit.} r r4
-% f,2\p
-% g8-._\markup{\italic{a tempo}} f-. g-. r \fermata 
-% }
+\repeat volta 2{
+e4->\f c8-. fis,->-.
+a4-- g-- 
+e'8-. e-. c-. fis,-.->
+a4-- g-- 
+r8 d'-. cis-. d-. 
+e4-- \tuplet 3/2 {c8 (b c )}
+d8-. c-. b-. a
+~a4 g
+e'4-- c8-. fis,-.->
+a4-- g-- 
+e'8-. e-. c-. fis,-.->
+a4-- g-- 
+f'4--\p f-- 
+e4. e8 
+(f8-.) d-. cis-. d-.
+e4 (c8) r 
+f4-- f-- 
+e8-. dis16\< (e f fis g gis\!
+a8)_\markup{\dynamic sfz \dynamic p \italic rit.} r a,4->
+~a4 b 
+\acciaccatura d8 c8-._\markup{\italic{a tempo}} b16 (d) c8 r \fermata 
+}
 % \key es \major \repeat volta 2{
 % r8^\markup{Molto sostenuto} es\f  r es 
 % r8 g-> b-> g->

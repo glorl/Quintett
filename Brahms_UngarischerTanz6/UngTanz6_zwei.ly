@@ -24,7 +24,7 @@ f,2^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }}
 g8-._\markup{\italic {a tempo}} f-. g-. r 
 }
 \repeat volta 2{
-c4\f c8-. es,->-.
+c4->\f c8-. es,->-.
 c4-- e-- 
 c'8-. c-. c-. es,-.->
 c4-- e-- 
