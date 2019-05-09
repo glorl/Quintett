@@ -68,7 +68,7 @@ b as
 es8-. es-. b'-. g-. 
 }
 \alternative {{
-es4_\markup{\italic rit.}~es16 \noBeam d' (es f)}{
+es4_\markup{\italic rit.}~es16 \noBeam\breathe d' (es f)}{
 es,4 (g8) r \fermata }}
 \bar"||"\key c \major 
  \cadenzaOn 

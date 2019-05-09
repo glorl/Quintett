@@ -46,92 +46,92 @@ a8)_\markup{\dynamic sfz \dynamic p \italic rit.} r a,4->
 ~a4 b 
 \acciaccatura d8 c8-._\markup{\italic{a tempo}} b16 (d) c8 r \fermata 
 }
-% \key es \major \repeat volta 2{
-% r8^\markup{Molto sostenuto} es\f  r es 
-% r8 g-> b-> g->
-% r8 es r es-> 
-% d8-> g,16-. b-. d-. g-. b-. d-. 
-% g,4-> g-> 
-% g4-> r 
-% es8-- es-. r d
-% }
-% \alternative{
-% {d8 g,16-. b-. d-. g-. b-. d-. }
-% {d,4 r }}
-% \repeat volta 2{
-% es'4--_\markup{\dynamic p \italic dolce} es-- 
-% f8-. f4-> f16 (g
-% as8-.) g-. f4--
-% g8-. es4-> es8 
-% d4_\markup{\italic{a tempo}} c
-% b as 
-% es8-. es-. b'-. g-. 
-% }
-% \alternative {{
-% es4_\markup{\italic rit.}~es16 \noBeam d' (es f)}{
-% es,4 (g8) r \fermata }}
-% \bar"||"\key c \major 
-%  \cadenzaOn 
-% \stopStaff 
-% \once \override TextScript #'word-space = #1.5
-% \once \override TextScript #'X-offset = #0
-% \once \override TextScript #'Y-offset = #1
-% | s1*1^\markup { \center-column { "D.C. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
+\key es \major \repeat volta 2{
+r8^\markup{Molto sostenuto} g\f r g
+r8 b-> d-> b->
+r8 g fis as-> 
+g8-> g,16-. b-. d-. g-. b-. d-. 
+g4-> g-> 
+g4-> ~g16 f-. es-. d-. 
+\acciaccatura d8 c16 (b) c -. d-. d8. fis,16
+}
+\alternative{
+{g8 g,16-. b-. d-. g-. b-. d-. }
+{g,4 \breathe \tuplet 5/4{as'16 (g fis g as)}}}
+\repeat volta 2{
+g4--_\markup{\dynamic p \italic dolce} g-- 
+as8-. as4-> as16 (bes
+c8-.) bes-. as4--
+bes8-. as4-> as8 
+f16_\markup{\italic{a tempo}} (g as8-.) es16 (f g8-.)
+d16 (es f8-.) c16 (d es8-.) 
+es16 (d c es) d (c b d ) 
+}
+\alternative {{
+c16_\markup{\italic rit.} (g a b c) \noBeam\breathe d (es f)}{
+c16 (g a b c8) r \fermata }}
+\bar"||"\key c \major 
+ \cadenzaOn 
+\stopStaff 
+\once \override TextScript #'word-space = #1.5
+\once \override TextScript #'X-offset = #0
+\once \override TextScript #'Y-offset = #1
+| s1*1^\markup { \center-column { "D.C. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
+| s1*1 \bar""
+| s1*1 \bar""
 % | s1*1 \bar""
 % | s1*1 \bar""
-% % | s1*1 \bar""
-% % | s1*1 \bar""
-% % | s1*1 \bar""
-% % | s1*1 \bar""
-% % | s1*1 \bar""
-% \startStaff 
-% \cadenzaOff
-% \break
-% % \bar"||"
-% f2^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } \p 
-% g8-._\markup{\italic{a tempo}} f-. g-. r \bar"||" 
-% e'8-^\f r e,4\sfz\>
-% ~e8 e8-.\p dis-. e-. 
-% f4---. e---. 
-% e4---. e---. 
-% g4---. f 
-% ~f8 f-. e-. f-. 
-% g4---. f---. 
-% e4---. d---. 
-% f4---. e 
-% ~e8 e'-. dis-. e-. 
-% f4 (e) 
-% e2
-% d4-- d-- 
-% c4. c8-.
-% (d8-.) d-. cis-. e-. 
-% g,4-- e-- 
-% d'4-- d-- 
-% c8-. r r4 
-% f8-> f,8->_\markup{\italic {a tempo}} ~ f4
-% g8-. f-. g-. r 
-% c4--\f e,8-. es-.->
-% c4-- e-- 
-% c'8-. c-. e,-. es-.->
-% c4-- e-- 
-% r8 f-. e-. f-. 
-% g4-- g-- 
-% fis8-. e-. d-. c-. 
-% c4-- b-- 
-% c'4-- e,8-. es-.->
-% c4-- e-- 
-% c'8-. c-. e,-. es-.->
-% c4-- e-- 
-% d'8\p (g, d' g,) 
-% c8 (g) r c 
-% d8-. b-. ais-. b-. 
-% c8 (g c g) 
-% d'8 (g, d' g,) 
-% c8 r r4 
-% f8->_\markup{\italic rit.} r r4 
-% f,2 \p
-% g8-._\markup{\dynamic f \italic{a tempo}} f-. e-. r
-% f'8->\ff r f-> r 
-% g8-> r r4
-% \bar "|."
+% | s1*1 \bar""
+% | s1*1 \bar""
+% | s1*1 \bar""
+\startStaff 
+\cadenzaOff
+\break
+% \bar"||"
+a4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } \p b 
+\acciaccatura d8 c8-._\markup{\italic{a tempo}} b-. c-. r \bar"||" 
+c'8-^\f r g,4\sfz\>
+~g8 g8-.\p fis-. g-. 
+a4---. g---. 
+c4---. g---. 
+b4---. a
+~a8 a-. gis-. a-. 
+b4---. a---. 
+g4---. f---. 
+a4---. g
+~g8 \acciaccatura a' g-. fis-. g-. 
+a4 (g) 
+c4 (g) 
+f4-- f-- 
+e4. e8-.
+(f8-.) d-. cis-. d-. 
+e4-- c-- 
+f4-- f-- 
+e8-. dis16 \< (e f fis g gis
+a8-.\! ) a,8->_\markup{\italic {a tempo}}  (b4)
+c8-. b16 (d) c8-. r 
+e4--\f c8-. fis,-.->
+a4-- g-- 
+e'8-. e-. c-. fis,-.->
+a4-- g-- 
+r8 d'-. cis-. d-. 
+e4-- \tuplet 3/2 {c8 (b c) }
+d8-. c-. b-. a-. 
+a4-- g-- 
+e'4-- c8-. fis,-.->
+a4-- g-- 
+e'8-. e-. c-. fis,-.->
+a4-- g-- 
+f'4--\p f-- 
+e4-- r8 e
+f8-. d-. cis-. d-. 
+e4-- c-- 
+f4-- f-- 
+e8 dis16\< (e f fis g gis 
+a8-.\!)_\markup{\italic rit.} r a,4-> \p
+(a4) b
+\acciaccatura d8 c8-._\markup{\dynamic f \italic{a tempo}} b16 (d) c8-> r 
+a'8->\ff r b-> r 
+c8-> r r4
+\bar "|."
 }
