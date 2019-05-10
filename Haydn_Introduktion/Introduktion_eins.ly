@@ -23,7 +23,7 @@ f8 [(g,16) r32 d'] d8 [(d,16.) bes'32] bes4 (g8 e)
 f8-. \f bes4 (a8 g) d'4 ( c8 
 bes8-.) bes'4 (a8 g) r e r 
 f8-. r r4 r2
-as,4 des8.. (c32) c8-- ges'-- r4 
+as,4 des8.. (c32) c8---.\f ges'---. r4 
 ges,16-. \p ges-. ges-. ges-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. 
 f16-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. 
 f16-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. 
@@ -35,7 +35,7 @@ cis8 (a') gis4\sf a8---. a,---. a---. a---.
 a1\fermata \bar "||"
 d4-- d'8.. d32 cis8---. bes'8---. r4 
 a,,4-- g''8.. g32 f8---. d'8---. r4 
-f,,2 (e
+f,,2\p (e
 fis2) g8 (a bes a) 
 g8 (f e d cis16) \cresc a'-. a-. a-. a'-. a-. a-. a-. 
 g8\f (~g32 f e d ) cis16-. cis-. cis-. cis-. a'8 (~a32 g f e) d16-. d-. d-. d-. 
