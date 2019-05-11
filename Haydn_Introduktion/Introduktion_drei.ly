@@ -1,5 +1,5 @@
 Introduktiondrei = \new Voice \relative c {
-f4-- f'8.. f32 g8---. cis8---. r4 
+f4-- \ff f'8.. f32 g8---. cis8---. r4 
 e,,4-- a'8.. a32 a8---. d8---. r4 
 f,2 \p (e4. fis16 g) 
 bes,4-- r8 g16. (f32 ) f8 r r g'16. (f32) 
