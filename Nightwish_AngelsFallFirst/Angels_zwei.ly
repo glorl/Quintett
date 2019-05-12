@@ -12,12 +12,12 @@ r1
 r1
 r1
 r1
-g'1
-g2 a2
-~a2 f2
-g1
-g2 a2
-~a2 f2 \bar"||"
+g'1 (
+g2 g16) c4..
+(c2 c16 a4..)
+r16 g16 (g8  g2.
+g4) r r16 c4..
+(c2~c16 a4..) \bar"||"
 }
 zweiEins = \new Voice \relative c' {
 b'1
@@ -71,38 +71,38 @@ zweiZwei = \new Voice \relative c'' {
 % \acciaccatura{bes16} b4. a8 ~a4 g
 % b1 
 g1 
-g1
+(g2.) r4 
 fis1
-e1 
+(e4) ~e8 e ~e e4.  
 g1
-g1
+(g2.) r4 
 fis1 
-g1
-c1 
+(g4) g8~g g4 g
+c2. r4 
+e2. e4--
+d2. d4-- 
 e1
-d1 
-e1
-a,1
+a,2. r4 
 g1 
-g2 r4 a8 b 
+~g2 r4 a8 (b) 
 }
 
 zweiInterlude = \new Voice \relative c'' {
-c2 d 
-\acciaccatura {dis16} e2. d8 c  
-b2 c4 b 
-c d c  a8 b 
-c2 d 
-\acciaccatura {dis16} e2. d8 c  
-b2 \grace { c16( d16 } c4) b 
+c2 (d 
+\acciaccatura {dis16} e2.) d8 (c
+b2 ) c4 b 
+c (d c ) \breathe a8 (b) 
+c2 ( d 
+\acciaccatura {dis16} e2.) d8 (c  
+b2 \grace { c16 d16 } c4) b-- 
 e1
 R1*5
 e,8 e e fis ~fis g b,4
-~b4. b16 c d8 \tuplet 3/2 {b16 c b } b8 g 
-r8 \tuplet 3/2 {g16 b e} fis8 g fis e d r
-e8 e e fis ~fis g b,4
-~b4. b16 c d8 \tuplet 3/2 {b16 c b } b8 g 
-a1 \bar"||"
+~b4. b16 (c d8 \tuplet 3/2 {b16 c b } b8 g )
+r8 \tuplet 3/2 {g16 (b e} fis8 g fis e d) r
+e8-- e--  e-- fis ~fis g (b,4
+~b4.) b16 (c d8 \tuplet 3/2 {b16 c b } b8 g 
+a1) \bar"||"
 }
 
 zweiCoda = \new Voice \relative c'' {

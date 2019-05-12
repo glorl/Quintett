@@ -14,10 +14,12 @@ g2 c,
 ~c2 a2
 e'1
 d2 e2
-~e2 e2
+~e2 d2
 e1
 d2 e2
-~e2 e2\bar"||"
+~e2 d2\bar"||"
+}
+dreiEins = \new Voice \relative c' {
 g1
 ~g1 
 g1 
@@ -34,8 +36,6 @@ e1
 ~e1
 g1 
 b1
-}
-dreiEins = \new Voice \relative c' {
 }
 dreiZwei = \new Voice \relative c'' {
 % R1*16
@@ -64,12 +64,12 @@ r4 g' c e
 r4 g, g r 
 }
 dreiInterlude = \new Voice \relative c'' {
-a'4 g f e
-c4 b a2
+a'4-- g-- f-- e--
+c4-- b-- a2
 g4 a g b 
-a b c r 
-a'4 g f e
-c4 b a2
+a-- b-- c-- r 
+a'4-- g-- f-- e--
+c4-- b-- a2
 g4 a g b 
 e1 
 R1*11 \bar"||"

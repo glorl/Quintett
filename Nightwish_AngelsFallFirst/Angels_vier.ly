@@ -1,4 +1,4 @@
-vierINTRO = \new Voice \relative c' {
+vierIntro = \new Voice \relative c' {
 \compressFullBarRests
 r1
 r1
@@ -13,11 +13,13 @@ r1
 r1
 r1
 b1
-e2 c'2 
-~c2 d2
-b1
-e,2 c'2 
-~c2 d2
+b2 g'2 
+~g2 a2
+b,1
+b2 g'2 
+~g2 a2
+}
+vierEins = \new Voice \relative c''{
 e,1
 ~e1
 d1 
@@ -86,12 +88,12 @@ e-> c' g c, a-> e' a d,
 e8 b g'8 b e b g b, 
 g b e g c, e g c
 e c g c, a e' a d
-e,,8 b' g'8 b e b g b, 
-g b e g c, e g c
-e c g c, a e' a d
-e,,8 b' g'8 b e b g b, 
-g b e g c, e g c
-e c g c, a e' a d
+e,1
+b'1
+a1
+e1
+b'1
+a1
 \bar"||"
 }
 vierCoda = \new Voice \relative c' {

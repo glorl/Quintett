@@ -1,23 +1,6 @@
 vocaleinsIntro = \new Voice \relative c'' {
 \compressFullBarRests
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1 \bar"||"
+R1*18 \bar"||"
 }
 vocaleinsEins=\new Voice \relative c'' {
 r4 b8 b~ b4 b4

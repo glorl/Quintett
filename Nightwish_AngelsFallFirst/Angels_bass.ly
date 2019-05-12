@@ -63,12 +63,12 @@ d1
 
 bassInterlude = \new Voice \relative c' {
 R1*13
-e,1
-b'1
-a1
-e1
-b'1
-a1
+e,,8 b' g'8 b e b g b, 
+g b e g c, e g c
+e c g c, a e' a d
+e,,8 b' g'8 b e b g b, 
+g b e g c, e g c
+e c g c, a e' a d
 \bar"||"
 }
 

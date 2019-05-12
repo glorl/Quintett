@@ -1,23 +1,6 @@
 vocalzweiIntro = \new Voice \relative c'' {
 \compressFullBarRests
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
-r1\bar"||"
+R1*18\bar"||"
 }
 vocalzweiEins=\new Voice \relative c'' {
 r1
