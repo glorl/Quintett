@@ -59,8 +59,8 @@ d'2.
 g4 r16 g (a b a g fis e) 
 d4. (d8 fis16 g e c) 
 b8 (d4 cis8 c b ) 
-\afterGrace{a2.\fermata \trill}{g32 (a)}
+\afterGrace{a2.\fermata \trill\pp}{g32 (a)}
 g4 g,8\cresc r g r 
-\grace{g32 (b d } g4) \grace{b,32 (d g} b4\!)\afterGrace{\grace{d,32 (g b} d4)}{g,32 (b d} 
+\grace{g32 (b d } g4_\markup{\italic rit.} ) \grace{b,32 (d g} b4\!)\afterGrace{\grace{d,32 (g b} d4)}{g,32 (b d} 
 g2) r4\bar"|." 
 }

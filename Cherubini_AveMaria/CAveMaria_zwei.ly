@@ -62,6 +62,6 @@ b4. (c8 a16 b c a)
 g8 (b4 ais8 a g ) 
 \afterGrace{fis2.\fermata \trill\pp }{e32 (fis)}
 g8 [r16 g] b\cresc (d g d b g d b)
-g4 g\! g 
+g4_\markup{\italic rit.}  g\! g 
 g2 r4\bar"|." 
 }
