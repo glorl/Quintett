@@ -19,5 +19,5 @@ SAveMariaeins = \new Voice \relative c'' {
 \tuplet 6/4 {r16 c-.\> e-. a-. e-. c} \tuplet 6/4 {r16 b-. f'-. as-. f-. b,-. } \tuplet 6/4 {r16 c-. e-. g-. e-. c-. } \tuplet 6/4 {r16 c-. e-. g-. e-. c-.\! }}{
 \tuplet 6/4 {r16 c-. \> e-. a-. e-. c} \tuplet 6/4 {r16 b-. f'-. as-. f-. b,-. } \tuplet 6/4 {r16 c-. e-. g-. e-. c-. } \tuplet 6/4 {r16 g-. c-. e-. c-. g-.\! }}}
 \tuplet 6/4 {r16 e-.\p g-. c-. g-. e} \tuplet 6/4 {r16 c-. e-. g-. e-. c-. } \tuplet 6/4 {r16 g-. c-. e-. c-. g-. } \tuplet 6/4 {r16 g-. c-. e-. c-. g-. }
-c2\bar"|."
+c1\fermata \bar"|."
 }
