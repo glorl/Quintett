@@ -73,5 +73,5 @@ R2.*2
 c4\pp r r\fermata
 b8\cresc r g' r b r 
 b4_\markup{\italic rit.} b\! b 
-b2-- r4\bar"|." 
+b2--\f r4\bar"|." 
 }

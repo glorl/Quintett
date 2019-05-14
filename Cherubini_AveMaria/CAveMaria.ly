@@ -7,4 +7,4 @@ globalCAveMaria= {
 \include "../Cherubini_AveMaria/CAveMaria_zwei.ly"
 \include "../Cherubini_AveMaria/CAveMaria_drei.ly"
 \include "../Cherubini_AveMaria/CAveMaria_vier.ly"
-% \include "../Haydn_Introduktion/Introduktion_bass.ly"
+\include "../Cherubini_AveMaria/CAveMaria_bass.ly"

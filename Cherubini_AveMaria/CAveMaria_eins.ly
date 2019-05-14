@@ -36,7 +36,7 @@ dis'4 e fis
 g4. e8 b (c) 
 g'8. (e16) c4 r 
 g'4\< fis g 
-a4.\> fis8 d\p (c) 
+a4.\f\> fis8 d\p (c) 
 bes2.
 (a4) r r 
 g2.
@@ -62,5 +62,5 @@ b8 (d4 cis8 c b )
 \afterGrace{a2.\fermata \trill\pp}{g32 (a)}
 g4 g,8\cresc r g r 
 \grace{g32 (b d } g4_\markup{\italic rit.} ) \grace{b,32 (d g} b4\!)\afterGrace{\grace{d,32 (g b} d4)}{g,32 (b d} 
-g2) r4\bar"|." 
+g2\f) r4\bar"|." 
 }
