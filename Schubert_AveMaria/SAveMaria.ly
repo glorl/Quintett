@@ -4,7 +4,7 @@ globalSAveMaria= {
 }
 
 \include "../Schubert_AveMaria/SAveMaria_eins.ly"
-% \include "../Cherubini_AveMaria/CAveMaria_zwei.ly"
+\include "../Schubert_AveMaria/SAveMaria_zwei.ly"
 \include "../Schubert_AveMaria/SAveMaria_drei.ly"
 \include "../Schubert_AveMaria/SAveMaria_vier.ly"
-% \include "../Cherubini_AveMaria/CAveMaria_bass.ly"
+\include "../Schubert_AveMaria/SAveMaria_bass.ly"
