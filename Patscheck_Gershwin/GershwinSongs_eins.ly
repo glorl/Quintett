@@ -6,7 +6,18 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
+
 scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+
+#(define (gliss-stencil grob)
+         (ly:stencil-add
+             (ly:note-head::print grob)
+             (grob-interpret-markup grob
+                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
+                                            #:translate '(-1.2 . -0.5)
+                                                         #:path 0.25 '((moveto 0 0)
+                                                                       (curveto 0 -1 -2.2 -2 -3 -0.0))))))
+gliss = \once \override NoteHead #'stencil = #gliss-stencil 
 
 GershwinSongseins = \new Voice \relative c''' {
 \compressFullBarRests
@@ -166,6 +177,39 @@ r8 e ( c g ~g2
 ~g4) r a'2
 \tuplet 3/2{ g4-- f-- d-- } g,2
 ~g2 e'8-. e4.-> \bar"||"
-c4_\markup{break}^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r8 
+c4_\markup{break}^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r8 a'8 (c a \tuplet 3/2{g8 [e es]}
+d f as g d' b f a) \bar"||"
+g4\glissando e8 (f e4 f8 fis 
+g4. a16 c es4.) a,8
+(g8 e c g~g a c d) 
+e4 ( g8 gis a4 e8 f 
+g8 f d f a, g4.) 
+r8 a (c b  e es d c
+~c a as g~g2) 
+r4 e'8 (f~f a e f) 
+g8 (c g ges f e a as
+g8--) g4-. es8 (d c a as
+g8 e c g ~g2) 
+r8 e'4-. g8-- a4\glissando e8 a
+(g8 f' d g,~g4.) dis'8 
+(e8 a d, dis e g b, d 
+c4 g8 a es' d c a 
+c8 ) r r4 e8 (f g gis) \bar"||"
+ \cadenzaOn 
+\stopStaff 
+\once \override TextScript #'word-space = #1.5
+\once \override TextScript #'X-offset = #0
+\once \override TextScript #'Y-offset = #1
+| s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
+| s1*1 \bar""
+| s1*1 \bar""
+\startStaff 
+\cadenzaOff
+\break
+c,8 r c'2_\markup{Solo\dynamic f} \gliss c4 \bar"||"
+e4-. es-. c8-- g4-. a8-- 
+\tuplet 3/2{d4-- a-- as--} g8 (f d f) 
+a8 (d a as g b dis e) 
+c4.-> c8-^ r2 \bar"|."
 }
  
