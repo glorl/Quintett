@@ -26,7 +26,7 @@ g2^\markup{Swing (\bold{S'Wonderful})}\f g8-- g8-. r g-.
 r8 g4.->~g4 g-.
 g2 g8 (e es-- d-.) 
 R1*1\bar "||"
-d4---. d8-- b ~b2 
+d4---.\mf d8-- b ~b2 
 r4 r8 b, (d e g b) 
 d4---. d8-- b ~b4. a8
 (gis8 f e d~d4) r 

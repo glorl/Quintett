@@ -5,7 +5,7 @@ b2^\markup{Swing (\bold{S'Wonderful})}\f b8-- b8-. r b-.
 r8 bes4.->~bes4 bes-.
 c2 a8 (e a-- c-.) 
 R1*1\bar "||"
-b,4-. b2 b4-. 
+b,4-.\mf b2 b4-. 
 r4 b2 b4-. 
 b4-. b2 b4-. 
 r4 b2 b4-. 
@@ -70,7 +70,7 @@ cis2 r8 ais'4 (fis8)
 gis2 (ais) 
 gis2 (ais) 
 d, (ais) 
-gis2 ais4 ais-- 
+gis2 (ais4) ais-- 
 d4 (a8 d d4 fis) 
 gis2 (g) 
 d1
