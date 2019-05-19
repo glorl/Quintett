@@ -7,4 +7,4 @@ globalGershwinSongs= {
 \include "../Patscheck_Gershwin/GershwinSongs_zwei.ly"
 \include "../Patscheck_Gershwin/GershwinSongs_drei.ly"
 \include "../Patscheck_Gershwin/GershwinSongs_vier.ly"
-% \include "../Patscheck_GlennMillerStory/GlennMillerStory_bass.ly"
+\include "../Patscheck_Gershwin/GershwinSongs_bass.ly"
