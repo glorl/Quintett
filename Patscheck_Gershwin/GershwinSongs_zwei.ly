@@ -1,24 +1,3 @@
-#(define (scoop-stencil grob)
-         (ly:stencil-add
-             (ly:note-head::print grob)
-             (grob-interpret-markup grob
-                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
-                                            #:translate '(-0.2 . -0.5)
-                                                         #:path 0.25 '((moveto 0 0)
-                                                                       (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
-
-#(define (gliss-stencil grob)
-         (ly:stencil-add
-             (ly:note-head::print grob)
-             (grob-interpret-markup grob
-                 (markup #:with-dimensions '(0 . 0) '(0 . 0)
-                                            #:translate '(-1.2 . -0.5)
-                                                         #:path 0.25 '((moveto 0 0)
-                                                                       (curveto 0 -1 -2.2 -2 -3 -0.0))))))
-gliss = \once \override NoteHead #'stencil = #gliss-stencil 
-
 GershwinSongszwei = \new Voice \relative c'' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
@@ -75,7 +54,7 @@ r4 d2 fis4-.
 g4-- g-. g-- g-. 
 g4-. r_\markup{\italic{poco rit.}} r2\bar"||" \time 4/4 \key d \major
 f8\mf^\markup{Slow (\bold{Summertime})} (d f e~e d \tuplet 3/2{b8 d e)}
-fis8 (d cis b g) e4-. f8
+fis!8 (d cis b g) e4-. f8
 fis!4 r8 fis''^\markup{Solo} (b fis \tuplet 3/2{d e eis} 
 fis4 e8 d e fis e4) 
 b4 (fis8 f e cis e eis

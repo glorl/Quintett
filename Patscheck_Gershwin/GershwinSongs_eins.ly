@@ -58,8 +58,8 @@ e4-. e2 e4-.
 r4 fis-. r e-. 
 d4 r8 g'8_\markup{break} (bes4 \tuplet 3/2{g8 e d}
 e8--) g4-. a16 (b d8 bes a e)  \bar"||"
-\tuplet 3/2{g8( [a g]} e8 d b ais b d
-a'8-. g4) r8 r g (b c) 
+\tuplet 3/2{g8( [a g]} e8 d b ais b d)
+a'8-. g4 r8 r g (b c) 
 d4.\glissando gis,8 (fis) b (f4) 
 d8 (b a gis ~gis2) 
 r8 e'4. (a8 c a gis
@@ -75,7 +75,7 @@ d8 (e fis a b d a as
 g8 e \tuplet 3/2 {g8 [a ais]} b e, bes' a
 g4) r_\markup{\italic{poco rit.}} r2\bar"||" \time 4/4 \key d \major 
 f,8\mf^\markup{Slow (\bold{Summertime})} (d f e~e d \tuplet 3/2{b8 d e)}
-fis8 (d cis b g) e4-. f8
+fis!8 (d cis b g) e4-. f8
 fis!1 
 ~fis1
 ~fis1
