@@ -22,7 +22,7 @@ gliss = \once \override NoteHead #'stencil = #gliss-stencil
 GershwinSongseins = \new Voice \relative c''' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
-g2^\markup{(\bold{S'Wonderful})}\f g8-- g8-. r g
+g2^\markup{Swing (\bold{S'Wonderful})}\f g8-- g8-. r g-.
 r8 g4.->~g4 g-.
 g2 g8 (e es-- d-.) 
 R1*1\bar "||"
@@ -49,7 +49,7 @@ cis2 cis8 (e gis4)
 fis4-- dis8-- b ~b dis8-- fis4--
 cis2 fis8-- bes4-. as16 (g
 fis4.) e8~e2 
-e8-- e4-. es8~es2
+e8-- e4-. es8~es2 \bar"||"
 d,4-.\mf d2 d4-.
 r4 d2 d4-. 
 e4-. e2 e4-. 
@@ -57,7 +57,7 @@ r4 e2 e4-.
 e4-. e2 e4-. 
 r4 fis-. r e-. 
 d4 r8 g'8_\markup{break} (bes4 \tuplet 3/2{g8 e d}
-e8--) g4-. a16 (b d8 bes a e) 
+e8--) g4-. a16 (b d8 bes a e)  \bar"||"
 \tuplet 3/2{g8( [a g]} e8 d b ais b d
 a'8-. g4) r8 r g (b c) 
 d4.\glissando gis,8 (fis) b (f4) 
@@ -74,9 +74,9 @@ g4(\glissando c,~c8 d a4)
 d8 (e fis a b d a as
 g8 e \tuplet 3/2 {g8 [a ais]} b e, bes' a
 g4) r_\markup{\italic{poco rit.}} r2\bar"||" \time 4/4 \key d \major 
-f,8^\markup{Slow (\bold{Summertime})} (d f e~e d \tuplet 3/2{b8 d e)}
+f,8\mf^\markup{Slow (\bold{Summertime})} (d f e~e d \tuplet 3/2{b8 d e)}
 fis8 (d cis b g) e4-. f8
-fis1 
+fis!1 
 ~fis1
 ~fis1
 e'4~e8 r8 fis'4\mf\glissando d \bar"||"
@@ -97,8 +97,8 @@ fis8 (e4. d2)
 \acciaccatura d8 b1
 ~b1
 ~b4 r r2
-r4 ais'8 \mf (b) eis, (fis) \tuplet 3/2 {cis (e eis)} 
-fis4 \tuplet 3/2 {fis8 (d b) } e8 cis' ais fis
+r4 ais'8 \mf (b) eis, (fis) \tuplet 3/2 {cis (e eis)} \bar"||"
+fis4^\markup{Bossa (binär)} \tuplet 3/2 {fis8 (d b) } e8 cis' ais fis
 ~fis4 r8 e16 (d e fis e cis g8 b
 ~b4) cis16 (d e eis fis8) fis,~fis4 
 ~fis2 r8 b8-- fis'-- fis-- 
@@ -113,8 +113,8 @@ fis2) r4 r8 eis16 (fis
 a!8) a4-- fis16 (a b d b a b a fis f
 e4~e16 es d cis d4 b8 a) 
 b8 (b4.~ b8 b16 f' fis8 b16 d 
-b4) r r2
-b,2^\markup{Slow} (ais) 
+b4) r r2 \bar"||"
+b,2^\markup{Slow (ternär)} (ais) 
 b2 (ais) 
 fis2 (e) 
 d2 ais'4 (gis) 
@@ -134,7 +134,7 @@ eis8^\markup{\italic {Cadenza ad lib.}} \mf (fis) ais (b) d (cis) eis (fis)
 \tuplet 7/8{ gis16\< (ais b ais b c cis } d4.\!) \fermata b8 (
 cis16 d e d cis b a g eis fis g fis e d cis b
 a g fis e d cis b ais \tuplet 5/4 {b8 bes a as g}
-fis2)\fermata\breathe eis4-- fis 
+fis2)\fermata\breathe eis4--_\markup{\italic{cresc. e accelerando}} fis 
 \tuplet 3/2{ b8 (ais b)} \tuplet 3/2{ d (cis d)} \tuplet 3/2{ e (d cis)}\tuplet 3/2{ fis (e d)}
 e16 (fis g ais \tuplet 5/4{b8 [c d e eis]}
 fis8 b ~b4 bes16 a as g) 
@@ -162,8 +162,8 @@ r4 e'8 (d e4. es8 )
 d8 (c a d,~d2) 
 r8 e (g bes~bes4.) a8 (
 g8 e a g) a4-- ais8-- b-.
-r4 c8 (d e fis g gis) \bar"||"\key c \major 
-a2\segno a8-- a-. r a-.
+r4 c8 \<(d e fis g gis) \bar"||"\key c \major 
+a2\f\segno a8-- a-. r a-.
 r8 a4. c8-- a-. r gis--
 a8-- g!4-. a8-- g2-- 
 r4 g,8\< (a b c d dis) 
@@ -172,12 +172,12 @@ e4.\! e8 ~e4. e8
 e8 (a e d ~d2) 
 r4 e (f fis )
 g2 f!4( e) 
-g4. g8~g4. g8 
+g4. g8~g4. g8-.
 r8 e ( c g ~g2
 ~g4) r a'2
 \tuplet 3/2{ g4-- f-- d-- } g,2
 ~g2 e'8-. e4.-> \bar"||"
-c4_\markup{break}^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r8 a'8 (c a \tuplet 3/2{g8 [e es]}
+c4-._\markup{break}^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r8 a'8 (c a \tuplet 3/2{g8 [e es]}
 d f as g d' b f a) \bar"||"
 g4\glissando e8 (f e4 f8 fis 
 g4. a16 c es4.) a,8
