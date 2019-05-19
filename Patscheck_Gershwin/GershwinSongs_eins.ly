@@ -114,7 +114,7 @@ a!8) a4-- fis16 (a b d b a b a fis f
 e4~e16 es d cis d4 b8 a) 
 b8 (b4.~ b8 b16 f' fis8 b16 d 
 b4) r r2 \bar"||"
-b,2^\markup{Slow (ternär)} (ais) 
+b,2^\markup{Slow (ternär)}\p (ais) 
 b2 (ais) 
 fis2 (e) 
 d2 ais'4 (gis) 
@@ -164,10 +164,10 @@ r8 e (g bes~bes4.) a8 (
 g8 e a g) a4-- ais8-- b-.
 r4 c8 \<(d e fis g gis) \bar"||"\key c \major 
 a2\f\segno a8-- a-. r a-.
-r8 a4. c8-- a-. r gis--
+r8 a4.-> c8-- a-. r gis--
 a8-- g!4-. a8-- g2-- 
 r4 g,8\< (a b c d dis) 
-e4.\! e8 ~e4. e8 
+e4.->\! e8-> ~e4. e8-> 
 ~e4 e-. r8 d8-- e4-. 
 e8 (a e d ~d2) 
 r4 e (f fis )
@@ -194,7 +194,7 @@ r8 e'4-. g8-- a4\glissando e8 a
 (g8 f' d g,~g4.) dis'8 
 (e8 a d, dis e g b, d 
 c4 g8 a es' d c a 
-c8 ) r r4 e8 (f g gis) \bar"||"
+c8 ) r r4 e8\< (f g gis)\! \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

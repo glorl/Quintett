@@ -77,7 +77,7 @@ fis1
 ~fis1
 ~fis1
 ~fis4 r r2 \bar"||"
-r4^\markup{Bossa (binär)} fis4 r8 gis4. 
+r4^\markup{Bossa (binär)} fis4\p r8 gis4. 
 fis4. gis8~gis2
 r4 fis4 r8 e4. 
 fis4. fis8~fis2
@@ -92,7 +92,7 @@ fis4. fis8~fis2
 r4 fis4 r8 fis4. 
 fis4. f8~f2
 r4 fis!4 r8 fis4. 
-fis4 r \tuplet 3/2{fis'4--^\markup{Solo} fis--\glissando d-- } \bar"||"
+fis4 r \tuplet 3/2{fis'4--^\markup{Solo}\mf fis--\glissando d-- } \bar"||"
 fis1^\markup{Slow (ternär)}
 ~fis8 fis (e d e fis d4) 
 b8 (d b fis ~fis2
@@ -143,10 +143,10 @@ r4 d-. d-- d-.
 d4-- d-. g-- g8-- g-.
 r4 a8\< (b c d e d) \bar"||"\key c \major 
 c2\f\segno c8-- c-. r c-.
-r8 c4. es8-- c-. r b--
+r8 c4.-> es8-- c-. r b--
 c8-- c4-. c8-- bes2-- 
 r4 e,8\< (f g a b c) 
-c4.\! c8 ~c4. c8 
+c4.->\! c8-> ~c4. c8-> 
 ~c4 c-. r8 c8-- c4-. 
 c8 (f c b ~b2) 
 r4 b (c c)
@@ -173,7 +173,7 @@ e4. e8~e2
 f2 f4-- f-.
 f4. f8~f2
 e2 e4-- e-.
-e4-. r4 c'8 (d e f) \bar"||"
+e4-. r4 c'8\< (d e f)\! \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

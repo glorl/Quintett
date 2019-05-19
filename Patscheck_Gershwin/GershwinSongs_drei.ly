@@ -77,7 +77,7 @@ d1
 ~d1
 ~d1
 ~d4 r r2 \bar"||"
-r4^\markup{Bossa (binär)} d4 r8 e4. 
+r4^\markup{Bossa (binär)} d4\p r8 e4. 
 d4. e8~e2
 r4 d4 r8 cis4. 
 d4. d8~d2
@@ -93,7 +93,7 @@ r4 d4 r8 d4.
 d4. b8~b2
 r4 d4 r8 d4. 
 d4 r r2 \bar"||"
-gis2^\markup{Slow (ternär)} ~gis
+gis2^\markup{Slow (ternär)}\p ~gis
 gis2 ~gis2
 d2 (ais) 
 b2 fis'4 (d) 
@@ -136,10 +136,10 @@ r4 c-. c-- c-.
 b4-- b-. e-- e8-- f-.
 r4 g8\< (a g c d b) \bar"||"\key c \major 
 f2\f\segno f8-- f-. r f-.
-r8 fis4. fis8-- fis-. r f--
+r8 fis4.-> fis8-- fis-. r f--
 g8-- g4-. g8-- g2-- 
 r4 c,8\< (d f g a fis) 
-a4.\! a8 ~a4. a8 
+a4.->\! a8-> ~a4. a8-> 
 ~a4 a-. r8 a8-- a4-. 
 a8 (d a a ~a2) 
 r4 g (a a)
@@ -166,7 +166,7 @@ c4. cis8~cis2
 d2 d4-- d-.
 d4. d8~d2
 d2 d4-- d-.
-d4-. r4 g8 (a b d) \bar"||"
+d4-. r4 g8\< (a b d)\! \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5
