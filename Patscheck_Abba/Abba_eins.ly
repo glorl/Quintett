@@ -54,7 +54,7 @@ b4 ~b8. (c16) \bar"||"\time 4/4
 b4 (f2. 
 ~f4 ) r f8 (g a b) 
 a4. (g8) f4 (e ) 
-g4. r8 g (a b8. c16) 
+g4.-- r8 g (a b8. c16) 
 b4 (f2.
 ~f4) r f8 (g a b) 
 a4. (g8) f4 (e) 
@@ -67,7 +67,7 @@ f1
 r4 g,-- c4. (b8) 
 c8\f f8-> f8-> f8-> f8-> f8-> f8-> f8->
 f8-> (e) e-> (d) d-> (c) c-> (b) \bar"||"\time 2/4
-a2~ \bar"||"\time 4/4 \key g \major 
+a2~_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
 a4\fermata r8 b\mf^\markup{Blablabla (\bold{Fernando})} (b c c d) 
 d8-- d ~d2. 
 ~d4 r8 b (b c c d) 
