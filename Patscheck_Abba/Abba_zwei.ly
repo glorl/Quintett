@@ -69,140 +69,141 @@ c'8->\f c8-> c8-> c8-> c8-> c8-> c8-> c8->
 c4-> c8-> (b) g4-> g-> \bar"||"\time 2/4
 fis2~_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
 fis4\fermata r8 g\mf^\markup{Blablabla (\bold{Fernando})} (g a a b) 
-% d8-- d ~d2. 
-% ~d4 r8 b (b c c d) 
-% d8 (c c b b a a g 
-% g1
-% ~g4) r8 c (c d d e
-% e8-- ) e~e2. 
-% ~e4. c8 (c d d e 
-% e8 d d c c b b a 
-% a4-- ) r8 d (d e e fis 
-% fis8 e e d d c c b)  \bar"||"\time 2/4
-% b8 (a a g)  \bar"||"\time 4/4
-% g1
-% ~g4 r8 b (b c c d  
-% d8 d ~d2. 
-% ~d4) r8 b (b c c d) 
-% d8 (c c b b a a g 
-% ~g4) r8 c (c d d e
-% e8 e~e2. 
-% ~e4.)  c8 (c d d e 
-% e8 d d c c b b a 
-% a4.)  d8 (d e e fis 
-% fis8 e e d d c c b \bar"||"\time 2/4
-% b8 a a g \bar"||"\time 4/4
-% g1
-% ~g4) \breathe g'8--\f g-- g-- g-- g-- g-- 
-% fis4-- d8-- c~c4 g'-- 
-% fis4-- d8-- c~c4 fis-- 
-% e8-- d~d2.
-% ~d4 \breathe g8-- g-- g-- g-- g-- g-- 
-% fis4-- d8-- c~c4 g'-- 
-% fis4-- d8-- c~c4 fis-- 
-% e8-- (d~d4) b-- b-- 
-% b8-- b-- b-- b-- c-- d ~d4 
-% e2 \tuplet 3/2 {b4-- c-- b--~(}
-% b8 a a2. 
-% ~a4) g'8-- g-- g-- g-- g-- g-- 
-% fis4-- d8-- c~ c4 g'4-- 
-% fis4-- d8-- c~ c4 b4-- 
-% a8 (g~ g2. 
-% ~g4) \breathe g'8-- g-- g-- g-- g-- g-- 
-% fis4-- d8-- c~c4 g'-- 
-% fis4-- d8-- c~c4 b-- 
-% a8 (g~g4 ) e'4-- fis8-- g
-% ~g2 g4-- a-- 
-% b4 (d2 b4) 
-% \tuplet 3/2 {b4 c b} a8 (g g fis 
-% fis e e fis fis e e d \bar"||"\time 2/4
-% d8 c c b \bar"||"\time 4/4 \key c \major 
-% b8--) a4-. g8-- f8-- g-- a-- g-- \breathe \bar"||"
-% r8^\markup{Slow-Rock (\bold{I do, I do, I do})}  c8 (\tuplet 3/2 {g'8 c,g'} \tuplet 3/2 {a8 gis a } \tuplet 3/2 {bes8 a bes}
-% b2.~ \tuplet 3/2 {b4) bes8 (}
-% \tuplet 3/2 {b4 g8} \tuplet 3/2 {a4 f8} \tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8}
-% e4~ \tuplet 3/2 {e8) g,-. g-.} \tuplet 3/2 {a8-. a-. a-.} \tuplet 3/2 {as8-. as-. as-.} 
-% g2. r4 
-% \repeat volta 2{
-% g2 (a4 b8 d
-% ~d4 c f e 
-% a,2 b4 \tuplet 3/2 {cis4 e8)}
-% r8 d (~d2 \tuplet 3/2 {a'4 bes8}
-% b2. \tuplet 3/2 {b4 bes8}
-% \tuplet 3/2 {b4 g8} \tuplet 3/2 {a4 f8} \tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8)}
-% }
-% \alternative {{
-% e4~ \tuplet 3/2{e8 c-. c-. } \tuplet 3/2{c8-. c-. c-. } \tuplet 3/2{c8-. c-. c-. }
-% c4-. r r2}{
-% c4~\tuplet 3/2{c8 g-. g-. } \tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{as8-. as-. as-. }}}
-% g4-. r r8 c'4\f b8
-% bes2 ~bes8 a (g a) 
-% r8 g4.-> e4-- c-- 
-% a2 ~a8 g'8 (f g) 
-% f1 
-% r4 a4 (a fis) 
-% e4 (fis2 d4) 
-% a'2 (f4 e) 
-% d2 r \bar"||"
-% \tuplet 3/2{g,,8-.\mf g-. g-. } g8-. r \tuplet 3/2{g8-. g-. g-. } g8-. r
-% \tuplet 3/2{g8-. g-. g-. } g8-. r \tuplet 3/2{g8-. g-. g-. } g8-. r
-% \tuplet 3/2{a8-. a-. a-. } a8-. r \tuplet 3/2{a8-. a-. a-. } a8-. r
-% \tuplet 3/2{a8-. a-. a-. } a8-. r \tuplet 3/2{a8-. a-. a-. } a8-. r
-% \tuplet 3/2{b8-. b-. b-. } b8-. r \tuplet 3/2{b8-. b-. b-. } b8-. r
-% \tuplet 3/2{b8-. b-. b-. } b8-. r \tuplet 3/2{b8-. b-. b-. } b8-. r
-% g4 ~ \tuplet 3/2{g8 g'-. g-. } \tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{as8-. as-. as-. } 
-% \tuplet 3/2{g8 r c(} \tuplet 3/2{g'8 c, g'} \tuplet 3/2{a8 gis a} \tuplet 3/2{bes8 a bes}
-% b2.) ~\tuplet 3/2{b4 bes8(} 
-% \tuplet 3/2{b4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8}
-% c2 ~c8) c-- cis4-- \bar"||"\key g \major 
-% d4\fermata\breathe b,8^\markup{(\bold{Chiquitita})}  (c d8 e4 fis16 g)
-% a4. (g8\prall fis4. e16 fis)
-% g4. (e8 d4.) \breathe a16 (b
-% c4-- c-- c8 b a b~
-% b1
-% ~b8) r b'\mf (c d e d16 c b8)
-% \repeat volta 2{
-% d1
-% r4 r8 b16 (c d4 e) 
-% d8 (c b a~a2
-% ~a1) 
-% fis'4. (e16 fis g4. e8)
-% d4.( a16 b) c4-- c-- 
-% c8 (b a b~b2
-% ~b4) r8 b16 (c d8 e d16 c b8) 
-% d1
-% r4 r8 b16 (c d4 e ) 
-% fis8 ( e16 d fis8 d ~d2 
-% ~d2) r 
-% fis4. (e16 fis g4. e8) 
-% d4. (a16 b c4. c8) 
-% c8 (b a g~g2) 
-% }
-% \alternative{{
-% g8 r r4 r2}{
-% g8 r r e'16\mf (fis g8 a g16 fis e fis)}}
-% g1 \bar"||"\time 5/4
-% r4 r8 e16 (fis g8 a g16 fis e8 g e16 fis) \bar"||"\time 4/4
-% g8 (d c b~b2) 
-% r8 b (c d ~d e fis g16 fis
-% ~fis4. e16 fis g4. e8 ) 
-% d4. (a16 b c4-- c-- ) 
-% c8 (b a g~g2) 
-% r4 r8 e'16 (fis g8 a g16 fis e fis
-% g1)\bar"||"\time 5/4
-% r4 r8 e16 (fis g8 a g16 fis e8 g a) \bar"||"\time 4/4
-% b8 (a16 g b8 g~g2) 
-% r4 b,8 (c16 d ~d8 e fis g) 
-% fis4. (e16 fis g4. e8 ) 
-% d4. (a16 b c4-- c-- 
-% c8 b a g~g2) 
-% r2 a'4.\f (g8 ) 
-% fis4.( e16 fis g4. e8) 
-% d4. (a16 b) c4-- c-- 
-% c8 (b a g~g2) 
-% r2 a'4.\p (g8 ) 
-% fis4.(_\markup{\italic rit.} e16 fis g4.\decresc e8) 
-% d4. (a16 b) c4-- c-- 
-% c8\pp (b a g~g2\fermata)
-% \bar"|."
+b8-- b ~b2. 
+~b4 r8 g (g a a b) 
+b8 (a a g g fis fis e
+e1
+~e4) r8 a (a b b c
+c8-- ) c~c2. 
+~c4. a8 (a b b c 
+c8 b b a a g g fis
+fis4-- ) r8 fis (fis g g a
+a8 g g fis fis e e d)  \bar"||"\time 2/4
+d8 (c c b)  \bar"||"\time 4/4
+d1
+~d4 r8 g (g a a b  
+b8 b ~b2. 
+~b4) r8 g (g a a b) 
+b8 (a a g g fis fis e 
+~e1
+~e4) r8 a (a b b c
+c8 c~c2. 
+~c4.) a8 (a b b c 
+c8 b b a a g g fis
+fis4.)  fis8 (fis g g a
+a8 g g fis fis e e d \bar"||"\time 2/4
+d8 c c b \bar"||"\time 4/4
+d1
+~d4) \breathe d'8--\f d-- d-- d-- d-- d-- 
+d4-- c8-- c~c4 e-- 
+d4-- c8-- c~c4 d-- 
+b8-- b~b2.
+~b4 \breathe b8-- b-- b-- b-- b-- b-- 
+c4-- a8-- fis~fis4 c'-- 
+c4-- a8-- a~a4 c-- 
+b8-- (b~b4) gis-- gis-- 
+gis8-- gis-- gis-- gis-- gis-- gis~gis4 
+b2 \tuplet 3/2 {gis4-- gis-- gis--(}
+e8-- e~e2. 
+~e4) \breathe e'8-- e-- e-- e-- e-- e-- 
+d4-- c8-- c~ c4 c4-- 
+d4-- a8-- a~ a4 fis4-- 
+d8 (d~ d2. 
+~d4) \breathe d'8-- d-- d-- d-- d-- d-- 
+d4-- c8-- a~a4 e'-- 
+d4-- c8-- a~a4 fis-- 
+e8 (e~e4 ) g4-- a8-- c
+~c2 c4-- d-- 
+d4 (g2 d4) 
+\tuplet 3/2 {d4-- e-- d--} c8 (b b a
+d c c d d c c b \bar"||"\time 2/4
+b8 a a g \bar"||"\time 4/4 \key c \major 
+f8--) f4-. f8-- d8-- e-- f-- e-. \breathe \bar"||"
+r8^\markup{Slow-Rock (\bold{I do, I do, I do})}  c'8\mf (\tuplet 3/2 {e8 c e} \tuplet 3/2 {f8 e f } \tuplet 3/2 {fis8 f fis}
+g2.~ \tuplet 3/2 {g4) fis8 (}
+\tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8} \tuplet 3/2 {e4 c8} \tuplet 3/2 {d4 b8}
+c4~ \tuplet 3/2 {c8) e,-. e-.} \tuplet 3/2 {e8-. e-. e-.} \tuplet 3/2 {es8-. es-. es-.} 
+d2. r4 
+\repeat volta 2{
+\tuplet 3/2{g,8-.\mf g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r 
+\tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r 
+\tuplet 3/2{a8-. a-. a-.} a8 r \tuplet 3/2{a8-. a-. a-.} a8 r 
+\tuplet 3/2{a8-. a-. a-.} a8 r \tuplet 3/2{a8-. a-. a-.} \tuplet 3/2{f''4 fis8}
+g2.~\tuplet 3/2 {g4 fis8(}
+\tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8} \tuplet 3/2 {e4 c8} \tuplet 3/2 {d4 b8)}
+}
+\alternative {{
+c4~ \tuplet 3/2{c8 g-. g-. } \tuplet 3/2{g8-. g-. g-. } \tuplet 3/2{g8-. g-. g-. }
+g4-. r r2}{
+g4~\tuplet 3/2{g8 g-. g-. } \tuplet 3/2{f8-. f-. f-. } \tuplet 3/2{f8-. f-. f-. }}}
+e4-. r r8 g'4\f g8
+g2 ~g8 f (d f) 
+r8 e4.-> c4-- g-- 
+f2 ~f8 e'8 (c e) 
+d1 
+r4 fis4 (fis d) 
+c4 (d2 a4) 
+f'!2 (c4 c) 
+b2 r \bar"||"
+g2\mf  (a4 b8 d~
+d4 c f e)
+a,2 (b4 \tuplet 3/2{cis4 d8)}
+r8 d ~d2 \tuplet 3/2{a4 (bes8}
+b2. ~\tuplet 3/2{b4) bes8(} 
+\tuplet 3/2{b!4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} 
+e4 ~ \tuplet 3/2{e8) e-. e-. } \tuplet 3/2{f8-. f-. f-. } \tuplet 3/2{f8-. f-. f-. } 
+\tuplet 3/2{e8 r c'(} \tuplet 3/2{e8 c e} \tuplet 3/2{f8 e f} \tuplet 3/2{fis8 f fis}
+g2.) ~\tuplet 3/2{g4 fis8(} 
+\tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} \tuplet 3/2{e4 c8} \tuplet 3/2{d4 b8}
+g2 ~g8_\markup{\italic {poco rit.}}) g-- gis4-- \bar"||"\key g \major 
+a4\fermata\breathe g,8^\markup{(\bold{Chiquitita})}  (a b8 c4 d16 e)
+fis4. (e8 d4. c16 d)
+e4. (c8 b4.) \breathe fis16 (g
+a4-- a-- a8 g fis g~
+g1
+~g8) r g'\mf (a b c b16 a g8)
+\repeat volta 2{
+b1
+r4 r8 g16 (a b4 c) 
+b8 (a g fis~fis2
+~fis1) 
+d'4. (c16 d e4. g,8)
+fis4.( fis16 g) e4-- e-- 
+e8 (d c d~d2
+~d4) r8 g16 (a b8 c b16 a c8) 
+b1
+r4 r8 g16 (a b4 c) 
+d8 ( cis16 b d8 b~b2 
+~b2) r 
+d4. (c16 d e4. g,8) 
+fis4. (fis16 g e4-- e--) 
+e8 (d c b~b2) 
+}
+\alternative{{
+b8 r r4 r2}{
+b8 r r c'16\mf (d e8 fis e16 d c d)}}
+e1 \bar"||"\time 5/4
+r4 r8 c16 (d e8 fis e16 d c8 e c16 d) \bar"||"\time 4/4
+b4 (g~g2) 
+r8 g (a b~b c d e16 d
+~d4. c16 d e4. g,8 ) 
+fis4. (fis16 g e4-- e-- ) 
+e8 (d c b~b2) 
+r4 r8 c'16 (d e8 fis e16 d c d
+e1)\bar"||"\time 5/4
+r4 r8 c16 (d e8 fis e16 d c8 e fis) \bar"||"\time 4/4
+d8 (c16 b d8 b~b2) 
+r4 g8 (a16 b ~b8 c d e) 
+d4. (c16 d e4. g,8 ) 
+fis4. (fis16 g e4-- e-- 
+e8 d c b~b2) 
+r2 fis''4.\f (e8 ) 
+d4.(c16 d e4. c8) 
+a4. (fis16 g) e4-- e-- 
+a8 (g fis d~d2) 
+r2 fis'4.\p (e8 ) 
+a,4.(_\markup{\italic rit.} c16 d e4.\decresc g,8) 
+fis4. (fis16 g) e4-- e-- 
+e8\pp (d c b~b2\fermata)
+\bar"|."
 } 
