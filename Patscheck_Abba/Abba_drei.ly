@@ -71,96 +71,93 @@ d2(_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major
 c4)\fermata r^\markup{Blablabla (\bold{Fernando})} r2
 d1 \mf
 ~d4 r d2 
-% b8 (a a g g fis fis e
-% e1
-% ~e4) r8 a (a b b c
-% c8-- ) c~c2. 
-% ~c4. a8 (a b b c 
-% c8 b b a a g g fis
-% fis4-- ) r8 fis (fis g g a
-% a8 g g fis fis e e d)  \bar"||"\time 2/4
-% d8 (c c b)  \bar"||"\time 4/4
-% d1
-% ~d4 r8 g (g a a b  
-% b8 b ~b2. 
-% ~b4) r8 g (g a a b) 
-% b8 (a a g g fis fis e 
-% ~e1
-% ~e4) r8 a (a b b c
-% c8 c~c2. 
-% ~c4.) a8 (a b b c 
-% c8 b b a a g g fis
-% fis4.)  fis8 (fis g g a
-% a8 g g fis fis e e d \bar"||"\time 2/4
-% d8 c c b \bar"||"\time 4/4
-% d1
-% ~d4) \breathe d'8--\f d-- d-- d-- d-- d-- 
-% d4-- c8-- c~c4 e-- 
-% d4-- c8-- c~c4 d-- 
-% b8-- b~b2.
-% ~b4 \breathe b8-- b-- b-- b-- b-- b-- 
-% c4-- a8-- fis~fis4 c'-- 
-% c4-- a8-- a~a4 c-- 
-% b8-- (b~b4) gis-- gis-- 
-% gis8-- gis-- gis-- gis-- gis-- gis~gis4 
-% b2 \tuplet 3/2 {gis4-- gis-- gis--(}
-% e8-- e~e2. 
-% ~e4) \breathe e'8-- e-- e-- e-- e-- e-- 
-% d4-- c8-- c~ c4 c4-- 
-% d4-- a8-- a~ a4 fis4-- 
-% d8 (d~ d2. 
-% ~d4) \breathe d'8-- d-- d-- d-- d-- d-- 
-% d4-- c8-- a~a4 e'-- 
-% d4-- c8-- a~a4 fis-- 
-% e8 (e~e4 ) g4-- a8-- c
-% ~c2 c4-- d-- 
-% d4 (g2 d4) 
-% \tuplet 3/2 {d4-- e-- d--} c8 (b b a
-% d c c d d c c b \bar"||"\time 2/4
-% b8 a a g \bar"||"\time 4/4 \key c \major 
-% f8--) f4-. f8-- d8-- e-- f-- e-. \breathe \bar"||"
-% r8^\markup{Slow-Rock (\bold{I do, I do, I do})}  c'8\mf (\tuplet 3/2 {e8 c e} \tuplet 3/2 {f8 e f } \tuplet 3/2 {fis8 f fis}
-% g2.~ \tuplet 3/2 {g4) fis8 (}
-% \tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8} \tuplet 3/2 {e4 c8} \tuplet 3/2 {d4 b8}
-% c4~ \tuplet 3/2 {c8) e,-. e-.} \tuplet 3/2 {e8-. e-. e-.} \tuplet 3/2 {es8-. es-. es-.} 
-% d2. r4 
-% \repeat volta 2{
-% \tuplet 3/2{g,8-.\mf g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r 
-% \tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r 
-% \tuplet 3/2{a8-. a-. a-.} a8 r \tuplet 3/2{a8-. a-. a-.} a8 r 
-% \tuplet 3/2{a8-. a-. a-.} a8 r \tuplet 3/2{a8-. a-. a-.} \tuplet 3/2{f''4 fis8}
-% g2.~\tuplet 3/2 {g4 fis8(}
-% \tuplet 3/2 {g4 e8} \tuplet 3/2 {f4 d8} \tuplet 3/2 {e4 c8} \tuplet 3/2 {d4 b8)}
-% }
-% \alternative {{
-% c4~ \tuplet 3/2{c8 g-. g-. } \tuplet 3/2{g8-. g-. g-. } \tuplet 3/2{g8-. g-. g-. }
-% g4-. r r2}{
-% g4~\tuplet 3/2{g8 g-. g-. } \tuplet 3/2{f8-. f-. f-. } \tuplet 3/2{f8-. f-. f-. }}}
-% e4-. r r8 g'4\f g8
-% g2 ~g8 f (d f) 
-% r8 e4.-> c4-- g-- 
-% f2 ~f8 e'8 (c e) 
-% d1 
-% r4 fis4 (fis d) 
-% c4 (d2 a4) 
-% f'!2 (c4 c) 
-% b2 r \bar"||"
-% g2\mf  (a4 b8 d~
-% d4 c f e)
-% a,2 (b4 \tuplet 3/2{cis4 d8)}
-% r8 d ~d2 \tuplet 3/2{a4 (bes8}
-% b2. ~\tuplet 3/2{b4) bes8(} 
-% \tuplet 3/2{b!4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} 
-% e4 ~ \tuplet 3/2{e8) e-. e-. } \tuplet 3/2{f8-. f-. f-. } \tuplet 3/2{f8-. f-. f-. } 
-% \tuplet 3/2{e8 r c'(} \tuplet 3/2{e8 c e} \tuplet 3/2{f8 e f} \tuplet 3/2{fis8 f fis}
-% g2.) ~\tuplet 3/2{g4 fis8(} 
-% \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} \tuplet 3/2{e4 c8} \tuplet 3/2{d4 b8}
-% g2 ~g8_\markup{\italic {poco rit.}}) g-- gis4-- \bar"||"\key g \major 
-% a4\fermata\breathe g,8^\markup{(\bold{Chiquitita})}  (a b8 c4 d16 e)
-% fis4. (e8 d4. c16 d)
-% e4. (c8 b4.) \breathe fis16 (g
-% a4-- a-- a8 g fis g~
-% g1
+d1 
+b1
+~b4 r e2 
+c1
+~c2 c 
+c2 c 
+a2 ~a8 r r4
+a8 (b c a) r2 \bar"||"\time 2/4
+d8 (fis, a d)  \bar"||"\time 4/4
+g,8 (b d e) r b (d b) 
+g8 (b d e) r2
+g,8 (b d e) r b (d b) 
+g8 (b e d) r2
+g,8 (b d b) r2
+b1
+~b4 r r2
+c1
+~c1
+a2 a 
+a2 a 
+a2 a \bar"||"\time 2/4
+a4 r \bar"||"\time 4/4
+b1 
+~b4 \breathe b'8--\f b-- b-- b-- b-- b-- 
+c4-- a8-- fis~fis4 c'-- 
+c4-- a8-- fis~fis4 c'-- 
+g8-- g~g2.
+~g4 \breathe g8-- g-- g-- g-- g-- g-- 
+fis4-- d8-- d~d4 g-- 
+a4-- d,8-- fis~fis4 fis-- 
+g8-- (g~g4) e-- e-- 
+e8-- e-- e-- e-- e-- e~e4 
+gis2 \tuplet 3/2 {e4-- e-- e--}
+c8-- c~c2. 
+~c4 \breathe c'8-- c-- c-- c-- c-- c-- 
+c4-- a8-- fis~ fis4 g4-- 
+c4-- fis,8-- fis~ fis4 d4-- 
+b8 (b~ b2. 
+~b4) \breathe b'8-- b-- b-- b-- b-- b-- 
+c4-- a8-- fis~fis4 c'-- 
+c4-- a8-- fis~fis4 d-- 
+c8-- c~c4 e4-- fis8-- g
+~g2 g4-- fis-- 
+g4 (c2 g4) 
+d2 d 
+d1 \bar"||"\time 2/4
+d2 \bar"||"\time 4/4 \key c \major 
+d8-- d4-. d8-- d8-- c-- b-- c-. \breathe \bar"||"
+R1^\markup{Slow-Rock (\bold{I do, I do, I do})}  
+\tuplet 3/2 {g8-. g-. g-.} g8 r \tuplet 3/2 {g8-. g-. g-.} g8 r 
+\tuplet 3/2 {g8-. g-. g-.} g8 r \tuplet 3/2 {g8-. g-. g-.} g8 r 
+g4~ \tuplet 3/2 {g8 c-. c-.} \tuplet 3/2 {c8-. c-. c-.} \tuplet 3/2 {c8-. c-. c-.} 
+b2. r4 
+\repeat volta 2{
+\tuplet 3/2{e,8-.\mf e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r 
+\tuplet 3/2{e8-. e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r 
+\tuplet 3/2{e8-. e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r 
+\tuplet 3/2{f8-. f-. f-.} f8 r \tuplet 3/2{f8-. f-. f-.} f8 r 
+\tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r 
+\tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r
+}
+\alternative {{
+g4~ \tuplet 3/2{g8 e'-. e-. } \tuplet 3/2{e8-. e-. e-. } \tuplet 3/2{e8-. e-. e-. }
+c'4-. r r2}{
+g,4~\tuplet 3/2{g8 c-. c-. } \tuplet 3/2{c8-. c-. c-. } \tuplet 3/2{c8-. c-. c-. }}}
+c4-. r r8 e'4\f e8
+d2 ~d8 c (bes c) 
+r8 c4.-> g4-- e-- 
+c2 ~c8 c'8 (a c) 
+a1 
+r4 d4 (d a) 
+a4 (a2 gis4) 
+d'2 (a4 a) 
+f!2 r \bar"||"
+\tuplet 3/2{e,8-. \mf e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r
+\tuplet 3/2{e8-. e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r
+\tuplet 3/2{e8-. e-. e-.} e8 r \tuplet 3/2{e8-. e-. e-.} e8 r
+\tuplet 3/2{f8-. f-. f-.} f8 r \tuplet 3/2{f8-. f-. f-.} f8 r
+\tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r
+\tuplet 3/2{g8-. g-. g-.} g8 r \tuplet 3/2{g8-. g-. g-.} g8 r
+c4 ~ \tuplet 3/2{c8 c-. c-. } \tuplet 3/2{c8-. c-. c-. } \tuplet 3/2{c8-. c-. c-. } 
+\tuplet 3/2{c8 r c(} \tuplet 3/2{g'8 e g} \tuplet 3/2{a8 gis a} \tuplet 3/2{bes8 a bes}
+b2.) ~\tuplet 3/2{b4 bes8(} 
+\tuplet 3/2{b4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8}
+e2 ~e8_\markup{\italic {poco rit.}}) e-- fis4-- \bar"||"\key g \major 
+g4\fermata ^\markup{(\bold{Chiquitita})}  r r2
+R1*4
 % ~g8) r g'\mf (a b c b16 a g8)
 % \repeat volta 2{
 % b1

@@ -112,7 +112,7 @@ d8 (d~ d2.
 ~d4) \breathe d'8-- d-- d-- d-- d-- d-- 
 d4-- c8-- a~a4 e'-- 
 d4-- c8-- a~a4 fis-- 
-e8 (e~e4 ) g4-- a8-- c
+e8-- e~e4 g4-- a8-- c
 ~c2 c4-- d-- 
 d4 (g2 d4) 
 \tuplet 3/2 {d4-- e-- d--} c8 (b b a
