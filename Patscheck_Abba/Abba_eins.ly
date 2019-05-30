@@ -105,7 +105,7 @@ e8-- (d~d4) b-- b--
 b8-- b-- b-- b-- c-- d ~d4 
 e2 \tuplet 3/2 {b4-- c-- b--~(}
 b8 a a2. 
-~a4) \breathe g'8-- g-- g-- g-- g-- g-- 
+~a4) \breathe g'8--\f g-- g-- g-- g-- g-- 
 fis4-- d8-- c~ c4 g'4-- 
 fis4-- d8-- c~ c4 b4-- 
 a8 (g~ g2. 

@@ -105,7 +105,7 @@ b8-- (b~b4) gis-- gis--
 gis8-- gis-- gis-- gis-- gis-- gis~gis4 
 b2 \tuplet 3/2 {gis4-- gis-- gis--(}
 e8-- e~e2. 
-~e4) \breathe e'8-- e-- e-- e-- e-- e-- 
+~e4) \breathe e'8--\f e-- e-- e-- e-- e-- 
 d4-- c8-- c~ c4 c4-- 
 d4-- a8-- a~ a4 fis4-- 
 d8 (d~ d2. 
