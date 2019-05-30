@@ -155,52 +155,51 @@ c4 ~ \tuplet 3/2{c8 c-. c-. } \tuplet 3/2{c8-. c-. c-. } \tuplet 3/2{c8-. c-. c-
 \tuplet 3/2{c8 r c(} \tuplet 3/2{g'8 e g} \tuplet 3/2{a8 gis a} \tuplet 3/2{bes8 a bes}
 b2.) ~\tuplet 3/2{b4 bes8(} 
 \tuplet 3/2{b4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8}
-e2 ~e8_\markup{\italic {poco rit.}}) e-- fis4-- \bar"||"\key g \major 
-g4\fermata ^\markup{(\bold{Chiquitita})}  r r2
-R1*4
-% ~g8) r g'\mf (a b c b16 a g8)
-% \repeat volta 2{
-% b1
-% r4 r8 g16 (a b4 c) 
-% b8 (a g fis~fis2
-% ~fis1) 
-% d'4. (c16 d e4. g,8)
-% fis4.( fis16 g) e4-- e-- 
-% e8 (d c d~d2
-% ~d4) r8 g16 (a b8 c b16 a c8) 
-% b1
-% r4 r8 g16 (a b4 c) 
-% d8 ( cis16 b d8 b~b2 
-% ~b2) r 
-% d4. (c16 d e4. g,8) 
-% fis4. (fis16 g e4-- e--) 
-% e8 (d c b~b2) 
-% }
-% \alternative{{
-% b8 r r4 r2}{
-% b8 r r c'16\mf (d e8 fis e16 d c d)}}
-% e1 \bar"||"\time 5/4
-% r4 r8 c16 (d e8 fis e16 d c8 e c16 d) \bar"||"\time 4/4
-% b4 (g~g2) 
-% r8 g (a b~b c d e16 d
-% ~d4. c16 d e4. g,8 ) 
-% fis4. (fis16 g e4-- e-- ) 
-% e8 (d c b~b2) 
-% r4 r8 c'16 (d e8 fis e16 d c d
-% e1)\bar"||"\time 5/4
-% r4 r8 c16 (d e8 fis e16 d c8 e fis) \bar"||"\time 4/4
-% d8 (c16 b d8 b~b2) 
-% r4 g8 (a16 b ~b8 c d e) 
-% d4. (c16 d e4. g,8 ) 
-% fis4. (fis16 g e4-- e-- 
-% e8 d c b~b2) 
-% r2 fis''4.\f (e8 ) 
-% d4.(c16 d e4. c8) 
-% a4. (fis16 g) e4-- e-- 
-% a8 (g fis d~d2) 
-% r2 fis'4.\p (e8 ) 
-% a,4.(_\markup{\italic rit.} c16 d e4.\decresc g,8) 
-% fis4. (fis16 g) e4-- e-- 
-% e8\pp (d c b~b2\fermata)
-% \bar"|."
+e2 ~e8_\markup{\italic {poco rit.}}) e-- f4-- \bar"||"\key g \major 
+fis4\fermata ^\markup{(\bold{Chiquitita})}  r r2
+R1*5
+\repeat volta 2{
+g,16\mf (b d g d g d b g c e g e g e c 
+g8) r r4 r2
+g16 (b d g d g d b a fis a d a d a fis
+a8) r r4 r2
+d16 (a d fis d fis d a c e g e c e g e
+d8) r r4 r2
+g,16 (b d b g a b d g, b d b g a b d 
+g,8) r r4 r2
+g16 (b d g d g d b g b d g d g d b 
+g8) r r4 r2
+b16 (d fis d b d fis d b d fis d b d fis d 
+b8) r r4 r2
+d16 (a d fis d fis d a c e g e c e g e 
+d8) r r4 r2
+g,16 (b d b g a b d g, b d b g a b d)
+}
+\alternative{{
+g,8 r r4 r2}{
+g8 r r4 r2}}
+c8-.\f c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 5/4
+c8-. c-. c-. c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 4/4
+r8 d-. d-. d-. d-. d-. d-. d-. 
+r8 d-. d-. d-. d-. d-. d-. d-. 
+r8 d-. d-. d-. c-. c-. c-. c-. 
+d8-. d-. d-. d-. a-. a-. a-. c-. 
+r8 d-. d-. d-. d-. d-. d-. d-. 
+b8-. b-. b-. b-. b-. b-. b-. b-. 
+r8 c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 5/4
+e8-. e-. e-. e-. e-. e-. e-. e-. e-. e-. \bar"||"\time 4/4
+d8-. d-. d-. d-. d-. d-. d-. d-. 
+b8-. b-. b-. b-. b-. b-. b-. b-.
+r8 a-. a-. a-. c-. c-. c-. c-.
+d8-. d-. d-. d-. a-. a-. a-. a-. 
+r8 b (c d~d4) g,8-.\< a-. 
+b8-. c-. d-. e-. a4.\f (g8)  
+fis4.(e16 fis g4. e8) 
+d4. (a16 b) a4-- a-- 
+c8 (b a g~g4) g8-. a-. 
+b8-. c-. d-. e-. r2
+d2 _\markup{\dynamic p \italic rit.} (c)\decresc  
+d4. (a16 b) c4-- c-- 
+c8\pp (b a g~g2\fermata)
+\bar"|."
 } 
