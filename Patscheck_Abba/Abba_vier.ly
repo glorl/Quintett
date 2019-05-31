@@ -36,11 +36,11 @@ r8 e, (g e) g (e g4)
 R1
 r4 g--^\markup{Solo} b4. (d8) 
 b2 r 
-r4 g4-- e'4. g,8 
+r4 g4-- e'4. (g,8 )
 c4 r r2
 r4 g-- b4. (d8) 
 b2 r 
-r4 g4-- e'4. g,8 
+r4 g4-- e'4. (g,8)
 c2 e8 (f g8. a16) 
 d,4 (g2.
 ~g4) r d8 (e f8. g16) 
@@ -59,11 +59,11 @@ b4 f'8 (d) g8 (f16 d b8 d)
 f8 (b, d b) f' (g a b) 
 a4 a,8 ( c) c (a c a) 
 c8 (e, g e) c' (e, g d') 
-g,8 r g4 b4. (d8) 
+g,8 r g4--^\markup{Solo}  b4. (d8) 
 b2 r 
-r4 g e'4. g,8 
+r4 g-- e'4. (g,8 )
 c1
-r4 g b4. d8 
+r4 g-- b4. (d8 )
 b2 r 
 c8->\f e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->
 c'8-> e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->
@@ -145,7 +145,7 @@ r4 a4 (a fis)
 e4 (fis2 d4) 
 a'2 (f!4 e) 
 d2 r \bar"||"
-g,2(^\markup{Solo unisono} (a4 b8 d
+g,2\mf (^\markup{Solo unisono} (a4 b8 d
 ~d4 c f e
 a,2 b4 \tuplet 3/2{cis4 e8-.)} 
 r8 d~d2 \tuplet 3/2{f4 (fis8)} 
@@ -156,50 +156,51 @@ c4 ~ \tuplet 3/2{c8) g'-. g-. } \tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{as8-. as-
 g2.) ~\tuplet 3/2{g4 fis8(} 
 \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} \tuplet 3/2{e4 c8} \tuplet 3/2{d4 b8}
 c2 ~c8_\markup{\italic {poco rit.}}) c-- cis4-- \bar"||"\key g \major 
-d4\fermata r^\markup{(\bold{Chiquitita})} r2
+d4\fermata r^\markup{\bold{Chiquitita}} r2
 R1*5
-% \repeat volta 2{
-% g,16\mf (b d g d g d b g c e g e g e c 
-% g8) r r4 r2
-% g16 (b d g d g d b a fis a d a d a fis
-% a8) r r4 r2
-% d16 (a d fis d fis d a c e g e c e g e
-% d8) r r4 r2
-% g,16 (b d b g a b d g, b d b g a b d 
-% g,8) r r4 r2
-% g16 (b d g d g d b g b d g d g d b 
-% g8) r r4 r2
-% b16 (d fis d b d fis d b d fis d b d fis d 
-% b8) r r4 r2
-% d16 (a d fis d fis d a c e g e c e g e 
-% d8) r r4 r2
-% g,16 (b d b g a b d g, b d b g a b d)
-% }
-% \alternative{{
-% g,8 r r4 r2}{
-% g8 r r4 r2}}
-% c8-.\f c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 5/4
-% c8-. c-. c-. c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 4/4
-% r8 d-. d-. d-. d-. d-. d-. d-. 
-% r8 d-. d-. d-. d-. d-. d-. d-. 
-% r8 d-. d-. d-. c-. c-. c-. c-. 
-% d8-. d-. d-. d-. a-. a-. a-. c-. 
-% r8 d-. d-. d-. d-. d-. d-. d-. 
-% b8-. b-. b-. b-. b-. b-. b-. b-. 
-% r8 c-. c-. c-. c-. c-. c-. c-. \bar"||"\time 5/4
-% e8-. e-. e-. e-. e-. e-. e-. e-. e-. e-. \bar"||"\time 4/4
-% d8-. d-. d-. d-. d-. d-. d-. d-. 
-% b8-. b-. b-. b-. b-. b-. b-. b-.
-% r8 a-. a-. a-. c-. c-. c-. c-.
-% d8-. d-. d-. d-. a-. a-. a-. a-. 
-% r8 b (c d~d4) g,8-.\< a-. 
-% b8-. c-. d-. e-. a4.\f (g8)  
-% fis4.(e16 fis g4. e8) 
-% d4. (a16 b) a4-- a-- 
-% c8 (b a g~g4) g8-. a-. 
-% b8-. c-. d-. e-. r2
-% d2 _\markup{\dynamic p \italic rit.} (c)\decresc  
-% d4. (a16 b) c4-- c-- 
-% c8\pp (b a g~g2\fermata)
-% \bar"|."
+\repeat volta 2{
+R1
+g,16\mf (b d g d g d b g b d g e g e c 
+g8) r r4 r2
+d'16 (a d fis d a d fis d a d fis a, d fis a
+d,8) r r4 r2
+d16 (a d fis d a d b a fis a d a fis a d
+g,8) r r4 r2
+g16 (b d g d g d b g b d g d g d b 
+g8) r r4 r2
+g16 (b d g d g d b g b d g e g e c 
+b8) r r4 r2
+b16 (fis b d b d b fis b fis b d b fis b d
+d8) r r4 r2
+d16 (a d fis d a d b a d fis d a d fis d 
+g,8) r r4 r2
+}
+\alternative{{
+g16 (b d g d g d b g b d g d g d b)
+}{
+r1}}
+e,8-.\f e-. e-. e-. e-. e-. e-. e-. \bar"||"\time 5/4
+e8-. e-.  e-. e-. e-. e-. e-. e-. e-. e-.\bar"||"\time 4/4
+r8 g-. g-. g-. g-. g-. g-. g-. 
+r8 g-. g-. g-. g-. g-. g-. g-. 
+r8 fis-. fis-. fis-. fis-. fis-. fis-. fis-. 
+a8-. a-. a-. a-. fis-. fis-. fis-. fis-. 
+r8 g-. g-. g-. g-. g-. g-. g-. 
+g8-. g-. g-. g-. g-. g-. g-. g-. 
+r8 g-. g-. g-. g-. g-. g-. g-. \bar"||"\time 5/4
+g8-. g-. g-. g-. g-. g-. g-. g-. g-. g-. \bar"||"\time 4/4
+r8 g-. g-. g-. g-. g-. g-. g-. 
+g8-. g-. g-. g-. g-. g-. g-. g-. 
+r8 fis-. fis-. fis-. fis-. fis-. fis-. fis-. 
+a8-. a-. a-. a-. fis-. fis-. fis-. fis-. 
+c'8 (b a g~g4) b8-.\< c-. 
+d8-. e-. fis-. g-. d'4.\f (c8)  
+a4.(g16 a c4. g8) 
+fis4. (d8) fis4-- fis-- 
+e8 (d c b~b4) b8-.\> c-. 
+d8-. e-. fis-. g-.\! r2
+d2 _\markup{\dynamic p \italic rit.} (c)\decresc  
+d1
+g,1\pp \fermata
+\bar"|."
 } 

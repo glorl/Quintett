@@ -68,7 +68,7 @@ r4 f-- f4. (f8)
 c'8->\f c8-> c8-> c8-> c8-> c8-> c8-> c8->
 c4-> c8-> (b) g4-> g-> \bar"||"\time 2/4
 fis2~_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
-fis4\fermata r8 g\mf^\markup{Blablabla (\bold{Fernando})} (g a a b) 
+fis4\fermata r8 g\mf^\markup{\bold{Fernando}} (g a a b) 
 b8-- b ~b2. 
 ~b4 r8 g (g a a b) 
 b8 (a a g g fis fis e
@@ -145,7 +145,7 @@ r4 fis4 (fis d)
 c4 (d2 a4) 
 f'!2 (c4 c) 
 b2 r \bar"||"
-g2\mf  (a4 b8 d~
+g2\mf ^\markup{Solo unisono} (a4 b8 d~
 d4 c f e)
 a,2 (b4 \tuplet 3/2{cis4 d8)}
 r8 d ~d2 \tuplet 3/2{a4 (bes8}
@@ -156,7 +156,7 @@ e4 ~ \tuplet 3/2{e8) e-. e-. } \tuplet 3/2{f8-. f-. f-. } \tuplet 3/2{f8-. f-. f
 g2.) ~\tuplet 3/2{g4 fis8(} 
 \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8} \tuplet 3/2{e4 c8} \tuplet 3/2{d4 b8}
 g2 ~g8_\markup{\italic {poco rit.}}) g-- gis4-- \bar"||"\key g \major 
-a4\fermata\breathe g,8^\markup{(\bold{Chiquitita})}  (a b8 c4 d16 e)
+a4\fermata\breathe g,8^\markup{\bold{Chiquitita}}  (a b8 c4 d16 e)
 fis4. (e8 d4. c16 d)
 e4. (c8 b4.) \breathe fis16 (g
 a4-- a-- a8 g fis g~

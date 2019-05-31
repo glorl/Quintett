@@ -68,7 +68,7 @@ r4 d-- d4. (d8)
 c8->\f g'8-> g8-> g8-> g8-> g8-> g8-> g8->
 g8---> g-. g---> g-. e---> e-. e---> e-.\bar"||"\time 2/4
 d2(_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
-c4)\fermata r^\markup{Blablabla (\bold{Fernando})} r2
+c4)\fermata r^\markup{\bold{Fernando}} r2
 d1 \mf
 ~d4 r d2 
 d1 
@@ -156,7 +156,7 @@ c4 ~ \tuplet 3/2{c8 c-. c-. } \tuplet 3/2{c8-. c-. c-. } \tuplet 3/2{c8-. c-. c-
 b2.) ~\tuplet 3/2{b4 bes8(} 
 \tuplet 3/2{b4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8}
 e2 ~e8_\markup{\italic {poco rit.}}) e-- f4-- \bar"||"\key g \major 
-fis4\fermata  r ^\markup{(\bold{Chiquitita})} r2
+fis4\fermata  r ^\markup{\bold{Chiquitita}} r2
 R1*5
 \repeat volta 2{
 g,16\mf (b d g d g d b g c e g e g e c 
@@ -196,8 +196,8 @@ r8 b (c d~d4) g,8-.\< a-.
 b8-. c-. d-. e-. a4.\f (g8)  
 fis4.(e16 fis g4. e8) 
 d4. (a16 b) a4-- a-- 
-c8 (b a g~g4) g8-. a-. 
-b8-. c-. d-. e-. r2
+c8 (b a g~g4) g8-.\> a-. 
+b8-. c-. d-. e-.\! r2
 d2 _\markup{\dynamic p \italic rit.} (c)\decresc  
 d4. (a16 b) c4-- c-- 
 c8\pp (b a g~g2\fermata)

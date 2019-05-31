@@ -7,3 +7,4 @@ globalAbba= {
 \include "../Patscheck_Abba/Abba_zwei.ly"
 \include "../Patscheck_Abba/Abba_drei.ly"
 \include "../Patscheck_Abba/Abba_vier.ly"
+\include "../Patscheck_Abba/Abba_bass.ly"
