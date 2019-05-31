@@ -1,49 +1,50 @@
 bassIntro = \new Voice \relative c {
 \compressFullBarRests
-e8\pp b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b 
-e,,8 b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b 
-e,,8 b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b 
-e,,8 b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b 
-e,,8 b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b 
-e,,8 b' g' b e b g e,
-g b e g c, e g c
-e c g c, a e' a b \bar"||"
+e8\pp b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b, \bar"||"
 }
 bassEins=\new Voice \relative c {
-% e8 b' g' b e b g b,
-% e, b' g' b e b g b,
-% g b g' d' g d g, b,
-% a d a' fis' g fis16 g fis8 d8
-% e,, b' g' b e b g b,
-% e, b' g' b e b g b, 
-% g b g' d'  g d g, g,
-% b fis b es fis es b fis
-% e8 b' g' b e b g b,
-% e, b' g' b e b g b,
-% g b g' d' g d g, b,
-% a d a' fis' g fis16 g fis8 d8
-% e,, b' g' b e b g b,
-% e, b' g' b e b g b, 
-% g b g' d'  g d g, g,
-% b fis b es fis es b fis
-% a1
-% ~a1
-% e1
-% ~e1
-% a1
-% ~a1
-% g1
-% fis1
+e8 b' g b e b g b
+e, b' g b e b g b
+g b g d' g d g, b
+a d a fis' g fis16 g fis8 d8
+e, b' g b e b g b
+e, b' g b e b g b 
+g b g d'  g d g g,
+b fis b es fis es b fis
+e8 b' g b e b g b
+e, b' g b e b g b
+g b g d' g d g, b
+a d a fis' g fis16 g fis8 d8
+e, b' g b e b g b
+e, b' g b e b g b 
+g b g d'  g d g g,
+b fis b es fis es b fis}
+bassInterludeeins= \new Voice \relative c' {
+a1
+~a1
+e1
+~e1
+a1
+~a1
+g1
+fis1
 e1
 c'1
 d1

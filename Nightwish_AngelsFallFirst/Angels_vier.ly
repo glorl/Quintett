@@ -1,41 +1,33 @@
 vierIntro = \new Voice \relative c' {
 \compressFullBarRests
-r1
-r1
-r1
-r1
-r1
-r1
+R1*6
 g2.\p r4
 r2 e'2
-r1
-r1
-r1
-r1
-b1
+R1*4
+b1\pp\< (
+b2\p g'2 
+~g2 a2)
+b,1 (
 b2 g'2 
-~g2 a2
-b,1
-b2 g'2 
-~g2 a2
+~g2 a2)
 }
-vierEins = \new Voice \relative c''{
-e,1
-~e1
-d1 
-b1 
-e1
+vierEins = \new Voice \relative c'{
+e1(
 e1
 g1
-b1
-e,1
+a1)
+e1(
 e1
-g1
 d1
-e1
+b'1) 
+e,1(
 e1
 g1
-b1 \bar"||"
+a1)
+e1(
+e1
+d1
+b'1) \bar"||"
 }
 vierZwei = \new Voice \relative c'' {
 % e8 b' g' b e b g b,

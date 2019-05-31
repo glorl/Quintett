@@ -1,42 +1,36 @@
 zweiIntro = \new Voice \relative c' {
 \compressFullBarRests
-r1
-r1
-r1
-r1
-r2 \acciaccatura {e8} g2 \pp
-r1
+R1*4
+r2 \acciaccatura {e8\pp} g2 \>
+r1\!
 b,2.\p r4
 r2 g2
-r1
-r1
-r1
-r1
-g'1 (
-g2 g16) c4..
-(c2 c16 a4..)
-r16 g16 (g8  g2.
-g4) r r16 c4..
-(c2~c16 a4..) \bar"||"
+R1*4
+g'1\pp\< (
+g2\p ) c
+(c2 a)
+g1 (
+g4) r c2
+(c2 a ) \bar"||"
 }
 zweiEins = \new Voice \relative c' {
-b'1
+b1(
 b1
-e,1
-c1
-b1
+d1
+d1)
+b1(
 b1
 g'1
-gis1
-e1
-e1
+dis1)
+b'1(
+b1
 d1
-d1
-e1
-e1
-d1
-dis1 \bar "||"
-r4 e'8 e ~e4 e 
+d1)
+b1(
+b1
+g1
+dis'1) \bar "||"
+r4 e8 e ~e4 e 
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 e1

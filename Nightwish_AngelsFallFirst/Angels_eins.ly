@@ -1,22 +1,24 @@
 einsIntro = \new Voice \relative c'' {
 \compressFullBarRests
-r1
-r1
-r1
-r1
-r2 \acciaccatura {g8} b2 \pp
-r1
-e,,2.\mp e8 fis
-g2 a8 b c4
+R1*4
+r2 \acciaccatura {g8\pp} b2\>
+r1\!
+e,,2.\mp e8-- fis--
+g2 a8-- b-- c4
 ~c4 r r2
-c'8 \tuplet 3/2 {b16 c b} a8 g e2 
-r8 e e fis fis g g4
+c'8 \tuplet 3/2 {b16 (c b} a8) g e2 
+r8 e-- e-- fis-- fis (g) g4
 ~g4 r \acciaccatura {g'8} a8 c b a 
 g (a) a (b) b2
 R1*5
 }
 einsEins  = \new Voice \relative c''{
 R1*16 
+}
+einsInterludeeins  = \new Voice \relative c'{
+c1
+e1
+
 }
 einsZwei = \new Voice \relative c''{
 R1*16

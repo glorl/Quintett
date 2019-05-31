@@ -1,42 +1,41 @@
 dreiIntro = \new Voice \relative c' {
 \compressFullBarRests
-e1 \pp
+e1 (\pp
+g,2 c
+~c2 a2)
+e'1 (
+g,2 c
+~c2 a2 )
+e'1 (\p
+g,2 c
+~c2 a2) 
+e'1 (
 g2 c,
-~c2 a2
-e'1
-g2 c,
-~c2 a2
-e'1 \p
-g2 c,
-~c2 a2
-e'1 
-g2 c,
-~c2 a2
-e'1
+~c2 a2)
+e'1\pp\< (
+d2\p e2
+~e2 d2)
+e1 (
 d2 e2
-~e2 d2
-e1
-d2 e2
-~e2 d2\bar"||"
+~e2 d2) \bar"||"
 }
-dreiEins = \new Voice \relative c' {
+dreiEins = \new Voice \relative c'' {
 g1
-~g1 
-g1 
-fis1 
-e1
-~e1
-d1
-b1
-e1
 r1
+b1(
+fis1)
+g1( 
 g1
-d1
-e1
-~e1
+b1 
+b1) 
 g1 
-b1
-}
+r1
+b1(
+fis1) 
+g1 (
+g1
+b1 
+b1) }
 dreiZwei = \new Voice \relative c'' {
 % R1*16
 % c1
