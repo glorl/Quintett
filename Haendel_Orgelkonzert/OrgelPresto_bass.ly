@@ -1,4 +1,4 @@
-HaendelPrestobass = \new Voice \relative c' {
+HaendelOrgelPrestobass = \new Voice \relative c' {
 \repeat volta 2{
 f4.-^-. e4.-^-. d4.-^-. r4 a8 
 bes4 g8 c4 c8 f4. f, 

@@ -1,4 +1,4 @@
-FeuerwerksmusikFriedebass = \new Voice \relative c' {
+FeuerwerksmusikFriedevier = \new Voice \relative c' {
 \repeat volta 2{
 c4.\mf c4 c8 
 g4. ~g8 d'8 (b) 
@@ -10,10 +10,10 @@ f,4 e8 d'4 c8
 g4. ~g4 r8 
 c8 (d16 c d c b8) c16 (b c b 
 a8) b16 (a b a g4.) 
-g2.\p 
-~g4. ~g8 b (d) 
+e'8\p (f16 e f e d8) e16 (d e d 
+c8) d16 (c d c b8) b8 (d) 
 b8\< (g) c d4\f g,8 
-d'4\p (g8) d4 (g8)
+fis'8.\p\trill (e32^\markup{Solo} fis g8) fis8.\trill (e32 fis g8) 
 b,4\f (c8) d4 e8 
 c8 d d g,4. 
 }
