@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+MozartAdagiobass = \new Voice \relative c' {
 \compressFullBarRests
 f2.\p
 c4-- f-- r 

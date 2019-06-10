@@ -1,4 +1,4 @@
-eins = \new Voice \relative c'' {
+MozartAdagioeins = \new Voice \relative c'' {
 \compressFullBarRests
 c4_\markup{\dynamic p \italic espressivo}^\markup{Solo} (f4. a8) 
 a8 (g f4) r 

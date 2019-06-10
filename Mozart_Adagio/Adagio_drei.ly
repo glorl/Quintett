@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+MozartAdagiodrei = \new Voice \relative c' {
 \compressFullBarRests
 f8 \p (c f c f c)
 e8 (c f c f c) 

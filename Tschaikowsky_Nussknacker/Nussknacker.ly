@@ -1,5 +1,5 @@
 % Marsch 
-globalMarsch= {
+globalNussknackerMarsch= {
 \time 4/4
 \key g \major
 }
@@ -10,7 +10,7 @@ globalMarsch= {
 \include "../Tschaikowsky_Nussknacker/Marsch_bass.ly"
 
 % Flötentanz
-globalFloetentanz= {
+globalNussknackerFloetentanz= {
 \time 2/4
 \key g \major
 }
@@ -21,7 +21,7 @@ globalFloetentanz= {
 \include "../Tschaikowsky_Nussknacker/Floetentanz_bass.ly"
 
 % Blumenwalzer 
-globalBlumenwalzer= {
+globalNussknackerBlumenwalzer= {
 \time 3/4
 \key f \major
 }
