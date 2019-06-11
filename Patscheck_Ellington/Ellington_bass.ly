@@ -208,8 +208,9 @@ a2-^\ff a4-^ r\bar"|."
 }
 
 Ellingtonbassverzwei=\new Voice \relative c'{
-r1^\markup{Moderato Swing (\bold {Take The 'A' Train})} 
-    
+r8^\markup{Moderato Swing (\bold {Take The 'A' Train})} e8\mf \noBeam (~e8 \tuplet 3/2{d16 c bes} as2)
+e'4  (~e8 \tuplet 3/2{d16 c bes} as8--) as-. r4
+R1*2   
 \bar"||" % \time 4/4 
 % c4\mp^\markup{Slow (\bold{Mood Indigo})} b a c 
 % d4 \<c b a 

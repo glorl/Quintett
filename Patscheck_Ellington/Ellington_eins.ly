@@ -216,7 +216,8 @@ a2-^\ff a4-^ r\bar"|."
 }
 
 Ellingtoneinsverzwei=\new Voice \relative c''{
-R1*2^\markup{Moderato Swing (\bold {Take The 'A' Train})} 
+r1^\markup{Moderato Swing (\bold {Take The 'A' Train})} 
+r1
 r8 e~\noBeam\mf (e \tuplet 3/2{d16 c bes} as2) 
 e'4~ (e8 \tuplet 3/2{d16 c bes} as8--) as-. r4 \bar"||" 
 g2\mf g4. g8 
@@ -235,21 +236,21 @@ a2 a4. f8
 a8 (bes b e g, ges f cis') 
 c!8 (e, ~e4 ~e2) 
 f4. gis8~gis2 \bar"||"
-a8--\mf c ~c4 r8 gis-- \tuplet 3/2{a8 c d}
-e2\glissando f,8-- a8-. r a
+a8--\mf c ~c4 r8 gis-- \tuplet 3/2{a8 (c d)}
+e2\glissando f,8-- a8-. r a--
 c4.^\lheel a8 r2
 c8-- a4-. a8 r a4. 
-a8--\f c4 a8 ( c a d e~
+a8--\f c4-. a8 ( c a d e~
 e2) \glissando fis,8 (a c4-.) 
 e4.^\lheel a,8 r2
 e'8-- a,-. r as~ as2 
 g2\mf a8 (c d e~
 e4) \glissando g,8-- c-. r c (d dis) 
-e8 gis,~ gis4 \tuplet 3/2{a4 bes c}
-d4 r r2 
+e8 gis,~ gis4 \tuplet 3/2{a4-> bes-> c->}
+d4-> r r2 
 a2~a8 [d,--] \tuplet 3/2{f8 (g gis)}
 a8 (bes b e g, ges f cis') 
-c!4-. r8 a' (es'-- d4 c16 a
+c!4-.-> r8 a' (es'-- d4 c16 a
 g8 ges f b, e es d as \bar"||"
 g4) r8 e' (a a g dis ) 
 e8-- g,4 a16 (c d8 dis e a) 
@@ -267,20 +268,20 @@ a4. (c16 d e8 [c] \tuplet 3/2{a8 as g)}
 f8 (a, d c \tuplet 3/2{g'8 [ges f]} \tuplet 3/2{d8 f b)}
 d8 c r4 r8 g8-- gis4-.
 a8 ( e d des c e c bes) \bar"||"
-a8^\markup{Duette Style}\mp (c~c4) r2 
+a8^\markup{Duett Style}\mp (c~c4) r2 
 e4.\glissando f,8 f(a c4-.) 
-e8 (a,) r a--~a c8--~c4 
+e8-- a,-. r a--~a c8--~c4 
 a'8 (as g d c--) a4-. f8-- \bar"||"
 a8--\f c~c4 a4. c8
-r8 e4. fis,8-- a-. r c
+r8 e4.\glissando fis,8-- a-. r c
 e2 \glissando \tuplet 3/2{f,4-> a-> c->}
-e8---> e-. r as,~as2  
-g4-. r8 ^\markup{Unisono Chorus} dis'--\f e ([g,] \tuplet 3/2{a c e}
+e8---> e-. r as,~as2   \bar"||"
+g4-.^\markup{Unisono Chorus} r8 dis'--\f e ([g,] \tuplet 3/2{a c e}
 g8 gis a es~es4. ) d8-- 
 c8 (d e gis, ~gis bes c fis, ~
 fis8 gis ais e ~e4)\glissando d'8-- c-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
-e8 (a e es d g e) bes-.
+e8 (a e es d g es) bes-.
 \tuplet 3/2{a8->\<(f) a-.} \tuplet 3/2{c8->[(a) c-.]} \tuplet 3/2{d8->(c) d-.} \tuplet 3/2{f8->[(d) f-.]}
 g4->\ff r8 b,-> ~b2\bar"||"\key d\major 
 a2\mf a4. a8 
@@ -300,7 +301,7 @@ d8 (dis e a c, b bes fis')
 f!8( a,~a4) bes,-.-^ b-.-^
 c8---> d---> e---> f---> r4 f,4 
 r1
-r2_\markup{\italic rit.} g'2\fermata \bar"||" 
+r2_\markup{\italic rit.} g'2\fermata \bar"||" \key c \major
 e'2\mp^\markup{Slow (\bold{Mood Indigo})} (dis4 e8-- e
 ~e1)  \<
 g2\f ( dis4. e8 
