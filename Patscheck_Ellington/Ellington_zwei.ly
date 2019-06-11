@@ -22,7 +22,7 @@ e4-- e-. e-- e-.
 c4-. r r8 d4-. r8 
 \tuplet 3/2{d4 (f a} a4.) f8 
 (e8 g~g4) r2 
-d8-- d4-. e8~e r r4 
+d8-- dis4-. e8~e r r4 
 r8 gis4-. gis8-- g4-. g-. 
 \tuplet 3/2 {gis4 (g gis} b4-.) bes8-- b~ 
 b2. ~ b8 gis-.
@@ -120,12 +120,12 @@ d8-- d4-. d8~d2
 r4 r8 d-- d4-. d-. 
 d8-- d4-. d8~d2 
 \repeat volta  2{
-\repeat percent 2{gis4.\mf fis8-- gis4-. fis-. 
-gis8-- fis4-. gis8~gis2 }
-\repeat percent 2{gis4. fis8-- gis4-. fis-. 
-gis8-- fis4-. gis8~gis2 }
-\repeat percent 2{gis4. fis8-- gis4-. fis-. 
-gis8-- fis4-. gis8~gis2 }
+\repeat percent 2{gis4.\mf f8-- gis4-. f-. 
+gis8-- f4-. gis8~gis2 }
+\repeat percent 2{gis4. f8-- gis4-. f-. 
+gis8-- f4-. gis8~gis2 }
+\repeat percent 2{gis4. f8-- gis4-. f-. 
+gis8-- f4-. gis8~gis2 }
 e4. e8-- fis4-. e-. 
 fis8-- e4-. fis8~fis2
 r4 r8 e8-- fis4-. e4-.
@@ -159,16 +159,16 @@ e4-. e-. c2
 e4. c8 ~c2
 e4-. e-. c2 
 e4-. r^\markup{cl. 1} r2 \bar"||"
-\repeat percent 2{d4-.\p d ~d d-.
-r4  d-. d2}
-\repeat percent 2{d4-. d ~d d-.
-r4  d-. d2}
-\repeat percent 2{d4-. d ~d d-.
-r4  d-. d2}
-e4-. c ~c e-. 
-r4 e-. c2 
-e4-. c ~c e-. 
-r4 e-. e-. r \bar"||"
+\repeat percent 2{gis4-.\p f ~f gis-.
+r4  f-. gis2}
+\repeat percent 2{gis4-. f ~f gis-.
+r4  f-. gis2}
+\repeat percent 2{gis4-. f ~f gis-.
+r4  f-. gis2}
+a4-. e ~e a-. 
+r4 a-. e2 
+a4-. e ~e a-. 
+r4 a-. a-. r \bar"||"
 gis1\f (
 ~gis1
 ~gis4 b-- b-- gis-- 
@@ -185,8 +185,8 @@ e4. e8 fis4-. e-.
 fis8-- e4-. fis8-- ~fis2
 e4. e8 fis4-. e-. 
 fis2\< a\!\bar"||"
-gis4.\f gis8 a4-. gis-. 
-gis8-- fis4-. gis8~gis2 
+gis4.\f f8 gis4-. f-. 
+gis8-- f4-. gis8~gis2 
 ~gis4 r gis2--->
 a2---> gis2--->
 g!2---> fis2--->

@@ -120,12 +120,12 @@ f4  r e r
 f4  r e r 
 f4  r e r 
 \repeat volta  2{
-\repeat percent 2{d'4.\mf d8-- d4-. d-. 
-d8-- d4-. d8~d2 }
-\repeat percent 2{d4. d8-- d4-. d-. 
-d8-- d4-. d8~d2 }
-\repeat percent 2{d4. d8-- d4-. d-. 
-d8-- d4-. d8~d2 }
+\repeat percent 2{b'4.\mf b8-- b4-. b-. 
+b8-- b4-. b8~b2 }
+\repeat percent 2{b4. b8-- b4-. b-. 
+b8-- b4-. b8~b2 }
+\repeat percent 2{b4. b8-- b4-. b-. 
+b8-- b4-. b8~b2 }
 e,4. e8-- fis4-. e-. 
 fis8-- e4-. fis8~fis2 
 r4 r8 e8-- fis4-. e4-.
@@ -165,17 +165,17 @@ a8-- e4-. f8 e (d c4)
 a8-- b4-. c8-- f4 (e) 
 a4 dis,8 (e f e c4) 
 a4 r^\markup{cl. 1} r2 \bar"||"
-\repeat percent 2{gis'4-.\p fis ~fis gis-.
-r4  fis-. gis2}
-\repeat percent 2{gis4-. fis ~fis gis-.
-r4  fis-. gis2}
-\repeat percent 2{gis4-. fis ~fis gis-.
-r4  fis-. gis2}
-a4-. e ~e a-. 
-r4 a-. e2 
-a4-. e ~e a-. 
-r4 a-. a-. r \bar"||"
-b,1\f (
+\repeat percent 2{b4-.\p b ~b b-.
+r4  b-. b2}
+\repeat percent 2{b4-. b ~b b-.
+r4  b-. b2}
+\repeat percent 2{b4-. b ~b b-.
+r4  b-. b2}
+c4-. a ~a c-. 
+r4 c-. a2 
+c4-. a ~a c-. 
+r4 c-. c-. r \bar"||"
+b1\f (
 ~b1
 ~b4 d-- d-- d-- 
 b4 d-- d-- d-- )
