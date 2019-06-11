@@ -2,6 +2,10 @@ globalEllington= {
 \time 2/2
 \key c \major
 }
+globalEllingtonverzwei= {
+\time 4/4
+\key c \major
+}
 
 \include "../Patscheck_Ellington/Ellington_eins.ly"
 \include "../Patscheck_Ellington/Ellington_zwei.ly"
