@@ -269,7 +269,7 @@ g8 gis a c,~c4. ) d8--
 c8 (d e gis, ~gis bes c fis, ~
 fis8 gis ais e ~e4) gis8-- ais-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
-e8 (a e es d g es) bes-.
+e8 (a e es d g e) bes-.
 \tuplet 3/2{f8->\<(f) f-.} \tuplet 3/2{a8->[(a) a-.]} \tuplet 3/2{c8->(c) c-.} \tuplet 3/2{d8->[(d) d-.]}
 e4->\ff r8 e,-> ~e2\bar"||"\key d\major 
 fis8-- \mf fis-. r4 fis4. fis8 

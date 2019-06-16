@@ -281,7 +281,7 @@ g8 gis a es~es4. ) d8--
 c8 (d e gis, ~gis bes c fis, ~
 fis8 gis ais e ~e4)\glissando d'8-- c-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
-e8 (a e es d g es) bes-.
+e8 (a e es d g e) bes-.
 \tuplet 3/2{a8->\<(f) a-.} \tuplet 3/2{c8->[(a) c-.]} \tuplet 3/2{d8->(c) d-.} \tuplet 3/2{f8->[(d) f-.]}
 g4->\ff r8 b,-> ~b2\bar"||"\key d\major 
 a2\mf a4. a8 
