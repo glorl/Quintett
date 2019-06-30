@@ -212,11 +212,11 @@ e8--\mf e8-. r4 e4. e8
 r8 g4.-> e4-. g-. 
 a8-- (e ~e4 ) e4-. e8-- e-. 
 r1
-f2 f8 (g gis4-.) 
+f2 d8 (g gis4-.) 
 f8 (fis f a e es d g) 
 g8 (c, ~c4 ~c2) 
-r8 f r4 r8 es-- f4-.
-e8--\f e-. r4 e4. e8-.
+r8 f4 r8 r es-- f4-.
+e!8--\f e-. r4 e4. e8-.
 r8 g4.-> e4-. g-. 
 a8 (e ~e4 ) \tuplet 3/2 {e4-> f-> g->}
 as8---> c4-. a-. g-. f!8--
@@ -226,7 +226,7 @@ g8 (c, ~c4 ~c8 d' dis e
 a8 as g e d c bes4) \bar"||"
 f8--\mf a ~a4 r8 gis-- \tuplet 3/2{a8 (c d)}
 a2\glissando d,8-- f8-. r a--
-a4.^\lheel f8 r2
+a4. f8 r2
 c'8-- a4-. a8 r f4. 
 fis8--\f a4-. a8 ( c a d c~
 c2) \glissando e,8 (fis a4-.) 
@@ -241,21 +241,21 @@ f8 (fis f a e es d g)
 g4-.-> r4 r2
 r1 \bar"||"
 e2 (c) 
-e4. e8 ~e2 
+e4 r8 e8 ~e2 
 e2 e
-e4. e8 ~e2 
+e4 r8 e8 ~e2 
 r8 f4-. r8 f2 
-f4. d8~d2 
+f4 r8 d8~d2 
 r8 e4 r8 e2 
-d4. es8~es2 
+d4 r8 es8~es2 
 r8 e4 r8 e2 
-e4. e8 ~e2 
+e4 r8 e8 ~e2 
 r8 e4 r8 e2 
-e4. e8 ~e2 
+e4 r8 e8 ~e2 
 r8 f4 r8 f2 
-e4. d8 ~d2 
+f4 r8 f8 ~f2 
 r8 e4 r8 e2 
-g4. g8 ~g2 \bar"||"
+g4 r8 g8 ~g2 \bar"||"
 f8^\markup{Duett Style}\mp (a~a4) r2 
 c4.\glissando d,8 d(f a4-.) 
 c8-- a-. r f--~f a8--~a4 
@@ -264,10 +264,10 @@ fis8--\f a~a4 e4. fis8
 r8 a4. \glissando c,8-- e-. r fis
 a2 \glissando \tuplet 3/2{d,4-> f-> f->}
 bes8---> c-. r d,~d2 \bar"||"
-r4^\markup{Unisono Chorus} r8 dis'--\f e ([g,] \tuplet 3/2{a c e}
+e4^\markup{Unisono Chorus} r8 dis'--\f e ([g,] \tuplet 3/2{a c e}
 g8 gis a c,~c4. ) d8-- 
 c8 (d e gis, ~gis bes c fis, ~
-fis8 gis ais e ~e4) gis8-- ais-^
+fis8 gis ais e ~e4) gis8-- a-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
 \tuplet 3/2{f8->\<(f) f-.} \tuplet 3/2{a8->[(a) a-.]} \tuplet 3/2{c8->(c) c-.} \tuplet 3/2{d8->[(d) d-.]}

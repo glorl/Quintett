@@ -7,6 +7,8 @@ globalEllingtonverzwei= {
 \key c \major
 }
 
+\include "../Patscheck_Ellington/rhythmark.ly"
+
 \include "../Patscheck_Ellington/Ellington_eins.ly"
 \include "../Patscheck_Ellington/Ellington_zwei.ly"
 \include "../Patscheck_Ellington/Ellington_drei.ly"

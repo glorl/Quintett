@@ -218,6 +218,7 @@ a2-^\ff a4-^ r\bar"|."
 Ellingtoneinsverzwei=\new Voice \relative c''{
 r1^\markup{Moderato Swing (\bold {Take The 'A' Train})} 
 r1
+\ternaer 
 r8 e~\noBeam\mf (e \tuplet 3/2{d16 c bes} as2) 
 e'4~ (e8 \tuplet 3/2{d16 c bes} as8--) as-. r4 \bar"||" 
 g2\mf g4. g8 
@@ -227,7 +228,7 @@ r1
 a2 f8 (g gis4-.) 
 a8 (bes b e g, ges f cis') 
 c!8 (e, ~e4 ~e2) 
-r8 a r4 r8 a-- as4-.
+r8 a4 r8 r a-- as4-.
 g2\f g4. g8-.
 r8 e'4.-> g,4-. c-. 
 e8 (gis, ~gis4 ) \tuplet 3/2 {a4-> bes-> c->}
@@ -238,8 +239,8 @@ c!8 (e, ~e4 ~e2)
 f4. gis8~gis2 \bar"||"
 a8--\mf c ~c4 r8 gis-- \tuplet 3/2{a8 (c d)}
 e2\glissando f,8-- a8-. r a--
-c4.^\lheel a8 r2
-c8-- a4-. a8 r a4. 
+e'4. a,8 r2
+e'8-- d4-. c8 r a4. 
 a8--\f c4-. a8 ( c a d e~
 e2) \glissando fis,8 (a c4-.) 
 e4.^\lheel a,8 r2
@@ -250,12 +251,12 @@ e8 gis,~ gis4 \tuplet 3/2{a4-> bes-> c->}
 d4-> r r2 
 a2~a8 [d,--] \tuplet 3/2{f8 (g gis)}
 a8 (bes b e g, ges f cis') 
-c!4-.-> r8 a' (es'-- d4 c16 a
+c!4-.-> r8 a'_\markup{\dynamic mf - \dynamic f} (es'-- d4 c16 a
 g8 ges f b, e es d as \bar"||"
-g4) r8 e' (a a g dis ) 
+g4) r8 e' (a as g dis ) 
 e8-- g,4 a16 (c d8 dis e a) 
-r8 e4. dis8 (e c a~
-a8 c d e~e2) 
+r8 e4. dis8 (e c a
+as8 c d e~e2) 
 r4 d8 (e \tuplet 3/2{a8 [e es]} d c) 
 a8 (c d e g ges f des'
 c e, a g) r2 

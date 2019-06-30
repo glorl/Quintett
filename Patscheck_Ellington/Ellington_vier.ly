@@ -211,7 +211,7 @@ fis'2-^\ff fis4-^ r\bar"|."
 
 Ellingtonvierverzwei=\new Voice \relative c'{
 g2^\markup{Moderato Swing (\bold {Take The 'A' Train})}\mp fis 
-g2 fis8-- e-. r4 
+g2 fis8-- fis-. r4 
 r8 g4. fis2 
 g2 fis8-- fis-. r4 \bar"||" 
 a8--\mf a8-. r4 a4. a8 
@@ -221,10 +221,10 @@ r1
 c2 a8 (g! gis4-.) 
 a'8 (bes b f g  ges f bes,) 
 a8 (g ~g4 ~g2) 
-r8 a' r4 r8 a-- as4-.
+r8 a'4 r8 r a-- as4-.
 a,8--\f a-. r4 a4. a8-.
 r8 a4.-> a4-. a-. 
-c8 (gis ~gis4 ) \tuplet 3/2 {fis4-> gis-> a->}
+c8 (gis ~gis4 ) \tuplet 3/2 {fis4-> g-> a->}
 bes8---> a4-. fis-. e-. g8--
 c8-- c-. r4 c4. c8 
 a'8 (bes b f g ges f bes,) 
@@ -232,19 +232,19 @@ a8 (g ~g4 ~g2)
 bes4. bes8~bes2 \bar"||"
 c8--\mf d ~d4 r8 gis,-- \tuplet 3/2{a8 (c d)}
 c2\glissando a8-- c8-. r d--
-c4.^\lheel c8 r2
+c4. c8 r2
 f8-- c4-. d8 r c4. 
 c8--\f e4-. a,8 (c a d fis~
 fis!2) \glissando a,8 (c e4-.) 
 c4.^\lheel c8 r2
-c8-- c-. r f~ f2 
-a,2\mf g8 (c d a~
+c8-- c-. r b~ b2 
+a2\mf g8 (c d a~
 a4) a8-- a-. r c (d dis) 
 c8 gis~ gis4 \tuplet 3/2{fis4-> g-> a->}
 bes4-> r r2 
 c2~c8 [d--] \tuplet 3/2{f8 (g gis)}
 a8 (bes b f g ges f bes,) 
-c4-.-> r4 r2
+a4-.-> r4 r2
 r1 \bar"||"
 a2 (e) 
 g4 r8 a8 ~a2 
@@ -266,17 +266,17 @@ f4^\markup{Duett Style}\mp r4 r a
 c4 r r d8 (des) 
 c4 r r f
 f4 e d b \bar"||"
-c8--\f d~d4 c4. e8
+c8--\f e~e4 fis,4. a8
 r8 c4. e,8-- fis-. r a
 c2 \glissando \tuplet 3/2{a4-> c-> as->}
 cis8---> d-. r f,~f2 \bar"||"
 a4^\markup{Unisono Chorus} r8 dis--\f e ([g,] \tuplet 3/2{a c e}
-g8 gis a a~a4. ) d,8-- 
+g8 gis a fis~fis4. ) d8-- 
 c8 (d e gis, ~gis bes c fis, ~
 fis8 gis ais e ~e4) \glissando bes'8-- d-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
-\tuplet 3/2{c8->\<(f,) c'-.} \tuplet 3/2{d8->[(a) d-.]} \tuplet 3/2{f8->(c) f-.} \tuplet 3/2{a8->[(f) a-.]}
+\tuplet 3/2{c8->\<(f,) c'-.} \tuplet 3/2{d8->[(a) d-.]} \tuplet 3/2{f8->(c) f-.} \tuplet 3/2{a8->[(e) a-.]}
 cis,4->\ff r8 g-> ~g2\bar"||"\key d\major 
 b8-- \mf b-. r4 b4. b8 
 r8 b4.-> b4-. b-. 
