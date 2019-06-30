@@ -418,11 +418,11 @@ e4. e8 fis4-. e-.
 fis2\< a\!\bar"||"
 gis4.\f f8 gis4-. f-. 
 gis8-- f4-. gis8~gis2 
-~gis4 r gis2--->
+gis4. fis8-. gis4-. fis4-. 
+gis4 r gis2--->
 a2---> gis2--->
 g!2---> fis2--->
 e2---> fis2--->
-e4-. e2 e4-. 
 a4-. r8 f8--\> e4-. bes-. 
 a4-.\mf r8 d-- d4-. d-.
 d8-- d4-. d8~d2 

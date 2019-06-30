@@ -415,7 +415,7 @@ r4 gis8 (a \tuplet 3/2 {c4 b a}
 a8--) f4-. b,8 d2
 \tuplet 3/2 {r4 d f} \tuplet 3/2 {e4 a gis}
 d'8-- b4-. gis-. f-. d8-- 
-(f8 e c b~b c d f 
+(f8 d c b~b c d f 
 e2.) r4 
 f8 (e a gis c) b4-. a8-- 
 f4 (e8 d b c d e 
@@ -442,12 +442,12 @@ a1
 ~a1 
 ~a2 c8\< (b c d )\!\bar"||"
 e1\f 
+~e1  
 ~e1 
 ~e4 r e2--->
 es2---> d2--->
 des2---> c2--->
 bes2---> gis2--->
-a4-. a2 a4-.
 a4-. r8 f8--\> e4-. bes-. 
 a4-.\mf r8 f'-- gis4-. f-.
 gis8-- f4-. gis8~gis2 

@@ -383,7 +383,7 @@ d1
 c!1
 b2 b 
 a1) 
-\tuplet 3/2{a4-- d-- d-- }\tuplet 3/2{g4-- g-- e-- }
+\tuplet 3/2{a4-- d-- d-- }\tuplet 3/2{g4-- f-- e-- }
 a,4 r e^\markup{break}\mf (f )
 a4 (gis) c8--^\markup{Solo + b.cl.} b4-. dis8--
 e4 (d2 b4) 
@@ -430,11 +430,11 @@ e4. e8 fis4-. e-.
 cis'2\< e\!\bar"||"
 b4.\f b8 b4-. b-. 
 b8-- b4-. b8~b2 
-~b4 r b2--->
+b4. b8-. b4-. b4-. 
+b4 r b2--->
 c2---> b2--->
 bes2---> a2--->
 g2---> b2--->
-a4-. a2 a4-. 
 a4-. r8 f'8--\> e4-. bes-. 
 a4-.\mf r e-. r 
 f4-. r e-. c'8\> (b) 

@@ -425,11 +425,11 @@ a4 r a e
 a4\< r a r \bar"||"
 f4\f r e r 
 f4 r e b'
+f4 r e b'
 e,4 r f2--->
 a2---> b2--->
 e,2---> fis2--->
 g2---> e2--->
-a4 a e' c 
 a4 r8 f'8--\> e4-. bes-. 
 a4-.\mf r e-. r 
 f4-. r e-. c'8\> (b) 

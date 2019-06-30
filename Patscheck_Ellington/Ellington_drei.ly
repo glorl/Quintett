@@ -381,11 +381,11 @@ e1 ~
 d4 r r2
 r1^\markup{cl. 4 + b.cl.}
 \repeat percent 2{gis,4-.\mp gis-. b2
-gis4. b8~b2 }
+d4. b8~b2 }
 \repeat percent 2{gis4-. gis-. b2
-gis4. b8 ~b2 }
+d4. b8 ~b2 }
 \repeat percent 2{gis4-. gis-. b2
-gis4. b8 ~b2 }
+d4. b8 ~b2 }
 c4-. c-. a2
 c4. a8 ~a2
 c4-. c-. a2 
@@ -418,11 +418,11 @@ c4. c8 c4-. c-.
 e2\< fis\!\bar"||"
 d4.\f d8 d4-. d-. 
 d8-- d4-. d8~d2 
-~d4 r d2--->
+d4. d8-. d4-. d4-. 
+d4 r d2--->
 fis2---> e2--->
 e2---> es2--->
 des2---> d2--->
-c4-. c2 c4-. 
 c4-. r8 f8--\> e4-. bes-. 
 a4-.\mf r8 b-- b4-. b-.
 b8-- b4-. b8~b2 
