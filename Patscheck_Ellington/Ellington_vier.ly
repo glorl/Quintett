@@ -277,25 +277,34 @@ fis8 gis ais e ~e4) \glissando bes'8-- d-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
 \tuplet 3/2{c8->\<(f,) c'-.} \tuplet 3/2{d8->[(a) d-.]} \tuplet 3/2{f8->(c) f-.} \tuplet 3/2{a8->[(e) a-.]}
-cis,4->\ff r8 g-> ~g2\bar"||"\key d\major 
-b8-- \mf b-. r4 b4. b8 
-r8 b4.-> b4-. b-. 
-d8 (bes ~bes4) bes4.-- bes8 
-r8 fis4-. a-. fis-. e8-- 
-b'!2 e,8 (g bes4-.) 
-b'8 (c cis g-> a gis g c,) 
-b8 (a~a4) a4. a8 
-r8 b4 r8 bes2\bar"||"\key f \major 
-d2--\f c8 (cis d d~
-d4) d8-- d-. r d (\tuplet 3/2{a'8 [f a])}
-f8 (cis ~cis4) b4-. c8-- d-. 
+as,4->\ff r8 bes-> ~bes2 \bar"||"\key f\major 
+d2\mf c8 (e d d
+~d4) d8-- d-. r d (\tuplet 3/2 {a' f a)}
+f8 (cis~cis4) b4-. c8-- cis-. 
 r8 a4-. c-. a-. g8-- 
-c2 \tuplet 3/2{a8 ([f a)]} \tuplet 3/2{c8 (c cis)}
-e8 (f c e d cis e es) 
-d8( c~c4) bes-.-^ b-.-^
-c8---> d---> e---> f---> r4 f,4 
+c2 \tuplet 3/2{a8 (f a } \tuplet 3/2{c8~c cis)}
+e8 (fis g e d f d es) 
+d8 (c~c4~c8) r r4
+r1 
+f8--\mf g4. ~g4 \tuplet 3/2{d8 (f g)}
+f2  \glissando d8 (f g4-.) 
+\scoop g4. g8-. r2
+\tuplet 3/2{d8-. r d(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
+f8-- a ~a4 d, (f8 f 
+~f4) \glissando d8-- b-. r b (\tuplet 3/2{d f g)}
+f4. g8-. r2
+\tuplet 3/2{d8-. r d(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
+d4.-- e8-> (c) cis-> (d) d->
+(d4.--) a'8-- a-- d,4-. d8-- 
+f2 \glissando cis8-- cis-. r4
+f8 (g a cis, ~cis f e es) 
+f2 \tuplet 3/2{b,8 (g a}\tuplet 3/2{bes8 c cis)}
+e8(fis g e d f d es) 
+d8 (c ~c4) bes4-^ b-^
+c8---> d---> e---> f---> r f,4-^ r8
 r1
-r2_\markup{\italic rit.} f2\fermata \bar"||" \key c \major 
+r2_\markup{\italic rit.} f2\fermata \bar"||" \key c \major
+
 % e'2\mp^\markup{Slow (\bold{Mood Indigo})} (fis4 e8-- fis
 % ~fis1)  \<
 % f!2\f ( f4. e8 
