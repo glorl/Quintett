@@ -203,6 +203,7 @@ r4 dis8\f \< ( e f fis g gis)
 c2-^\ff c4-^ r\bar"|."
 }
 
+
 Ellingtondreiverzwei=\new Voice \relative c'{
 c2^\markup{Moderato Swing (\bold {Take The 'A' Train})}\mp c 
 c2 c8-- c-. r4 
@@ -271,25 +272,33 @@ fis8 gis ais e ~e4) \glissando e'8-- f-^
 r4 r8 a,8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
 \tuplet 3/2{d8->\<(f) d-.} \tuplet 3/2{f8->[(a) f-.]} \tuplet 3/2{a8->(c) a-.} \tuplet 3/2{c8->[(d) c-.]}
-b4->\ff r8 cis,-> ~cis2\bar"||"\key d\major 
-d8-- \mf d-. r4 d4. d8 
-r8 d4.-> d4-. f-. 
-gis8 (d ~d4) d4.-- d8 
-r8 e4-. g-. e-. d8-- 
-e2 b8 (g bes4-.) 
-cis8 (d e cis-> ~cis c b fis') 
-fis8 (b,~b4) b4. b8 
-r8 d4 r8 e2\bar"||"\key f \major 
-f2--\f f8 (g f c'~
-c4) \glissando f,8-- a-. r d (\tuplet 3/2{c8 [a c])}
-b8 (f ~f4) f4-. g8-- gis-. 
-r8 g4-. bes!-. a-. f8-- 
-f2 \tuplet 3/2{c8 ([a c)]} \tuplet 3/2{d8 (c cis)}
-g'8 (as g bes f e d as') 
-a!8( d,~d4) bes-.-^ b-.-^
-c8---> d---> e---> f---> r4 f,4 
+b4->\ff r8 e,-> ~e2 \bar"||"\key f\major 
+f2\mf f8 (g f c'
+~c4)\glissando f,8-- a-. r d (\tuplet 3/2 {c a c)}
+b8 (f~f4) f4-. fis8-- g-. 
+r8 g4-. bes-. g-. f8-- 
+f2 \tuplet 3/2{c8 (a c } \tuplet 3/2{f8 c' cis)}
+bes8 (c bes d a as g c) 
+c8 (f,~f4~f8) r r4
+r1 
+g8--\mf bes4. ~bes4 \tuplet 3/2{d,8 (f g)}
+bes2  \glissando f8 (g bes4-.) 
+\scoop bes4. bes8-. r2
+\tuplet 3/2{f8-. r d(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
+a8-- b ~b4 f8 (d f b 
+~b4) \glissando f8-- f-. r b, (\tuplet 3/2{d f g)}
+bes!4. bes8-. r2
+\tuplet 3/2{f8-. r d(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
+f4.-- g8-> (f) g-> (a) b->
+(f4.--) d'8-- c-- f,4-. a8-- 
+b2 \glissando f8-- f-. r4
+f8 (g a cis, ~cis f e es) 
+g2 \tuplet 3/2{b,8 (g a}\tuplet 3/2{bes8 c cis)}
+g'8( a c bes f d e a) 
+a8 (d, ~d4) bes4-^ b-^
+c8---> d---> e---> f---> r f,4-^ r8
 r1
-r2_\markup{\italic rit.} b2\fermata \bar"||" \key c \major 
+r2_\markup{\italic rit.} b2\fermata \bar"||" \key c \major
 % g'2\mp^\markup{Slow (\bold{Mood Indigo})} (a4 g8-- a
 % ~a1)  \<
 % b2\f ( as4. g8 

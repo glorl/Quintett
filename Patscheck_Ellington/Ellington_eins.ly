@@ -295,12 +295,12 @@ f!8 (a,~a4~a8) r r4
 r1 
 d8--\mf f4. ~f4 \tuplet 3/2{d8 (f g)}
 a2  \glissando bes,8 (d f4-.) 
-a4. f8-. r2
-\tuplet 3/2{bes,8 r d(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
+\scoop a4. f8-. r2
+\tuplet 3/2{bes,8-. r d(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
 d8-- f ~f4 b,8 (d f a 
 ~a4) \glissando b,8-- d-. r b (\tuplet 3/2{d f g)}
 a4. f8-. r2
-\tuplet 3/2{bes,8 r d(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
+\tuplet 3/2{bes,8-. r d(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
 c4.-- cis8-> (d) e-> (f) gis->
 (a4.--) c8-- d-- a4-. f8-- 
 a2 \glissando cis,8-- cis-. r4

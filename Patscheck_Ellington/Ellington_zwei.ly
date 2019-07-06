@@ -271,7 +271,7 @@ fis8 gis ais e ~e4) gis8-- a-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
 \tuplet 3/2{f8->\<(f) f-.} \tuplet 3/2{a8->[(a) a-.]} \tuplet 3/2{c8->(c) c-.} \tuplet 3/2{d8->[(d) d-.]}
-e4->\ff r8 e,-> ~e2\bar"||"\key f\major 
+es4->\ff r8 gis,-> ~gis2\bar"||"\key f\major 
 a2\mf a8 (bes a f'
 ~f4)\glissando a,8-- c-. r d (\tuplet 3/2 {d c d)}
 d8 (a,~a4) a4-. bes8-- b-. 
@@ -282,12 +282,12 @@ c8 (f,~f4~f8) r r4
 r1 
 bes8--\mf d4. ~d4 \tuplet 3/2{d8 (f g)}
 d2  \glissando g,8 (bes d4-.) 
-d4. d8-. r2
-\tuplet 3/2{g,8 r d'(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
+\scoop d4. d8-. r2
+\tuplet 3/2{g,8-. r d'(} \tuplet 3/2{f8 d f}\tuplet 3/2{g8 f g} \tuplet 3/2{bes8 g f)}
 b,8-- d ~d4 a8 (d f d 
 ~d4) \glissando a8-- a-. r b (\tuplet 3/2{d f g)}
 d4. d8-. r2
-\tuplet 3/2{g,8 r d'(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
+\tuplet 3/2{g,8-. r d'(} \tuplet 3/2{f8 d g}\tuplet 3/2{bes8 fis g} \tuplet 3/2{e8 d des)}
 a4.-- bes8-> (a) bes-> (c) d->
 (c4.--) f8-- f-- c4-. c8-- 
 d2 \glissando a8-- a-. r4
