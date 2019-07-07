@@ -19,8 +19,8 @@ g2.\fermata\bar"||"
 R2.*4  
 a,4---. \segno \mp c---. f---. 
 e2-> (e8.) f16-.
-f2.
-(f2.)
+f8 (c' d e f a 
+d8 c a f d c) 
 a,4---. c---. f---. 
 e4---.\< e2-> \!
 f2->\mf\> (f4)\!
@@ -40,7 +40,7 @@ d c a f d c)
 a,4---.\mp c---. f---. 
 e---.\< e2->\!
 f2\mf\> ~f4\! 
-r4^\markup{"solo"} f8 (g a b)
+r4^\markup{"Solo"} f8 (g a b)
 c[ (d b d] c) r
 r4 bes8 (b c d )
 e ([f dis f] e) r8

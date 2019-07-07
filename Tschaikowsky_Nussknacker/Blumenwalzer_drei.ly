@@ -54,7 +54,7 @@ r4 c-.\> d-.
 c8-.\! r r2
 r4 c-.\f c-.
 r4 c-. c-.
-r4 bes-.\> c-.\!
+r4 c-.\> e-.\!
 r4 bes-.\p\< bes-.\!
 d'2\f (bes4)
 c2 (g4)
@@ -62,7 +62,7 @@ a2\> (f4)\!
 r4 c4-.\p\<  c-.\!
 r4 c4-.\f c-.
 r4 c4-. c-.
-r4 bes4-.\> c-.\!
+r4 c4-.\> c-.\!
 r4 bes4-.\p\< bes-.\!
 des'2 \f (f,4)
 d'2 (bes4)
@@ -149,7 +149,7 @@ bes2->\f bes4->
 bes2->_\markup{\italic piu \dynamic f} bes4->
 (bes) bes2-> 
 g4-.->\ff r2 
-R2.*3\bar"||"
+R2.*3^\markup{\italic sosten.}\bar"||"
 \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

@@ -9,7 +9,7 @@ c2\sfz bes4
 bes2 r4
 R2.
 e,4\f g bes 
-d2-> bes4 
+d2-> a4 
 c2\> bes4 \!
 bes2 fis4
 a2 g4
@@ -33,7 +33,7 @@ cis (e d cis d e)
 g (f e f d bes)
 a2 (g4)
 ~g8 g (f e d des)
-c4---. \mp f4---. g4---.
+c4---. \mp f4---. a4---.
 bes2-> (bes8.) a16
 a2.
 ~a2.
@@ -146,7 +146,7 @@ d'->\f (g,) d'->
 d'->_\markup{\italic piu \dynamic f} (g,) d'->
 (g,) d'-> (g,)
 \tuplet 3/2{d'8\ff (e d} e) r8 r4
-R2.*3
+R2.*3^\markup{\italic sosten.}
 \bar"||"
 \cadenzaOn 
 \stopStaff 

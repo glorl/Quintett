@@ -43,7 +43,7 @@ a \mp r r
 r \< bes-. bes-.\!
 a2\mf\> a4 \! 
 r4 a2 \p
-r4 c-. c-. 
+r4 a-. a-. 
 r gis-. gis-. 
 r a-. a-. 
 r gis-.\mf  gis-. 
@@ -130,7 +130,7 @@ r g-. g-.
 r f-. f-. 
 f8 r r4 r4 
 r c'-. c-. 
-r c-. c-.  
+r c-. a-.  
 r d-. d-.  
 r bes-. bes-.  
 r g-. c-.  
@@ -148,8 +148,9 @@ g2->\f g4->
 e2->_\markup{\italic {piu} \dynamic f} g4->
 ~g e2->
 g4->\ff r r4 
-R2.*2
-R2.*1^\markup{\italic sosten.}
+R2.^\markup{\italic sosten.}
+r4 r e
+~e4 e (gis) 
 \bar"||"
 \cadenzaOn 
 \stopStaff 

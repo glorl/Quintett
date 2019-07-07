@@ -2,6 +2,7 @@ globalWildCatBlues= {
 \time 4/4
 \key c \major
 }
+
 %{
 \header {
     title = "Wild Cat Blues"

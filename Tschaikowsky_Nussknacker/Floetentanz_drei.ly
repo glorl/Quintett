@@ -16,13 +16,13 @@ e16-. \>d-. e-. d-. c (b) g-. d-.\!
 c4--\mf \>c'--
 a16-.\!\p a,-. a-. a-. bes8-. g-.
 cis'16-._\markup{\italic cresc.} cis,-. cis-. cis-. cis8-. b-.
-e'16-. e,-. e-. e-. f-. fis-. f-. fis-. 
-fis-. g-. fis-. g-. g-. fis-. g-. fis-. 
+e'16-. e,-. e-. e-. f-. d-. f-. d-. 
+fis!-. g-. fis-. g-. g-. fis-. g-. fis-. 
 fis-.\mp fis-. fis-. fis-. fis-. fis-. fis-. fis-.
 a-. a-. a-. a-. fis-. fis-. fis-. fis-.
-fis-.\dim fis-. fis-. fis-. fis-. fis-. fis-. fis-.
-fis-. fis-. a-. a-. a-. a-. a-. a-.
-a-.\p  a-. a-. a-. a-. a-. a-. a-. 
+fis-.\dim fis-. fis-. fis-. fis-. fis-. a-. a-.
+fis-. fis-. g-. g-. a-. a-. a-. a-.
+a-.\p  a-. a-. a-. fis-. fis-. fis-. fis-. 
 fis-. a-. fis-. a-. fis-. fis-. g-. a-. 
 fis-. g-. gis-. a-. fis-. g-. gis-. a-. 
 R2*1^\markup{\italic {poco sostenuto}}

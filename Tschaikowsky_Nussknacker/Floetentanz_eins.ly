@@ -8,7 +8,7 @@ c16-. \>b-. c-. b-. a (g) d-. b-.\!
 g4--\mf \>\acciaccatura g'8 fis4--
 e16-.\!\p e,-. e-. e-. \acciaccatura fis8 e-. d-.
 e'16-.\< e,-. e-. e-. \acciaccatura fis8 e-. d-.\!
-g'16-.\mp g,-. g-. g-. g-. g-. a-. g-.
+g'16-.\mp g,-. g-. g-. g-. fis-. a-. g-.
 g16 (fis) e16-. d-. c'8-. a'32 (fis c a)
 g'16-.\p fis-. g-. fis-. g8-. fis-.
 a8-. g,32 \<(b d g)\! b4--
@@ -36,7 +36,7 @@ c16-. \>b-. c-. b-. a (g) d-. b-.\!
 g4--\mf \>\acciaccatura g'8 fis4--
 e16-.\!\p e,-. e-. e-. \acciaccatura fis8 e-. d-.
 e'16-.\< e,-. e-. e-. \acciaccatura fis8 e-. d-.\!
-g'16-.\mp g,-. g-. g-. g-.\< g-. a-. g-.\!
+g'16-.\mp g,-. g-. g-. g-.\< fis-. a-. g-.\!
 g16-. fis-. e-. d-. c'8-.\mf r
 g'16-.\p fis-. g-. fis-. g8-. fis-.
 a8-. g,32 \<(b d g)\! g4--

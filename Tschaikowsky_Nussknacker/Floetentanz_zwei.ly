@@ -16,9 +16,9 @@ g16-. \>g-. g-. g-. fis (d) b-. g-.\!
 es4--\mf \>d'--
 c16-.\!\p c,-. c-. c-. cis8-. b-.
 e'16-._\markup{\italic cresc.} e,-. e-. e-. e8-. d-.
-g'16-. g,-. g-. g-. gis-. gis-. gis-. fis-.
+g'16-. g,-. g-. g-. gis-. fis-. gis-. fis-.
 bes16-. a-. bes16-. a-. bes16-. a-. bes16-. a-. 
-a-. a-. a-. a-. a-. a-. a-. c-. 
+a-. a-. a-. a-. a-. a-. c-. c-. 
 a-. c-. a-. c-. c-. c-. c-. c-. 
 c-.\dim  c-. c-. c-. c-. c-. c-. c-. 
 c-.c-. c-. c-. c-. c-. c-. c-. 
