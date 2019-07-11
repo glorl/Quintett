@@ -278,8 +278,8 @@ f2\mf f8 (g f c'
 b8 (f~f4) f4-. fis8-- g-. 
 r8 g4-. bes-. g-. f8-- 
 f2 \tuplet 3/2{c8 (a c } \tuplet 3/2{f8 c' cis)}
-bes8 (c bes d a as g c) 
-c8 (f,~f4~f8) r r4
+g8 (a c bes f d e a) 
+a8 (e~e4~e8) r r4
 r1 
 g8--\mf bes4. ~bes4 \tuplet 3/2{d,8 (f g)}
 bes2  \glissando f8 (g bes4-.) 

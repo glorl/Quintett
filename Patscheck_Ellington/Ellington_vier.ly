@@ -276,7 +276,7 @@ c8 (d e gis, ~gis bes c fis, ~
 fis8 gis ais e ~e4) \glissando bes'8-- d-^
 r4 r8 a8-- \tuplet 3/2 {c8 [(a c)]}\tuplet 3/2 {e8 (c d)}
 e8 (a e es d g e) bes-.
-\tuplet 3/2{c8->\<(f,) c'-.} \tuplet 3/2{d8->[(a) d-.]} \tuplet 3/2{f8->(c) f-.} \tuplet 3/2{a8->[(e) a-.]}
+\tuplet 3/2{c8->\<(f,) c'-.} \tuplet 3/2{d8->[(a) d-.]} \tuplet 3/2{f8->(c) f-.} \tuplet 3/2{a8->[(d,) a'-.]}
 as,4->\ff r8 bes-> ~bes2 \bar"||"\key f\major 
 d2\mf c8 (e d d
 ~d4) d8-- d-. r d (\tuplet 3/2 {a' f a)}

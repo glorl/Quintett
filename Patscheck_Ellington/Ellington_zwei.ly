@@ -274,8 +274,8 @@ e8 (a e es d g e) bes-.
 es4->\ff r8 gis,-> ~gis2\bar"||"\key f\major 
 a2\mf a8 (bes a f'
 ~f4)\glissando a,8-- c-. r d (\tuplet 3/2 {d c d)}
-d8 (a,~a4) a4-. bes8-- b-. 
-r8 c4-. es-. c-. es8-- 
+d8 (a~a4) a4-. bes8-- b-. 
+r8 c,4-. es-. c-. bes'!8-- 
 a2 \tuplet 3/2{d,8 (c d } \tuplet 3/2{f8 c' cis)}
 bes8 (c bes d a as g c) 
 c8 (f,~f4~f8) r r4
