@@ -215,7 +215,6 @@ r4 dis'8\f \< ( e f fis g gis)
 a2-^\ff a4-^ r\bar"|."
 }
 
-
 Ellingtoneinsverzwei=\new Voice \relative c''{
 r1^\markup{Moderato Swing (\bold {Take The 'A' Train})} 
 \ternaer 
