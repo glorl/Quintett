@@ -1,29 +1,137 @@
 einsIntro = \new Voice \relative c' {
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
+r2.^\markup{Intro}
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r4 r4 r8 a32(\p b c d 
 % 
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
-a8 r e' r e, r 
-a8 r c r b r 
+e2.->) \trill ~
+e2 ~e8 (e32 d c b
+a8-.) r r4 r  
+r4 r4 r8 a32 (b c d 
+e2.->) \trill ~
+e2 ~e8 (e32 d c b
+a8-.) r r4 r  
+r2. 
 %
+a'8 \p (\tuplet 3/2{b16 c d} e2 )
+a,8 (\tuplet 3/2{b16 c d} e2 )
+a,8 (\tuplet 3/2{b16 c d} e2 )
+a,8 (\tuplet 3/2{b16 c d} e2 )
+%
+a,8 (\tuplet 3/2{b16 c d} e2 )
+a,8 (\tuplet 3/2{b16 c d} e2 )
+a,8 (\tuplet 3/2{b16 c d} e2) 
+a,8 (\tuplet 3/2{b16 c d} e4) f->~\f\>
+f2.~
+f2. 
+(e8-.)\! r r4 r 
+r2.
+f2.~\pp
+f2. 
+(e8-.) r r4 r 
+r2. 
+% 
+\tuplet 3/2 {a,,8-.\mf e-. a-.} \tuplet 3/2 {c-. b-. a-.} \tuplet 3/2 {gis-. a-. b-.}
+\tuplet 3/2 {a8-. e-. a-.} \tuplet 3/2 {e'-. f-. e-.} \tuplet 3/2 {es-. c-. b-.}  
+r2. 
+r2.
+%
+\tuplet 3/2 {a8-. e-. a-.} \tuplet 3/2 {c-. b-. a-.} \tuplet 3/2 {gis-. a-. b-.}
+\tuplet 3/2 {a8-. e-. a-.} \tuplet 3/2 {e'-. f-. e-.} \tuplet 3/2 {es-. c-. b-.}  
+r2. 
+r2.
+f''4->\f (e8) r r4
+f,4-> \mf(e8) r r4
+f'4-> \f (e8) r r4
+f,2.-> \mf\< ~
+f2. 
+e2. ~
+e2. 
+f'2. ~ 
+f2.  
+e2.\f\trill ~
+e2. \fermata \bar"||"
 }
 
+Fornfamnadeins = \new Voice \relative c''{
+% \partial 8 r8 
+% r2. ^\markup{Fornfamnad / Can you forgive her?}
+% r2.
+% r2. 
+% r2. 
+% r2. 
+% r2. 
+% r2. 
+% r2. 
+% as8 ces es as r r 
+% as,8 ces es g r r 
+% as,8 ces es as r r 
+% as,8 ces es g es ces
+% g8 bes d g r r 
+% g,8 bes d ges r r 
+% g,8 bes d g r r 
+% g,8 bes d ges d bes 
+% % 
+% as8 ces es as r r 
+% as,8 ces es g r r 
+% as,8 ces es as r r 
+% as,8 ces es g es ces
+% g8 bes d g r r 
+% g,8 bes d ges r r 
+% g,8 bes d g r r 
+% g,8 bes d ges d bes 
+% % 
+% as8 ces es as r r 
+% as,8 ces es g r r 
+% as,8 ces es as r r 
+% as,8 ces es g es ces
+% g8 bes d g r r 
+% g,8 bes d ges r r 
+% g,8 bes d g r r 
+% g,8 bes d ges d bes 
+%
+es4 b8 r4 b8 
+r4 as8 b4 es8
+r4 es8 ~es4.~ 
+es2. 
+des4 des8 r4 des8
+r4 b8 des4 es8 ~
+es2.~
+es2.
+es4 b8 r4 b8 
+r4 as8 b4 es8
+r4 es8 ~es4.~ 
+es2. 
+des4 des8 r4 des8
+r4 b8 des4 es8 ~
+es2.~
+es2.
+as,4. as4 ges8 
+as4. as4 ges8 
+as4. as4 ges8 
+as4 ces8~ces4.  
+r4. as'4 ges8
+as4 ges8~ges4 es8 ~
+es2. ~
+es2. 
+as,4. as4 ges8 
+as4. as4 ges8 
+as4. as4 ges8 
+as4 ces8~ces4.  
+r4. as'4 ges8
+as4 ges8~ges4 es8 ~
+es2. ~
+es2. 
+}
+
+
 JaktensTideins = \new Voice \relative c'' {
-%% erste 2 Takte
-%^\markup{Bakom Varje Fura}
 \compressFullBarRests
-R1*2\bar"||"
+R1*2^\markup{Bakom Varje Fura}
 %%% Thema1 
 a8-> \p r r4 r2
 a8-> r r4 r2
@@ -33,7 +141,6 @@ ais8-> r r4 r2
 ais8-> r r4 r2
 ais8-> r r4 ais8-> r r4
 a!8-> r r4 r2
-\bar"||"
 %%% Thema1 laut 
 r8 c-.\f c-. c-. b (c-.) c-. r 
 r8 c-. c-. c-. b (c-.) c-. r 
@@ -43,11 +150,8 @@ r8 cis-. cis-. cis-. c (cis-.) cis-. r
 r8 cis-. cis-. cis-. c (cis-.) cis-. r 
 e,4 (\<ais e' f \!
 e1)
-\bar"||"
 %%% Übergang 
 R1*4
-% R1*4
-\bar"||"
 %%% Thema 2
 e,16\mp (f e d) e8 c a (c) e a
 g8 (fis) e d e2
@@ -65,7 +169,7 @@ r8 e8\mp r8 e8 r8 e8 r8 e8
 r8 d8^\markup{\bold 3}\mf d8 r8 r d8 d8 r8
 r8 e8\mp r8 e8 r8 e8 r8 e8 
 r8 d8^\markup{\bold 4}\mf d8 r8 r d8 d8 r8
-r8 e8\mp r8 e8 r8 e8 r8 e8  \bar"||"
+r8 e8\mp r8 e8 r8 e8 r8 e8 
 %%% Thema 2 reprise
 r8 a,8^\markup{\bold 1} r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8
@@ -74,7 +178,7 @@ r8 g8 r8 g8 r8 g8 r8 g8
 r8 a8^\markup{\bold 3} r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8
 r8 a8^\markup{\bold 4} r8 a8 r8 a8 r8 a8 
-r8 g8 r8 g8 r8 g8 r8 g8 \bar"||"
+r8 g8 r8 g8 r8 g8 r8 g8
 %
 e'16 \f(f e d) e8 c a (c) e a
 g8 (fis) e d e2
@@ -92,9 +196,9 @@ gis \mp (a) gis f e2
 d'8. \mf (c16) b8 c d (c) d c
 b \mp (c) b a gis4 e4
 d'8. \mf (c16) b8 c d c d dis
-e2~e8 d c b \bar"||"
+e2~e8 d c b
 %%% erste 2 Takte 
-R1*2 \bar"||"
+R1*2 
 %%% Thema1 
 a8->\p r r4 r2
 a8-> r r4 r2
@@ -103,10 +207,10 @@ ais8-> r r4 r2
 ais8-> r r4 r2
 ais8-> r r4 r2
 ais8-> r r4 ais8-> r r4
-a!8-> r r4 r2\bar"||"
+a!8-> r r4 r2
 % Coda
 a8-^\f r r4 c8-^ r r4 
-a2\fermata r \bar"|."
+a2\fermata r \bar"||"
 }
 
 % % new version

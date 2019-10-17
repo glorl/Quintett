@@ -1,7 +1,104 @@
+vierIntro = \new Voice \relative c{
+r2.^\markup{Intro} 
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+%
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+r2.
+% 
+r4 e'8--\p r es-- r 
+r4 e8-- r f-- r
+r4 e8-- r es-- r 
+r4 e8-- r f-- r
+% 
+r4 e8-- r es-- r 
+r4 e8-- r f-- r
+r4 e8-- r es-- r 
+r4 e8-- r f4->\f\>
+% 
+f2. ~
+f2. 
+(e8-.)\! r r4 r  
+r2. 
+% 
+r2. 
+r2. 
+r4 r b8-.\pp r 
+e8-. r r4 r 
+%
+a8 \mf( \tuplet 3/2{b16 c d} e4)\trill e,\trill  
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill  
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a8 (\tuplet 3/2{b16 c d} e4)\trill e,\trill
+a,4->\f (gis8) r r4 
+a4->\mf (gis8) r r4
+a4->\f (gis8) r r4
+a2.\mf\< ~
+a2. 
+g2. ~
+g2. 
+a2. ~
+a2.
+gis'2. \f\trill ~
+gis2. \fermata \bar"||"
+}
+
+Fornfamnadvier = \new Voice \relative c''{
+\partial 8 r8 
+c8^\markup{Fornfamnad / Can you forgive her?} r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r r4.
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r 
+% 
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r r4.
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+c8 r r as r r 
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r
+ces8 r r g r r 
+}
+
 JaktensTidvier = \new Voice \relative c'{
 %%% erste 2 Takte 
 \compressFullBarRests
-R1*2% ^\markup{Bakom Varje Fura}
+R1*2 ^\markup{Bakom Varje Fura}
 %%% Thema 1 
 e8->\p r r4 r2
 e,8-> r r4 r2
@@ -29,7 +126,6 @@ g1)
 % (g1
 % a1
 % g1)
-\bar"||"
 %%% Thema 2 
 a1
 (g1
@@ -47,7 +143,7 @@ gis \mp (a) gis f e2
 d'8. \mf (c16) b8 c d (c) d c
 b \mp (c) b a gis4 e4
 d'8. \mf (c16) b8 c d (c) d dis
-e2~e8 d c b \bar"||"
+e2~e8 d c b 
 % Thema 2 reprise 
 r8 c,8^\markup{\bold 1} r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 
@@ -56,7 +152,7 @@ r8 b8 r8 b8 r8 b8 r8 b8
 r8 c8^\markup{\bold 3} r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 
 r8 c8^\markup{\bold 4} r8 c8 r8 c8 r8 c8 
-r8 b8 r8 b8 r8 b8 r8 b8 \bar"||"
+r8 b8 r8 b8 r8 b8 r8 b8 
 % 
 r8 a8^\markup{\bold 1}\f r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8 
@@ -74,7 +170,7 @@ r4 d4-> ~d2
 r4 d'4-> ~d2
 (e1)
 r4 d4-> ~d2
-(gis,1)\bar"||"
+(gis,1)
 % erste 2 Takte 
 r1
 r1 
@@ -89,7 +185,7 @@ f'8-> r r4 f,8-> r r4
 e'8-> r r4 r2
 % Coda
 e,8-^\f r r4 a8-^ r r4 
-e'2\fermata r \bar"|."
+e'2\fermata r \bar"||"
 }
 
 
