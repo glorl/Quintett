@@ -1,4 +1,4 @@
-vier = \new Voice \relative c' {
+MozartLarghettovier = \new Voice \relative c' {
 \compressFullBarRests
 c8 \p (a c a c a) 
 d8 (bes d bes d bes) 

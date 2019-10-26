@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+Humoreskedrei = \new Voice \relative c' {
 bes'16_\markup{\dynamic f \italic marcato} d d d es es c bes 
 a (c) a-- f-- f (bes8.) 
 bes16 d d d es8-- c16 (c) 

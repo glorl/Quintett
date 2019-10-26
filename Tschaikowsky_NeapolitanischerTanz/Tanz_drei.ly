@@ -39,7 +39,7 @@ f,2
 d8-.)^\markup{piu mosso} f (d-.) f
 (d8-.) f-. g16 (f) e-. d-. 
 d16 (c) c-. c-. d (c) c-. c-. 
-d16 (c) c-. c-. d (c) c-. c-. 
+d16 (c) c-. c-. d (c) bes-. a-. 
 c16 (bes) bes-. bes-. c (bes) bes-. bes-. 
 c16 (bes) bes-. bes-. c (bes) a-. g-. 
 f16-. f-. g-. a-. bes-. c-. d-. e-. 

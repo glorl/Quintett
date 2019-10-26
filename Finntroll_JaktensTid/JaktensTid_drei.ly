@@ -93,6 +93,40 @@ r8 r bes r r bes
 r8 r bes r r bes
 r8 r bes r r bes
 r8 r bes r r bes
+% 
+% b4 ges8 r4 ges8 
+% r4. ges4 b8
+% r4 b8 ~b4.~ 
+% b2. 
+% bes4 bes8 r4 bes8
+% r4. bes4 b8 ~
+% b2.~
+% b2.
+% b4 ges8 r4 ges8 
+% r4. ges4 b8
+% r4 b8 ~b4.~ 
+% b2. 
+% bes4 bes8 r4 bes8
+% r4. bes4 b8 ~
+% b2.~
+% b2.
+% % 
+% e,4. e4 b8 
+% e4. e4 b8 
+% e4. e4 b8 
+% e4 as8~as4.
+% r2. 
+% r2. 
+% r2. 
+% r2. 
+% e4. e4 b8 
+% e4. e4 b8 
+% e4. e4 b8 
+% e4 as8~as4.
+% r2. 
+% r2. 
+% r2. 
+% r2. 
 }
 
 

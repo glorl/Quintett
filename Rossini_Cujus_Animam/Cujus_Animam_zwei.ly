@@ -69,7 +69,7 @@ r4 f,8. d'16 d8 r bes r
 r4 es8. des16 c8 r es4
 r4 f,8.\mf d'16 d8 r bes8 r 
 r4 es8. des16 c8 r es4
-~(es8 _\markup{\italic Cadenza} r8 r4 r2
+~es8 _\markup{\italic Cadenza} r8 r4 r2
 r1^\fermata \bar"||"
 f,2.\mf r4
 b1 

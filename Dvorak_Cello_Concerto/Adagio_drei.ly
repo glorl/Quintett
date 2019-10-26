@@ -1,4 +1,4 @@
-drei = \new Voice \relative c' {
+Adagiodrei = \new Voice \relative c' {
 b2\p (c4)\bar"||"
 b2.\segno\<
 d2 \> g,4 \!

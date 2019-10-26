@@ -211,6 +211,7 @@ Ellingtonbassverzwei=\new Voice \relative c'{
 r8^\markup{Moderato Swing (\bold {Take The 'A' Train})} e8\mf \noBeam (~e8 \tuplet 3/2{d16 c bes} as2)
 e'4  (~e8 \tuplet 3/2{d16 c bes} as8--) as-. r4
 R1*2   
+\bar"||"
 c4-.-- \mf b4-.-- a4-.-- g4-.-- 
 c4-.-- g4-.-- a4-.-- c4-.-- 
 d4-.-- c4-.-- as4-.-- c8-- d-. 

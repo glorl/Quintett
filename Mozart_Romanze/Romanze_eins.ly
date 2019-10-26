@@ -1,4 +1,4 @@
-Romanzeeins=\relative c''{
+MozartRomanzeeins=\relative c''{
 \partial 2 e8-- \p r e-- r 
 e4. \< (g8 ) f8^(d f a)
 g8. \> (e16) g8 \! r c8-. c4 (b8) 

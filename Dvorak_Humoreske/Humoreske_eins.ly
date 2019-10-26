@@ -1,4 +1,4 @@
-eins = \new Voice \relative c' {
+Humoreskeeins = \new Voice \relative c' {
 g''16_\markup{\dynamic f \italic marcato} a bes a c bes a g 
 f (g) f-- g-- d (f8.) 
 g16 a bes a bes8-- a16 (g) 

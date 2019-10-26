@@ -1,4 +1,4 @@
-Menuettbass=\relative c{
+MozartMenuettbass=\relative c{
 \repeat volta 2{
 f4---.\f c'4---. f4---.
 a,4---. bes---. a---.

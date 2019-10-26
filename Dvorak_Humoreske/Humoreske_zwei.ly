@@ -1,4 +1,4 @@
-zwei = \new Voice \relative c' {
+Humoreskezwei = \new Voice \relative c' {
 d'16_\markup{\dynamic f \italic marcato} fis g fis a g f es 
 c (es) c-- a-- bes (d8.) 
 d16 fis g fis g8-- f16 (es) 

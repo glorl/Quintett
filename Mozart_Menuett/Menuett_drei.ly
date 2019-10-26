@@ -1,4 +1,4 @@
-Menuettdrei=\relative c''{
+MozartMenuettdrei=\relative c''{
 \repeat volta 2{
 a2.--\f
 a,4---. bes---. a---.

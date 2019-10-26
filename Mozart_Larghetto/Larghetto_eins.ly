@@ -1,4 +1,4 @@
-eins = \new Voice \relative c'' {
+MozartLarghettoeins = \new Voice \relative c'' {
 \compressFullBarRests
 c4.\p (f8 a f) 
 e (d) d2

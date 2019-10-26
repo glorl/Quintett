@@ -93,39 +93,87 @@ Fornfamnadeins = \new Voice \relative c''{
 % g,8 bes d ges r r 
 % g,8 bes d g r r 
 % g,8 bes d ges d bes 
-%
-es4 b8 r4 b8 
-r4 as8 b4 es8
-r4 es8 ~es4.~ 
+% 
+% es,4 b8 r4 b8 
+% r4 as8 b4 es8
+% r4 es8 ~es4.~ 
+% es2. 
+% des4 des8 r4 des8
+% r4 b8 des4 es8 ~
+% es2.~
+% es2.
+% es4 b8 r4 b8 
+% r4 as8 b4 es8
+% r4 es8 ~es4.~ 
+% es2. 
+% des4 des8 r4 des8
+% r4 b8 des4 es8 ~
+% es2.~
+% es2.
+% % 
+% as4. as4 ges8 
+% as4. as4 ges8 
+% as4. as4 ges8 
+% as4 ces8~ces4.  
+% r4. as'4 ges8
+% as4 ges8~ges4 es8 ~
+% es2. ~
+% es2. 
+% as,4. as4 ges8 
+% as4. as4 ges8 
+% as4. as4 ges8 
+% as4 ces8~ces4.  
+% r4. as'4 ges8
+% as4 ges8~ges4 es8 ~
+% es2. ~
+% es2. 
+% % 
+% as,2. 
+% ces4. as
+% e4. ~e8 es des 
+% es2. 
+
+r4 es,8 d es c8 
+r4 g'8 ges g c,8 
+r4 es8 d es c8 
+r4 g'8 ges g c,8 
+r4 es8 d es c8 
+r4 g'8 ges g c,8 
+r4 es8 d es c8 
+r4 g'8 ges g c,8 
+% 
+a8 a as a4.~
+a4. des
+as2. ~
+as2. 
+a8 a as a4.~
+a4. des
+as2. 
+%     
+as4. ces8 bes ces 
+as8 r4 es'8 d es
+as,8 r8 ces8 bes ces as
+e4 e8 es4. 
+% 
+e4 e8 e4 e8 
 es2. 
-des4 des8 r4 des8
-r4 b8 des4 es8 ~
-es2.~
-es2.
-es4 b8 r4 b8 
-r4 as8 b4 es8
-r4 es8 ~es4.~ 
+e4 e8 e4 e8 
+es8 es es es r4 
+e4 e8 e4 e8 
 es2. 
-des4 des8 r4 des8
-r4 b8 des4 es8 ~
-es2.~
-es2.
-as,4. as4 ges8 
-as4. as4 ges8 
-as4. as4 ges8 
-as4 ces8~ces4.  
-r4. as'4 ges8
-as4 ges8~ges4 es8 ~
-es2. ~
+d4 des8 ces4 bes8 
+as2. 
+
+% 
+e'4 e8 e4 e8 
 es2. 
-as,4. as4 ges8 
-as4. as4 ges8 
-as4. as4 ges8 
-as4 ces8~ces4.  
-r4. as'4 ges8
-as4 ges8~ges4 es8 ~
-es2. ~
+e4 e8 e4 as8 
+es8 es es es r4 
+e4 e8 e4 e8 
 es2. 
+d4 des8 ces4 bes8 
+as2. 
+\bar"|."
 }
 
 

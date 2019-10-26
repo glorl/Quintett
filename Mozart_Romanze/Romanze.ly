@@ -1,4 +1,4 @@
-global= {
+globalMozartRomanze= {
 \time 4/4
 \key c \major
 }
@@ -18,10 +18,10 @@ global= {
 
 \header {
 	piece = "Andante"
-	title = "Eine kleine Nachtmusik"
-    subtitle = "2. Romanze"
-	composer = "W.A. Mozart"
-	tagline = ""
+% 	title = "Eine kleine Nachtmusik"
+%     subtitle = "2. Romanze"
+% 	composer = "W.A. Mozart"
+% 	tagline = ""
 }
 
 \include "../Mozart_Romanze/Romanze_eins.ly"

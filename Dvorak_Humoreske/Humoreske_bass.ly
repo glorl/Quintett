@@ -1,4 +1,4 @@
-bass = \new Voice \relative c' {
+Humoreskebass = \new Voice \relative c' {
 g8_\markup{\dynamic f \italic marcato} g es es 
 f f bes d16-> f->
 g,8 g es es 

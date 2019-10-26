@@ -1,4 +1,4 @@
-zwei = \new Voice \relative c'' {
+MozartLarghettozwei = \new Voice \relative c'' {
 \compressFullBarRests
 a8\p (f8 a f a f ) 
 bes8 (f bes f bes f ) 

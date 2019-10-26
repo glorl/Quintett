@@ -1,4 +1,4 @@
-eins = \new Voice \relative c' {
+Traeumereieins = \new Voice \relative c' {
 \partial 4 d4( \p
 \repeat volta 2 { 
 g2 ~g8\< fis g b\!

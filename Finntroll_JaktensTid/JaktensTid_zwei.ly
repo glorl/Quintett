@@ -94,17 +94,29 @@ bes4 b8 bes4.~
 bes2.~
 bes2.~
 bes2. 
+% 
+as8 ces es as r r 
+as,8 ces es g r r 
+as,8 ces es as r r 
+as,8 ces es g es ces
+g,8 bes d ges r r 
+g,8 bes d g r r 
+% ges8 a des ges r r 
+% ges,8 a des f r r 
+as,8 ces es as r r 
+as,8 ces es g es ces
+as8 ces es as r r 
+as,8 ces es g r r 
+as,8 ces es as r r 
+as,8 ces es g es ces
+g,8 bes d ges r r 
+g,8 bes d g r r 
+% ges8 a des ges r r 
+% ges,8 a des f r r 
+as,8 ces es as r r 
+as,8 ces es g es ces
 
-% 
-% 
-% as2. 
-% b4. as 
-% e'4. ~e8 es des 
-% es2.
-% as2. 
-% b4. as 
-% e'4. ~e8 es des 
-% es2.
+
 }
 
 

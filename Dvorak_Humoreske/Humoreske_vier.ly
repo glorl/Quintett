@@ -1,4 +1,4 @@
-vier = \new Voice \relative c'' {
+Humoreskevier = \new Voice \relative c'' {
 g16_\markup{\dynamic f \italic marcato} a bes a c bes a g
 f16 (g) f c d (f8.) 
 g16 a bes a bes8 a16 (g)

@@ -1,4 +1,4 @@
-Menuetteins=\relative c''{
+MozartMenuetteins=\relative c''{
 \repeat volta 2{f2.--\f
 c,8-. f-. d-.f-. c-. f-. 
 d8-. f-. bes-. d-. f-. bes-. 

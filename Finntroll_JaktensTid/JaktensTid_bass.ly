@@ -56,42 +56,42 @@ e2.\f ~
 e2. \fermata \bar"||"
 }
 
-Fornfamnadbass = \new Voice \relative c'{
-% \partial 8 \tuplet 3/2{es16 f g}
-% as8^\markup{Fornfamnad / Can you forgive her?} r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r bes r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r bes r r 
-% 
-% as8 r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% as8 r r es r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r bes r r 
-% as8 as as es r r 
-% as8 as as es r r 
-% as8 as as es  r r 
-% as8 as as es r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r d r r 
-% g8 r r bes r r 
-% 
+Fornfamnadbass = \new Voice \relative c{
+\partial 8 \tuplet 3/2{es16 f g}
+as8^\markup{Fornfamnad / Can you forgive her?} r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r bes r r 
+as8 r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r bes r r 
+
+as8 r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+as8 r r es r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r bes r r 
+as8 as as es r r 
+as8 as as es r r 
+as8 as as es  r r 
+as8 as as es r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r d r r 
+g8 r r bes r r 
+
 as8 r r es r r 
 as8 r r es r r 
 as8 r r es r r 
@@ -109,12 +109,25 @@ g8 r r es r r
 as8 r r es r r 
 as8 r r es r r 
 %
-as8 r r es r r 
-as8 r r es r r 
-
+e8 r r e r r
+ges8 r r ges r r  
+as8 r r as r r 
+ces8 r r ces r r 
+e,8 r r e r r
+ges8 r r ges r r  
+es8 r r es r r
+es8 r r es r r  
+e8 r r e r r
+ges8 r r ges r r  
+as8 r r as r r 
+ces8 r r ces r r 
+e,8 r r e r r
+ges8 r r ges r r  
+es8 r r es r r
+es8 r r es r r  
 }
 
-JaktensTidbass = \new Voice \relative c{
+JaktensTidbass = \new Voice \relative c'{
 %%% erste 2 Takte 
 \set countPercentRepeats = ##t
 \compressFullBarRests
