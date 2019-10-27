@@ -1,11 +1,9 @@
 globalWagnerLohengrin= {
 \time 2/4
 \key c \major
+\compressFullBarRests
 }
 
-\header {
-	piece = "Andante con moto"
-}
 
 \include "../Wagner_Lohengrin/Lohengrin_eins.ly"
 \include "../Wagner_Lohengrin/Lohengrin_zwei.ly"

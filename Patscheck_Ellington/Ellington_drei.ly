@@ -247,15 +247,15 @@ c2 c
 c4 r8 c8 ~c2 
 r8 d4-. r8 d2 
 d4 r8 b8~b2 
-r8 c4 r8 c2 
+r8 c4-. r8 c2 
 a4 r8 b8~b2 
-r8 c4 r8 c2 
+r8 c4-. r8 c2 
 c4 r8 c8 ~c2 
-r8 c4 r8 c2 
+r8 c4-. r8 c2 
 c4 r8 c8 ~c2 
-r8 d4 r8 d2 
+r8 d4-. r8 d2 
 d4 r8 d8 ~d2 
-r8 c4 r8 c2 
+r8 c4-. r8 c2 
 e4 r8 e8 ~e2 \bar"||"
 r4^\markup{Duett Style}r8 f8--\mp d4-- c8 (gis) 
 a8-- c ~c4 r2

@@ -1,6 +1,7 @@
 globalUngTanzF= {
 \time 2/4
 \key c \major
+\compressFullBarRests
 }
 
 

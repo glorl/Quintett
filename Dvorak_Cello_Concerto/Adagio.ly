@@ -1,6 +1,7 @@
 globalAdagio= {
 \time 3/4
 \key g \major
+\compressFullBarRests
 }
 
 \include "../Dvorak_Cello_Concerto/Adagio_eins.ly"

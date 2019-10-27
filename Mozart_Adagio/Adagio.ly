@@ -1,6 +1,7 @@
 globalMozartAdagio= {
 \time 3/4
 \key f \major
+\compressFullBarRests
 }
 
 \include "../Mozart_Adagio/Adagio_eins.ly"

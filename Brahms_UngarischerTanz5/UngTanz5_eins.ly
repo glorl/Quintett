@@ -47,7 +47,7 @@ d8-. c4 (b8
 b16 a gis b a4)  
 e'8->_\markup{\dynamic ff \italic{a tempo}} r r8. e,16
 fis8-. r gis-. r 
-a8-. a4-> gis16 (a 
+\acciaccatura b8 a8-. a4-> gis16 (a 
 b16 a gis b a8-.) r 
 }
 \key a \major \repeat volta 2{

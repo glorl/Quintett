@@ -282,7 +282,7 @@ g4 a d-. dis8-- e-.
 r1 
 d4 c a d 
 c4 d a c 
-f,4 g a8^\markup{Solo} bes \tuplet 3/2 { b8 (c cis)}
+f,4 g a8^\markup{Solo} [bes] \tuplet 3/2 { b8 (c cis)}
 d8 (f d des c) f, ( g a)
 bes4\mf d f d 
 bes4 g f g

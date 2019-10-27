@@ -1,6 +1,7 @@
 globalMozartLarghetto= {
 \time 3/4
 \key f \major
+\compressFullBarRests
 }
 
 

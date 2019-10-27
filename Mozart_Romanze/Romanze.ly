@@ -1,27 +1,7 @@
 globalMozartRomanze= {
 \time 4/4
 \key c \major
-}
-% \paper {
-% 	paper-width =#230
-%   system-system-spacing #'basic-distance = #13
-%   score-system-spacing =
-%     #'((basic-distance . 12)
-%        (minimum-distance . 6)
-%        (padding . 1)
-%        (stretchability . 12))   
-% }
-% \layout{
-% 	short-indent = #-15
-% 	line-width = #233
-% }
-
-\header {
-	piece = "Andante"
-% 	title = "Eine kleine Nachtmusik"
-%     subtitle = "2. Romanze"
-% 	composer = "W.A. Mozart"
-% 	tagline = ""
+\compressFullBarRests
 }
 
 \include "../Mozart_Romanze/Romanze_eins.ly"

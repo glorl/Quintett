@@ -1,6 +1,7 @@
 globalHirt= {
 \time 3/4
 \key c \major
+\compressFullBarRests
 }
 
 \include "../Schubert_Hirt/Hirt_eins.ly"

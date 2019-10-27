@@ -246,15 +246,15 @@ e2 e
 e4 r8 e8 ~e2 
 r8 f4-. r8 f2 
 f4 r8 d8~d2 
-r8 e4 r8 e2 
+r8 e4-. r8 e2 
 d4 r8 es8~es2 
-r8 e4 r8 e2 
+r8 e4-. r8 e2 
 e4 r8 e8 ~e2 
-r8 e4 r8 e2 
+r8 e4-. r8 e2 
 e4 r8 e8 ~e2 
-r8 f4 r8 f2 
+r8 f4-. r8 f2 
 f4 r8 f8 ~f2 
-r8 e4 r8 e2 
+r8 e4-. r8 e2 
 g4 r8 g8 ~g2 \bar"||"
 f8^\markup{Duett Style}\mp (a~a4) r2 
 c4.\glissando d,8 d(f a4-.) 

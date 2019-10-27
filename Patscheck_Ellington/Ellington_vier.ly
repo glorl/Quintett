@@ -252,15 +252,15 @@ fis2 gis
 gis4 r8 gis8 ~gis2 
 r8 c4-. r8 a2 
 a4 r8 f8~f2 
-r8 g4 r8 g2 
+r8 g4-. r8 g2 
 f4 r8 f'8~f2 
-r8 a,4 r8 g2 
+r8 a,4-. r8 g2 
 a4 r8 g8 ~g2 
-r8 gis4 r8 gis2 
+r8 gis4-. r8 gis2 
 gis4 r8 gis8 ~gis2 
-r8 a4 r8 a2 
+r8 a4-. r8 a2 
 a4 r8 b8 ~b2 
-r8 g4 r8 g2 
+r8 g4-. r8 g2 
 bes4 r8 bes8 ~bes2 \bar"||"
 f4^\markup{Duett Style}\mp r4 r a
 c4 r r d8 (des) 

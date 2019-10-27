@@ -1,10 +1,7 @@
 globalNeapTanz= {
 \time 2/4
 \key f \major
-}
-
-\header {
-	piece = "Commodo"
+\compressFullBarRests
 }
 
 \include "../Tschaikowsky_NeapolitanischerTanz/Tanz_eins.ly"

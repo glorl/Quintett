@@ -13,7 +13,7 @@ d,8 \< (f bes g bes g)\!
 e8 (g bes g a f ) 
 c'2\p (d4) 
 c2 (d4) 
-g4---. e\> (f)\! 
+g4---. e\> (g)\! 
 e4-- r r }
 \repeat volta 2{
 c'2\f e,8-. c-. 
