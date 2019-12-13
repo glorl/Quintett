@@ -57,22 +57,22 @@ g'4 g,  r2
 c2\mf \< g
 c4->\! c-> e-> c->
 f,4 f g g 
-c4 r \key es \major 
+c4 r \key es \major \noBreak
 \repeat volta 2{
 r2 
 r4 g'8-. \mp b,\turn (c) r r4 
 r4 g'8-. b,\turn (c) r r4 
 bes!4.\sf (c8) as4 (bes) 
 es8 r r4 
-}
+}\noBreak
 r2
 r4 c8 e, (f) r r4
 r4 d'8 fis,\turn (g) r r4
 r2 r4 c8 fis,\turn 
-(g8) as (g) f! (es') b\turn (c) as
-(g4) r4 g'8-. b,\turn (c) r
+(g8) as\> (g) f! (es') b\turn (c) as
+(g4)\< r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
-g'8 r r4 r2
+g'8\! r r4 r2
 g,4.^\markup{\italic rit.} (a16 b) c8^\markup{\italic{a tempo}} r r4\bar"||"\key c \major 
 c4\p^\markup{=de}\< c c c 
 c4\> c4\! r4 c4 

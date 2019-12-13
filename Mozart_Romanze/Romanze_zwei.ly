@@ -57,19 +57,19 @@ g'4 ~g8 r r2
 g,2 \< b4.\trill (a16 b) 
 c4\> ~c8\! r c8\> ~c16 r \! c8\> ~c16 r \!
 f4 f g g 
-c4 r \key es \major 
+c4 r \key es \major \noBreak
 \repeat volta 2{
 es,8-. \p d-. es-. f-. 
 g8-. as-. g-. f-. es-. d-. es-. f-. 
 g8-. as-. g-. f-. es-. d-. es-. g-. 
 f8-.\sfz f-. f-. es-. as-. as-. as-. as-. 
 g8-. as-. g-. f-. 
-}
+}\noBreak
 g8-._\markup{\italic cresc.} f-. g-. as-. 
 bes8-. des-. c-. bes-. as-. g-. as-. bes-. 
 c8-. es-. d-. c-. b-. a-. b-. c-. 
 d8-. es-. d-. as!-. g-. f-. g-. c-. 
-b8-. gis-.\> g-. as-. g-. d-. es-. c-. 
+b8-. fis-.\> g-. as-. g-. d-. es-. c-. 
 b8-. \< f'-. e-. es-. d-. d'-. c-. c-. \!
 bes8-.\mf d-. c-. c-._\markup{\italic decresc.} bes-. as-. g-. c-.
 b8-. bes-. b-. d-. c-. b-. c-. es-. 

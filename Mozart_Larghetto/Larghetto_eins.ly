@@ -31,7 +31,7 @@ R2.*2
 a'4.(g16\<  f) f (e d cis) 
 d8.\>\turn^\markup{\sharp} (e16 f4)\! r 
 g4 (~g16\< [a32 g f16 e] e d c b)
-d8.\>\turn^\markup{\natural} (d16 e4)\! r 
+c8.\>\turn^\markup{\natural} (d16 e4)\! r 
 a2.
 (g2.
 f2.
@@ -45,7 +45,7 @@ a16\p (bes! b c) \afterGrace {d,2\trill} {c16 (d)}
 c4 r32 c,32 [\p (d e] f [g a b] c [d e f] g[ a b c]) 
 r4 r32 d,,32 [(e fis] g [a bes c] d [e fis g] a[ bes c d]) 
 r4 r32 c,,32 [(d e] f [g a b] c [d e f] g[ a b c]) 
-r4 r32 b,,32 [(c d] e [f g a] b16 [c32 d] e[ f g a]) 
+r4 r32 bes,,32 [(c d] e [f g a] bes16 [c32 d] e[ f g a]) 
 \afterGrace {bes2.\fermata \f } { a16 ([c bes] a [g f e] g [ fis a g] f [e d c] b [c d c])}  \bar "||"
 c4.\pp (f8 a f) 
 e (d) d2

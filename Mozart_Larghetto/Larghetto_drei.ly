@@ -6,7 +6,7 @@ g8 (d g) g (f e)
 f8 (c f) a (bes c) 
 bes8 (f bes f bes f) 
 bes8 (f a f a f) 
-bes8 \< (f bes f bes f)\! 
+bes8 \< (g bes g a f)\! 
 g8 (e f a g bes) 
 f8 \> (a e g e g) \! 
 g8 (e g e g e) 
@@ -55,7 +55,7 @@ g8 (d g) g (f e)
 a,8 (c f a bes c) 
 bes8 (f bes f bes f) 
 bes8 (f a f a f) 
-bes8 (g bes g bes g)
+bes8 (g bes g a f)
 g8 (e f) f (g bes) 
 f8 (a e g e g) 
 g8 (e g e g e) 

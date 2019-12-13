@@ -10,7 +10,7 @@ c8 (e c e b d)
 c8-- bes' \f (a g f e) 
 f8 (c a' c a c ) 
 e8 (c a c a c) 
-g8 c, (a'c f a) 
+f,8 c (a'c f a) 
 g4 (f) a,8 (c) 
 e4. c8 (f c ) 
 e4. c8 (a f) 
@@ -95,8 +95,8 @@ f16 \> (c f c ) e( c e c) e (c e c)\!
 d4\p r r 
 r2.
 r4 r4 bes'8-- r 
-a8-- r <f' f,>-- r <e e,>-- r 
-<c c,>-- r c,-- r c-- r
-<c f,>2 \fermata r4
+a8-- r f-- r e-- r 
+c-- r c-- r c-- r
+f,2 \fermata r4
 \bar "|."
 }

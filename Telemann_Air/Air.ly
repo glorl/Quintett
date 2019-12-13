@@ -1,6 +1,7 @@
 globalAir= {
 \time 4/4
 \key c \major
+\compressFullBarRests
 }
 
 \include "../Telemann_Air/Air_eins.ly"

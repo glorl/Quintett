@@ -83,9 +83,9 @@ a4. g8 (f e)
 d4 (des c)
 bes4-- c-- c-- 
 f-- r r 
-e2\p (e4) 
-e2\pp (e4) 
-bes4 c c 
+e2\p (f4) 
+e2\pp (f4) 
+bes,4 c c 
 f-- r r 
 e2\pp (f4) 
 e2 (f4) 

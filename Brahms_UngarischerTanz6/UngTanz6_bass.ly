@@ -125,5 +125,5 @@ g,2 \p
 c8-._\markup{\dynamic f \italic{a tempo}} g-. c-. r
 f,8->\ff r g-> r 
 c8-> r r4
-\bar "|."
+\bar "|." 
 }

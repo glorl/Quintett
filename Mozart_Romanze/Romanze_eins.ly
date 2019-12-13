@@ -15,7 +15,7 @@ e8. (c16 b8) r c8 (g c g)
 c8\mf  \< (g c e) d  (b d f) \!
 e8. \> (c16) e8\! r e8\> (e16) r\! c8\> (c16 ) r \!
 a8 (c b16 a g f) e4\> g16 (f e f) \!
-e4 r cis'16 \p\< (d f e) dis (e g f) \!
+e4 r cis'16 \p\<^\markup{Solo} (d f e) dis (e g f) \!
 f4 a8. (g16) g4 f16 (e d c)
 e4 \>(d8) r\! cis16 \<(d f e) dis (e g f) 
 f4 b8. (c16) c4--\mf b16 (a g fis)
@@ -24,17 +24,17 @@ e4. \< (g8) f( d f a)
 g8.\>  (e16 g8-.)\! r\mf\> g8 (c16) r\! b8\> (f16) r\!
 e8\> (g16) r\! f8\> (a16) r\! c,4 e16\> (d c d)\! 
 c4-- r r2 
-d,8-.\p\< d-. f-. f-. f-. f-. g-. g-. 
+d,8-.\p\< d-. f-. f-. e-. e-. g-. g-. 
 c4\> (b8)\! r r2
-d,8-.\< f-. f-. g-. g-. g-. fis-. d-. 
-g4\! r c8 (g c g)
+d,8-.\< d-. f-. f-. g-. g-. fis-. c-. 
+g'4\! r c8 (g c g)
 cis( a cis e) d8( b d f) 
 e8.\>  (c16 e8-.)\! r\mf \> e8 ( e16) r\! f8\> (d16) r\!
 c8\> (e16) r\! c8\> (c16) r\! g4 g16 (f e f) 
 e4 r e'8-.\p e-. e-. e-. 
 e8 (g16 f e d c b) c8-. c-. c-. c-. 
 cis4 \sf \> (d8) r \! e8-.\< e-. fis-. fis-. 
-g16\f (b a g fis e d c d e d c b a g fis) 
+g16\f (b a g fis e d cis d e d c b a g fis) 
 a4\> (g8)\! r g8-.\p g-. g-. g-. 
 g4 (f8) r g8-. g-. g-. g-. 
 g8\> (g16\! f e d c b) c8-. \< c'-. c-. c-. 
@@ -57,23 +57,23 @@ e8. (c16 b8) r c8 (g c g)
 c8 \< (g c e) d (b d f) 
 e8.\> (c16 e8) \! r e8\> ~e16 r \! c8\> ~c16 r \!
 a8 (c) b16 (a g f ) e4 g16 (f e f) 
-e4 r \key es \major 
+e4 r \key es \major \noBreak
 \repeat volta 2{
 r4 g'8-. c,32 (b a b 
 c8-.) r8 r4 r g'8-. b,\turn^\markup{\natural}  
-(c8-.) r r4 r g'8-. cis,\turn^\markup{\natural}   
-as'4.\sf g8\turn (f) f-. d-. d-.
+(c8-.) r r4 r g'8-. c,\turn^\markup{\natural}   
+as'!4.\sf g8\turn (f) f-. d-. d-.
 es8 r r4
-}
-r4 b'8-. d,\turn 
+}\noBreak
+r4 bes'8-. d,\turn 
 (es) r r4 r c'8-. e,\turn 
 (f8) r r4 r d'8-. fis,\turn ^\markup{\natural}
 (g8) ais (g) f (es) b (c) es
 (d) r r4 r2
-r4 c'8-. fis,\turn^\markup{\natural} (g) r c8-. fis,\turn^\markup{\natural} 
+r4 c'8-.\< fis,\turn^\markup{\natural} (g) r c8-. fis,\turn^\markup{\natural} 
 (g) r c8-. fis,\turn^\markup{\natural} (g) r c8-. fis,\turn^\markup{\natural}
-(g)\> r r4 fis8 r r4
-f8\!^\markup{\italic rit.} r r4 e8--\p^\markup{\italic{a tempo}} r e-- r \bar"||"\key c \major 
+(g)\! r r4 fis8 r r4
+f8 ^\markup{\italic rit.} r r4 e8--\p^\markup{\italic{a tempo}} r e-- r \bar"||"\key c \major 
 e4.\p^\markup{=de}\< (g8) f (d f a) 
 g8. \> (e16) g8\! r c8-. c4 (b8) 
 a8-. a4 (g8) g8 \>(f16) r\! f8 \> (e16) r \! 

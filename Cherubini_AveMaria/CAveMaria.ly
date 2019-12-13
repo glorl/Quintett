@@ -1,6 +1,7 @@
 globalCAveMaria= {
 \time 3/4
 \key g \major
+\compressFullBarRests
 }
 
 \include "../Cherubini_AveMaria/CAveMaria_eins.ly"

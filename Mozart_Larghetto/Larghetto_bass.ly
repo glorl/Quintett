@@ -16,7 +16,7 @@ c2\!( ~c8 d)
 es2.
 d4 (e! f)
 bes,4 (c2)
-bes2.\f\>
+b2.\f\>
 c4\!\p (cis d)
 bes4 c!2
 f8--a-. a-. a-. f-. a-. 

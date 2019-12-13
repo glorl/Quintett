@@ -18,7 +18,7 @@ c4 a8) r r8 a,
 (a'4 ~ \tuplet 3/2{a8 g f} \tuplet 3/2{e8 f a,}
 c4 b8)  r r4
 r2.
-r4 r4 d8.\pp (f16
+r4 r4 e8.\pp (f16
 g2 \tuplet 3/2 {e8 c g}
 e4. g8 \tuplet 3/2 {c8 g e'}
 g2 \tuplet 3/2 {f8 g e}
@@ -243,7 +243,7 @@ d16 c b a g f e d
 c16 e g c b g' f d 
 c16 g' e d cis a' g e 
 d16 a' f d e c' bes g
-e16 c' bes g f cis' bes g 
+e16 c' bes g e cis' bes g 
 f16 a d f d a f d 
 a16 d f, a d, f a, c 
 b8 c16 d e f g a 

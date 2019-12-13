@@ -2,6 +2,7 @@
 globalNussknackerMarsch= {
 \time 4/4
 \key g \major
+\compressFullBarRests
 }
 \include "../Tschaikowsky_Nussknacker/Marsch_eins.ly"
 \include "../Tschaikowsky_Nussknacker/Marsch_zwei.ly"
@@ -13,6 +14,7 @@ globalNussknackerMarsch= {
 globalNussknackerFloetentanz= {
 \time 2/4
 \key g \major
+\compressFullBarRests
 }
 \include "../Tschaikowsky_Nussknacker/Floetentanz_eins.ly"
 \include "../Tschaikowsky_Nussknacker/Floetentanz_zwei.ly"
@@ -24,6 +26,7 @@ globalNussknackerFloetentanz= {
 globalNussknackerBlumenwalzer= {
 \time 3/4
 \key f \major
+\compressFullBarRests
 }
 \include "../Tschaikowsky_Nussknacker/Blumenwalzer_eins.ly"
 \include "../Tschaikowsky_Nussknacker/Blumenwalzer_zwei.ly"

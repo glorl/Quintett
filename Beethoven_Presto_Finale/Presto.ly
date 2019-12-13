@@ -2,6 +2,7 @@
 globalPresto= {
 \time 2/4
 \key c \major
+\compressFullBarRests
 }
 
 \include "../Beethoven_Presto_Finale/Presto_eins.ly"

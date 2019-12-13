@@ -59,23 +59,23 @@ a8 a4 (g8)  g8\> (f16\!) r f8 \>(e16\!) r
 g8.\> (e16 d8\!) r e8-- \mf r e-- r 
 e4. \< (g8) f (d f a) 
 g8.\> (e16) g8 \! r c8\> (g16)\! r g8 \> (e16\!) r 
-d8 (a') g16 (f e d) c4 e16 (d c e) 
-c4 r \key es \major 
+d8 (a') g16 (f e d) c4 e16 (d c d) 
+c4 r \key es \major \noBreak
 \repeat volta 2{
 r2 
 r4 g8-. \mp b,\turn (c) r r4 
 r4 g'8-. b,\turn (c) r r4 
 bes!4.\sf (c8) as4 (bes) 
 es8 r r4
-}
+}\noBreak
 r2
 r4 c8 e, (f) r r4
 r4 d'8 fis,\turn (g) r r4
 r2 r4 c8 fis,\turn 
-(g8) as (g) f! (es') b\turn (c) as
-(g4) r4 g'8-. b,\turn (c) r
+(g8) as\> (g) f! (es') b\turn (c) as
+(g4)\< r4 g'8-. b,\turn (c) r
 g'8-. b,\turn (c) r  g'8-. b,\turn (c) r 
-g'8 r r4 fis8 r r4 
+g'8\! r r4 fis8 r r4 
 g,4.^\markup{\italic rit.} (a16 b) c8^\markup{\italic{a tempo}} r r4\bar"||"\key c \major 
 g2\p^\markup{=de}\< g
 g4\> ~g8\! r r4 c4 

@@ -1,6 +1,7 @@
 globalWachet= {
 \time 4/4
 \key f \major
+\compressFullBarRests
 }
 
 \include "../Bach_WachetAuf/WachetAuf_eins.ly"

@@ -29,7 +29,7 @@ a2 r4
 bes2\< r4 \!
 bes2\< r4 \!
 bes2\> r4 \!
-b2 r4 
+b!2 r4 
 b2\< r4 \!
 b2\f \> r4 
 c4\p r  cis
@@ -116,7 +116,7 @@ c4 \< r4 a
 bes2\f \> r4 \!
 \tuplet 3/2 {bes8-- f'-. f-. } \tuplet 3/2 {f8-. f-. f-. } \tuplet 3/2 {f8-. f-. f-. } 
 \tuplet 3/2 {bes,8--\p f'-. f-. } \tuplet 3/2 {f8-. f-. f-. } \tuplet 3/2 {f8-. f-. f-. } 
-\tuplet 3/2 {b,8--_\markup{\italic decresc.} g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
+\tuplet 3/2 {b,!8--_\markup{\italic decresc.} g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {b,8--\pp g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
 \tuplet 3/2 {g,8-- b'-. b-. } \tuplet 3/2 {b8-. b-. b-. } \tuplet 3/2 {b8-. b-. b-.}
 \tuplet 3/2 {c,8-- g'-. g-. } \tuplet 3/2 {g8-. g-. g-. } \tuplet 3/2 {g8-. g-. g-. } 
@@ -203,8 +203,8 @@ d4 r
 g,4 r 
 e4 r 
 c'4-- r
-e,4 r 
-c'4 r 
+g4 r 
+c4 r 
 c8 r c r 
 c4 r 
 c8 r c r 

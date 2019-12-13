@@ -5,7 +5,7 @@ d8-. f-. bes-. d-. f-. bes-.
 d4-.-- r r 
 c2.--
 bes,,8-. c-. a-. c-. bes-. c-. 
-a8-. bes-. f'-. a-. c-. f-. 
+a8-. c-. f-. a-. c-. f-. 
 a4-.-- a,-.-- a-.-- \p
 e8_\markup{\dynamic mf \dynamic p} (g c g \> c a\!) 
 e8_\markup{\dynamic mf \dynamic p} (g c g \> c a\!)

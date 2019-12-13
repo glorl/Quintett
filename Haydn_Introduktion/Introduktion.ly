@@ -1,6 +1,7 @@
 globalIntroduktion= {
 \time 4/4
 \key f \major
+\compressFullBarRests
 }
 
 \include "../Haydn_Introduktion/Introduktion_eins.ly"

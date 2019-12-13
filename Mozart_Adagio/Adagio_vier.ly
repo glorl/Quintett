@@ -55,7 +55,7 @@ r8 g-. g-. g-. g-. g-.
 g4\< g g 
 c8\f e4 g c8
 e8 r r4 r 
-bes,8\f d4 f bes8
+bes,8\f d4 f b8
 d8 r r4 r 
 g,,8\f e'4^\markup{\italic sostenuto} g b8 
 c4-- r r \fermata_\markup{\italic Cadenza} 
@@ -70,7 +70,7 @@ c8-- bes' (a g f e)
 a,2._\markup{\dynamic p \italic {poco cresc} }
 bes4-- es (d8 c) 
 bes2.
-c4-- f (es8 d) 
+c4-- f (e!8 d) 
 c4\p (bes c)  
 d4 (e, f) 
 bes8 \>(d) c4. (bes8 ) \!
@@ -96,6 +96,6 @@ a,4 r bes-- \p
 c2 c8 (cis) 
 d4 r g8-- r 
 e8-- r c'-- r bes-- r 
-g8-- r a,-- r c-- r 
+f8-- r a,-- r c-- r 
 c2\fermata r4
 }

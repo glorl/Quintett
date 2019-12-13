@@ -23,8 +23,8 @@ g,1^\markup{\italic{a tempo}} \<
 d4 d2 b8 (d
 g4) d8 (e d c a b)
 g1
-~g4 a2.\fermata
-d4--^\markup{\italic {poco a poco rit.}} d2 c8\>( e 
-a4) d, ~d2\pp\fermata
+~g4 a2.(\fermata
+d4--)^\markup{\italic {poco a poco rit.}} d2 c8\>( e 
+a4) d, (g,2)\pp\fermata
 \bar "|."
 }

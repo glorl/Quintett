@@ -8,7 +8,7 @@ g8 (c g c a c )
 g8 (c g c f, a) 
 e8 (g e g f g) 
 e4 r r
-c'4\f^\markup{Solo}  (f4. a8) 
+c'4\f  (f4. a8) 
 a8 (g f4) r 
 c4. (f8 a c) 
 c8 (bes a4) r 
@@ -24,7 +24,7 @@ c8\mf (e, d g e bes')
 a8 (f g c f, c') 
 g8 (bes a c e, g)
 f4 r r
-a'4.^\markup{Solo} (g8 f e) 
+a'4. (g8 f e) 
 d4 r r 
 bes'4. (a8 g f) 
 e4 r r 
@@ -79,7 +79,7 @@ f'4.\f (e8 d c)
 bes8-- d4(c8 bes a) 
 g'4. (f8 e d) 
 c8-- e4 (d8 c b) 
-a'4. (g8 f d)
+a'4. (g8 f c)
 c8. (bes16) bes4. (a8) 
 g16 \((d' bes g) f4 \acciaccatura a8 g8. (f16)\)
 f8 c'-.\p \<  [c-. c-. c-. c-. ]\!
@@ -94,9 +94,9 @@ r8 a-.\< a-. a-. a-. a-. \!
 g16 \> (c, g' c,) g' (c, g' c,) g' (bes, g' bes,) \!
 f'4 r d8.\p (bes'16) 
 a2 (as8. g16) 
-f4 r4 <d d'>8-- r 
-<c c'>8-- r <a' a'>-- r <g g'>-- r 
-<c, f'> 2.
-~<c f'>2 \fermata r4
+f4 r4 d8-- r 
+c8-- r a'-- r g-- r 
+c,2.
+~c2 \fermata r4
 \bar "|."
 }

@@ -8,14 +8,17 @@ g4. (c8 a c )
 g4. (c8 d, a' ) 
 c,2 \(\acciaccatura e8 d8. (c16) \)
 c4 r r 
-c4\f^\markup{Tutti}  (f4. a8) 
-a8 (g f4) r 
-c4. (f8 a c) 
-c8 (bes a4) r 
-g4. (c8 a c ) 
-g4. (c8 d, a' ) 
-c,2 \(\acciaccatura e8 d8. (c16) \)
-c4 r r 
+<<{ R2.*8 }
+  \new CueVoice {
+    \stemUp c4^\markup{Tutti}  (f4. a8) 
+    a8 (g f4) s 
+    c4. (f8 a c) 
+    c8 (bes a4) s 
+    g4. (c8 a c ) 
+    g4. (c8 d, a' ) 
+    c,2 \(\acciaccatura e8 d8. (c16) \)
+    c4 s s 
+  }>>
 a'4._\markup{\dynamic p \italic {poco cresc.}}^\markup{Solo} (g8 f e) 
 d4 r r 
 bes'4. (a8 g f) 
