@@ -20,8 +20,8 @@ des4 (c bes) r
 a4(bes a) r 
 e'16-. e-. e-. e-. e-. e-. e-. e-. f8---. c'---. r4 
 bes,4-- r c2 
-f8-. \f c4 (c8 e) e4 ( f8 
-g8-.) g4 (a8 g) r g r 
+f8-.-- \f c4 (c8 e) e4 ( f8 
+g8-.--) g4 (a8 g) r g r 
 a4-- r4 r2
 f16-. f-. f-. f-. f-. f-. f-. f-. fis8---. \f as---. r4
 es16-. \p es-. es-. es-. es-. es-. es-. es-. des-. des-. des-. des-. des-. des-. des-. des-.
@@ -46,8 +46,8 @@ bes,4\fermata\p r8 \fermata r8 fis'16-.\p fis-. fis-. fis-. fis-. fis-. fis-. fi
 g16-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-.
 a8-- r r4 r r8 g,16.\f (a32) 
 a8-- r r a16. (bes32) bes8-- r a-- r 
-d8-. \f cis4 (a8 g-.) e'4 (d8 
-cis8-. ) a'4 (a8 g-.) r e r 
+d8-.-- \f cis4 (a8 g-.--) e'4 (d8 
+cis8-.-- ) a'4 (a8 g-.--) r e r 
 r8 bes'16. (a32) a8 e16. (d32) d8-- g16. (f32) f8 g,16. (f32) 
 f8 f f f f2\fermata \bar"|."
 }

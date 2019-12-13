@@ -10,7 +10,7 @@ r8 d8 (g) r r4
 r4 r8 d'8-- d-- d-- 
 b8 r e, r c r 
 d8 r d r d r 
-e,4 e r 
+g,4 g r 
 g'8\pp r g, r r4 
 d'8 r g, r r4 
 g'8 r g, r r4 
@@ -26,7 +26,7 @@ g,8---. g---. g---. r r4
 r4 r d'
 g8. g,16 g4 r 
 g4 (fis) bes
-b8 (fis' b ais b bes
+b!8 (fis' b ais b bes
 a8) r a r a, r 
 d4 r r 
 d8 r d r d r 

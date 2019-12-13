@@ -46,8 +46,8 @@ d4\p\fermata r8 \fermata r8 r2
 r1
 d'8-- gis,16. (a32) a8 e16. (f32)  a8-- r r e,16. (f32) 
 f8-- r r fis16. (g32) g8-- r g-- r 
-d'8-. \f a4 (f'8 e-.) cis4 (a'8 
-g8-. ) e4 (f8 e-.) r a, r 
+d'8-.-- \f a4 (f'8 e-.--) cis4 (a'8 
+g8-.-- ) e4 (f8 e-.--) r a, r 
 d16-. d-. d-. d-. d-. d-. d-. d-. d-. d-. g16. (f32) f8 e16. (d32) 
 d8 d d d d2\fermata \bar"|."
 }

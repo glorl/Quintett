@@ -1,6 +1,6 @@
 Airdrei = \new Voice \relative c''{
 \repeat volta 2{
-\partial 8 g8 \f^\markup{Vivace} 
+\partial 8 g8 \f
 e4 d e r8 e
 g4 f8 e e d r b \mf 
 e8 r f r g r r d\f

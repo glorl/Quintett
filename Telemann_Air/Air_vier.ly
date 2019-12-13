@@ -1,6 +1,6 @@
 Airvier = \new Voice \relative c'{
 \repeat volta 2{
-\partial 8 g8 \f^\markup{Vivace} 
+\partial 8 g8 \f 
 c4 b c8 d16-. e-. c (d) e-. f-. 
 e4 d8 c g g r g'\mf
 c,16 (d) e-. f-. d (e) f-. g-. e8 d16-. e-. c8 \mf b
@@ -20,6 +20,6 @@ g2 e4 d
 c4 e8 a g f g g 
 c,8 c b\p g r g\p b g 
 c8 g r d'\f c16 (d) c-. d-. e (f) e-. f-. 
-c4 c8_\markup{2x \italic{poco rit.}} f e8. d16 e8. c16 
+c4 c8_\markup{2x \italic{poco rit.}} f e8. d16 d8. c16 
 c2. 
 }}

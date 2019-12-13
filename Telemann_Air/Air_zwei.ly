@@ -1,13 +1,13 @@
 Airzwei = \new Voice \relative c''{
 \repeat volta 2{
-\partial 8 g8 \f^\markup{Vivace} 
+\partial 8 g8 \f 
 g4 g g r8 c
 c4 b8 c c b r g \mf 
 g4 b c8 f,16 g e8 d\f
 a'4 g g r8 c
 c4 b8 c c b g b 
 g4 b c g8 gis 
-a4 gis a a8 gis!
+a4 gis a a8 g
 c4 a a a8 d 
 b4 c d8 b a4 
 b4 r8 fis8\mf g4 fis

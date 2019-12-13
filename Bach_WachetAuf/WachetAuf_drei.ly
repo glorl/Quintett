@@ -20,7 +20,7 @@ d4 (e f ) e\mp
 f8 (e) a,( b) c4-- d8 (b) 
 c8 r r c'--\mf^\markup{Solo} c4-- bes16 (a g f 
 g16 f e d c8) d16 (e f g a g bes a g f 
-a8 f) r4 r r8 c'--
+a8 g) r4 r r8 c--
 c4-- bes16 (a g f g f e d c8) d16 (e 
 f16 g a g bes a g f a8\> g\!) r4 
 f4--\<  e (d\!) f,

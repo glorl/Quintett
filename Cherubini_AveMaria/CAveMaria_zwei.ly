@@ -29,7 +29,7 @@ a2.
 a2.
 ~a4 r r 
 R2.*2
-r4 r8 fis'8_\markup{\italic dolce} (g fis) 
+r4 r8 fis'8_\markup{\italic dolce} (g e) 
 d2 \(\afterGrace{cis4\trill}{b32 (cis)}
 d4\) r16 d (cis b a g' fis e) 
 d8 (fis) r16 d (cis b a g' e cis

@@ -1,6 +1,6 @@
 Aireins = \new Voice \relative c''{
 \repeat volta 2{
-\partial 8 g8 \f^\markup{Vivace} 
+\partial 8 g8 \f
 c16 (d) e-. f-. d16 (e) f-. g-. e8 d16-. e-. c(d) e-. f-. 
 g8 c, f e e\trill d r4 
 r2 r4 r8 g, 

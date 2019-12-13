@@ -1,6 +1,6 @@
 Airbass = \new Voice \relative c''{
 \repeat volta 2{
-\partial 8 g8 \f^\markup{Vivace} 
+\partial 8 g8 \f
 c,4 b c r8 a8 
 e'4 d8 c g g r g \mf
 c16 (d) e-. f-. d (e) f-. g-. e8 d16-. e-. c8 \mf b

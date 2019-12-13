@@ -42,7 +42,7 @@ d,16\f (c d8)\! r d8 (c16 b a8 ~a gis16 a
 ~a16) g (f e d c b a b c d8 ~d16 c  d8
 ~d16) gis\< ( a b a g fis e a8-.\!) e8 c32 ([d c d] \tuplet 3/2 {c16 b a)}
 a4-- r r2 
-r4 f'8 (e f4) c8 (bes) 
+r4 f'8 (e f4) c4
 d4 bes8 (a) e' (f) r4 
 f8-- e, (f g a g a bes
 c16 f e d  c8) bes (a4) f'--
