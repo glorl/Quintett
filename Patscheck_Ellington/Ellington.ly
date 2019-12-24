@@ -5,6 +5,7 @@ globalEllington= {
 globalEllingtonverzwei= {
 \time 4/4
 \key c \major
+\compressFullBarRests
 }
 
 \include "../Patscheck_Ellington/rhythmark.ly"

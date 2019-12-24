@@ -271,13 +271,13 @@ c-.\sf c-. c-. c-.
 c-. c-. c-. c-. 
 c-. c4->\sf c8
 ~c c4->\sf c8
-c2\fermata 
+c2\fermata \noBreak
 \omit Score.BarLine
 \omit Score.SpanBar
 \omit Score.BarNumber
 \hideNotes
-r16^\markup{\italic {Cadenza} b.cl. - cl2 - cl1} r16 r16 r16 r16 r16 r16 r16 
- r16 r16 r16 r16 r8 r8
+r16^\markup{\italic {Cadenza} b.cl. - cl2 - cl1} r16 r16 r16 r16 r16 r16 r16 \noBreak
+ r16 r16 r16 r16 r8 r8\noBreak
 \unHideNotes
 \undo \omit Score.BarLine
 \undo \omit Score.SpanBar

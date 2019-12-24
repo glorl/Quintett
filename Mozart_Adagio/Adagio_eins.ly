@@ -8,9 +8,10 @@ g4. (c8 a c )
 g4. (c8 d, a' ) 
 c,2 \(\acciaccatura e8 d8. (c16) \)
 c4 r r 
-<<{ R2.*8 }
+<<{ R2.^\markup{Tutti}
+    R2.*7 }
   \new CueVoice {
-    \stemUp c4^\markup{Tutti}  (f4. a8) 
+    \stemUp c4 (f4. a8) 
     a8 (g f4) s 
     c4. (f8 a c) 
     c8 (bes a4) s 
@@ -27,14 +28,18 @@ c'4.\mf (bes8 a g)
 f8 (bes) bes4. (a8) 
 a16 \> \((g bes g) f4 \acciaccatura a8 g8. (f16)\!\)
 f4 r r 
-a4.^\markup{Tutti} (g8 f e) 
-d4 r r 
-bes'4. (a8 g f) 
-e4 r r 
-c'4. (bes8 a g)
-f8 (bes) bes4. (a8) 
-g16 \((d' bes g) f4 \acciaccatura a8 g8. (f16)\)
-f4 r r 
+<<{ R2.^\markup{Tutti}
+    R2.*7 }
+  \new CueVoice {
+    \stemUp a4. (g8 f e) 
+    d4 s s 
+    bes'4. (a8 g f) 
+    e4 s s 
+    c'4. (bes8 a g)
+    f8 (bes) bes4. (a8) 
+    g16 \((d' bes g) f4 \acciaccatura a8 g8. (f16)\)
+    f4 s s 
+}>>
 a8.^\markup{Solo} \(f16 c'4. (a16 f) \)
 e4 (g) r 
 f32-. (d-. b-. g-. f-. [d-. b-. g-.]) f8-- a''-- g-- f-- 
@@ -79,15 +84,21 @@ c'4.\p (bes8 a g)
 f4 bes4. (a8) 
 a16 \((g a bes) f4 \acciaccatura a8 g8. (f16)\)
 f4 r r 
-a4.\f^\markup{Tutti} (g8 f e) 
-d4 r r 
-bes'4. (a8 g f) 
-e4 r r 
-c'4. (bes8 a g)
-f8. (bes16) bes4. (a8) 
-g16 \((d' bes g) f4 \acciaccatura a8 g8. (f16)\)
-f4 r c16^\markup{Solo}\p\< (e f a) 
-c4 (~c16 b bes g)\! bes\> (a) a (f)\! 
+<<{ R2.^\markup{Tutti}\f
+    R2.*6 
+    r4 r c16^\markup{Solo}\p\< (e f a) 
+}
+  \new CueVoice {
+    \stemUp a4. (g8 f e) 
+    d4 s s 
+    bes'4. (a8 g f) 
+    e4 s s 
+    c'4. (bes8 a g)
+    f8. (bes16) bes4. (a8) 
+    g16 \((d' bes g) f4 \acciaccatura a8 g8. (f16)\)
+    f4 s s 
+}>>
+c'4 (~c16 b bes g)\! bes\> (a) a (f)\! 
 c'4 \pp(~c16 b bes g) bes (a) a (f)
 d32 \((fis g bes cis d bes g) f4 \acciaccatura a8 g8. (f16)
 f4\) r \tuplet 6/4 {f,,16\< (a c f a c)\!}

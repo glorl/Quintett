@@ -261,13 +261,13 @@ f,\sf r r c'
 a r r c 
 f,-. f4->\sf f8-.
 a-. a4->\sf a8-. 
-c2\fermata 
+c2\fermata \noBreak
 \omit Score.BarLine
 \omit Score.SpanBar
 \omit Score.BarNumber
 \hideNotes
-r16^\markup{\italic {Cadenza} b.cl. - cl2 - cl1} r16 r16 r16 r16 r16 r16 r16 
- r16 r16 r16 r16 r8 r8
+r16^\markup{\italic {Cadenza} b.cl. - cl2 - cl1} r16 r16 r16 r16 r16 r16 r16 \noBreak
+ r16 r16 r16 r16 r8 r8\noBreak
 \unHideNotes
 % #(skip-of-length MyCadenzaBass)
 % #(skip-of-length MyCadenzaZwei)
