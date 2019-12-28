@@ -21,9 +21,9 @@ g2.\p
 c,8-- e,16 \<(fis g c e g) gis4\!\sfz
 a8->\f b-> c2->\>~
 (c4\! a) \tuplet 3/2 {fis8\> (g a\!)} 
-bes4_"dim." (g) \tuplet 3/2 {e8 (f g)} 
+bes4_\markup{\italic dim.} (g) \tuplet 3/2 {e8 (f g)} 
 as4\pp (f) \tuplet 3/2 {d8 (e f)} 
-a2 \tuplet 6/4 {a,16\< (gis a d f a)\!}
+a!2 \tuplet 6/4 {a,16\< (gis a d f a)\!}
 bes4\sfz (bes8.) [bes,32 (cis)] \tuplet 6/4 {cis16\< [(e) e (g) g (bes)\!]}
 d2\f \tuplet 3/2 {d,8\< (e f\!)}
 f2\sfz r4

@@ -1,12 +1,12 @@
 Humoreskeeins = \new Voice \relative c' {
 g''16_\markup{\dynamic f \italic marcato} a bes a c bes a g 
-f (g) f-- g-- d (f8.) 
+f (g) f-- c-- d (f8.) 
 g16 a bes a bes8-- a16 (g) 
 g8--_\markup{\italic rit.} f16 (es) d4\fermata \key g \major
 \repeat volta 2{
 g,16-- \segno \p [r32  a (g16) r32 a] (b16) [r32 d (e16) r32 d]
 (g16)\< [r32  fis (a16) r32 g]\! (fis16) [r32 a (g16) r32 e]
-(d16) [r32  e (d16) r32 d] (g16) [r32 e (d16) r32 b]
+(d16) [r32  d (e16) r32 d] (g16) [r32 e (d16) r32 b]
 (a2)\>
 g16--\! [r32  a (g16) r32 a] (b16) [r32 d (e16) r32 d]
 (g16)\< [r32  fis (a16) r32 g]\! (fis16) [r32 a (g16) r32 e]

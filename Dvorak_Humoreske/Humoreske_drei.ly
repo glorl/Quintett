@@ -19,7 +19,7 @@ a16-.\> e'-. a,-. r c4
 g8\p (d'16 g d8) r
 b16-. \p d-. g-. r d-. g-. b,-. r 
 c16 (\< g c g) gis4-> \f 
-a16-.\> e'-. c8-. c4 \!
+a16-.^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }}\> e'-. c8-. c4 \!
 a8_\markup{\italic rit.} g4-> \> g16 (fis) \bar "||"
 r8^\markup{\italic {a tempo}} b-.\p  d-. g-.
 r8 c,-.\< e-. g-.\!

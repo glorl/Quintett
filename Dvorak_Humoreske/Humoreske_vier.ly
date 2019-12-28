@@ -20,7 +20,7 @@ d4. \p r8
 g,16-.\p b-. d-. r b-. d-. g-. r 
 c,4 \< e-> \f 
 a,16-.^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }}\> e'-. c-. r d4\!
-dis8_\markup{\italic rit.}  e,(g dis') \bar "||"
+dis8_\markup{\italic rit.}  e,(g d') \bar "||"
 r8^\markup{\italic {a tempo}} g,8-.\p b-. d-. 
 r8 e,8-.\<  g-. c-. \! 
 r8 g-. b-. d-.

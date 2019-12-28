@@ -51,21 +51,21 @@ g,8 (a bes a g a bes a)
 g4-- bes-. d8-- bes4-. a16 (g) 
 f8 (g a g f g a g ) 
 f8 (g gis a~a4) r 
-d4-- a,2-. cis4-. 
+d4-- a,2 cis4-. 
 r4 cis4-. cis-. cis-. 
-a4-- a2-. a4-. 
+a4-- a2 a4-. 
 r4 a r a 
 bes4 r r d4
 bes4 r r bes 
 a4 r r c4
 ~c4 r r c
 r4 e4-. a,2--
-a4-- cis2-. cis4-. 
+a4-- cis2 cis4-. 
 r4 a-. a2-- 
 a4-. r r d
 d4.-> d8-> ~d4 d4-.
 d4.-> d8-> ~d4 d4-.
-e4.-> e8-> ~e4 e4-. 
+d4.-> d8-> ~d4 d4-.
 d4.-> d8-> ~d4 d4-.
 a'8 (as g f d des bes a 
 e'4-.) g-. e8-- e4-. g8-- 
@@ -109,34 +109,34 @@ d4. (a8 a gis g4)
 a2. r4 \bar"||" \key f \major 
 d4 \f^\markup{Swing} r d r 
 d4 r e r \bar"||"
-e4--\mf e2-. e4-. 
+e4--\mf e2 e4-. 
 r4 e4-. e2-- 
-c4-- c2-. c4-. 
+c4-- c2 c4-. 
 r4 c4-. c2-- 
-cis4-- cis2-. cis4-. 
+cis4-- cis2 cis4-. 
 r4 cis4-. cis2-- 
-d4-- d2-. d4-. 
+d4-- d2 d4-. 
 r4 d4-. d2-- 
-e4-- e2-. d4-. 
+e4-- e2 d4-. 
 r4 e4-. d2-- 
-d4-- d2-. d4-. 
+d4-- d2 d4-. 
 r4 a4-. a2-- 
-cis4-- cis2-. cis4-. 
+cis4-- cis2 cis4-. 
 r4 e4-.\< g-. e-. \!
 d8-- d'4-^ bes-^ a-^ f8--
 e8-- d4 cis8-- d2 \bar"||"\key d \major 
-d4-- d2-. d4-. 
+d4-- d2 d4-. 
 r4 d4-. d2-- 
-d4-- d2-. d4-. 
+d4-- d2 d4-. 
 r4 d4-. d2-- 
 a4-- a-. a-- a-. 
-a4-- a2-. a4-. 
+a4-- a2 a4-. 
 d4-- d-. d-- d-. 
-e4-- e2-. d4-. 
+e4-- e2 d4-. 
 r4 d4-. d2-- 
-a4-- a2-. fis'4-. 
+a4-- a2 fis'4-. 
 r4 b,4-. b2-- 
-d4-- d2-. d4-. 
+d4-- d2 d4-. 
 d4-^\f a2-^ a4-^ 
 g'4-^ gis4-^ a4-^ g4-^
 fis4-- fis-. r d
@@ -147,7 +147,7 @@ r4 e r e
 e4-- e-. r8 e-- e4-. 
 r4 d r d
 r4 d-. d-. d-. 
-d4-- d2-. d4-.
+d4-- d2 d4-.
 d4-- d-. d-- d-. 
 g8 \f (fis! g b) r8 g (g fis)
 g8 (g f g b g b cis!

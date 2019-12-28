@@ -15,7 +15,7 @@ d4-- e---. f4-- d8 (des)
 c4--\f e4---. c4---. g4---. 
 c4-- d4---. c4-- g4---. 
 f'4 e d c
-f,4 a8 b8 \< (c) cis (d) c16 (g)
+f,4 a8 b8 \< (c) cis (d) c16 (gis)
 a4\mf r r e'--\mp
 a,4 cis8 b8 (a) gis (a) g
 (f4) d'-.-- a-- a---. 
@@ -72,7 +72,7 @@ d4---. g,8-- d'-. a4---. r8 a
 d8^\markup{Solo unisono} (a bes a d bes a cis) 
 d4. (a8 ) a4-- a-- 
 b4 (a) g8 fis4-- g8
-fis4. (e8) e8 r r g8-- 
+fis4. (e8) e8 (es e) g8-- 
 b2.  r4
 d4. a8 a a4.
 b4 a8 a~a4 cis4
@@ -86,7 +86,7 @@ a4 e8-- a-. e4 e
 a4 r8 a e4 r8 e8 
 d'4 g,8-- d'-. a4 a 
 d4 r8 d a4 r8 a 
-d4 a8-- d8-. a4 a
+d4^\markup{Tutti} a8-- d8-. a4 a
 fis4 r8 fis b4 b
 e,4 e8-- g8-. b4 g
 as4 r8 b a4 a
@@ -123,7 +123,7 @@ g4 r e r
 d4 r a r 
 d4 r r d
 e4 r b r 
-e4 d c b
+e4 d cis b
 a4-^\f a2-^ a4-^ 
 bes4-^ b-^ c-^ cis-^
 d4 d e fis 
@@ -138,7 +138,7 @@ d4 a b a
 d4 a fis fis 
 e4\f e b' b 
 a4 b cis a 
-d4 r a->_\markup{cresc.} (es') 
+d4 r a->_\markup{\italic cresc.} (es') 
 d4-> (g) a8 (d, dis e) 
 f,2--->\ff  fis--->
 g2---> gis---> 

@@ -66,7 +66,7 @@ R1*1
 r1\fermata\bar"||"
 \tuplet 3/2 {bes8^\markup{Solo}\mf (d f} d8. bes16 f4) r  
 \tuplet 3/2 {bes8 (f' as} f8. d16 b4) r  
-\tuplet 3/2 {bes8_\markup{\italic {poco ritenuto e diminuendo}} (e g} e8. c16 g4) r  
+\tuplet 3/2 {bes!8_\markup{\italic {poco ritenuto e diminuendo}} (e g} e8. c16 g4) r  
 \tuplet 3/2 {bes8 (es ges} es8. bes16 ges4) r  
 \tuplet 3/2 {bes8 (d f} d8. bes16 f4) r  
 \tuplet 3/2 {bes8 (des ges} des8. bes16 ges4) r  

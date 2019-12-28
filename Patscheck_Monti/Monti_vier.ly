@@ -30,13 +30,13 @@ a4-- f-. a-- e-.
 a-- \> e-. f--\! r \bar"||"
 f4-^\f^\markup{Satz 2: Vivace} r r f-^
 e4-^ r r f4-^ \bar"||"
-f4--\mf  f2-. f4-. 
+f4--\mf  f2 f4-. 
 r4 f-. f2-- 
-g4-- g2-. g4-. 
+g4-- g2 g4-. 
 r4 bes-.  bes2-- 
-g4-- g2-. g4-. 
+g4-- g2 g4-. 
 r4 g-. g2-- 
-f4-- f2-. f4-. 
+f4-- f2 f4-. 
 r4 f-. f-. a-. 
 << { \voiceOne \override Stem.direction = #UP
 a4 (cis8 d f e f g 
@@ -49,9 +49,9 @@ bes! a d cis d f gis a
 ~a2.) s4
 }
   \new Voice { \override Stem.direction = #DOWN 
-cis,,4-- g2-. a4-. 
+cis,,4-- g2 a4-. 
 r4 g4-. g-. g-. 
-f4-- f2-. f4-. 
+f4-- f2 f4-. 
 r4 f r f 
 g4 r r bes4
 g4 r r g 
@@ -60,7 +60,7 @@ a4 r r a
 }
 >> \oneVoice 
 r4 cis4-. g2--
-g4-- g2-. g4-. 
+g4-- g2 g4-. 
 r4 f-. f2-- 
 f4-. r r a
 bes4.-> bes8-> ~bes4 bes4-.
@@ -109,34 +109,34 @@ b4. (a8) a (gis) g4
 d'8 (gis, a d~d4) r \bar"||" \key f \major 
 a4-^\f ^\markup{Swing} r a-^r 
 bes4-^ r bes-^ r \bar"||"
-bes4--\mf bes2-.bes4-. 
+bes4--\mf bes2bes4-. 
 r4 bes4-. bes2-- 
-a4-- a2-. a4-.
+a4-- a2 a4-.
 r4 a4-. a2-- 
-g4-- g2-. g4-. 
+g4-- g2 g4-. 
 r4 g4-. g2-- 
-a4-- a2-. a4-.
+a4-- a2 a4-.
 r4 a4-. a2-- 
-bes4-- bes2-.bes4-. 
+bes4-- bes2bes4-. 
 r4 bes4-. bes2--
-a4-- a2-. a4-. 
+a4-- a2 a4-. 
 r4 f4 f2-- 
-g4-- g2-. g4-. 
+g4-- g2 g4-. 
 r4 cis -.\< e-. cis-. \!
 d8-- d4-^ bes-^ a-^ f8--
 e8-- d'4 cis8-- d2 \bar"||"\key d \major 
-a4-- a2-. a4-.
+a4-- a2 a4-.
 r4 a4-. a2-- 
 a4-- a2-- a4-. 
 r4 a4-. a2-- 
 fis4-- fis-. fis-- fis-. 
 fis4-- fis2 fis4-. 
 b4-- b4-. b-- b-. 
-b4-- b2-. b4-. 
+b4-- b2 b4-. 
 r4 a a2 
-fis4-- fis2-. d'4
+fis4-- fis2 d'4
 r4 gis, gis2 
-b4-- b2-. b4-. 
+b4-- b2 b4-. 
 cis4-^\f a2-^ a4-^
 as4-^ a-^ bes-^ a-^
 b4-- d-. r a
@@ -144,10 +144,10 @@ r4 a-. a-. a-.
 r4 a r a 
 r4 a-. a-. a-. 
 r4 b4 r b
-c4-- c-. r8 c8-- c4-. 
+c4-- cis-. r8 cis8-- cis4-. 
 r4 b r b 
 r4 b-. b-. b-. 
-a4-- a2-. a4-. 
+a4-- a2 a4-. 
 a4-- a-. a-- a-. 
 d8\f (dis e g) r e (b c) 
 cis!8 (e d e  g e g e 

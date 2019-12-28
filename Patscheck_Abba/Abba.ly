@@ -1,6 +1,7 @@
 globalAbba= {
 \time 4/4
 \key c \major
+\compressFullBarRests
 }
 
 \include "../Patscheck_Abba/Abba_eins.ly"

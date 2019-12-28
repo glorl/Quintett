@@ -30,7 +30,7 @@ g2~g8 r r4
 c,4\f c c c 
 c2 c4 r
 g2\p g2 
-a2 d
+a2_\markup{\italic {cresc. poco a poco}} d
 c2 f
 g2 a4 (f) 
 e4\> (a8 f) g,4 g 
@@ -56,7 +56,7 @@ d2 (~d8 e a, d)
 c4 (b) r2
 bes2 es 
 d2 (~d16 c bes a gis a c a ) 
-a8 ( g) g2 (fis4) 
+a8 ( g!) g2 (fis4) 
 g4.\turn (a16 bes \tuplet 3/2{a8) a (g} \tuplet 3/2{ fis8 g a) }
 b!4 (~b16 g b d c4 ~c16 a c e) 
 d8. (b16 g'4)~g8 a, (c e ) 
@@ -64,7 +64,7 @@ e8 (g,) g2 b8 (a)
 g4-- r d'-- r 
 g,4-- r d'-- r 
 g,4-- r d'-- r 
-g,4 dis' c cis 
+g,4_\markup{\italic{poco rit.}} dis' c cis 
 g1\fermata^\markup{Cadenza} \bar"||"
 c4\p c c c
 c4 r r2
@@ -81,6 +81,6 @@ c2 g4 r
 c4 c c c 
 c2 c4 r
 g2_\markup{\dynamic p \italic {poco rit.}} f 
-c'8 r g r c r r4 \bar"|."
+c'8\> r g r c r\! r4 \bar"|."
 
 }

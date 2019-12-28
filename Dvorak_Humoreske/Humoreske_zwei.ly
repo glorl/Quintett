@@ -40,9 +40,9 @@ es8_\markup{\italic dim.} (g) fis4
 d4 \p  g8-- f16 (es) 
 es4 bes
 d4 \< a'16 ( g f es) \!
-es8-- f-- f16 f-> es-> bes-> 
+es8-- f-- f16 f-> d-> bes-> 
 d'16_\markup{\dynamic f \italic marcato} fis g fis a g f es 
-c (d) c-- a-- bes (d8.)
+c (es) c-- a-- bes (d8.)
 d16_\markup{\italic {dim. e rit.}} fis g fis g8 f16 (es) 
 es8-- d16 (c) a4 \fermata 
 \bar"||"

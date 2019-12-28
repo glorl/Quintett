@@ -66,7 +66,7 @@ c1
 r4 g-- b4. (d8 )
 b2 r 
 c8->\f e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->
-c'8-> e,8-> g8-> e8-> g4-- c-- 
+c'8-> e,8-> g8-> e8-> g4-- c-- \time 2/4
 d8_\markup{\italic{poco rit.}}^\markup{Solo} a'16 (g fis8 g16 a) \bar"||"\time 4/4 \key g \major 
 d,4\fermata r^\markup{\bold{Fernando}} r2
 g,2 \mf g2 

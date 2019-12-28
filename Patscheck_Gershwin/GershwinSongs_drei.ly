@@ -114,7 +114,7 @@ r2. \breathe a,4--\mf
 d4 (a8 d d4 fis) 
 gis2 g
 d1\> ~
-d2.\pp r4 \bar"||"\key g \major \time 2/2
+d2.\pp\fermata r4 \bar"||"\key g \major \time 2/2
 dis2.->^\markup{Vivo (\bold{Oh Lady Be Good})} dis4-^
 d!2.-> d4-^
 cis2-> c4-^ b-^

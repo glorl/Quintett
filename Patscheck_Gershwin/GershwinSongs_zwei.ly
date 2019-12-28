@@ -121,7 +121,7 @@ fis4\fermata \breathe d,4--\mf
 fis4 (d8 fis fis4 a) 
 b2 b 
 fis1\> ~
-fis2.\pp r4 \bar"||"\key g \major \time 2/2
+fis2.\pp\fermata r4 \bar"||"\key g \major \time 2/2
 gis2.->^\markup{Vivo (\bold{Oh Lady Be Good})} gis4-^
 g!2.-> g4-^
 fis2-> f4-^ e-^
