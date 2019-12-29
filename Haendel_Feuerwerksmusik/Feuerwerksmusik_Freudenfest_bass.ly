@@ -18,7 +18,7 @@ g,8 d' b g\f
 c a d d 
 g,4. }
 \repeat volta 2{
-g8-. 
+g8-. \f
 g4-- r8 c8 
 g8 g16 (a) b8 c 
 g8 g16 (a) b8 c \mp 
@@ -37,7 +37,7 @@ d8 g, g f\!
 e'8 f, c' c 
 f,8 f c' e 
 d8 c b g 
-c8 f, g g 
+c8 _\markup{2x \italic {rit.}}f, g g 
 c4.^\markup{Fine}
 }
 \cadenzaOn 

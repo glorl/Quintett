@@ -40,6 +40,6 @@ a4 (e) f g
 c2 e,4 f8 g
 a4 a a f8 g
 g2 c4 f, 
-g4 c g2\< 
+g4\< c g2 
 c2.\ff r4 \bar"|."
 }
