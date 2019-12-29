@@ -8,7 +8,7 @@ c4-- c-- c--
 b4-- b-- b-- 
 a4-- a-- a--
 g4-- g-- g-- 
-g4-- a-- b-- 
+g4-- \mf a-- b-- 
 c4-- c-- d--
 e4-- e-- e-- 
 d4-- c-- b-- 
@@ -31,8 +31,8 @@ e,4-- \< fis-- g--
 d'4-- d-- e-- 
 a,4--\f a-- c-- 
 b4 ( a g) 
-a4-- b-- b-- 
-e,4-- e--_\markup{\dynamic p \italic subito} e--
+a4-- \mf\> b-- b-- 
+e,4--\! e--_\markup{\dynamic p \italic subito} e--
 fis4-- g-- g--
 d'4-- d-- c-- 
 c4--\< b-- a-- 
@@ -69,14 +69,14 @@ e,4--\f fis-- g--
 d'4-- d-- e--
 a,4-- a-- c-- 
 b4-- a-- g-- 
-a4-- b-- b-- 
-e,4-- g-- g-- 
+a4--\mf b-- b-- 
+e,4-- g--\p g-- 
 fis4 g2 
-d'2 c4 
-c4--\< b-- a-- 
-g4-- g-- a--\!
+d'2\< c4 
+c4-- b-- a-- 
+g4-- g-- \breathe a--\f
 \repeat volta 2{
-b4-- \f b-- b-- 
+b4--  b-- b-- 
 c4-- c-- d--
 e4-- e-- a,-- 
 d4 (c b) 
@@ -86,7 +86,7 @@ c4-- d-- a--
 e2.
 ~e2 r4
 c'4--\p d-- d-- 
-g,4-- g--\f a--}{
+g,4-- \breathe g--\f a--}{
 c4--_\markup{\italic rit.} d-- d-- 
 g,2.~}}
 g2.~

@@ -109,15 +109,24 @@ a4 (fis8 a16 ais b4 d)
 fis8 (e4. d8 b d b
 ~b2.)_\markup{\italic{poco rit.}} d4 
 cis1\fermata \breathe \bar"||"
-eis,8^\markup{\italic {Cadenza ad lib.}} \mf (fis) ais (b) d (cis) eis (fis)
+<<\new CueVoice {eis,8(fis) ais (b) d (cis) eis (fis)
 \tuplet 7/8{ gis16\< (ais b ais b c cis } d4.\!) \fermata b8 (
 cis16 d e d cis b a g eis fis g fis e d cis b
 a g fis e d cis b ais \tuplet 5/4 {b8 bes a as g}
-fis2)\fermata\breathe eis4--_\markup{\italic{cresc. e accelerando}} fis 
+fis2)\fermata eis4-- fis 
 \tuplet 3/2{ b8 (ais b)} \tuplet 3/2{ d (cis d)} \tuplet 3/2{ e (d cis)}\tuplet 3/2{ fis (e d)}
 e16 (fis g ais \tuplet 5/4{b8 [c d e eis]}
 fis8 b ~b4 bes16 a as g) 
-fis4\fermata \breathe d,4--\mf 
+fis4\fermata s4}
+{s1^\markup{\italic {Cadenza ad lib.} (cl.1)} \mf 
+s1
+s1
+s1
+s2 \breathe s2_\markup{\italic{cresc. e accelerando}}
+s1
+s1
+s2. \breathe d,4--\mf 
+}>>
 fis4 (d8 fis fis4 a) 
 b2 b 
 fis1\> ~
