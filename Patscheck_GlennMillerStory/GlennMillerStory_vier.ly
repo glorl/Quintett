@@ -2,7 +2,7 @@ GlennMillerStoryvier = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4 ^\markup{American Patrol}
+r4 ^\markup{Swing (\bold{American Patrol})}
 r4 g \mf r g 
 r4 g r g 
 r4 g r g 
@@ -60,13 +60,13 @@ r4 r8 e8-^r8 e4.-^
 r8 e8-> \sp \< (dis e) f-> (e f) fis->
 (f! fis) g-> (fis! g) as-> (a as) 
 e4-^ \ff r r2\bar"||" \key c \major
-g,4->^\markup{Moderato} b4-> ~ b2
+g,4->^\markup{Moderato (\bold{A String of Pearls})} b4-> ~ b2
 b1->\sfz\<
 d8---> \ff d-.-^ r4 r4 a8---> a-.-^
 r2 g8---> g-.-^ r4 
 r4 g8---> g-.-^ r8 g'8( \noBeam \tuplet 3/2 { a8)[ r ais](}
 b4 a g f) \bar"||"
-c4^\markup{A String of Pearls}\mp c a g 
+c4\mp c a g 
 c4 a as g
 c4 b a g
 c4 b a g
@@ -106,8 +106,8 @@ a4-- r8 a8-- gis4-- r8 gis--
 g!4-- r8 g8-- fis4-- r8 fis8-- 
 g8-- g4-. g8 r4 g8 g->
 ~g2 ~g8\fermata r8 r4 \bar"||"\time 4/4 \key c \major
-r8 ^\markup{Slow} a4 (g8 a4. g8 
-a8^\markup{A Sentimental Journey} g a g a g4.)
+r8^\markup{Slow (\bold{A Sentimental Journey})} a4 (g8 a4. g8 
+a8 g a g a g4.)
 r8 a4 (g8 a4. b8 
 a4 a8 g ~g2)
 r8 a4 (g8 bes4. bes8 
@@ -138,7 +138,7 @@ g,4--\< g-. g-- bes-.
 a4-- g-. a-- as-.
 g4-- \f r r2
 c8\> (c b a ~a2)\! \fermata \bar"||"\time 2/2 
-c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
+c8^\markup{Swing (\bold{In The Mood})}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 
 g (fis f e es) d4-.-> c8 
 ~c2. r4

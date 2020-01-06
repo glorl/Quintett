@@ -33,17 +33,18 @@ g4 \breathe g,-- e'4. (d8)
 f1
 r4 g,-- c4. (b8) 
 c1 
-r4 g-- e'4. (d8) 
-f2 (d) 
-r4 g,-- c4. (b8) 
-e1
-~e4 r e8 (f g8. a16) 
-g4 (d2. 
-~d4) r d8 (e f8. g16) 
-e1
-~e4 r e8 (f g8. a16) 
-g4 (d2. 
-~d4) r d8 (e f8. g16) 
+% r4 g-- e'4. (d8) 
+% f2 (d) 
+% r4 g,-- c4. (b8) 
+% e1
+% ~e4 r e8 (f g8. a16) 
+% g4 (d2. 
+% ~d4) r d8 (e f8. g16) 
+% e1
+% ~e4 r e8 (f g8. a16) 
+% g4 (d2. 
+R1*10
+r4 r d8 (e f8. g16) 
 e1
 ~e4 r e8 (f g8. a16) 
 g4 (d2.
@@ -153,7 +154,7 @@ d2 r \bar"||"
 \tuplet 3/2{b8-. b-. b-. } b8-. r \tuplet 3/2{b8-. b-. b-. } b8-. r
 g4 ~ \tuplet 3/2{g8 g'-. g-. } \tuplet 3/2{a8-. a-. a-. } \tuplet 3/2{as8-. as-. as-. } 
 \tuplet 3/2{g8 r c(} \tuplet 3/2{g'8 c, g'} \tuplet 3/2{a8 gis a} \tuplet 3/2{bes8 a bes}
-b2.) ~\tuplet 3/2{b4 bes8(} 
+b!2.) ~\tuplet 3/2{b4 bes8(} 
 \tuplet 3/2{b4 g8} \tuplet 3/2{a4 f8} \tuplet 3/2{g4 e8} \tuplet 3/2{f4 d8}
 c2 ~c8)_\markup{\italic {poco rit.}} c-- cis4-- \bar"||"\key g \major 
 d4\fermata\breathe b,8^\markup{\bold{Chiquitita}}  (c d8 e4 fis16 g)

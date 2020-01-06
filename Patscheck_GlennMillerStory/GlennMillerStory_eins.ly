@@ -12,7 +12,7 @@ GlennMillerStoryeins = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-\tuplet 3/2 {g8^\markup{American Patrol} (a b}
+\tuplet 3/2 {g8^\markup{Swing (\bold{American Patrol})} (a b}
 c4-.) c-. c8 (b c d) 
 e8-- e4-. e8 (~e d e f) 
 g4-. g8 (fis g fis g c) 
@@ -70,12 +70,12 @@ r4 r8 g8-^r8 g4.-^
 r8 d8->\sp \< (cis d) es-> (d es) e->
 (dis e) f-> (e f) fis-> (f fis) 
 g4-^ \ff r r2\bar"||" \key c \major
-R1*2^\markup{Moderato}
+R1*2^\markup{Moderato (\bold{A String of Pearls})}
 g8---> \ff g-.-^ r4 r4 g,8---> g-.-^
 r2 g8---> g-.-^ r4 
 r4 g,8---> g-.-^ r8 g''8(\noBeam \tuplet 3/2 { a8) [r ais](}
 b4 a g f) \bar"||"
-e,4.--^\markup{A String of Pearls}\mp e8 ~e4 e4-- 
+e,4.--\mp e8 ~e4 e4-- 
 ~e8 e4.-- e8 (f g-.) r
 e4.-- e8 ~e4 e4-- 
 ~e8 e4.-- e8 (f g-.) r
@@ -115,8 +115,8 @@ d4 (\tuplet 3/2 {a8) r d--} cis4 (\tuplet 3/2 {gis8) r cis--}
 c!4 (\tuplet 3/2 {g!8) r c--} b4 (\tuplet 3/2 {fis8) r b}
 bes8-- bes4-. bes8 r4 bes8 b->
 ~b2 ~b8\fermata r8 r4 \bar"||"\time 4/4 \key c \major
-r8 ^\markup{Slow} e4 (c8 e4.  c8 
-e8^\markup{A Sentimental Journey} c e c e c4.)
+r8^\markup{Slow (\bold{A Sentimental Journey})} e4 (c8 e4.  c8 
+e8 c e c e c4.)
 r8 e4 (c8 e4. f8 
 e4 es8 d ~d2)
 r8 e4 (c8 e4. c8 
@@ -137,7 +137,7 @@ fis,8 g a g ~g2)
 fis8 (g fis g a g4.) 
 cis8 (d4) a8 (d2) 
 cis8 (d a ais c a \glissando d,16 e fis a) 
-b4 \glissando f8 a ~a2
+b4 \glissando f!8 a ~a2
 g4 \glissando e8 f ~f2 \bar"||"
 g,2\p ~g8 gis-- a4-.
 g2 ~g8 e (g a ) 
@@ -147,7 +147,7 @@ e8^\markup{Solo} \< (c e g16 a c8 b16 c e g c d)
 es8 (c es c es d4. \f) 
 r8 \scoop e4 (c16 a g8 \glissando dis16 e c g a c) 
 e8 \> (es d c~c2)\! \fermata \bar"||"\time 2/2 
-c,8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
+c,8^\markup{Swing (\bold{In The Mood})}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 
 g (fis f e es) d4-.-> c8 
 r8 e'8 \f (g) c8-. ~c g (e c) 

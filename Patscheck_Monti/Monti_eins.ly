@@ -41,26 +41,26 @@ bes8\prall (a a g g\prall f f e)
 a4. (e8) bes8 (a) \glissando e'4 
 \(~e4. (d8) d4 cis\) 
 d4 \>(\tuplet 3/2 { gis8 a cis} d4--\!) r \bar"||"
-d,8--\f^\markup{Satz 2: Vivace} d'4-. bes8 (~bes a g f) 
+d,8--\f^\markup{Vivace (\bold{Satz 2})} d'4-. bes8 (~bes a g f) 
 e8-- d4-. cis8 (d2) \bar"||"
-d4--\mf  d2-. d4-. 
+d4-.\mf  d2-- d4-. 
 r4 d-. d2-- 
-d4-- d2-. d4-. 
+d4-. d2-- d4-. 
 r4 g-.  g2-- 
-e4-- e2-. e4-. 
+e4-. e2-- e4-. 
 r4 e-. e2-- 
-d4-- d2-. d4-. 
+d4-. d2-- d4-. 
 r4 d-. d-. f-. 
-g4-- cis,2-. e4-. 
+g4-. cis,2-- e4-. 
 r4 e4-. e-. e-. 
-d4-- d2-. d4-. 
+d4-. d2-- d4-. 
 r4 d r d 
 e4 r r e4
 e4 r r d 
 c4 r r f4
 f4 r r f 
 r4 g4-. cis,2--
-cis4-- e2-. e4-. 
+cis4-. e2-- e4-. 
 r4 d-. d2-- 
 d4-. r r f
 g4.-> g8-> ~g4 g4-.
@@ -100,7 +100,7 @@ b4. \glissando cis,8 cis4 \glissando a'
 cis4. (b8 a g4.) 
 g4 (fis8\turn fis ~fis4 f8-- fis
 ~fis1) 
-d4.^\markup{Tutti} a8-- a-- a4-. b8
+d4. a8-- a-- a4-. b8
 r8 a4. g4 (fis) 
 fis4. (e8 e dis e g
 b4.) fis16 (g \tuplet 3/2 {as8 [b d] } \tuplet 3/2 {f8 as b) } 
@@ -119,14 +119,14 @@ e d cis  d e--) a,4-. cis8
 d8 (f e a bes a f e 
 ~e2) r 
 bes'8 (a  g bes a d, g a) 
-bes8-- (des4-. ) d8 (c8) bes4.
+bes8-- (des4-. ) c8 (c8) bes4.
 a2 \glissando d,4 gis,8 (a
 bes8 a f e d a~a4) 
 r4 r8 a'8 (d cis d e
 f \< g a bes a b c cis) \!
 d8-- d4-^ bes-^ a-^ f8--
 e8-- d4 cis8-- d2 \bar"||"\key d \major 
-d8 \glissando d'4. ~d4. b16 (ais 
+d8 \glissando d'4. ~d4. a16 (ais 
 b8 fis e d~d2) 
 r4 d8 (e fis e d e
 fis8 a b d) r8 e4 f8

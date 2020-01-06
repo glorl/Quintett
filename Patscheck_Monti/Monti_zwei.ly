@@ -41,19 +41,19 @@ e4-- e-. e-- cis
 e4-- e-. g-. r 
 a,4-- a-. a-- g-. 
 d'4--\> cis-. d-- \!r \bar"||"
-d4-^\f^\markup{Satz 2: Vivace} r r d-^
+d4-^\f^\markup{Vivace (\bold{Satz 2})} r r d-^
 bes4-^ r r d4-^ \bar"||"
-d4--\mf  d2 d4-. 
+d4-.\mf  d2-- d4-. 
 r4 d-. d2-- 
-d4-- d2 d4-. 
+d4-. d2-- d4-. 
 r4 g-.  g2-- 
-e4-- e2 e4-. 
+e4-. e2-- e4-. 
 r4 e-. e2-- 
-d4-- d2 d4-. 
+d4-. d2-- d4-. 
 r4 d-. d-. f-. 
-g4-- cis,2 e4-. 
+g4-. cis,2-- e4-. 
 r4 e4-. e-. e-. 
-d4-- d2 d4-. 
+d4-. d2-- d4-. 
 r4 d r d 
 e4 r r g4
 e4 r r d 
@@ -110,7 +110,7 @@ g4.-- g8-- g-- g4-. g8-.
 r8 e4.-> e4-.-- e-.-- 
 g4.-- a8-- a-- a4-. a8-. 
 r8 a4.-- a4-.-- a-.-- 
-a4.^\markup{Tutti} fis8-- fis-- fis4-. e8
+a4. fis8-- fis-- fis4-. e8
 r8 fis4.-- dis4-.-- dis-.-- 
 b4. b8 b ( c b e
 f4.) f16 (g \tuplet 3/2 {as4 as8\noBeam } \tuplet 3/2 {b8 d f) } 
@@ -122,32 +122,32 @@ f4 \f^\markup{Swing} r f r
 e4 r g r \bar"||"
 g4--\mf g2 g4-. 
 r4 g4-. g2-- 
-f4-- f2 f4-. 
+f4-. f2-- f4-. 
 r4 f4-. f2-- 
-e4-- e2 e4-. 
+e4-. e2-- e4-. 
 r4 e4-. e2-- 
-f4-- f2 f4-. 
+f4-. f2-- f4-. 
 r4 f4-. f2-- 
-g4-- g2 g4-. 
+g4-. g2-- g4-. 
 r4 g4-. g2-- 
-f4-- f2 f4-. 
+f4-. f2-- f4-. 
 r4 d4-. d2-- 
-e4-- e2 e4-. 
+e4-. e2-- e4-. 
 r4 g4-.\< a-. g-. \!
 d8-- d'4-^ bes-^ a-^ f8--
 e8-- d4 cis8-- d2 \bar"||"\key d \major 
-fis4-- fis2 fis4-. 
+fis4-. fis2-- fis4-. 
 r4 fis4-. fis2-- 
-fis4-- fis2 fis4-. 
+fis4-. fis2-- fis4-. 
 r4 fis4-. fis2-- 
 d4-- d-. d-- d-. 
-d4-- d2 d4-. 
+d4-. d2-- d4-. 
 e4-- e-. e-- e-. 
-g4-- g2 g4-. 
+g4-. g2-- g4-. 
 r4 fis4-. fis2-- 
-d4-- d2 a'4-. 
+d4-. d2-- a'4-. 
 r4 d,4-. e2-- 
-gis4-- gis2 gis4-. 
+gis4-. gis2-- gis4-. 
 g!4-^\f a2-^ a4-^ 
 bes4-^ b4-^ c4-^ cis4-^
 a4-- a-. r fis

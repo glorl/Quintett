@@ -2,7 +2,7 @@ GlennMillerStorybass = \new Voice \relative c' {
 \compressFullBarRests
 % \override Glissando.style = #'trill
 \partial 4 
-r4^\markup{American Patrol}
+r4^\markup{Swing (\bold{American Patrol})}
 c \mf r g r 
 c r g r 
 c r g r 
@@ -60,13 +60,13 @@ g4 r g g
 r8 d'4.->\sp \< cis-> b8->
 ~b4 a4->~a8 as4.->
 g8-^\ff r d' g,~g4\fermata r \bar"||" \key c \major
-g1^\markup{Moderato}\ff
+g1^\markup{Moderato (\bold{A String of Pearls})}\ff
 g4\sfz \< a b d
 a'8---> \ff a-.-^ r4 r4 f8---> f-.-^
 r2 g,8---> g-.-^ r4 
 r4 g8---> g-.-^ r2
 r1 \bar"||"
-c4^\markup{A String of Pearls}\mp c a g 
+c4 \mp c a g 
 c a as g 
 c b a g
 c b a g
@@ -110,8 +110,8 @@ f4 r e r
 r d' r 
 g, r g c8-- g
 ~g2  ~ g8\fermata \noBeam g8 \tuplet 3/2 {a8-- [r b]} \bar"||"\time 4/4 \key c \major
-c4\mf ^\markup{Slow} e c  g 
-c4^\markup{A Sentimental Journey} a g a8 (g) 
+c4\mf^\markup{Slow (\bold{A Sentimental Journey})} e c  g 
+c4 a g a8 (g) 
 c4 e c a 
 g4 a b8 a as g
 c4 e c g
@@ -142,7 +142,7 @@ c4-- \< e-. c-- g-.
 f4-- a-. c-- as-.
 g4-- \f r r2
 g8\> (a b c ~c2)\! \fermata \bar"||"\time 2/2 
-c8^\markup{In the Mood}\mf (e g c-.) ~c c4-.-> c8->-.
+c8^\markup{Swing (\bold{In The Mood})}\mf (e g c-.) ~c c4-.-> c8->-.
 ~c8 c4-.-> c8-> (b c g e) 
 g (fis f e es) d4-.-> c8 
 ~c2. r4

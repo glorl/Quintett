@@ -28,9 +28,9 @@ a4-- g-. e-- cis-.
 a4-- e'-. a,-. cis
 d4-- d-. cis-- a-.
 d-- \> a-. d--\! r \bar"||"
-d4-^\f^\markup{Satz 2: Vivace} r r d-^
+d4-^\f^\markup{Vivace (\bold{Satz 2})} r r d-^
 g,4-^ r r d'4-^ \bar"||"
-d4--\mf  d2-. d4-. 
+d4-.\mf  d2-- d4-. 
 d4 r c a
 g4-- r d' r
 e4  d c bes 
