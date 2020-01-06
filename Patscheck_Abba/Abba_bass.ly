@@ -119,7 +119,7 @@ g,2 d'
 d1 \bar"||"\time 2/4
 g,2 \bar"||"\time 4/4 \key c \major 
 g2 d'8-- c-- g-- c-. \breathe \bar"||"
-R1^\markup{Slow-Rock (\bold{I do, I do, I do})}  
+r1^\markup{Slow-Rock (\bold{I do, I do, I do})}  
 g4.\mf g8 b4 d 
 g,4. g8 b4 d 
 c4. c8 a4 as 

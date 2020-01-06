@@ -119,7 +119,7 @@ d2 d
 d1 \bar"||"\time 2/4
 d2 \bar"||"\time 4/4 \key c \major 
 d8-- d4-. d8-- d8-- c-- b-- c-. \breathe \bar"||"
-R1^\markup{Slow-Rock (\bold{I do, I do, I do})}  
+r1^\markup{Slow-Rock (\bold{I do, I do, I do})}  
 \tuplet 3/2 {g8-.\mf g-. g-.} g8 r \tuplet 3/2 {g8-. g-. g-.} g8 r 
 \tuplet 3/2 {g8-. g-. g-.} g8 r \tuplet 3/2 {g8-. g-. g-.} g8 r 
 g4~ \tuplet 3/2 {g8 c-. c-.} \tuplet 3/2 {c8-. c-. c-.} \tuplet 3/2 {c8-. c-. c-.} 

@@ -70,8 +70,9 @@ r4 r8 g8-^r8 g4.-^
 r8 d8->\sp \< (cis d) es-> (d es) e->
 (dis e) f-> (e f) fis-> (f fis) 
 g4-^ \ff r r2\bar"||" \key c \major
-R1*2^\markup{Moderato (\bold{A String of Pearls})}
-g8---> \ff g-.-^ r4 r4 g,8---> g-.-^
+r1^\markup{Moderato (\bold{A String of Pearls})} 
+r1
+g8--->\ff g-.-^ r4 r4 g,8---> g-.-^
 r2 g8---> g-.-^ r4 
 r4 g,8---> g-.-^ r8 g''8(\noBeam \tuplet 3/2 { a8) [r ais](}
 b4 a g f) \bar"||"
