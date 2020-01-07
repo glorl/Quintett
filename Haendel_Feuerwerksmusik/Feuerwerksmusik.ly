@@ -22,7 +22,7 @@ globalFeuerwerksmusikMenuett= {
 \time 3/4
 \key f \major
 }
-% \include "../Haydn_Introduktion/Introduktion_eins.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
 % \include "../Haydn_Introduktion/Introduktion_vier.ly"
@@ -32,7 +32,7 @@ globalFeuerwerksmusikFriede= {
 \time 6/8
 \key c \major
 }
-% \include "../Haydn_Introduktion/Introduktion_eins.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Friede_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Friede_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Friede_vier.ly"
@@ -42,7 +42,7 @@ globalFeuerwerksmusikBourree= {
 \time 2/2
 \key f \major
 }
-% \include "../Haydn_Introduktion/Introduktion_eins.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
 % \include "../Haydn_Introduktion/Introduktion_vier.ly"
