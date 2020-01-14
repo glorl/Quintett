@@ -23,7 +23,7 @@ d8 (cis) d-. e-. f4 e8 d
 cis4 d e8 (d) cis cis 
 d4 c!8 (bes) a (g) f e
 d4\cresc g8 (f) e4 a8 g
-f8 (e) f g a4 d
+f8 (e) f-. g-. a4 d
 cis4_\markup{Abschluss mit \italic rit.} d d cis\! 
 a2.^\markup{Fine}
 }

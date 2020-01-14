@@ -5,7 +5,7 @@ globalFeuerwerksmusikOuverture= {
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
-% \include "../Haydn_Introduktion/Introduktion_vier.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_vier.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_bass.ly"
 
 globalFeuerwerksmusikFreudenfest= {
@@ -15,7 +15,7 @@ globalFeuerwerksmusikFreudenfest= {
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
-% \include "../Haydn_Introduktion/Introduktion_vier.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_vier.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_bass.ly"
 
 globalFeuerwerksmusikMenuett= {
@@ -25,7 +25,7 @@ globalFeuerwerksmusikMenuett= {
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
-% \include "../Haydn_Introduktion/Introduktion_vier.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_vier.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_bass.ly"
 
 globalFeuerwerksmusikFriede= {
@@ -45,5 +45,5 @@ globalFeuerwerksmusikBourree= {
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_zwei.ly"
 % \include "../Haydn_Introduktion/Introduktion_drei.ly"
-% \include "../Haydn_Introduktion/Introduktion_vier.ly"
+\include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_vier.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_bass.ly"
