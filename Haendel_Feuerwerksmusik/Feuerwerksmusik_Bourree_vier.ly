@@ -13,7 +13,7 @@ f4 d' bes c
 f,4 c' f
 }
 \repeat volta 2{
-f8\mf e
+f8^\markup{Solo}\mf e
 d4\< g8 f e4 a8 g
 f4\! bes a g\f 
 a8 b c4 c b 

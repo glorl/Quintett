@@ -33,8 +33,8 @@ a4 b
 c4 r
 g2\< 
 ~g4. a8 
-a8 r g4\!~
-g2
+a8 r g4~
+g2\!
 c4 c 
 r8 a8 d4 
 c8 _\markup{2x \italic {rit.}}c b g 

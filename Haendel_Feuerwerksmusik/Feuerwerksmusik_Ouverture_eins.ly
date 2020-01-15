@@ -1,5 +1,5 @@
 FeuerwerksmusikOuvertureeins = \new Voice \relative c' {
-c2 \f g'4. g8 
+\parenthesize c2 \f g'4. g8 
 c4. c8 d8. d16 d8 e16 (f) 
 e4 d8 (c) g'4. g8 
 g4 e8 (c8) f4. f8 
@@ -41,5 +41,5 @@ e4 d8 (c) g'4. g8
 g4 e8 (c) f4. f8 
 d2 e4. f8
 d4\< c8. (d16) d4. c8
-c2.\ff r4 \bar"|."
+c2.\ff\fermata r4 \bar"|."
 }

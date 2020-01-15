@@ -31,7 +31,7 @@ g4\p (c8) g4 (c8)
 b4\f (c8) g4 (c8) 
 f,8 g g \>c4 c8 
 b8.\mf (a32 b c8) b8. (a32 b c8) 
-b8.\trill (a32 b c8) b8. (a32 b c8) 
+g4 c8 g4 c8 
 g4\f c8 g4 a8 
 f8 _\markup{2x \italic rit.} g g c4.
 }

@@ -1,5 +1,5 @@
 FeuerwerksmusikOuverturevier = \new Voice \relative c' {
-c2 \f c4. c8 
+\parenthesize c2 \f c4. c8 
 e4. e8 g4. g8 
 c4 c, e f8 g 
 a4 c, b d 
@@ -41,5 +41,5 @@ c2 e,4 f8 g
 a4 a a f8 g
 g2 c4 f, 
 g4\< c g2 
-c2.\ff r4 \bar"|."
+c2.\ff\fermata r4 \bar"|."
 }
