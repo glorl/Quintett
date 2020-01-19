@@ -7,26 +7,26 @@ r4 r8 c-.
 c4-- r 
 r8 c e g 
 c8 g e c 
-r8 g' e c \p 
-r8 g' e c\f 
-c8 c b c 
-g'8 g16 (a) b8 g \p 
+r8 g' e c  
+r8 g'\p e c 
+c8\f c b c 
+g'8 g16 (a) b8\breathe g \p 
 c,8 c b c 
 g8. c16 g8. c16 
 g8 g b d 
-g,8 d' b g\f 
+g,8 d' b \breathe g\f 
 c a d d 
 g,4. }
 \repeat volta 2{
 g8-. \f
 g4-- r8 c8 
 g8 g16 (a) b8 c 
-g8 g16 (a) b8 c \mp 
-g8 g16 (a) b8 g \ff 
+g8 g16 (a) b8 \breathe c \mp 
+g8 g16 (a) b8 \breathe g \ff 
 c8 c a f 
 c'8 c a f 
 c'8 c a f \mp 
-c'8 c16 (d) e8 c \f 
+c'8 c16 (d) e8 \breathe c \f 
 f,8 c' a b
 c8 e g c,
 d8 e16 (f) g8 g
@@ -37,7 +37,7 @@ d8 g, g f\!
 e'8 f, c' c 
 f,8 f c' e 
 d8 c b g 
-c8 _\markup{2x \italic {rit.}}f, g g 
+c8 _\markup{Abschluss mit \italic {rit.}}f, g g 
 c4.^\markup{Fine}
 }
 \cadenzaOn 

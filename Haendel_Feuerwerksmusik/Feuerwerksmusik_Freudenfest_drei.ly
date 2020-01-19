@@ -7,8 +7,8 @@ r4 r8 g-.
 g4-- r4
 c8-.\< c-. c-. c-. \!
 c4. e8
-c8 a r e' \p 
-c8 a r e \f 
+c8 g r e' \p 
+c8 g r e \f 
 c'4 g8 g 
 g4. e8\p 
 e4 r8 e 
@@ -38,7 +38,7 @@ a8 r g4
 ~g2 \!
 a4 g
 r8 a g4 
-g8 _\markup{2x \italic {rit.}}a g f
+g8_\markup{Abschluss mit \italic {rit.}} a g f
 e4.^\markup{Fine}
 }
 \cadenzaOn 

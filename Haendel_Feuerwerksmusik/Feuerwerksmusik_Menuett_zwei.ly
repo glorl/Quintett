@@ -20,7 +20,7 @@ f8 (g) e4. (f8)
 c2.}{
 c2._\markup{Fine}}}
 \repeat volta 2{
-f4\mf (c) f4---.
+f4\mf (d) f4---.
 e4 (d2)
 cis8 (b cis d) e-. cis-.
 d8 (cis d e) d-. cis-.

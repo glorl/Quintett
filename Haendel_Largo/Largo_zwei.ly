@@ -63,11 +63,11 @@ c'4 \< c d
 d4.\mf (b8 b4) 
 r8 e,\> (g4 fis) 
 g2\! d4
-~d4\< d a
+~d4 d a
 d2. \breathe
-g4 \f a g 
+g4 \< a g 
 ~g4 fis e
-c'4-- c-- a-- 
+c'4--\f c-- a-- 
 b4-- b8.-- b16-- b4--
 e,2\mf (dis4) 
 b4-- g'2\p

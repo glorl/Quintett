@@ -37,7 +37,7 @@ f8-. d-. d-. e16 (f) \!
 g8-. e-. e-. f16 (g) 
 a8. f16 g8. e16 
 f8 e16 (d) g8-. f-.
-e8. _\markup{2x \italic {rit.}}d16 d8. c16 
+e8. _\markup{Abschluss mit \italic {rit.}}d16 d8. c16 
 c4.^\markup{Fine}
 }
 \cadenzaOn 

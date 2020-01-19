@@ -23,7 +23,7 @@ a2 \< a4 ( g8. a16) \!
 g4 g g4. g8  
 e4 (d) d d 
 d4 b8. (c16) a4. (c8) 
-b2 d4\f g 
+b2 \breathe d4\f g 
 f4 c' d g,
 g2 c4.\ff c8 
 c4 g g4.\mp g8 

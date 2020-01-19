@@ -33,6 +33,6 @@ a8 b8. (c16)\> e,4.
 g4\mf (c8) g4 (c8) 
 r2.
 b8.\f\trill (a32 b c8) b8. (c16) e,8 
-a8 _\markup{2x \italic rit.} b8. g16 g4.
+a8 _\markup{Abschluss mit \italic rit.} b8. g16 g4.
 }
 }

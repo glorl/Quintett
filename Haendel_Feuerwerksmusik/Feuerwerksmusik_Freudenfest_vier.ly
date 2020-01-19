@@ -37,7 +37,7 @@ a8 r g4~
 g2\!
 c4 c 
 r8 a8 d4 
-c8 _\markup{2x \italic {rit.}}c b g 
+c8 _\markup{Abschluss mit \italic {rit.}}c b g 
 c4.^\markup{Fine}
 }
 \cadenzaOn 

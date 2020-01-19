@@ -8,12 +8,12 @@ g4 c g g
 c2 c4. b8 
 a4. a8 g8. f'16 e8. d16 
 c4 c e f8 g 
-a4 a, a' f8 e
+a4 a, a' f8 d
 g,4. g8 g4 e8 c'
 f,4. f8 fis4. fis8 
 g2 g'4.\ff g8 
 g4 g b,4.\mp b8 
-c8. (a16) g4 g4.\ff g8 
+b8. (a16) g4 g4.\ff g8 
 g4 g g4.\mp g8 
 b8. (a16) g4 b4.\ff b8 
 e4 b c d 
@@ -22,8 +22,8 @@ c4. c8 cis4. cis8
 d4 e d c 
 b2 c4 b 
 a4 fis g4. g8 
-d'4 g, d'2\> 
-g,2 b4\f g 
+d'4\> g, d'2 
+g,2\! \breathe b4\f g 
 a2 b4. b8 
 c2 g'4.\ff g8 
 g8. (f16) e4 g4.\mp g8 
@@ -41,5 +41,5 @@ c2 e,4 f8 g
 a4 a a f8 g
 g2 c4 f, 
 g4\< c g2 
-c2.\ff \fermata r4 \bar"|."
+c2.\ff\fermata r4 \bar"|."
 }

@@ -45,7 +45,7 @@ c4-- \< d-- d--
 e,2.\!\fermata
 ~e2 r4
 c'4--\p d-- d-- 
-g,4-- g-- \breathe a-- \f 
+g,4-- \breathe g-- a-- \f 
 b4-- b-- b--
 c4-- c-- d--
 e4-- e-- e-- 
@@ -63,11 +63,11 @@ c2 \< c4
 b2.\mf
 c4--\> a-- d-- 
 g,2.\!
-a2.\< 
+a2.
 b2. 
-e,4--\f fis-- g-- 
+e,4--\< fis-- g-- 
 d'4-- d-- e--
-a,4-- a-- c-- 
+a,4--\f  a-- c-- 
 b4-- a-- g-- 
 a4--\mf b-- b-- 
 e,4-- g--\p g-- 

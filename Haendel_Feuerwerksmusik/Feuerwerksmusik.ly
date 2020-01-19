@@ -1,6 +1,7 @@
 globalFeuerwerksmusikOuverture= {
 \time 4/4
 \key c \major
+\compressFullBarRests
 }
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Ouverture_zwei.ly"
@@ -11,6 +12,7 @@ globalFeuerwerksmusikOuverture= {
 globalFeuerwerksmusikFreudenfest= {
 \time 2/4
 \key c \major
+\compressFullBarRests
 }
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Freudenfest_zwei.ly"
@@ -21,6 +23,7 @@ globalFeuerwerksmusikFreudenfest= {
 globalFeuerwerksmusikMenuett= {
 \time 3/4
 \key f \major
+\compressFullBarRests
 }
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Menuett_zwei.ly"
@@ -31,6 +34,7 @@ globalFeuerwerksmusikMenuett= {
 globalFeuerwerksmusikFriede= {
 \time 6/8
 \key c \major
+\compressFullBarRests
 }
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Friede_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Friede_zwei.ly"
@@ -41,6 +45,7 @@ globalFeuerwerksmusikFriede= {
 globalFeuerwerksmusikBourree= {
 \time 2/2
 \key f \major
+\compressFullBarRests
 }
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_eins.ly"
 \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_Bourree_zwei.ly"

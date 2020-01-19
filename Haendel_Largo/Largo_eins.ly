@@ -67,7 +67,7 @@ b2\! \breathe g4--
 d2. 
 c'4-- \< c-- b-- 
 a4. (g8) g4
-g'4-- \f g-- e--
+fis'4-- \f fis-- e--
 dis4-- dis8.(e16) e4--
 r8 a,8 \mf (fis4. e8) 
 e4 c'2\p 
