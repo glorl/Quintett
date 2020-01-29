@@ -1,7 +1,7 @@
 BeruehmtesMenuetteins = \new Voice \relative c''' {
-\compressFullBarRests
 \repeat volta 2{
-\partial 4 \acciaccatura {c16[d]}  c16\p \< (b c d) \!
+    \partial 4 % \acciaccatura {c16[d]}  
+c16\prall \p \< (b c d) \!
 c8-.-> c,4\< e g8-.
 g8->\> (f) f4\! \acciaccatura {f16[g]} f16\< (e f g\!
 f8-.) g,4\< d' f8-.
@@ -52,6 +52,13 @@ a'8-.\f a16 (bes c8-.) bes-. a-. g-.
 f8-. e-.\> d-. c-. bes-. a-. 
 g8-.\mf g4 g g8-. 
 a8 (c) c (bes) a (g) 
-f4_\markup{D.C. al Fine}~f8 r
+f4~f8 r
 }
+\bar"||"
+ \cadenzaOn 
+\stopStaff 
+\once \override TextScript #'word-space = #1.5
+\once \override TextScript #'X-offset = #1
+\once \override TextScript #'Y-offset = #-1
+| s2.*1^\markup { \center-column { "D.C. al Fine" } }  
 }

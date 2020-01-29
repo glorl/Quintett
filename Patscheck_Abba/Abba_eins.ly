@@ -33,17 +33,16 @@ g4 \breathe g,-- e'4. (d8)
 f1
 r4 g,-- c4. (b8) 
 c1 
-% r4 g-- e'4. (d8) 
-% f2 (d) 
-% r4 g,-- c4. (b8) 
-% e1
-% ~e4 r e8 (f g8. a16) 
-% g4 (d2. 
-% ~d4) r d8 (e f8. g16) 
-% e1
-% ~e4 r e8 (f g8. a16) 
-% g4 (d2. 
-R1*10
+R1
+f1
+R1
+c1
+
+
+
+
+
+
 r4 r d8 (e f8. g16) 
 e1
 ~e4 r e8 (f g8. a16) 

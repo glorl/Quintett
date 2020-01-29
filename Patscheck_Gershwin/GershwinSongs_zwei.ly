@@ -56,7 +56,7 @@ g4-. r_\markup{\italic{poco rit.}} r2\bar"||" \time 4/4 \key d \major
 f8\mf^\markup{Slow (\bold{Summertime})} (d f e~e d \tuplet 3/2{b8 d e)}
 fis!8 (d cis b g) e4-. f8
 fis!4 r8 fis''^\markup{Solo} (b fis \tuplet 3/2{d e eis} 
-fis4 e8 d e fis e4) 
+fis4 e8 d e fis d4) 
 b4 (fis8 f e cis e eis
 fis4~fis8) r r2\bar"||"
 b2\p (ais) 

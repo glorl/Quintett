@@ -1,109 +1,63 @@
-UngTanzFdrei = \new Voice \relative c' {
-\compressFullBarRests
-r8 a\mf r a 
-r8 a r a 
-r8 b r a 
-r8 a r a 
-r8 a r a 
-r8 a r a 
-r8 gis r gis 
-r8 c r c 
-r8 c\f r c 
-r8 c r c 
-r8 f r f
-r8 c r c
-r8 f\p r e 
-r8 d r c 
-r8 b r b 
-a8-.\< c-. a->\! r \bar"||"
-r8 c\f r c  
-r8 c r c 
-r8 d r d 
-e8-- e-. r e 
-r8 f r f 
-r8 e r e 
-r8 d r d 
-r8 e r e 
-r8 a,\< r c \!
-r8 e\f r e 
-r8 f r f 
-a8-- e-. r e 
-c8-.\p f-. b,-. e-. 
-a,8-. d-. g,-. c-. 
-e,8-. b'-. e,-. b'-. 
-c4\<(c'8->) \!r 
+BeruehmtesMenuettdrei = \new Voice \relative c' {
 \repeat volta 2{
-r8 cis,_\markup{\dynamic f\italic marcato} r cis 
-r8 cis r cis 
-r8 f r f 
-r8 f r f 
-r8 f r f 
-r8 f r f 
-r8 e r e 
-r8 e r e 
-r8 e_\markup{\dynamic p\italic rit.} r e 
-r8 e r e 
-r8 f r f 
-r8 f r f 
-b8->_\markup{\dynamic ff \italic{a tempo}} r r8. e,16
-fis8-. r gis-. r 
-c8-. c4-> gis16 (a) 
-d4 (c8-.) r 
-}
-\key a \major \repeat volta 2{
-a,2->^\markup{Vivace}
-a2->
-r8 e'-. r e-. 
-a,2->
-a2->
-r8 cis-. r cis-. 
+\partial 4 r4 
+c8-.->\p e-.\< g-. e-. g-. e-.
+g,8-.\> b-. d-. b-. d-. b-.\! 
+g8-.\< b-. f'-. b,-. d-. b-.
+c8-.\> e-. g-. e-. a-. e-.\!
+d8-. a'-. c-. a-. e'-. a,-.
+d,8-. a'-. c-. a-. fis'-.\mf a,-.
+g8-. r c,-. r d4
+g8-. r r4\noBreak}
+\repeat volta 2{
+c,8->\f (g) 
+b8-> (g-.) g-. g-. c-> (g) 
+f'8-> (g,-.) b-. g-. c-> (g) 
+b8-> (g-.) b-. g-. c-> (g) 
+f'8-> (g,-.) b-. g-. r4  
+c8-.\< e-. g-. e-. g-. e-.\!
+g,8-.\> b-. d-. b-. d-. b-.\! 
+g8-.\<b-. f'-. b,-. d-. b-.\! 
+c8-.\> e-. g-. e-. a-. f-.\! 
+g,8-. d'-. f-. d-. b-. d-. 
+g,8-. d'-. f-. d-. b-.\mf d-. 
+c8-. e-. f-. d-. g,4
+c8-. r ^\markup{Fine}r4 \noBreak}
+\repeat volta 2{\key f \major
+r4^\markup{Trio} 
+r2.
+c4\mf c c 
+c8-.  \<c4 c \! c8-.
+f8-.\f r r4 f,8-. r
+r2.
+f'4\p\< f f 
+e8 (e,) \mf f4 g
+c8-. g'-. c,-- r
 }
 \repeat volta 2{
-r8 e->_\markup{\italic rit.} r fis->
-r8 e-> r e->
-cis'8-._\markup{\italic {a tempo}} cis-. d-. d-. 
-e8 (a,) e r 
-r8 e->_\markup{\italic rit.} r fis->
-r8 b-> r a->
-e'8-._\markup{\italic {a tempo}} d-. cis-. b-. 
-cis8-. a-. e-. r 
+c8\f (d
+e8-.) e4 (f8) c (d
+e8-.) e4 (f8) c (d  
+e8-.)\< f-. g-.\> f-. e-. d-. 
+e16.\! (d32 e16 f e8) a (c, d  
+e8-.) e4 (f8) c (d
+e8-.) e4 (f8) c (d
+e8-.)\< f-. g-. \> f-. a16 (g f e) 
+f8. \! (g16 a4) r
+r2.
+c,4\mf c c 
+c8-.\< c4 c c8-.\!
+f8-.\f r r4 r 
+r2.
+bes,4\mf bes4 bes
+a4 bes c 
+f8-. c-. f, r 
 }
-\key c \major 
-r8^\markup{Allegro} c\f r c 
-r8 c r c
-r8 d r d 
-r8 c r c 
-r8 a r a 
-r8 a r a 
-r8 gis r d'
-r8 c r c 
-r8 a\< r c \!
-r8 e\f r e 
-r8 f r f
-a8-- e-. r e
-c8-.\p f-. b,-. e-. 
-a,8-. d-. g,-. c-. 
-e,8-. b'-. e,-. b'-. 
-c4 \< (c'8->)\! r 
-\repeat volta 2{
-r8 cis,_\markup{\dynamic f\italic marcato} r cis 
-r8 cis r cis 
-r8 f r f 
-r8 f r f 
-r8 f r f 
-r8 f r f 
-r8 e r e 
-r8 e r e 
-r8 e_\markup{\dynamic p\italic rit.} r e 
-r8 e r e 
-r8 f r f 
-r8 f r f 
-b8->_\markup{\dynamic ff\italic {a tempo}} r r8. e,16
-fis8-. r gis-. r 
-c8-. c4-> gis16 (a) 
-d4 (c8-.) r 
-}
-d8->\ff r d-> r 
-c8-> r r4
-\bar "|."
+\bar"||"
+ \cadenzaOn 
+\stopStaff 
+\once \override TextScript #'word-space = #1.5
+\once \override TextScript #'X-offset = #1
+\once \override TextScript #'Y-offset = #-1
+| s2.*1^\markup { \center-column { "D.C. al Fine" } }  
 }
