@@ -180,6 +180,6 @@ f2
 ~f4 e~
 e8 r r4 
 R2*3
-f'2\pp~
-e2\fermata \bar"|."
+f'2\pp(
+e2)\fermata \bar"|."
 }
