@@ -54,7 +54,7 @@ g8-.\mf g4 g g8-.
 a8 (c) c (bes) a (g) 
 f4~f8 r
 }
-\bar"||"
+% \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

@@ -31,7 +31,7 @@ e2.
 \repeat volta 2{
 a2.\p ~
 a4 bes,4---. a---.
-cis2.
+cis2.\<
 (a4) bes---. a---.
 g'4---.\mf e2
 c4---. cis---. bes---.

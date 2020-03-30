@@ -14,23 +14,24 @@ g4) r c2
 (c2 a ) \bar"||"
 }
 zweiEins = \new Voice \relative c' {
-b1(
+b1( \pp
 b1
 d1
 d1)
 b1(
 b1
 g'1
-dis1)
-b'1(
-b1
+b1)
+e1( %b1(
+e1
 d1
 d1)
 b1(
 b1
 g1
-dis'1) \bar "||"
-r4 e8 e ~e4 e 
+dis1) \bar "||"}
+zweiInterludeeins= \new Voice \relative c'' {
+r4 e8\mf e ~e4 e 
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 e1
@@ -38,32 +39,8 @@ r4 e'8 e ~e4 e
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 b1 \bar "||"
-r1 
-r1
-r1
-r1
-r1 
-r1
-r1
-r1
-r1 
-r1
-r1
-r1 
-r1
-r1
-r1 \bar"||"
 }
 zweiZwei = \new Voice \relative c'' {
-% R1*16
-% r4 e8 e ~e4 e 
-% e4. d8~d4 c
-% b4. a8 ~a4 g
-% e1 
-% r4 e'8 e ~e4 e 
-% e4. d8~d4 c
-% \acciaccatura{bes16} b4. a8 ~a4 g
-% b1 
 g1 
 (g2.) r4 
 fis1
@@ -78,10 +55,55 @@ d2. d4--
 e1
 a,2. r4 
 g1 
-~g2 r4 a8 (b) 
+~g2. r4 \bar"||"
+%
+b,1( \pp
+b1
+d1
+d1)
+b1(
+b1
+g'1
+fis1)
+e'1( %b1(
+e1
+d1
+d1)
+b1(
+b1
+g1
+dis1) 
 }
 
-zweiInterlude = \new Voice \relative c'' {
+zweiInterludezwei = \new Voice \relative c'' {
+r4 e8 e ~e4 e 
+e4. d8 ~d4 c4
+b4. a8 ~a4 g 
+e1
+r4 e'8 e ~e4 e 
+e4. d8 ~d4 c4
+b4. a8 ~a4 g 
+b1 \bar "||"
+}
+zweiDrei = \new Voice \relative c'' {
+g1 
+(g2.) r4 
+fis1
+(e4) ~e8 e ~e e4.  
+g1
+(g2.) r4 
+fis1 
+(g4) g8~g g4 g
+c2. r4 
+e2. e4--
+d2. d4-- 
+e1
+a,2. r4 
+g1 
+~g2 r4 a8 b \bar"||"
+}
+
+zweiInterludedrei = \new Voice \relative c'' {
 c2 (d 
 \acciaccatura {dis16} e2.) d8 (c
 b2 ) c4 b 
@@ -141,5 +163,5 @@ d,8 e f a d, e f a
 d,8 e f a d, e f a 
 a,8 b c e a, b c e  
 a,8 b c e a, b c e 
-r1 \bar"|."
+r1\fermata \bar"|."
 }

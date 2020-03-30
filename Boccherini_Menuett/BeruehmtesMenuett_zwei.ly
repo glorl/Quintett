@@ -53,7 +53,7 @@ e8-.\mf e4 e e8-.
 f8 (a) a (g) f (e) 
 a,4~a8 r
 }
-\bar"||"
+% \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

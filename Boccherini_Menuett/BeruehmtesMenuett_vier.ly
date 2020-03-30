@@ -53,7 +53,7 @@ c4\mf c4 c
 c4 d c 
 c4~c8 r
 }
-\bar"||"
+% \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

@@ -53,7 +53,7 @@ bes,4\mf bes4 bes
 a4 bes c 
 f8-. c-. f, r 
 }
-\bar"||"
+% \bar"||"
  \cadenzaOn 
 \stopStaff 
 \once \override TextScript #'word-space = #1.5

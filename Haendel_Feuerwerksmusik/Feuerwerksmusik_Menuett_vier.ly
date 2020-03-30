@@ -32,7 +32,7 @@ a4-- cis,8 (d) e cis
 \repeat volta 2{
 a'2.\p ~
 a4---. g---. a---. 
-cis,2. (
+cis,2.\< (
 a4--) d---. a---. 
 g4---.\mf a2
 f4---. a---. d---.

@@ -1,35 +1,75 @@
 vierIntro = \new Voice \relative c' {
 \compressFullBarRests
-R1*6
-g2.\p r4
+e2.\mf\< a4 ~
+a4 (g) g2 
+a2\! a4 (g 
+b1) \>
+a4 (g) g2(\! 
+a1) 
+g,2.\p r4
 r2 e'2
 R1*4
-b1\pp\< (
-b2\p g'2 
-~g2 a2)
-b,1 (
-b2 g'2 
-~g2 a2)
+e2.\pp a4 ~
+a4 (g) e2 
+a2 a4 g 
+b1 
+a4 g g2 
+a1 
 }
 vierEins = \new Voice \relative c'{
-e1(
+e1( \p
 e1
 g1
-a1)
+fis1)
 e1(
 e1
 d1
-b'1) 
-e,1(
-e1
+b1) 
+b1(
+b1
 g1
 a1)
-e1(
+e'1(
 e1
 d1
-b'1) \bar"||"
+b1) \bar"||"
 }
-vierZwei = \new Voice \relative c'' {
+vierInterludeeins  = \new Voice \relative c'{
+R1*8
+}
+vierZwei = \new Voice \relative c' {
+e1
+c'1
+d1
+a1
+e1
+c'1
+d1
+a1
+f1
+c'1
+g1
+a1
+f1
+c'1 
+d1
+% 
+e,1( \p
+e1
+g1
+fis1)
+e1(
+e1
+d1
+r1) 
+b1(
+b1
+g1
+a1)
+e'1(
+e1
+d1
+b1)
 % e8 b' g' b e b g b,
 % e, b' g' b e b g b,
 % g b g' d' g d g, b,
@@ -54,25 +94,28 @@ vierZwei = \new Voice \relative c'' {
 % ~g1
 % b1
 % a1
-e,8 b' g b e b g b,
-c8 e g c, e g e4
-d8 a d e d c d a
-c8 e a e c e a4
-e8 b' g b e b g b,
-c8 e g e c' g e c
-d8 a d e d a d a
-a8 e' a e c e a e
-f8 a f a c a f4
-c8 e g c g e c4
-g8 b d g d' g, b,4
-a8 e' a e c' a e4
-f8 c f a c, f a f 
-c8 e g4 c8 g e c
-g8 b g d'~d4 r4
 \bar"||"
 }
  
-vierInterlude = \new Voice \relative c' {
+vierInterludezwei = \new Voice \relative c' {
+R1*8}
+vierDrei = \new Voice \relative c' {
+e1
+c'1
+d1
+a1
+e1
+c'1
+d1
+a1
+f1
+c'1
+g1
+a1
+f1
+c'1 
+d1}
+vierInterludedrei = \new Voice \relative c' {
 R1*7
 e,8-> b' g b-> e b g-> b 
 g-> b e g-> c, e g-> c,
@@ -137,5 +180,5 @@ a,8 r r a r4 a8 r
 r8 a r4 a8 r8 a8 r 
 a8 r r a r4 a8 r 
 r8 a r4 a8 r8 a8 r 
-r1 \bar"|."
+r1 \fermata \bar"|."
 }
