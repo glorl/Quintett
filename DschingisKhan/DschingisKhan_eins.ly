@@ -56,13 +56,13 @@ e8 e d c ~c2
 d4 d d d 
 e4 d c b 
 a1~
-a2 r4 r8 e'8 \bar"||"
+a2 r4 r8 e8 \bar"||"
 e8 (d) d (c) c(b) b(a) 
-a8 (e4) e4 e8 (a g) 
-r1
-r2 r4 r8 e'8 
+a8 r4 r r8 a8 ( g) 
+r2 \xNote {c'4_"Hu"} r
+\xNote {c4_"ha"} r r4 r8 e,
 e8 (d) d (c) c(b) b(a) 
-a8 (e4) e4 e8 (a g) 
+a8 r4 r r8 a (g) 
 r1
 r2 r4 r8 e'8
 f8 (e) e (d) d (a) r4 
@@ -71,9 +71,9 @@ e8 (d) d (c) c (a) r4
 e'8 e (d c) r2
 d8 d4. d4 d 
 c4 b a c 
-e1~
-e4 r r2 \bar"||"
-a,4 r a r 
+a1~
+a4 a r a \bar"||"
+a4 r a r 
 a4 c8 e8~e2 
 e4 d8 c e4 d8 c 
 e4 d8 c e4 d8 c 
@@ -104,5 +104,5 @@ e8 e d c ~c2
 d4 d d d 
 e4 d c b 
 a1~
-a4 r r2 \bar"|."
+a2. r4 \bar"|."
 }

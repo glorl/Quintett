@@ -1,4 +1,4 @@
-DschingisBass = \new Voice \relative c{
+DschingisBass = \new Voice \relative c'{
 a4 e a e 
 a4 e a e 
 c'4 g c g 
@@ -59,8 +59,8 @@ a4 e a e
 a4 e a e \bar"||"
 a4 e a e 
 a4 e a e 
-g4 c g c 
-g4 c g c 
+g4 r \xNote {c'4_"Hu"} r
+\xNote {c4_"ha"} r g, c 
 a4 e a e 
 a4 e a e 
 g4 c g c 
@@ -72,8 +72,8 @@ c4 e c e
 b4 d b d 
 dis4 dis dis dis 
 r4 e r e
-r4 e r e \bar"||"
-a,4 e a e 
+r4 dis r dis \bar"||"
+a4 e a e 
 a4 e a e 
 c'4 g c g 
 c4 g c g 

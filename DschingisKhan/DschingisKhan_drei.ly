@@ -1,8 +1,7 @@
 DschingisDrei = \new Voice \relative c''{
 r4 a' r a
 r4 a r a
-r1
-r1
+R1*2
 a,8 a r4 a8 a r4
 a8 a r4 a8 a r4
 g'1
@@ -30,33 +29,32 @@ r4 a r a
 r1
 r1
 a,8 a r4 a8 a r4
-a8 a r4 a8 a r4
-g'1
+a8 a r4 g8 (a c e
 g1
-r1
-r1
-r1
-r1
-r1
-r1
-r1
+g1)
+r4 f r f 
+r4 f r f 
+r4 c r c 
+r4 c r c 
+r4 d r d 
+r4 a r a 
+r4 e r e
 r1
 r4 a r a
 r4 a r a
-r1
-r1
+R1*2
 a,8 a r4 a8 a r4
 a8 a r4 a8 a r4
 g'1
 g1
+r4 f r f 
+r4 f r f 
+r4 c r c 
+r4 c r c 
 r1
 r1
-r1
-r1
-r1
-r1
-r1
-r2 r4 r8 e8 \bar"||"
+c1~
+c2~ c4 r8 e'8 \bar"||"
 e8 (d) d (c) c(b) b(a) 
 a8 (e4) e4 e8 (a g) 
 r1
@@ -72,8 +70,8 @@ e'8 e (d c) r2
 d8 d4. d4 d 
 c4 b a c 
 e1~
-e4 r r2 \bar"||"
-a,4 r a r 
+e4 dis r dis \bar"||"
+a4 r a r 
 a4 c8 e8~e2 
 e4 d8 c e4 d8 c 
 e4 d8 c e4 d8 c 
@@ -104,5 +102,5 @@ e8 e d c ~c2
 d4 d d d 
 e4 d c b 
 a1~
-a4 r r2 \bar"|."
+a2. r4 \bar"|."
 }
