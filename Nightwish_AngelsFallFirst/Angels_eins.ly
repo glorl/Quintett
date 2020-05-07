@@ -55,8 +55,23 @@ g1
 c2. r4 
 c1
 (b2) r 
-R1*16
-}
+% R1*16
+e,,8\pp b' g r g' e b g'
+e8 b g b g' e b g'
+e8 b g d' g r d g
+a,8 d a r g'4 fis4
+e4 g g8 e b g'
+e8 b8 g' r g e b4
+g8 b g d' g d g r
+r8 fis, b es fis es b fis
+r4 r8 b g' e b r
+e8 b g'4 e8 b g r
+g8 b g d' g d g, b
+a8 d a r g'4 fis
+e4 b8 e g e b r
+r8 e b e g e b g 
+r8 b g d'  g d g r
+b,8 fis b es fis es b fis}
 
 einsInterludezwei = \new Voice \relative c'{
 e1\mp

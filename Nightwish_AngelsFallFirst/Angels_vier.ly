@@ -115,15 +115,21 @@ a1
 f1
 c'1 
 d1}
-vierInterludedrei = \new Voice \relative c' {
+vierInterludedrei = \new Voice \relative c {
 R1*7
-e,8-> b' g b-> e b g-> b 
-g-> b e g-> c, e g-> c,
-e-> c' g c, a-> e' a d,
-e8 b g'8 b e b g b, 
+e8 b' g'8 b e b g b, 
 g b e g c, e g c
-e c g c, a e' a d
-e,1
+e c g c, a e' a d,
+e,8 b' g'8 b e b g b, 
+g b e g c, e g c
+e c g c, a e' a d,
+% e,8-> b' g b-> e b g-> b 
+% g-> b e g-> c, e g-> c,
+% e-> c a c a-> e' b d
+% e8-> b g b-> e b g-> b 
+% g b e g c, e g c,
+% e-> c a c a e' a d,
+e1
 b'1
 a1
 e1
