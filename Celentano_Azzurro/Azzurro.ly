@@ -1,6 +1,6 @@
 global= {
 \time 4/4
-\key c \major
+\key as \major
 \compressFullBarRests
 }
 \include "../Celentano_Azzurro/Azzurro_v1.ly"
