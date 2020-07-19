@@ -1,4 +1,4 @@
-dreiIntro = \new Voice \relative c' {
+Angelsdrei = \new Voice \relative c' {
 \compressFullBarRests
 r1 % e4-.( r e-.) r % e1 (\pp
 r2 e(\pp % g,4-.( r c-.) r % g,2 c
@@ -18,9 +18,7 @@ d2\p e2
 e1 (
 d2 e2
 ~e2 d2) \bar"||"
-}
-dreiEins = \new Voice \relative c' {
-g1 \p
+g,1 \p
 (g1
 b1
 fis1)
@@ -35,11 +33,8 @@ fis1)
 g1 (
 g1
 b1 
-b1) }
-dreiInterludeeins  = \new Voice \relative c'{
-R1*8
-}
-dreiZwei = \new Voice \relative c'' {
+b1) \bar"||"
+R1*8 \bar"||"
 r4 g e' g,
 r4 g e' e, 
 r4 d' d d, 
@@ -71,13 +66,8 @@ fis1)
 g1 (
 g1
 b1 
-b1)
-}
-
-dreiInterludezwei = \new Voice \relative c'' {
-R1*8
-}
-dreiDrei = \new Voice \relative c'' {
+b1)\bar"||"
+R1*8\bar"||"
 r4 g e' g,
 r4 g e' e, 
 r4 d' d d, 
@@ -92,9 +82,8 @@ r4 g g' g,
 r4 a c a 
 r4 f c' a, 
 r4 g' c e 
-r4 g, g r }
-dreiInterludedrei = \new Voice \relative c'' {
-a'4-- g-- f-- e--
+r4 g, g r \bar"||"
+a'4--\p g-- f-- e--
 c4-- b-- a2
 g4 a g b 
 a-- b-- c-- r 
@@ -103,9 +92,7 @@ c4-- b-- a2
 g4 a g b 
 e1 
 R1*11 \bar"||"
-}
-dreiCoda = \new Voice \relative c' {
-e1
+e,1
 ~e1
 b1 
 ~b1

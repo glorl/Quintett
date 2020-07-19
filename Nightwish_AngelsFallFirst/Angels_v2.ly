@@ -1,12 +1,8 @@
-vocalzweiIntro = \new Voice \relative c'' {
+AngelsvocalZwei = \new Voice="SoloZwei" \relative c'' {
 \compressFullBarRests
 R1*18\bar"||"
-}
-vocalzweiEins=\new Voice \relative c'' {
-R1*16}
-vocalzweiInterludeeins= \new Voice \relative c'' {
-R1*8}
-vocalzweiZwei=\new Voice="ZweiZwei" \relative c'' {
+R1*16\bar"||"
+R1*8\bar"||"
 R1*4
 r4 b8 a8 ~a4 g
 e2. r4
@@ -19,13 +15,8 @@ c4. b8( ~b4 c4)
 a2 r4 c8 (d)
 e4. d8 ~d4 c4
 b1\bar "||"
-R1*16
-}
-
-vocalzweiInterludezwei=\new Voice \relative c'' {
+R1*16\bar "||"
 R1*8 \bar"||"
-}
-vocalzweiDrei=\new Voice="ZweiDrei" \relative c'' {
 R1*4
 r4 b8 a8 ~a4 g
 e2. r4
@@ -38,12 +29,7 @@ e4. d8 (~d4 e4 )
 c2 r4 c8 (d)
 e4. d8 ~d4 c4
 b1\bar "||"
-}
-
-vocalzweiInterludedrei=\new Voice \relative c'' {
 R1*19 \bar"||"
-}
-vocalzweiCoda=\new Voice="ZweiCoda" \relative c'' {
 R1*24
 r2 a 
 a2. a4
@@ -62,17 +48,13 @@ Tears of love, tears of fear
 Bu- ry my dreams, dig up my sor- rows
 Oh, Lord why
 the an- gels fall first
-}
 
-ZlyDrei = \lyricmode{
 Tears laid for them
 Tears of love, tears of fear
 Bu- ry my dreams, dig up my sor- rows
 Oh, Lord why
 the an- gels fall first
-}
 
-ZlyCoda = \lyricmode{
 To- day a moon- beam ligh- tens my path
 My guar- di- an
 }

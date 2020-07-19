@@ -1,4 +1,4 @@
-vierIntro = \new Voice \relative c' {
+Angelsvier = \new Voice \relative c' {
 \compressFullBarRests
 e2.\mf\< a4 ~
 a4 (g) g2 
@@ -14,9 +14,7 @@ a4 (g) e2
 a2 a4 g 
 b1 
 a4 g g2 
-a1 
-}
-vierEins = \new Voice \relative c'{
+a1 \bar"||"
 e1( \p
 e1
 g1
@@ -33,11 +31,7 @@ e'1(
 e1
 d1
 b1) \bar"||"
-}
-vierInterludeeins  = \new Voice \relative c'{
 R1*8
-}
-vierZwei = \new Voice \relative c' {
 e1
 c'1
 d1
@@ -60,8 +54,8 @@ g1
 fis1)
 e1(
 e1
-d1
-r1) 
+d1)
+r1 
 b1(
 b1
 g1
@@ -95,11 +89,7 @@ b1)
 % b1
 % a1
 \bar"||"
-}
- 
-vierInterludezwei = \new Voice \relative c' {
-R1*8}
-vierDrei = \new Voice \relative c' {
+R1*8\bar"||"
 e1
 c'1
 d1
@@ -114,31 +104,28 @@ g1
 a1
 f1
 c'1 
-d1}
-vierInterludedrei = \new Voice \relative c {
+d1\bar"||"
 R1*7
-e8 b' g'8 b e b g b, 
-g b e g c, e g c
-e c g c, a e' a d,
-e,8 b' g'8 b e b g b, 
-g b e g c, e g c
-e c g c, a e' a d,
+e,,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b,
+e,8 b' g b e b g e
+g b e b c e g c,
+e c a c a e' a b
 % e,8-> b' g b-> e b g-> b 
 % g-> b e g-> c, e g-> c,
 % e-> c a c a-> e' b d
 % e8-> b g b-> e b g-> b 
 % g b e g c, e g c,
 % e-> c a c a e' a d,
-e1
+e,1
 b'1
 a1
 e1
 b'1
 a1
 \bar"||"
-}
-vierCoda = \new Voice \relative c' {
-c1
+c,1
 ~c1
 g1
 ~g1

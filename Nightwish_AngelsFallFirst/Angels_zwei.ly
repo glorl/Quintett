@@ -1,4 +1,4 @@
-zweiIntro = \new Voice \relative c' {
+Angelszwei = \new Voice \relative c' {
 \compressFullBarRests
 R1*4
 r2 \acciaccatura {e8\pp} g2 \>
@@ -12,9 +12,7 @@ g2\p ) c
 g1 (
 g4) r c2
 (c2 a ) \bar"||"
-}
-zweiEins = \new Voice \relative c' {
-b1( \pp
+b,1( \pp
 b1
 d1
 d1)
@@ -29,9 +27,8 @@ d1)
 b1(
 b1
 g1
-dis1) \bar "||"}
-zweiInterludeeins= \new Voice \relative c'' {
-r4 e8\mf e ~e4 e 
+dis1) \bar "||"
+r4 e'8\mf e ~e4 e 
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 e1
@@ -39,8 +36,6 @@ r4 e'8 e ~e4 e
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 b1 \bar "||"
-}
-zweiZwei = \new Voice \relative c'' {
 g1 
 (g2.) r4 
 fis1
@@ -72,11 +67,8 @@ d1)
 b1(
 b1
 g1
-dis1) 
-}
-
-zweiInterludezwei = \new Voice \relative c'' {
-r4 e8 e ~e4 e 
+dis1) \bar"||"
+r4 e'8 e ~e4 e 
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 e1
@@ -84,8 +76,6 @@ r4 e'8 e ~e4 e
 e4. d8 ~d4 c4
 b4. a8 ~a4 g 
 b1 \bar "||"
-}
-zweiDrei = \new Voice \relative c'' {
 g1 
 (g2.) r4 
 fis1
@@ -101,9 +91,6 @@ e1
 a,2. r4 
 g1 
 ~g2 r4 a8 b \bar"||"
-}
-
-zweiInterludedrei = \new Voice \relative c'' {
 c2 (d 
 \acciaccatura {dis16} e2.) d8 (c
 b2 ) c4 b 
@@ -119,11 +106,8 @@ r8 \tuplet 3/2 {g16 (b e} fis8 g fis e d) r
 e8-- e--  e-- fis ~fis g (b,4
 ~b4.) b16 (c d8 \tuplet 3/2 {b16 c b } b8 g 
 a1) \bar"||"
-}
-
-zweiCoda = \new Voice \relative c'' {
 R1*8
-a,8 b c e a, b c e  
+a8 b c e a, b c e  
 a,8 b c e a, b c e
 e8 fis g b e, fis g b
 e,8 fis g b e, fis g b

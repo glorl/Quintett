@@ -4,8 +4,7 @@ global= {
 }
 
 \header {
-    title = "Angels Fall First"
-	composer = "Nightwish"
+	composer = ""
 	tagline = ""
 	piece = "Adagio" 
 }

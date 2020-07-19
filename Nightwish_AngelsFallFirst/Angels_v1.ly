@@ -1,8 +1,6 @@
-vocaleinsIntro = \new Voice \relative c'' {
+AngelsvocalEins = \new Voice="SoloEins" \relative c'' {
 \compressFullBarRests
 R1*18 \bar"||"
-}
-vocaleinsEins=\new Voice="SoloEins" \relative c'' {
 r4 b8 b~ b4 b4
 b4. a8 ~a4 g8 b
 ~b4 r b8 b4 b8 
@@ -18,12 +16,9 @@ a4. g8~g8 fis4 g8
 ~g8r8 b8 b~b4 b
 b4 b8 a8 ~a4 g
 b4. (a8 ~a4 g)
-fis2. r4 }
-vocaleinsInterludeeins= \new Voice \relative c'' {
+fis2. r4 
 R1*8 
 \bar "||"
-}
-vocaleinsZwei=\new Voice="SoloZwei" \relative c'' {
 b2 a8 g4 e8
 ~e2. g8 g 
 fis4 fis8 g8 ~g4 a
@@ -50,14 +45,8 @@ r2 b2
 b4 b a g 
 b4. c8 ~c4 d 
 a1 \bar"||"
-}
-
-vocaleinsInterludezwei=\new Voice \relative c''{
 R1*8
 \bar"||" 
-}
-
-vocaleinsDrei=\new Voice="SoloDrei" \relative c''{
 b2 a8 g4 e8
 ~e2. g8 g 
 fis4 fis8 g8 ~g4 a
@@ -73,18 +62,10 @@ c4. b8( ~b4 c4 )
 a2 r4 e'8 (f )
 g4. f8 ~f4 e
 d1 \bar"||"
-}
-
-vocaleinsInterludedrei=\new Voice \relative c''{
-R1*19
-\bar"||" 
-}
-
-vocaleinsInterlude = \new Voice \relative c'{
+% R1*19
+% \bar"||" 
 R1*19 \bar"||"
-}
-vocaleinsCoda = \new Voice="SoloCoda" \relative c'{
-r2 a
+r2 a,
 a2. a4
 e'1 
 ~e4 r e e 
@@ -126,8 +107,7 @@ That smile used to give me warmth
 Fare- well no words to say
 be- side the cross on your grave
 and those for- e- ver bur- ning can- dles
-}
-SlyZwei = \lyricmode{
+
 Need- ed else- where
 to re- mind us of the short- ness of our time
 the an- gels fall first
@@ -135,16 +115,13 @@ Not re- lieved by thougts of Shang- ri- La
 Nor en- light- ened by les- sons of Christ
 I'll ne- ver un- der- stand the mea- ning of the right
 Ig- nor- ance lead me in- to the light
-}
-SlyDrei = \lyricmode{
+
 Need- ed else- where
 to re- mind us of the short- ness of our time
 Bu- ry my dreams, dig up my sor- rows
 Oh, Lord why
 the an- gels fall first
-}
 
-SlyCoda = \lyricmode{
 Sing me a song
 of your beau- ty
 of your king- dom
