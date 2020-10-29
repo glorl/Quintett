@@ -98,7 +98,8 @@ ces8 r r g r r
 JaktensTidvier = \new Voice \relative c'{
 %%% erste 2 Takte 
 \compressFullBarRests
-R1*2 ^\markup{Bakom Varje Fura}
+r1 ^\markup{Andantino (\bold{Behind Every Pine})}
+r1
 %%% Thema 1 
 e8->\p r r4 r2
 e,8-> r r4 r2
@@ -122,10 +123,10 @@ a1\mp
 (g1
 a1
 g1)
-% a1
-% (g1
-% a1
-% g1)
+a1
+(g1
+a1
+g1)
 %%% Thema 2 
 a1
 (g1
@@ -185,7 +186,7 @@ f'8-> r r4 f,8-> r r4
 e'8-> r r4 r2
 % Coda
 e,8-^\f r r4 a8-^ r r4 
-e'2\fermata r \bar"||"
+e'2\fermata r \bar"|."
 }
 
 

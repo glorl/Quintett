@@ -179,7 +179,8 @@ as2.
 
 JaktensTideins = \new Voice \relative c'' {
 \compressFullBarRests
-R1*2^\markup{Bakom Varje Fura}
+r1^\markup{Andantino (\bold{Behind Every Pine})}
+r1
 %%% Thema1 
 a8-> \p r r4 r2
 a8-> r r4 r2
@@ -199,7 +200,7 @@ r8 cis-. cis-. cis-. c (cis-.) cis-. r
 e,4 (\<ais e' f \!
 e1)
 %%% Übergang 
-R1*4
+R1*8
 %%% Thema 2
 e,16\mp (f e d) e8 c a (c) e a
 g8 (fis) e d e2
@@ -258,7 +259,7 @@ ais8-> r r4 ais8-> r r4
 a!8-> r r4 r2
 % Coda
 a8-^\f r r4 c8-^ r r4 
-a2\fermata r \bar"||"
+a2\fermata r \bar"|."
 }
 
 % % new version

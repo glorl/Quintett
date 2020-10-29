@@ -123,7 +123,7 @@ as,8 ces es g es ces
 JaktensTidzwei = \new Voice \relative c'' {
 \set countPercentRepeats = ##t
 \compressFullBarRests
-a8\p^\markup{Bakom Varje Fura} e'-. e-. e-. e-. e-. e-. e-.
+a8\p^\markup{Andantino (\bold{Behind Every Pine})} e'-. e-. e-. e-. e-. e-. e-.
 a,,8 e'-. e-. e-. e-. e-. e-. r 
 %%% Thema1 
 c'8 e-. e-. e-. dis (e-.) e-. r
@@ -147,6 +147,10 @@ c'8 e-. e-. e-. dis (e-.) e-. r
 r8 c,8^\markup{\bold 1}\mp r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 
 r8 c8^\markup{\bold 2} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 3} r8 c8 r8 c8 r8 c8 
+r8 b8 r8 b8 r8 b8 r8 b8 
+r8 c8^\markup{\bold 4} r8 c8 r8 c8 r8 c8 
 r8 b8 r8 b8 r8 b8 r8 b8 
 % r8 c8 r8 c8 r8 c8 r8 c8 
 % r8 b8 r8 b8 r8 b8 r8 b8 
@@ -209,7 +213,7 @@ cis'8 f-. f-. r cis,8-. f-. f-. r
 c'8 e-. e-. e-. dis (e-.) e-. r 
 % Coda
 c,8-^\f r r4 e8-^ r r4 
-c2\fermata r \bar"||"
+c2\fermata r \bar"|."
 }
 
 zweiTomheteins=\relative c''{

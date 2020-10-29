@@ -1,20 +1,20 @@
 AzzurroBass = \new Voice \relative c{
-bes4 bes f f 
-bes4 bes f f 
-bes4 bes f f 
-bes8. bes16 bes4 bes16 bes bes bes bes8 r \bar"||"
-bes4 bes f f 
-bes4 bes f f 
-bes4 bes f f 
-bes4 bes f f 
-es'4 es bes bes 
-es4 es bes bes 
-es4 es bes bes 
-es4 es bes bes 
-bes4 bes c f,
-d'4 d g, g 
-c4 c f, f 
-bes4 f bes r \bar"||"
+% bes4 bes f f 
+% bes4 bes f f 
+% bes4 bes f f 
+% bes8. bes16 bes4 bes16 bes bes bes bes8 r \bar"||"
+% bes4 bes f f 
+% bes4 bes f f 
+% bes4 bes f f 
+% bes4 bes f f 
+% es'4 es bes bes 
+% es4 es bes bes 
+% es4 es bes bes 
+% es4 es bes bes 
+% bes4 bes c f,
+% d'4 d g, g 
+% c4 c f, f 
+% bes4 f bes r \bar"||"
 bes4 f bes f 
 bes4 f c' e, 
 c'4 f, c' f,

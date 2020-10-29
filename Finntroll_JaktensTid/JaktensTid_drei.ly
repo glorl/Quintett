@@ -132,7 +132,7 @@ r8 r bes r r bes
 
 JaktensTiddrei = \new Voice \relative c''{
 \set countPercentRepeats = ##t
-r8^\markup{Bakom Varje Fura} c-.\p c-. c-. c-. c-. c-. c-. 
+r8^\markup{Andantino (\bold{Behind Every Pine})} c-.\p c-. c-. c-. c-. c-. c-. 
 r8 c,-. c-. c-. c-. c-. c-. \tuplet 3/2 {e,16 (fis gis}
 %%% Thema 1 
 a8) c-. c-. c-. b (c-.) c-. \tuplet 3/2 {e,16 (fis gis}
@@ -156,6 +156,10 @@ a8) c-. c-. c-. b (c-.) c-. r
 r8 a8^\markup{\bold 1}\mp r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8 
 r8 a8^\markup{\bold 2} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 3} r8 a8 r8 a8 r8 a8 
+r8 g8 r8 g8 r8 g8 r8 g8 
+r8 a8^\markup{\bold 4} r8 a8 r8 a8 r8 a8 
 r8 g8 r8 g8 r8 g8 r8 g8 
 % r8 a8 r8 a8 r8 a8 r8 a8 
 % r8 g8 r8 g8 r8 g8 r8 g8 
@@ -218,7 +222,7 @@ ais8) cis-. cis-. \tuplet 3/2 {f,16 (g a} ais8) cis-. cis-. \tuplet 3/2 {e,16 (f
 a8) c-. c-. c-. b (c) c-. r
 % Coda
 a8-^\f r r4 c8-^ r r4 
-a2\fermata r \bar"||"
+a2\fermata r \bar"|."
 }
 
 

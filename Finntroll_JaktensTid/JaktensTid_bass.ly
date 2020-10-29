@@ -131,7 +131,7 @@ JaktensTidbass = \new Voice \relative c'{
 %%% erste 2 Takte 
 \set countPercentRepeats = ##t
 \compressFullBarRests
-r1 ^\markup{Bakom Varje Fura}
+r1^\markup{Andantino (\bold{Behind Every Pine})}
 r2 r4 r8 \tuplet 3/2 {e,16\p (fis gis}
 %%% Thema 1 
 a8->) r8 r4 r4 r8 \tuplet 3/2 {e16 (fis gis}
@@ -156,8 +156,10 @@ a8^\markup{\bold 1}\mp r c r a r c r
 e,8 r g r e r g r 
 a8^\markup{\bold 2} r c r a r c r
 e,8 r g r e r g r
-% a8 r c r a r c r
-% e,8 r g r e r g r
+a8^\markup{\bold 3} r c r a r c r 
+e,8 r g r e r g r 
+a8^\markup{\bold 4} r c r a r c r
+e,8 r g r e r g r
 %%% Thema 2 
 a8^\markup{\bold 1} r c r a r c r 
 e,8 r g r e r g r 
@@ -217,7 +219,7 @@ ais8->) r8 r8 \tuplet 3/2 {f16 (g a} ais8->) r8 r8 \tuplet 3/2 {e16 (fis gis}
 a8->) r8 r4 r4 r4 
 % Coda
 a8-^\f r r4 c8-^ r r4 
-a2\fermata r \bar"||"
+a2\fermata r \bar"|."
 }
 
 bassTomheteins= \new Voice \relative c{
