@@ -1,4 +1,4 @@
-SirDukeVier = \new Voice \relative c'{
+TomteVier = \new Voice \relative c'{
 \repeat volta 2{
     c4--^\markup{"Intro"}\f e-- g8. c16-^ r4 
 a,8-^ a-^ c16 (b) c8 e16 (dis e) a-^ r4 

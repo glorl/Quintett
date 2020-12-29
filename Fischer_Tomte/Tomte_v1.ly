@@ -1,5 +1,6 @@
 TomteVocal = \new Voice="SoloEins" \relative c'' {
 R1*4
+R1*4
 r4 d8 d a'4 d,4
 c1 
 r4 bes8 bes f'4 bes, 
@@ -21,7 +22,18 @@ fis4. a8 d,4 c
 b4 d g g8 g 
 fis4 a fis8 e d r
 R1
-}
+fis4. a8 d,4 c 
+b4 d g g8 g 
+fis4 a fis8 e d4
+e2. a,8 b 
+c2 d 
+r4 b8 d a'4 g 
+c,4 e d8 c b4 
+a4 d g, a8 b 
+c2 d 
+r4 b8 d a'4 g 
+c,4 e d4 c
+c1 }
 
 SlyEins = \lyricmode{
 Mu- sic is a world with- in it- self
