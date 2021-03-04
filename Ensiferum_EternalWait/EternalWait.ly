@@ -4,6 +4,7 @@ globalEternal= {
 \compressFullBarRests
 }
 
+\include "../Ensiferum_EternalWait/EternalWait_v1.ly"
 \include "../Ensiferum_EternalWait/EternalWait_eins.ly"
 \include "../Ensiferum_EternalWait/EternalWait_zwei.ly"
 \include "../Ensiferum_EternalWait/EternalWait_drei.ly"

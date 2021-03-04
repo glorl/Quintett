@@ -1,4 +1,4 @@
-global= {
+globalAngels= {
 \time 4/4
 \key c \major
 }
@@ -9,8 +9,8 @@ global= {
 	piece = "Adagio" 
 }
 \paper{
-  system-system-spacing #'basic-distance = #13
-  paper-width=#237
+%   system-system-spacing #'basic-distance = #13
+%   paper-width=#237
 %   score-system-spacing =
 %     #'((basic-distance . 12)
 %        (minimum-distance . 6)
