@@ -1,0 +1,65 @@
+\documentclass[oneside]{book}
+\usepackage[paperheight=15.1996in,paperwidth=11.6765in]{geometry}
+% 15.1996in = 302cm --> Schott-Format
+% 11.6765in = 232cm
+\addtolength{\textwidth}{5cm}
+\hoffset = -110pt %-90pt
+% \addtolength{\textheight}{25cm} %2cm}
+\voffset=-3cm %-2cmo
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\huge\bfseries\filcenter}{}{1em}{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\rhead{\large\textbf{\thepage}}
+\chead{Klarinetten in B}
+
+\usepackage{titling}
+
+\begin{document}
+
+\begin{lilypond}
+%     \include "../Haendel_Messias_Halleluja/Halleluja.ly"
+%     \include "../Mozart_Messe_C/MesseC.ly"
+    \include "../Pachelbel_Kanon/Kanon.ly"
+    \include "../Rubin_Mazltow/Mazltow.ly"
+\book{
+
+\bookpart{
+    % Mazltow
+    \header{tagline = ""
+    piece = "Allegro moderato"}
+    \paper{
+        paper-width =#250
+        system-system-spacing.basic-distance = #13
+        short-indent = #-15
+        line-width = #250
+    }
+    \markup {
+        \column{
+        \fill-line {\line{\abs-fontsize #18 { \sans {Beym Zeydn's Tish} }} }
+        \fill-line {\line{\abs-fontsize #16 { \sans {\null} }} }
+        \fill-line {\line {} \line{\abs-fontsize #12 { {J. Rubin} }} }
+        }
+    }
+    \score{
+        \layout{ system-system-spacing = #'((padding . 2) (basic-distance . 0.1)) }
+        \new StaffGroup <<
+        \new Staff << {\globalZeydnI \ZeydnEinsEins }>>
+        \new Staff << {\globalZeydnI \ZeydnEinsBass }>>
+        >>
+        \header {
+            tagline=""
+        }
+    }
+    }
+
+
+}
+\end{lilypond}
+
+
+\end{document}

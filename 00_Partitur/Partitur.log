@@ -1,0 +1,381 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  27 AUG 2023 21:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Partitur.tex
+(./Partitur.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box50
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks18
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip60
+\thanksmargin=\skip61
+\droptitle=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box51
+)
+(./Partitur.aux)
+\openout1 = `Partitur.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(126.58037pt, 590.6998pt, 126.58037pt)
+* v-part:(T,H,B)=(131.81833pt, 768.92921pt, 197.72755pt)
+* \paperwidth=843.86053pt
+* \paperheight=1098.4751pt
+* \textwidth=732.96358pt
+* \textheight=768.92921pt
+* \oddsidemargin=54.31038pt
+* \evensidemargin=54.31038pt
+* \topmargin=29.48085pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=69.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=-110.0pt
+* \voffset=-85.35826pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen152
+\scratchbox=\box52
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen153
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./c7/lily-4b4c5335-systems.tex
+Package epstopdf Info: Source file: <./c7/lily-4b4c5335-1.eps>
+(epstopdf)                    date: 2023-08-27 21:54:42
+(epstopdf)                    size: 537092 bytes
+(epstopdf)             Output file: <./c7/lily-4b4c5335-1-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=./c7/lily-4b4c5335-1-eps-c
+onverted-to.pdf ./c7/lily-4b4c5335-1.eps>
+(epstopdf)             \includegraphics on input line 1.
+runsystem(repstopdf --outfile=./c7/lily-4b4c5335-1-eps-converted-to.pdf ./c7/li
+ly-4b4c5335-1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./c7/lily-4b4c5335-1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-08-27 21:54:44
+(epstopdf)                    size: 66255 bytes.
+<./c7/lily-4b4c5335-1-eps-converted-to.pdf, id=8, 783.92876pt x 955.57pt>
+File: ./c7/lily-4b4c5335-1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./c7/lily-4b4c5335-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./c7/lily-4b4c5335-1-eps-converted-to.pdf  used on inp
+ut line 1.
+(pdftex.def)             Requested size: 783.92685pt x 955.56767pt.
+Package epstopdf Info: Source file: <./c7/lily-4b4c5335-2.eps>
+(epstopdf)                    date: 2023-08-27 21:54:42
+(epstopdf)                    size: 565794 bytes
+(epstopdf)             Output file: <./c7/lily-4b4c5335-2-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=./c7/lily-4b4c5335-2-eps-c
+onverted-to.pdf ./c7/lily-4b4c5335-2.eps>
+(epstopdf)             \includegraphics on input line 7.
+runsystem(repstopdf --outfile=./c7/lily-4b4c5335-2-eps-converted-to.pdf ./c7/li
+ly-4b4c5335-2.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./c7/lily-4b4c5335-2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-08-27 21:54:46
+(epstopdf)                    size: 68450 bytes.
+<./c7/lily-4b4c5335-2-eps-converted-to.pdf, id=9, 783.92876pt x 949.5475pt>
+File: ./c7/lily-4b4c5335-2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./c7/lily-4b4c5335-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./c7/lily-4b4c5335-2-eps-converted-to.pdf  used on inp
+ut line 7.
+(pdftex.def)             Requested size: 783.92685pt x 949.54518pt.
+Package epstopdf Info: Source file: <./c7/lily-4b4c5335-3.eps>
+(epstopdf)                    date: 2023-08-27 21:54:42
+(epstopdf)                    size: 612866 bytes
+(epstopdf)             Output file: <./c7/lily-4b4c5335-3-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=./c7/lily-4b4c5335-3-eps-c
+onverted-to.pdf ./c7/lily-4b4c5335-3.eps>
+(epstopdf)             \includegraphics on input line 13.
+runsystem(repstopdf --outfile=./c7/lily-4b4c5335-3-eps-converted-to.pdf ./c7/li
+ly-4b4c5335-3.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./c7/lily-4b4c5335-3-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-08-27 21:54:47
+(epstopdf)                    size: 76240 bytes.
+<./c7/lily-4b4c5335-3-eps-converted-to.pdf, id=10, 783.92876pt x 956.57375pt>
+File: ./c7/lily-4b4c5335-3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./c7/lily-4b4c5335-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./c7/lily-4b4c5335-3-eps-converted-to.pdf  used on inp
+ut line 13.
+(pdftex.def)             Requested size: 783.92685pt x 956.57141pt.
+Package epstopdf Info: Source file: <./c7/lily-4b4c5335-4.eps>
+(epstopdf)                    date: 2023-08-27 21:54:42
+(epstopdf)                    size: 576157 bytes
+(epstopdf)             Output file: <./c7/lily-4b4c5335-4-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=./c7/lily-4b4c5335-4-eps-c
+onverted-to.pdf ./c7/lily-4b4c5335-4.eps>
+(epstopdf)             \includegraphics on input line 19.
+runsystem(repstopdf --outfile=./c7/lily-4b4c5335-4-eps-converted-to.pdf ./c7/li
+ly-4b4c5335-4.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./c7/lily-4b4c5335-4-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-08-27 21:54:48
+(epstopdf)                    size: 59117 bytes.
+<./c7/lily-4b4c5335-4-eps-converted-to.pdf, id=11, 783.92876pt x 750.805pt>
+File: ./c7/lily-4b4c5335-4-eps-converted-to.pdf Graphic file (type pdf)
+<use ./c7/lily-4b4c5335-4-eps-converted-to.pdf>
+Package pdftex.def Info: ./c7/lily-4b4c5335-4-eps-converted-to.pdf  used on inp
+ut line 19.
+(pdftex.def)             Requested size: 783.92685pt x 750.80316pt.
+)
+Overfull \hbox (50.96327pt too wide) in paragraph at lines 31--43
+[]
+ []
+
+
+Overfull \hbox (50.96327pt too wide) in paragraph at lines 31--43
+[]
+ []
+
+
+Overfull \hbox (50.96327pt too wide) in paragraph at lines 31--43
+[]
+ []
+
+
+Overfull \hbox (50.96327pt too wide) in paragraph at lines 31--43
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--43
+
+ []
+
+
+Overfull \vbox (186.63846pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[1 <./c7/lily-4b4c5335-1-eps-converted-to.pdf>]
+Overfull \vbox (180.61597pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[2 <./c7/lily-4b4c5335-2-eps-converted-to.pdf>]
+Overfull \vbox (187.6422pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[3 <./c7/lily-4b4c5335-3-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[4 <./c7/lily-4b4c5335-4-eps-converted-to.pdf>] (./Partitur.aux) ) 
+Here is how much of TeX's memory you used:
+ 2973 strings out of 480194
+ 46571 string characters out of 5893743
+ 341169 words of memory out of 5000000
+ 20919 multiletter control sequences out of 15000+600000
+ 473811 words of font info for 43 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 55i,11n,62p,190b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss17.pfb>
+Output written on Partitur.pdf (5 pages, 296281 bytes).
+PDF statistics:
+ 103 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,16 @@
+\section*{Klarinettenmuckl-Swing}
+\begin{lilypond}
+\include "/home/georg/Schreibtisch/Quintett/Lemser_Klarinettenmuckl/Klarinettenmuckl.ly"		
+\paper{
+    page-count = #2
+    }
+\header {
+	composer = "I. Patscheck / H. Lemser"
+	tagline = ""
+}
+\score {
+	\new StaffGroup <<
+	\new Staff << \global \bass >>
+	>>
+	}    	
+\end{lilypond}

@@ -1,0 +1,385 @@
+\documentclass[oneside]{book}
+\usepackage[paperheight=15.1996in,paperwidth=11.6765in]{geometry}
+% 15.1996in = 302cm --> Schott-Format
+% 11.6765in = 232cm
+\addtolength{\textwidth}{5cm}
+\hoffset = -110pt %-90pt
+% \addtolength{\textheight}{25cm} %2cm}
+\voffset=-3cm %-2cmo
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\huge\bfseries\filcenter}{}{1em}{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\rhead{\large\textbf{\thepage}}
+\chead{Partitur in B}
+
+\usepackage{titling}
+
+\begin{document}
+% \author{\huge{\textsf{Arrangements von Ignatius Patscheck, Musikdirektor der Stadt Triberg}}\\[5mm]
+% \huge{\textsf{Herausgegeben vom Klarinettenquintett {Five Moods}}}}
+% \title{\Huge{\textsf{Jazz-Standards f\"{u}r vier Klarinetten und Bassklarinette}}}
+% \date{15.November 2018}
+% \maketitle
+% \newpage 
+% \Huge{Inhalt}\\
+% \huge{Tico Tico}\\
+% \huge{Take Five}\\
+% \huge{Klarinettenmuckl-Swing}\\
+% \huge{Pink Panther}\\
+% \huge{Opening}\\
+% \huge{Wild Cat Blues}\\
+% \huge{Glenn Miller Story}\\
+% \newpage 
+\begin{lilypond}
+    mBar = { \bar"" }
+    \include "../Abreu_TicoTico/TicoTico.ly"
+    \include "../Berlin_WhiteChristmas/WhiteChristmas.ly"
+    \include "../Desmond_TakeFive/TakeFive.ly"
+    \include "../Lemser_Klarinettenmuckl/Klarinettenmuckl.ly"
+    \include "../Mancini_PinkPanther/PinkPanther.ly"
+    \include "../Ory_MuscatRamble/MuscatRamble.ly"
+    \include "../Patscheck_Opening/Opening.ly"
+    \include "../Waller_WildCatBlues/WildCatBlues.ly"
+    \include "../Patscheck_Abba/Abba.ly"
+    \include "../Patscheck_GlennMillerStory/GlennMillerStory.ly"
+    \include "../Patscheck_Monti/Monti.ly"
+    \include "../Patscheck_Ellington/Ellington.ly"
+    \include "../Patscheck_Gershwin/GershwinSongs.ly"
+    
+    \book{ 
+    \header{tagline = ""}
+    \paper{
+        paper-height=#350
+        paper-width=#250
+        horizontal-shift=12\mm
+        print-page-number=##f
+    }
+%     % Tico Tico
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Tico Tico} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Zequinha de Abreu} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13
+% %           score-system-spacing =
+% %             #'((basic-distance . 12)
+% %                (minimum-distance . 6)
+% %                (padding . 1)
+% %                (stretchability . 12))    
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalTicoTico \TicoTicoeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalTicoTico \TicoTicozwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalTicoTico \TicoTicodrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalTicoTico \TicoTicovier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalTicoTico \TicoTicobass >>}
+% 		>>
+%     }
+%     \pageBreak
+%
+   % White Christmas
+    \markup {
+        \column{
+        \fill-line {\line{\abs-fontsize #18 { \sans {White Christmas} }} }
+        \fill-line {\line {} \line{\abs-fontsize #12 { {I. Berlin; arr. Ignatius Patscheck} }} }
+        }
+    }
+    \score{
+        \layout{
+        paper-width =#250
+        system-system-spacing.basic-distance = #13
+        short-indent = #-15
+        line-width = #250
+        }
+        <<
+        \new StaffGroup <<
+		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalWhiteChristmas \WhiteChristmaseinsa >>}
+		\new Staff{<<
+		\override Staff.Clef.color = #white
+		\override Staff.Clef.layer = #-1
+		\override Staff.TimeSignature.color = #white
+		\override Staff.TimeSignature.layer = #-1
+		\WhiteChristmaseinsb >>}
+		>>
+
+        \new StaffGroup <<
+		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalWhiteChristmas \WhiteChristmaszwei >>}
+		\new Staff{\set Staff.instrumentName = "Kl. 3." << \globalWhiteChristmas \WhiteChristmasdrei>>}
+		\new Staff{\set Staff.instrumentName = "Kl. 4." << \globalWhiteChristmas \WhiteChristmasvier>>}
+		\new Staff{\set Staff.instrumentName = "Basskl." << \globalWhiteChristmas \WhiteChristmasbass>>}
+		>>
+		>>
+    }
+
+
+%     % Take Five
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Take Five} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Paul Desmond} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalTakeFive \TakeFiveeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalTakeFive \TakeFivezwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalTakeFive \TakeFivedrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalTakeFive \TakeFivevier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalTakeFive \TakeFivebass >>}
+% 		>>
+%     }
+%     \pageBreak
+%     % Muscat Ramble
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Muskat Ramble} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Edvard ''Kid'' Ory} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalMuscatRamble \MuscatRambleeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalMuscatRamble \MuscatRamblezwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalMuscatRamble \MuscatRambledrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalMuscatRamble \MuscatRamblevier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalMuscatRamble \MuscatRamblebass >>}
+% 		>>
+%     }
+%     \pageBreak
+%     % Klarinettenmuckl-Swing
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Klarinettenmuckl-Swing} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Ignatius Patscheck/Hans Lemser} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalKlarinettenmuckl \Klarinettenmuckleins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalKlarinettenmuckl \Klarinettenmucklzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalKlarinettenmuckl \Klarinettenmuckldrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalKlarinettenmuckl \Klarinettenmucklvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalKlarinettenmuckl \Klarinettenmucklbass >>}
+% 		>>
+%     }
+%     \pageBreak
+%     % Pink Panther
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Pink Panther} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Henry Mancini} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalPinkPanther \PinkPanthereins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalPinkPanther \PinkPantherzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalPinkPanther \PinkPantherdrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalPinkPanther \PinkPanthervier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalPinkPanther \PinkPantherbass >>}
+% 		>>
+%     }
+%     \pageBreak
+%     % Opening
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Opening} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalOpening \Openingeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalOpening \Openingzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalOpening \Openingdrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalOpening \Openingvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalOpening \Openingbass >>}
+% 		>>
+%     }    
+%     \pageBreak
+%     % Wild Cat Blues
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Wild Cat Blues} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Fats Waller, arr. I.Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalWildCatBlues \WildCatBlueseins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalWildCatBlues \WildCatBlueszwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalWildCatBlues \WildCatBluesdrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalWildCatBlues \WildCatBluesvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Altkl." << \transpose c g \globalWildCatBlues \transpose c g\WildCatBluesvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalWildCatBlues \WildCatBluesbass >>}
+% 		>>
+%     }
+%     \pageBreak
+%
+%    % Abba
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {I have a dream} }} }
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {B. Anderson / B. Ulaeus; arr. Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup <<
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalAbba \Abbaeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalAbba \Abbazwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalAbba \Abbadrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalAbba \Abbavier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalAbba \Abbabass >>}
+% 		>>
+%     }
+
+%     % Glenn Miller Story
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Glenn Miller Story} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalGlennMillerStory \GlennMillerStoryeins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalGlennMillerStory \GlennMillerStoryzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalGlennMillerStory \GlennMillerStorydrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalGlennMillerStory \GlennMillerStoryvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalGlennMillerStory \GlennMillerStorybass >>}
+% 		>>
+%     }
+%    % Monti Swing
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Vittorio Monti im Swing} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalMonti \Montieins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalMonti \Montizwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalMonti \Montidrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalMonti \Montivier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalMonti \Montibass >>}
+% 		>>
+%     }
+
+%    % Mr Duke E.
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Mister Duke E. (Version 2)} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Duke Ellington, Billy Strayhorn, Juan Tizol, arr. Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalEllingtonverzwei \Ellingtoneinsverzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalEllingtonverzwei \Ellingtonzweiverzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalEllingtonverzwei \Ellingtondreiverzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalEllingtonverzwei \Ellingtonvierverzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Altkl." << \transpose c g \globalEllingtonverzwei \transpose c g \Ellingtonvierverzwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalEllingtonverzwei \Ellingtonbassverzwei >>}
+% 		>>
+%     }
+
+%    % Gershwin Songs
+%     \markup {
+%         \column{
+%         \fill-line {\line{\abs-fontsize #18 { \sans {Gershwin Songs} }} } 
+%         \fill-line {\line {} \line{\abs-fontsize #12 { {Ignatius Patscheck} }} }
+%         }
+%     }
+%     \score{
+%         \layout{
+%         paper-width =#250
+%         system-system-spacing #'basic-distance = #13  
+%         short-indent = #-15
+%         line-width = #250
+%         }
+%         \new StaffGroup << 
+% 		\new Staff{\set Staff.instrumentName = "Kl. 1" << \globalGershwinSongs \GershwinSongseins >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 2" << \globalGershwinSongs \GershwinSongszwei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 3" << \globalGershwinSongs \GershwinSongsdrei >>}
+% 		\new Staff{\set Staff.instrumentName = "Kl. 4" << \globalGershwinSongs \GershwinSongsvier >>}
+% 		\new Staff{\set Staff.instrumentName = "Basskl." << \globalGershwinSongs \GershwinSongsbass >>}
+% 		>>
+%     }
+
+    }
+
+\end{lilypond}
+
+\end{document}

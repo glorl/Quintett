@@ -1,0 +1,17 @@
+\section*{Trio C-Dur, op. 87}
+\begin{lilypond}
+\include "/home/georg/Schreibtisch/Quintett/Beethoven_Presto_Finale/Presto.ly"		
+\header {
+	title = "Finale. Presto"
+	composer = "L. van Beethoven"
+	tagline = ""
+}
+\score {
+	\new StaffGroup <<
+	\new Staff << \global \bass >>
+	>>
+	}    	
+\score {
+	\new Staff << \MyCadenzaBass >>
+	} 
+\end{lilypond}

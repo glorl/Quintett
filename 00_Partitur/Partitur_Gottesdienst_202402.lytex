@@ -1,0 +1,332 @@
+\documentclass[oneside]{book}
+\usepackage[paperheight=30.2cm,paperwidth=23.2cm]{geometry}
+% 11.692in*1.15 = 13.4458
+% 8.267in=1.15 = 9.50705in
+\addtolength{\textwidth}{4.0cm}
+\hoffset = -66pt
+\addtolength{\textheight}{7.7cm}
+\voffset=-2.2cm
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\huge\bfseries\filcenter}{}{1em}{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\rhead{\large\textbf{\thepage}}
+\chead{Partitur}
+
+\usepackage{titling}
+
+\newcommand{\addsection}[3]{\addtocontents{toc}{\protect\contentsline{section}{\protect\numberline{#1}#2}{#3}}}
+\newcommand{\addsubsection}[3]{\addtocontents{toc}{\protect\contentsline{subsection}{\protect\numberline{#1}#2}{#3}}}
+\renewcommand{\contentsname}{\hfill\normalfont{\textsf{Inhalt}}\hfill}
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\Large\sffamily}
+\renewcommand\cftchapafterpnum{\vskip15pt}
+\renewcommand\cftsecafterpnum{\vskip40pt}
+
+\begin{document}
+\author{}
+\title{}
+\date{\today}
+
+\begin{lilypond}
+    mBar = { \bar"" }
+
+    \book{
+
+    \header{
+        tagline = ""}
+    \paper{
+        paper-height=280
+        paper-width=#230
+        horizontal-shift=-50\mm
+        print-page-number=##f
+    }
+
+
+    % 251.7 O König aller Ehren
+    \markup {
+        \column{
+        \fill-line {\line{\abs-fontsize #18 { \sans {251.7 O König aller Ehren} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        }
+    }
+    \score{
+    \layout{
+        system-system-spacing = #'((padding . 3) (basic-distance . 0.1))
+        short-indent = #-15
+    }
+    \new StaffGroup <<
+		\new Staff{\set Staff.instrumentName = "KL.1"
+            << \new Voice \transpose bes c{ \relative c''{\time 4/4 {\key d \major
+                \repeat volta 2{
+                \partial 4 d4
+                a'4 a g fis
+                e2 d4 \breathe d
+                e4 e g fis
+                d2 r4
+                }
+                e4
+                fis4 e fis gis
+                a2 a4 \breathe a
+                b4 cis d b
+                cis2 r4 a
+                d4 cis b a
+                g2 fis4\breathe e
+                d4 fis e e
+                d2.\bar"|."}
+                }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "Kl.2"
+            \set Staff.midiInstrument = #"clarinet"
+            << \new Voice \transpose bes c{ \relative c''{\time 4/4 {\key d \major
+                \repeat volta 2{
+                \partial 4 a4
+                d4 d d d
+                cis2 a4 \breathe b
+                b4 cis d d
+                cis2 r4
+                }
+                cis4
+                d4 b d d
+                cis2 cis4 \breathe d
+                d4 e fis d
+                e2 r4 fis
+                fis4 fis d d
+                d4 cis d\breathe cis
+                b4 d d cis
+                a2.\bar"|."}
+                }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "Kl.3"
+            \set Staff.midiInstrument = #"clarinet"
+            << \new Voice \transpose bes c{ \relative c'{\time 4/4 {\key d \major
+                \repeat volta 2{
+            \partial 4 fis4
+            fis4 a b a
+            a2 fis4 \breathe fis
+            g4 a b a
+            a2 r4
+            }
+            a4
+            a4 g a b
+            e,2 e4 \breathe fis
+            g4 g a gis
+            a2 r4 a
+            b4 a d cis
+            b2 a4\breathe g
+            fis4 a g g
+            fis2.\bar"|."}
+            }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "Kl.4+B"
+            \set Staff.midiInstrument = #"clarinet"
+            << \new Voice \transpose bes c'{ \relative c'{\time 4/4 {\key d \major
+            \partial 4 d4
+            d4 fis, g d'
+            a2 d4 \breathe b
+            e4 a, g d'
+            a2 r4
+            }
+            a4
+            d4 e d b
+            a2 a4 \breathe d
+            g4 e d e
+            a,2 r4 d
+            b4 fis g d'
+            e2 d4\breathe a
+            b4 fis a a
+            d2.
+            \bar"|."}
+            }>>
+        }
+    >>
+    }
+
+
+    % 39.3 Christus ist mein Leben
+    \markup {
+        \column{
+        \fill-line {\line{\abs-fontsize #18 { \sans {39.3 Christus ist mein Leben} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        }
+    }
+    \score{
+    \layout{
+        system-system-spacing = #'((padding . 3) (basic-distance . 0.1))
+        short-indent = #-15
+    }
+    \new StaffGroup <<
+		\new Staff{\set Staff.instrumentName = "KL.1"
+            << \new Voice \transpose bes c { \relative c''{\time 4/4 {\key d \major
+                \partial 2 d2
+                fis4 e fis g
+                a2 cis4\breathe b
+                a4 g fis e
+                fis2. \breathe a4
+                b4 b cis d
+                b2 a4\breathe fis
+                e4 d d cis
+                d2
+                \bar"|."}
+                }
+            }>>
+        }
+		\new Staff{\set Staff.instrumentName = "KL.2"
+            << \new Voice \transpose bes c { \relative c''{\time 4/4 {\key d \major
+                \partial 2 a2
+                d4 cis d d
+                e2 d4\breathe d
+                cis4 b8 cis d4 cis
+                d2. \breathe d4
+                d4 e e d
+                d4 e fis\breathe d
+                cis4 b b a
+                a2
+                \bar"|."}
+                }
+            }>>
+        }
+		\new Staff{\set Staff.instrumentName = "KL.3"
+            << \new Voice \transpose bes c { \relative c'{\time 4/4 {\key d \major
+                \partial 2 fis2
+                a4 a a b
+                cis2 a4\breathe g
+                e4 g a a
+                a2. \breathe fis4
+                g4 g a a
+                b4 cis d\breathe a
+                a4 fis g e
+                fis2
+                \bar"|."}
+                }
+            }>>
+        }
+		\new Staff{\set Staff.instrumentName = "KL.4+B"
+            << \new Voice \transpose bes c'{ \relative c'{\time 4/4 {\key d \major
+                \partial 2 d2
+                d4 a d b
+                a2 d4\breathe g,
+                a4 e' d a
+                d2. \breathe d4
+                g4 e a fis
+                g2 d4\breathe d
+                a4 b g e
+                d'2
+                \bar"|."}
+                }
+            }>>
+        }
+    >>
+    }
+
+    \pageBreak
+    % 250.6 Nun jauchzet, all ihr Frommen
+    \markup {
+        \column{
+        \fill-line {\line{\abs-fontsize #18 { \sans {250.6 Nun jauchzet, all ihr Frommen} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        \fill-line {\line{\abs-fontsize #18 { \sans {\null} }} }
+        }
+    }
+    \score{
+    \layout{
+        system-system-spacing = #'((padding . 3) (basic-distance . 0.1))
+        short-indent = #-15
+    }
+    \new StaffGroup <<
+		\new Staff{\set Staff.instrumentName = "KL.1"
+            << \new Voice \transpose bes c { \relative c'''{\time 2/2 {\key f \major
+                \repeat volta 2{\partial 4 c4
+                d4. c8 bes4 a
+                g2 g4 \breathe a
+                bes4 a g4. a8
+                f2 r4}
+                a4
+                a4 a g f
+                e2 r4 a
+                a4. g8 a4 b
+                c2 a4 \breathe f
+                a4. g8 a4 b
+                c2 a4 \breathe a
+                g4 f f e
+                f2.
+                \bar"|."}
+                }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "KL.2"
+            << \new Voice \transpose bes c { \relative c''{\time 2/2 {\key f \major
+                \repeat volta 2{\partial 4 f4
+                f4. f8 f4 f
+                e2 e4 \breathe f
+                f4 f f e
+                f2 r4}
+                f4
+                f4 f e d
+                cis2 r4 c
+                f4. g8 f4 f
+                e2 f4 \breathe c
+                f4. g8 f4 f
+                e2 c4 \breathe f
+                d4 c d c
+                c2.
+                \bar"|."}
+                }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "KL.3"
+            << \new Voice \transpose bes c { \relative c''{\time 2/2 {\key f \major
+                \repeat volta 2{\partial 4 a4
+                bes4. c8 d4 c
+                c2 c4 \breathe c
+                d4 c c2
+                a2 r4}
+                c4
+                c2 c4 a
+                a2 r4 a
+                c2 c4 f,
+                g2 f4 \breathe a
+                c2 c4 f,
+                g2 f4 \breathe c'
+                bes4 a g g
+                a2.
+                \bar"|."}
+                }
+            }>>
+        }
+        \new Staff{\set Staff.instrumentName = "KL.4+B"
+            << \new Voice \transpose bes c'{ \relative c'{\time 2/2 {\key f \major
+                \repeat volta 2{\partial 4 f4
+                bes,4. a8 bes4 f
+                c'2 c4 \breathe f
+                bes,4 f c' c
+                f,2 r4}
+                f'4
+                f2 c4 d
+                a2 r4 f'
+                f4. e8 f4 d
+                c2 f,4 \breathe f'
+                f4. e8 f4 d
+                c2 f4 \breathe f,
+                g4 a bes c
+                f,2.
+                \bar"|."}
+                }
+            }>>
+        }
+    >>
+    }
+}
+
+\end{lilypond}
+
+\end{document}

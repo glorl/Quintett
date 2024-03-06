@@ -1,0 +1,16 @@
+@image{./2a/lily-dd1930c8-1}
+@image{./2a/lily-dd1930c8-2}
+@image{./2a/lily-dd1930c8-3}
+@image{./2a/lily-dd1930c8-4}
+@image{./2a/lily-dd1930c8-5}
+@image{./2a/lily-dd1930c8-6}
+@image{./2a/lily-dd1930c8-7}
+@image{./2a/lily-dd1930c8-8}
+@image{./2a/lily-dd1930c8-9}
+@image{./2a/lily-dd1930c8-10}
+@image{./2a/lily-dd1930c8-11}
+@image{./2a/lily-dd1930c8-12}
+@image{./2a/lily-dd1930c8-13}
+@image{./2a/lily-dd1930c8-14}
+@image{./2a/lily-dd1930c8-15}
+@c eof

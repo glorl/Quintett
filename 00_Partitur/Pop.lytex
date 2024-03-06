@@ -1,0 +1,56 @@
+\documentclass[oneside]{book}
+\usepackage[paperheight=15.1996in,paperwidth=11.6765in]{geometry}
+% 15.1996in = 302cm --> Schott-Format
+% 11.6765in = 232cm
+\addtolength{\textwidth}{5cm}
+\hoffset = -110pt %-90pt
+% \addtolength{\textheight}{25cm} %2cm}
+\voffset=-3cm %-2cmo
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\huge\bfseries\filcenter}{}{1em}{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\rhead{\large\textbf{\thepage}}
+\chead{Partitur in B}
+
+\usepackage{titling}
+
+\begin{document}
+% \author{\huge{\textsf{Arrangements von Ignatius Patscheck, Musikdirektor der Stadt Triberg}}\\[5mm]
+% \huge{\textsf{Herausgegeben vom Klarinettenquintett {Five Moods}}}}
+% \title{\Huge{\textsf{Jazz-Standards f\"{u}r vier Klarinetten und Bassklarinette}}}
+% \date{15.November 2018}
+% \maketitle
+% \newpage 
+% \Huge{Inhalt}\\
+% \huge{Tico Tico}\\
+% \huge{Take Five}\\
+% \huge{Klarinettenmuckl-Swing}\\
+% \huge{Pink Panther}\\
+% \huge{Opening}\\
+% \huge{Wild Cat Blues}\\
+% \huge{Glenn Miller Story}\\
+% \newpage 
+\begin{lilypond}
+    mBar = { \bar"" }
+    \include "../Ensiferum_EternalWait/EternalWait.ly"
+    
+%     \book{ 
+    \header{tagline = ""}
+    \paper{
+        paper-height=#350
+        paper-width=#250
+        horizontal-shift=12\mm
+        print-page-number=##f
+    }
+    \include "../Ensiferum_EternalWait/EternalWait.lytex"
+
+%     }
+
+\end{lilypond}
+
+\end{document}

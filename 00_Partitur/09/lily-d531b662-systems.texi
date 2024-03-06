@@ -1,0 +1,10 @@
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-1}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-2}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-3}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-4}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-5}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-6}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-7}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-8}
+@image{/home/georg/Dokumente/Quintett/00_Partitur/09/lily-d531b662-9}
+@c eof

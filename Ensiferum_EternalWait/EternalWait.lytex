@@ -1,0 +1,30 @@
+
+% Eternal Wait
+\markup {
+    \column{
+    \fill-line {\line{\abs-fontsize #18 { \sans {Eternal Wait} }} } 
+    \fill-line {\line {} \line{\abs-fontsize #12 { {M. Toivonen, S. Hinkka} }} }
+    }
+}
+\score{
+    \layout{
+    paper-width =#250
+%         system-system-spacing #'basic-distance = #13
+    short-indent = #-15
+    line-width = #250
+    }
+    \new StaffGroup << 
+    \new Staff{\set Staff.instrumentName = "Vocal" << {\globalEternal \Eternalvocal} >>}
+    \new Lyrics { 
+        \lyricsto "SoloEins" <<\SlyEins>> 
+    }
+    \new Staff{\set Staff.instrumentName = "Kl. 1" << \globalEternal \Eternaleins >>}
+    \new Staff{\set Staff.instrumentName = "Kl. 2" << \globalEternal \Eternalzwei >>}
+    \new Staff{\set Staff.instrumentName = "Kl. 3" << \globalEternal \Eternaldrei >>}
+    \new Staff{\set Staff.instrumentName = "Kl. 4" << \globalEternal \Eternalvier >>}
+    \new Staff{\set Staff.instrumentName = "Basskl." << {\globalEternal \Eternalbass} >>}
+    >>
+    \midi{
+    \tempo 4 = 120
+    }
+}

@@ -1,0 +1,17 @@
+\section*{Muscat Ramble}
+\begin{lilypond}
+\include "/home/georg/Schreibtisch/Quintett/Ory_MuscatRamble/MuscatRamble.ly"
+\paper{
+    page-count = #2
+    }
+\header {
+	piece = "Lebhaft"
+	composer = "E. ''Kid'' Ory"
+	tagline = ""
+}
+\score {
+	\new StaffGroup <<
+	\new Staff << \global \eins >>
+	>>
+	}    	
+\end{lilypond}

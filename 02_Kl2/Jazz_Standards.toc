@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {}Tico Tico}{\relax \fontsize {14.4}{18}\selectfont 2}
+\contentsline {section}{\numberline {}Take Five}{\relax \fontsize {14.4}{18}\selectfont 4}
+\contentsline {section}{\numberline {}Klarinettenmuckl-Swing}{\relax \fontsize {14.4}{18}\selectfont 5}
+\contentsline {section}{\numberline {}Pink Panther}{\relax \fontsize {14.4}{18}\selectfont 7}
+\contentsline {section}{\numberline {}Muskat Ramble}{\relax \fontsize {14.4}{18}\selectfont 9}
+\contentsline {section}{\numberline {}Opening}{\relax \fontsize {14.4}{18}\selectfont 11}
+\contentsline {section}{\numberline {}Wild Cat Blues}{\relax \fontsize {14.4}{18}\selectfont 13}
