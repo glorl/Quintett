@@ -30,7 +30,7 @@ for i in data['Settings']:
     n_emptyline = i['n_emptyline']
 f.close()
 
-f = open(os.path.join(path_templates,'sample.lytex'),"r")
+f = open(os.path.join(path_templates,'bookpart.lytex'),"r")
 copy = open(os.path.join(path_voices,composer+'_'+title+'_'+voice+'.lytex'),"wt")
 
 rep = {"title": title, 
