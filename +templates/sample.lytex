@@ -9,7 +9,7 @@
     \markup {
         \column{
         \fill-line {\line{\abs-fontsize #18 { \sans {title} }} }
-        \fill-line {\line {} \line{\abs-fontsize #12 { {J.S. Bach, arr. I. Patscheck} }} }
+        \fill-line {\line {} \line{\abs-fontsize #12 { {composer_long} }} }
         }
     }
     \score{
@@ -19,13 +19,7 @@
     }
     \markup {
         \column{
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
-            \fill-line {\line{\abs-fontsize #30 { \sans {\null} }} }
+emptyline
         }
     }
 }

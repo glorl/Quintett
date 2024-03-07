@@ -9,11 +9,11 @@
     \markup {
         \column{
         \fill-line {\line{\abs-fontsize #18 { \sans {Passacaglia} }} }
-        \fill-line {\line {} \line{\abs-fontsize #12 { {J.S. Bach, arr. I. Patscheck} }} }
+        \fill-line {\line {} \line{\abs-fontsize #12 { {J.S. Bach, arr. I. Patscheck staedtischer Musikdirektor_long} }} }
         }
     }
     \score{
-        \layout{ system-system-spacing = #'((padding . 6) (basic-distance . 0.1)) }
+        \layout{ system-system-spacing = #'((padding . 5) (basic-distance . 0.1)) }
         \new StaffGroup << \new Staff <<  \globalPassacaglia \Passacagliabass >> >>
     \header{}
     }
