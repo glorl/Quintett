@@ -1,4 +1,4 @@
-PasosEins= \new Voice \relative c''{
+ReminiscenciasEins= \new Voice \relative c''{
 \set Score.currentBarNumber = #77
 r1 r2 r4
 r1 r2 r4
