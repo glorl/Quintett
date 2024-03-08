@@ -36,7 +36,7 @@ for pieces in data['Stuecke'][0]:
         n_emptyline     = data_piece[voice]['n_emptyline']
         partvoices      = data_piece[voice]['partvoices']
         
-        staffline =  '            \\new Staff <<  \\globaltitle_short \\title_shortvoice >> '
+        staffline =  '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
         
         fcopy = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
         rep = {"title_short": title_short, 
