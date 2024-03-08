@@ -1,4 +1,4 @@
-DuoBass= \new Voice \relative c''{\key c \major  
+DuoBass= \new Voice \transpose bes c \relative c''{\key c \major  
     r8 c16\f des c8-. e,-.->
     c'16 des c8-. fis,-.->c'16 des
     c8-. r fis,-.-> r 
@@ -51,4 +51,35 @@ DuoBass= \new Voice \relative c''{\key c \major
     bes,4-.\p c-.
     r4 cis-.\mf
     r8 d16 \< bes g g,8.-.\!
+    gis16 a b c~c c' b c 
+    dis16 (e) e e as, (g) g g 
+    fis16 (g) gis a g (d') fis eis
+    \tuplet 3/2{e16->[(c a]} \tuplet 3/2{g [e c]} \tuplet 3/2{g-> [a c]}  e32 g a c)
+    \tuplet 3/2{e16->[(c a]} \tuplet 3/2{g [e c]} \tuplet 3/2{g-> [a c]}  e32 g a c)
+    \tuplet 3/2{f16->[(c a]} \tuplet 3/2{f [c a]}  \tuplet 3/2{f-> [a c]}  f32 a c d)
+    \tuplet 3/2{f16->[(c a]} \tuplet 3/2{f [c a]}  \tuplet 3/2{f-> [a c]}  f32 a c d)
+    \tuplet 3/2{e16->[(c a]} \tuplet 3/2{g [e c]} \tuplet 3/2{g-> [a c]}  e32 g a c)
+    \tuplet 3/2{e16->[(c a]} \tuplet 3/2{g [e c]} \tuplet 3/2{g-> [a c]}  e32 g a c)
+    \tuplet 3/2{f16->[(c a]} \tuplet 3/2{f [c a]}  \tuplet 3/2{f-> [a c]}  f32 a c d)
+    \tuplet 3/2{f16->[(c a]} \tuplet 3/2{f [c a]}  \tuplet 3/2{f-> [a c]}  f32 a c d)
+    e8-. g,-. e16 (d) g a 
+    g16-. d-. a' g g,8-. g16 g' 
+    c,8-. [r16 g'] e (d) g a 
+    g16 (d) a' g g, a' g, g'
+    c,8-. g'-. e16 (d) g a 
+    g16 (d) a' g g, a' g, g'
+    c,8-. [r16 g'] e (d) g a 
+    f16 (g) a g g, a' g, g'
+    c,16-. g-. c-. g-. c-. g-. c-. g-. 
+    g'8---. g,---. g'---. g,---.
+    c16-. g-. c-. g-. c-. g-. c-. g-. 
+    g'8---. g,---. g'---. g,---.
+    c16 e g c e c g e 
+    c16 e g c e c g e 
+    c8-.-> c16 (b) c8-. e,-^
+    r8 e''16 (dis) e8-. c-^
+    c,16-. e-. g,-. e'-. c-. e-. g,-. e'-. 
+    c16-. e-. g,-. e'-. c-. e-. g,-. e'-. 
+    c8-. r fis16 (es b g)
+    c,2\fermata\bar"|."
 }

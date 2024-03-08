@@ -1,10 +1,10 @@
-DuoEins= \new Voice \relative c''{\key c \major  
-    % r8 c16\f des c8-. e,-.->
-    % c'16 des c8-. fis,-.->c'16 des
-    % c8-. r fis,-.-> r 
-    % es16 f ges8-. a16 b cis8-.
-    % r8 c16 des-. c8-. e,-.
-    % c'16 des c8-. d4-. \time 3/8
+DuoEins= \new Voice \relative c'{\key d \major  
+    r8 fis16\f eis fis8-. d-.->
+    fis16 eis fis8-. c'-.-> fis,16 eis
+    fis8-. r c-.-> r 
+    c''16 bes a8-. gis16 ais b8-.
+    r8 fis16 eis-. fis8-. d-.
+    fis16 eis fis8-. e4-. \time 3/8
     % e,4-.->e'8-.\time 2/4
     % c8-. c'16 des c8-. e,-. \time 3/8 
     % d16 (c) bes-. as-. ges-. f-. \time 2/4
