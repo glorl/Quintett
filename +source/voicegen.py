@@ -70,9 +70,7 @@ for pieces in data['Stuecke'][0]:
 
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
-
-
-        print(staffstring)
+        
         ftemplate = open(os.path.join(path_templates,'bookpart.lytex'),"r")        
         for line in ftemplate:
             line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
