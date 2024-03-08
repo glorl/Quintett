@@ -1,31 +1,50 @@
-DuoEins= \new Voice \relative c''{
-\set Score.currentBarNumber = #77
-r1 r2 r4
-r1 r2 r4
-r1 r2 r4
-r1 r2 r4
-e4~e8 d ~d2~d4~d8 bes d f
-e4~e8 d~d4 bes2 ~bes4 bes8 a
-g8 a bes d ~d1 d8 f
-e8 f e a,~a2~a4 r r
-e'4~e8 d ~d2~d4~d8 a d f
-a4 ~a8 bes ~bes4 g2 ~g8 g bes4
-a4 ~a8 bes ~bes4 g2 ~g8 g bes4
-a1 r4 r r8 a
-bes4 ~bes8 a ~a4 d,2~d4 ~d8 d
-a'8 (bes a) g~g1 g8 (bes)
-a8 (bes a g~g2 ~g4 ~g8 ) bes4 g8
-a1 r2 r4
-d4 ~d8 c ~c4 a r8 a,16 (bes c d e f ) a4
-d4 es8 c~c2 a16 (bes a g a f e d c bes c d)
-e4 f8 d'~d1 r4
-e,4 f8 e'~e1 r4
-a,4 d8 d,~d f a,4 f'8 d e f a bes
-a4 g8 d~d2 bes16 (c d f e d e f a bes a g)
-a4 ~a8 bes g4 a8 bes a g c bes a g
-a1~a4 r r
-d4 c8 a~a2 r4 \tuplet 3/2 {bes,4 c d }
-a'8 bes g d'~d2 r4 c16 (bes a g f e d c)
-bes4 ~bes8 a' bes, g'~g bes, f' d e f a, f'
-e1 r4 d8 e f g\bar"||"
+DuoEins= \new Voice \relative c''{\key c \major  
+    % r8 c16\f des c8-. e,-.->
+    % c'16 des c8-. fis,-.->c'16 des
+    % c8-. r fis,-.-> r 
+    % es16 f ges8-. a16 b cis8-.
+    % r8 c16 des-. c8-. e,-.
+    % c'16 des c8-. d4-. \time 3/8
+    % e,4-.->e'8-.\time 2/4
+    % c8-. c'16 des c8-. e,-. \time 3/8 
+    % d16 (c) bes-. as-. ges-. f-. \time 2/4
+    % fis8-. r d'16 e d8-.
+    % c16 (d e fis) gis(a) bes(d,)
+    % c (bes as ges) r4
+    % b16 (c b c b c b c)
+    % b16 (c b c b c b c)
+    % cis16 (d cis d cis d cis d
+    % cis16 d cis d cis d cis d)
+    % e8. (as16) e8. (g16)
+    % c8. (des16) es8. (a,!16)
+    % e,8 (g d' f
+    % b8 g' b d)
+    % r4 e,16 (d c bes 
+    % as16 bes c d e) r r8
+    % c,16 \< (bes a g f \!) r16 r8 
+    % e8-> c''16 des c8-. e,16 dis
+    % e8-. g'4-. e,,8-^
+    % r8 d''16 es d4-.
+    % es16\> d es8-. \! r8 f16 e
+    % f8-. r e,16 (fis) d (e)
+    % b8 (cis dis e)
+    % e'4. (b8)
+    % gis4. (b8)
+    % a8 (c b a )
+    % gis8 (f d ais)
+    % b4 e,~
+    % e2~
+    % e8-. r e4---.(
+    % e4---. e---.)
+    % f2~(
+    % f
+    % e4 ) e---.
+    % e'4---. e,---.
+    % c'2 (
+    % a2)
+    % b4 (cis
+    % dis f)\time 3/4
+    % fis8 c dis ais cis gis \time 2/4
+    % f8 g' a, e''
+    % \tuplet 3/2 {bes,16 [(a bes]} \tuplet 3/2{c16 [bes c]} d8) a''
 }

@@ -47,4 +47,8 @@ DuoBass= \new Voice \relative c''{\key c \major
     fis8 c dis ais cis gis \time 2/4
     f8 g' a, e''
     \tuplet 3/2 {bes,16 [(a bes]} \tuplet 3/2{c16 [bes c]} d8) a''
+    r8 bes-> r4
+    bes,4-.\p c-.
+    r4 cis-.\mf
+    r8 d16 \< bes g g,8.-.\!
 }
