@@ -1,5 +1,4 @@
 import os
-import sys
 import json
 import re
 
@@ -32,12 +31,13 @@ for pieces in data['Stuecke'][0]:
         
         padding         = data_piece[voice]['padding']
         basicdistance   = data_piece[voice]['basicdistance']
-        tf_subtitle     = data_piece[voice]['tf_subtitle']
+        subtitle        = data_piece[voice]['subtitle']
         n_emptyline     = data_piece[voice]['n_emptyline']
         partvoices      = data_piece[voice]['partvoices']
         
         staffline =  '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
-        
+        subtitleline = '        \\fill-line {\\line {} \\line{\\abs-fontsize #30 { {\\subtitle} }} }'
+
         fcopy = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
         rep = {"title_short": title_short, 
             "title_long": title_long,
@@ -58,16 +58,8 @@ for pieces in data['Stuecke'][0]:
             staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
             staffstring = staffstring+'\n'+staffstring_i
 
-        rep = {"title_short": title_short, 
-            "title_long": title_long,
-            "voice": partvoices[0], 
-            "composer_long": composer_long,
-            "paperheight": paperheight,
-            "paperwidth": paperwidth,
-            "padding_val": padding, 
-            "basicdistance_val": basicdistance, 
-            "staff": staffstring} 
-
+        rep["staff"]=staffstring
+        
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
         

@@ -1,7 +1,5 @@
 \documentclass[oneside]{book}
 \usepackage[paperheight=30.2cm,paperwidth=23.2cm]{geometry}
-% 11.692in*1.15 = 13.4458
-% 8.267in=1.15 = 9.50705in
 \addtolength{\textwidth}{4.4cm}
 \hoffset = -66pt
 \addtolength{\textheight}{7.7cm}
@@ -27,50 +25,14 @@
 \renewcommand\cftchapafterpnum{\vskip15pt}
 \renewcommand\cftsecafterpnum{\vskip40pt}
 
-
 \begin{document}
-
-% \author{\huge{\textsf{Arrangements von Ignatius Patscheck, Musikdirektor der Stadt Triberg}}\\[5mm]
-% \huge{\textsf{Herausgegeben vom Klarinettenquintett {Five Moods}}}}
-% \title{\Huge{\textsf{Leichte Muse}}\\ \Huge{\textsf{f\"{u}r vier Klarinetten und Bassklarinette}}}
-% \date{}
-% \maketitle
-% \textsf{\tableofcontents}
-% \newpage 
+header
 
 \begin{lilypond}
-%     mBar = { \bar"" }
-    \include "../Bach_Air_SuiteDDur/SuiteDDur.ly"
-    \include "../Bach_BistDuBeiMir/BistDuBeiMir.ly"
-    \include "../Bach_Passacaglia/Passacaglia.ly"
-    \include "../Bach_Sinfonia/Sinfonia.ly"
-    \include "../Bach_WachetAuf/WachetAuf.ly"
-    \include "../Bach_Toccata/Toccata.ly"
-    \include "../Cherubini_AveMaria/CAveMaria.ly"
-    \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik.ly"
-    \include "../Haendel_Largo/Haendel_Largo.ly"
-    \include "../Haendel_Orgelkonzert/Orgelkonzert.ly"
-    \include "../Haydn_Introduktion/Introduktion.ly"
-    \include "../Schubert_AveMaria/SAveMaria.ly"
-    \include "../Telemann_Air/Air.ly"
-
+includes_ly 
     \book{
-%         \include "../Bach_Toccata/Toccata_bass.lytex"
-        \include "../Bach_Air_SuiteDDur/SuiteDDur_bass.lytex"
-        \include "../Bach_BistDuBeiMir/BistDuBeiMir_bass.lytex"
-        \include "../Bach_Passacaglia/Passacaglia_bass.lytex"
-        \include "../Bach_Sinfonia/Sinfonia_bass.lytex"
-        \include "../Bach_WachetAuf/WachetAuf_bass.lytex"
-        \include "../Cherubini_AveMaria/CAveMaria_bass.lytex"
-        \include "../Haendel_Feuerwerksmusik/Feuerwerksmusik_bass.lytex"
-        \include "../Haendel_Largo/Haendel_Largo_bass.lytex"
-        \include "../Haendel_Orgelkonzert/Haendel_Orgelkonzert_bass.lytex"
-        \include "../Haydn_Introduktion/Introduktion_bass.lytex"
-        \include "../Schubert_AveMaria/SAveMaria_bass.lytex"
-        \include "../Telemann_Air/Air_bass.lytex"
+includes_lytex
     }
 
 \end{lilypond}
-
-
 \end{document}
