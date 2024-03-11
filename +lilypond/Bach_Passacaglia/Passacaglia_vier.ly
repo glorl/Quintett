@@ -1,4 +1,4 @@
-Passacagliavier= \new Voice \relative c'{
+PassacagliaVier= \new Voice \relative c'{
 \partial 4 d4--\mf
 a2-- f4--
 g2-- a4--

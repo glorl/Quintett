@@ -1,4 +1,4 @@
-Passacagliabass= \new Voice \relative c'{
+PassacagliaBass= \new Voice \relative c'{
 \partial 4 d4--\mf
 a'2-- f4--
 g2-- a4--

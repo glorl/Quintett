@@ -1,4 +1,4 @@
-Passacagliaeins= \new Voice \relative c''{
+PassacagliaEins= \new Voice \relative c''{
 \partial 4 r4
 R2.*7
 r4 r4 r8 d~(\p
