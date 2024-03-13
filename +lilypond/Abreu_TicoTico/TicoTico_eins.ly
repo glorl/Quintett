@@ -1,4 +1,4 @@
-TicoTicoeins = \new Voice \relative c'' {
+TicoTicoEins = \new Voice \relative c'' {
 \compressEmptyMeasures
 \partial 4. c8 \f (b bes) 
 a8 \<(gis a b d c b c )
@@ -103,16 +103,15 @@ gis4-.) e''4-^ r8 e,8 (dis e) \bar"||"
 \key c \major 
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
-\mBar
 a'4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda"} } e4-. r8 c8 \f (b bes
 a \f \< gis a b d c b c 
 e f fis g \! a\> g f e 

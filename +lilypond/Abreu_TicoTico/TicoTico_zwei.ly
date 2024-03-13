@@ -1,4 +1,4 @@
-TicoTicozwei = \new Voice \relative c'' {
+TicoTicoZwei = \new Voice \relative c'' {
 \compressEmptyMeasures
 \partial 4. a8 \f (as g) 
 f8\< (d e f a g f g )
@@ -104,9 +104,9 @@ gis-. b-^ r2 \bar"||"
 \key c \major 
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
