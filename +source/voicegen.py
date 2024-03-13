@@ -47,24 +47,27 @@ for voice in voices:
         padding         = data_piece[voice]['padding']
         basicdistance   = data_piece[voice]['basicdistance']
         n_emptyline     = data_piece[voice]['n_emptyline']
-        partvoices      = data_piece[voice]['partvoices']
         instrumentname  = data_piece[voice]['instrumentname']
         
-        ######## book ############
         rep["title_short"]      = title_short
         rep["title_long"]       = title_long
         rep["composer_long"]    = composer_long
-        rep["voice"]            = partvoices[0] 
         rep["pheight"]          = paperheight
         rep["pwidth"]           = paperwidth
         rep["padding_val"]      = padding
         rep["basicdistance_val"]= basicdistance
         rep["instrumentname"]   = instrumentname
+        if 'partvoices' in data_piece[voice]:
+            partvoices          = data_piece[voice]['partvoices']
+            rep["voice"]        = partvoices[0] 
+            length_partvoices   = len(partvoices)
+        else:
+            rep["voice"]        = voice 
+            length_partvoices   = 0
 
-
+        ######## book ############
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
-        pattern = re.compile("|".join(rep.keys()))
-    
+        pattern = re.compile("|".join(rep.keys()))    
         includes_lyfile =includes_lyfile+'\n    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"')
         includes_lytex  =includes_lytex+'\n    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
         
@@ -77,7 +80,7 @@ for voice in voices:
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
         staffstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffline)
-        for ipartvoices in range(1,len(partvoices)): 
+        for ipartvoices in range(1,length_partvoices): 
             staffstring_i = staffline.replace('voice',partvoices[ipartvoices])
             staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
             staffstring = staffstring+'\n'+staffstring_i
