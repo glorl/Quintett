@@ -18,7 +18,7 @@ printpagenumber = "##f"
 emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { \\sans {\\null} }} }'
 staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
 titleline   = '        \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
-subtitleline= '        \\fill-line {\\line {} \\line{\\abs-fontsize #30 { {\\subtitle} }} }'
+subtitleline= '        \\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
 
 # specific parameters 
 finput = open (os.path.join(path_json,'input.json'), "r")
@@ -87,9 +87,24 @@ for voice in voices:
         includes_lytex  =includes_lytex+'\n    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
         
         ######## bookpart ############
+        # prepare title line 
+
+        rep = dict((re.escape(k), v) for k, v in rep.items()) 
+        pattern = re.compile("|".join(rep.keys()))
+        titlelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], titleline)
+        if 'subtitle' in data_piece['base']:
+            subtitle        = data_piece['base']['subtitle']
+            rep['subtitle'] = subtitle
+            rep = dict((re.escape(k), v) for k, v in rep.items()) 
+            pattern = re.compile("|".join(rep.keys()))
+            
+            titlelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], titleline)
+            subtitlelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], subtitleline)
+            titlelinestring=titlelinestring+'\n'+emptyline_i+'\n'+subtitlelinestring
+        rep["titleline"]=titlelinestring
+
         # prepare staff line
         rep["staff"]    = staffline
-        
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
         staffstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffline)
@@ -98,7 +113,7 @@ for voice in voices:
             staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
             staffstring = staffstring+'\n'+staffstring_i
         rep["staff"]=staffstring
-        
+
         # regenerate replacement loop
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))

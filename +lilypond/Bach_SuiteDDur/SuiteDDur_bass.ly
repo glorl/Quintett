@@ -1,4 +1,4 @@
-SuiteDDurbass = \new Voice \relative c'{
+SuiteDDurBass = \new Voice \relative c'{
 \repeat volta 2{
 c4---.\p \< c'---. b---. b,---.
 a4---. a'---. g---. g,---.

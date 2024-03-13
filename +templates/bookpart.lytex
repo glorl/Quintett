@@ -9,7 +9,7 @@
     \markup {
         \column{
 titleline
-        \fill-line {\line {} \line{\abs-fontsize #12 { {composer_long} }} }
+        \fill-line {\line {} \line{\abs-fontsize #12 { \sans {composer_long} }} }
         }
     }
     \score{

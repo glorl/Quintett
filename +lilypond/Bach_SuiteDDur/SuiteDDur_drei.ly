@@ -1,4 +1,4 @@
-SuiteDDurdrei = \new Voice \relative c''{
+SuiteDDurDrei = \new Voice \relative c''{
 \repeat volta 2{
 g1\p (\<
 a1

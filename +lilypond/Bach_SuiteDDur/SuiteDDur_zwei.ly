@@ -1,4 +1,4 @@
-SuiteDDurzwei = \new Voice \relative c''{
+SuiteDDurZwei = \new Voice \relative c''{
 \repeat volta 2{
 c1\p (\<
 c1

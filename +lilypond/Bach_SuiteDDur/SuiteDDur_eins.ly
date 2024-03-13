@@ -1,4 +1,4 @@
-SuiteDDureins = \new Voice \relative c''{
+SuiteDDurEins = \new Voice \relative c''{
 \repeat volta 2{
 e1\p (\<
 e1
