@@ -8,7 +8,7 @@
     }
     \markup {
         \column{
-        \fill-line {\line{\abs-fontsize #18 { \sans {title_long} }} }
+titleline
         \fill-line {\line {} \line{\abs-fontsize #12 { {composer_long} }} }
         }
     }

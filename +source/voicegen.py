@@ -2,17 +2,23 @@ import os
 import json
 import re
 
-path_templates = '/home/georg/Dokumente/Quintett/+templates/'
-path_voices = '/home/georg/Dokumente/Quintett/+voices/'
-path_lilypond = '/home/georg/Dokumente/Quintett/+lilypond/'
-path_json = '/home/georg/Dokumente/Quintett/+voices' 
+# paths 
+path_templates  = '/home/georg/Dokumente/Quintett/+templates/'
+path_voices     = '/home/georg/Dokumente/Quintett/+voices/'
+path_lilypond   = '/home/georg/Dokumente/Quintett/+lilypond/'
+path_json       = '/home/georg/Dokumente/Quintett/+voices' 
 
 # global parameters
-emptyline = '            \\fill-line {\\line{\\abs-fontsize #30 { \\sans {\\null} }} }'
 paperheight = "#280"
 paperwidth = "#230"
 horizontalshift = "-15mm"
 printpagenumber = "##f"
+
+# template lines 
+emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { \\sans {\\null} }} }'
+staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
+titleline   = '        \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
+subtitleline= '        \\fill-line {\\line {} \\line{\\abs-fontsize #30 { {\\subtitle} }} }'
 
 # specific parameters 
 finput = open (os.path.join(path_json,'input.json'), "r")
@@ -42,11 +48,10 @@ for voice in voices:
         title_long      = data_piece['base']['title_long']
         composer        = data_piece['base']['composer']
         composer_long   = data_piece['base']['composer_long']
-        subtitle        = data_piece['base']['subtitle']
+        # subtitle        = data_piece['base']['subtitle']
 
         padding         = data_piece[voice]['padding']
         basicdistance   = data_piece[voice]['basicdistance']
-        n_emptyline     = data_piece[voice]['n_emptyline']
         instrumentname  = data_piece[voice]['instrumentname']
         
         rep["title_short"]      = title_short
@@ -57,6 +62,7 @@ for voice in voices:
         rep["padding_val"]      = padding
         rep["basicdistance_val"]= basicdistance
         rep["instrumentname"]   = instrumentname
+
         if 'partvoices' in data_piece[voice]:
             partvoices          = data_piece[voice]['partvoices']
             rep["voice"]        = partvoices[0] 
@@ -64,6 +70,15 @@ for voice in voices:
         else:
             rep["voice"]        = voice 
             length_partvoices   = 0
+        
+        if 'n_emptyline' in data_piece[voice]:
+            n_emptyline = data_piece[voice]['n_emptyline']
+        else: 
+            n_emptyline = 0
+        emptyline = ''
+        for kk in range(int(n_emptyline)):
+            emptyline=emptyline+'\n'+emptyline_i
+        rep["emptyline"]        = emptyline 
 
         ######## book ############
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
@@ -73,8 +88,6 @@ for voice in voices:
         
         ######## bookpart ############
         # prepare staff line
-        staffline       = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
-        subtitleline    = '        \\fill-line {\\line {} \\line{\\abs-fontsize #30 { {\\subtitle} }} }'
         rep["staff"]    = staffline
         
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
@@ -93,11 +106,8 @@ for voice in voices:
         fcopy_bookpart = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
         for line in ftemplate_bookpart:
             line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
-            if line.find('empty')>=0:
-                for kk in range(int(n_emptyline)):
-                    fcopy_bookpart.write(emptyline+'\n')
-            else: 
-                fcopy_bookpart.write(line)
+            fcopy_bookpart.write(line)
+
         fcopy_bookpart.close()
         ftemplate_bookpart.close()
 
