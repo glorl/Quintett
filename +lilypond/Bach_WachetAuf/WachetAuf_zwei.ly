@@ -1,4 +1,4 @@
-Wachetzwei= \new Voice \relative c'{
+WachetAufZwei= \new Voice \relative c'{
 \partial 8 r8 
 r4 c2\mp (~c8 bes) 
 d4 (bes ) c4~c8 r 

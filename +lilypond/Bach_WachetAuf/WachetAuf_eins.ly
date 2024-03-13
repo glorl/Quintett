@@ -1,4 +1,4 @@
-Wacheteins= \new Voice \relative c'{
+WachetAufEins= \new Voice \relative c'{
 \partial 8 c8--\mp 
 f16 (g) a8 a (g) bes (a) c, (bes) 
 a'16 (f) g8 bes, (a) e' (f) r c8-- 

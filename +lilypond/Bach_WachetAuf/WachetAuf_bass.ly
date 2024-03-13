@@ -1,4 +1,4 @@
-Wachetbass= \new Voice \relative c{
+WachetAufBass= \new Voice \relative c{
 \partial 8 r8 
 f4--\mp f-- f (a) 
 bes4 (c) f,4 ~f8 r

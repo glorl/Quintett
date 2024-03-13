@@ -3,7 +3,6 @@ python3 /home/georg/Dokumente/Quintett/+source/voicegen.py
 
 cd +voices/ 
 
-# Voice=$( jq .Stuecke.voices[0] -r input.json ) 
 jq -c -r '.Stuecke.voices[]' input.json | while read i; do
     Voice=$i
     lilypond-book --pdf /home/georg/Dokumente/Quintett/+voices/${Voice}.lytex 

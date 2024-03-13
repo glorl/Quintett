@@ -1,4 +1,4 @@
-globalWachet= {
+globalWachetAuf= {
 \time 4/4
 \key f \major
 \compressEmptyMeasures
