@@ -20,7 +20,21 @@ data = json.loads(finput.read())
  
 # Iterate through the json list
 voices=data['Stuecke']['voices']
-for voice in voices:    
+for voice in voices:
+
+    ######## book ############        
+    ftemplate_book = open(os.path.join(path_templates,'book.lytex'),"r")        
+    fcopy_book = open(os.path.join(path_voices,voice+'.lytex'),"wt")
+    
+    includes_lyfile = ''
+    includes_lytex  = ''
+    rep = {
+        "includes_lyfiles": includes_lyfile,
+        "includes_lytex":   includes_lytex,
+        "instrumentname": '',
+        "bookheader": ""
+        }
+
     for piece in data['Stuecke']['pieces']:
 
         data_piece      = data[piece]
@@ -35,22 +49,31 @@ for voice in voices:
         n_emptyline     = data_piece[voice]['n_emptyline']
         partvoices      = data_piece[voice]['partvoices']
         instrumentname  = data_piece[voice]['instrumentname']
+        
+        ######## book ############
+        rep["title_short"]      = title_short
+        rep["title_long"]       = title_long
+        rep["composer_long"]    = composer_long
+        rep["voice"]            = partvoices[0] 
+        rep["pheight"]          = paperheight
+        rep["pwidth"]           = paperwidth
+        rep["padding_val"]      = padding
+        rep["basicdistance_val"]= basicdistance
+        rep["instrumentname"]   = instrumentname
 
+
+        rep = dict((re.escape(k), v) for k, v in rep.items()) 
+        pattern = re.compile("|".join(rep.keys()))
+    
+        includes_lyfile =includes_lyfile+'\n    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"')
+        includes_lytex  =includes_lytex+'\n    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
+        
         ######## bookpart ############
         # prepare staff line
         staffline       = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
         subtitleline    = '        \\fill-line {\\line {} \\line{\\abs-fontsize #30 { {\\subtitle} }} }'
-        rep = {
-            "title_short":      title_short, 
-            "title_long":       title_long,
-            "composer_long":    composer_long,
-            "voice":            partvoices[0], 
-            "pheight":          paperheight,
-            "pwidth":           paperwidth,
-            "padding_val":      padding, 
-            "basicdistance_val":basicdistance, 
-            "staff":            staffline
-            } 
+        rep["staff"]    = staffline
+        
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
         staffstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffline)
@@ -63,36 +86,28 @@ for voice in voices:
         # regenerate replacement loop
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
-        ftemplate = open(os.path.join(path_templates,'bookpart.lytex'),"r")        
-        fcopy = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
-        for line in ftemplate:
+        ftemplate_bookpart = open(os.path.join(path_templates,'bookpart.lytex'),"r")        
+        fcopy_bookpart = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
+        for line in ftemplate_bookpart:
             line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
             if line.find('empty')>=0:
                 for kk in range(int(n_emptyline)):
-                    fcopy.write(emptyline+'\n')
+                    fcopy_bookpart.write(emptyline+'\n')
             else: 
-                fcopy.write(line)
-        fcopy.close()
-        ftemplate.close()
-        
-        ######## book ############        
-        ftemplate = open(os.path.join(path_templates,'book.lytex'),"r")        
-        fcopy = open(os.path.join(path_voices,voice+'.lytex'),"wt")
-        # prepare includes (book)
-        includes_lyfile = '    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"')
-        includes_lytex  = '    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
-        rep["includes_lyfiles"] =includes_lyfile
-        rep["includes_lytex"]   =includes_lytex
-        rep["instrumentname"]   =instrumentname
-        rep["header"]           =""
-        rep = dict((re.escape(k), v) for k, v in rep.items()) 
-        pattern = re.compile("|".join(rep.keys()))
+                fcopy_bookpart.write(line)
+        fcopy_bookpart.close()
+        ftemplate_bookpart.close()
 
-        # prepare includes_lytex (book)
-        for line in ftemplate:
-            line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
-            fcopy.write(line)
-        fcopy.close()
-        ftemplate.close()
+    rep["includes_lyfiles"] =includes_lyfile
+    rep["includes_lytex"]   =includes_lytex
+
+    rep = dict((re.escape(k), v) for k, v in rep.items()) 
+    pattern = re.compile("|".join(rep.keys()))
+    for line in ftemplate_book:
+        line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
+        fcopy_book.write(line)
+
+    fcopy_book.close()
+    ftemplate_book.close()
         
 finput.close()

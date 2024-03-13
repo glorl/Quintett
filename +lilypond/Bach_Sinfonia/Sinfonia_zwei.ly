@@ -1,4 +1,4 @@
-Sinfoniazwei = \new Voice \relative c'' {
+SinfoniaZwei = \new Voice \relative c'' {
 g4---.\p g---. r8 g r4
 r4 a\< r8 a r4
 r4 g r8 g\! r4

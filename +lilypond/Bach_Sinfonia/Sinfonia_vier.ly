@@ -1,4 +1,4 @@
-Sinfoniavier = \new Voice \relative c' {
+SinfoniaVier = \new Voice \relative c' {
 b4---.\p b---. r b
 r4 c\< r8 c r4
 r4 c r8 c\! r4

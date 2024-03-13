@@ -1,4 +1,4 @@
-Sinfoniabass = \new Voice \relative c' {
+SinfoniaBass = \new Voice \relative c' {
 g4--\p r8 g-. g4-- r8 g-.
 fis4-- r8 fis-. fis4-- r8 fis-.
 e4-- r8 e-. e4-- r8 e'-.

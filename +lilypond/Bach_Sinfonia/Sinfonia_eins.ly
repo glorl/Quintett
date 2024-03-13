@@ -1,4 +1,4 @@
-Sinfoniaeins = \new Voice \relative c'' {
+SinfoniaEins = \new Voice \relative c'' {
 b2\p ~b8 (c d e
 a,2) \<~a8 (b c d
 g,4\!) g'8 (e c2)~

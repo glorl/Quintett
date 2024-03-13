@@ -1,4 +1,4 @@
-Sinfoniadrei = \new Voice \relative c' {
+SinfoniaDrei = \new Voice \relative c' {
 d4---.\p d---. r d
 r4 d\< r8 d r4
 r4 e r8 e\! r4
