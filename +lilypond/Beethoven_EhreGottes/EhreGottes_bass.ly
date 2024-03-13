@@ -1,4 +1,4 @@
-EhreGottesbass= \new Voice \relative c'{
+EhreGottesBass= \new Voice \relative c'{
 \partial 4 c4\f 
 f2 (c) 
 a2 (f4--) r 

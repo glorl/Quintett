@@ -1,4 +1,4 @@
-Wachetdrei= \new Voice \relative c{
+WachetDrei= \new Voice \relative c{
 \partial 8 r8 
 r4 f2.\mp 
 f4 (g ) a4~a8 r 

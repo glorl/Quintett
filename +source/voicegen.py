@@ -48,7 +48,6 @@ for voice in voices:
         title_long      = data_piece['base']['title_long']
         composer        = data_piece['base']['composer']
         composer_long   = data_piece['base']['composer_long']
-        # subtitle        = data_piece['base']['subtitle']
 
         padding         = data_piece[voice]['padding']
         basicdistance   = data_piece[voice]['basicdistance']

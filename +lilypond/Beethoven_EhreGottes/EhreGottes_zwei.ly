@@ -1,4 +1,4 @@
-EhreGottesvier= \new Voice \relative c'{
+EhreGottesZwei= \new Voice \relative c'{
 \partial 4 c4\f 
 f2 (c) 
 a2 (f4--) a'-- 
