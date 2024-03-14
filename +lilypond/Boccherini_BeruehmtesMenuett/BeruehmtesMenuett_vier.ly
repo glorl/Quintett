@@ -1,4 +1,4 @@
-BeruehmtesMenuettvier = \new Voice \relative c' {
+BeruehmtesMenuettVier = \new Voice \relative c' {
 \repeat volta 2{
 \partial 4 r4 
 c8-.->\p c-.\< e-. c-. e-. c-.
@@ -56,8 +56,8 @@ c4~c8 r
 % \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #1
-\once \override TextScript #'Y-offset = #-1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #1
+\once \override TextScript.Y-offset = #-1
 | s2.*1^\markup { \center-column { "D.C. al Fine" } }  
 }

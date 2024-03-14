@@ -1,4 +1,4 @@
-BeruehmtesMenuetteins = \new Voice \relative c''' {
+BeruehmtesMenuettEins = \new Voice \relative c''' {
 \repeat volta 2{
     \partial 4 % \acciaccatura {c16[d]}  
 c16\prall \p \< (b c d) \!
@@ -57,8 +57,8 @@ f4~f8 r
 % \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #1
-\once \override TextScript #'Y-offset = #-1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #1
+\once \override TextScript.Y-offset = #-1
 | s2.*1^\markup { \center-column { "D.C. al Fine" } }  
 }

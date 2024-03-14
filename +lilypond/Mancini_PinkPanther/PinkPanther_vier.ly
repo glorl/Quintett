@@ -6,9 +6,9 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-PinkPanthervier = \new Voice \relative c'' {
+PinkPantherVier = \new Voice \relative c'' {
 \compressEmptyMeasures
 g4.-^\f g8-- gis-- gis-^ r4
 as4.-- g8-. r2 
@@ -106,9 +106,9 @@ g!8-.) a,4. \tuplet 3/2 {r8 r8 fis8(} \tuplet 3/2 {g8) r8 gis8 }
 \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
