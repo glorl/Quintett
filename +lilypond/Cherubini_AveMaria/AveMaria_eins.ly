@@ -1,4 +1,4 @@
-CAveMariaeins = \new Voice \relative c'' {
+AveMariaEins = \new Voice \relative c'' {
 R2.*12
 g2.\p 
 (a2) r4 

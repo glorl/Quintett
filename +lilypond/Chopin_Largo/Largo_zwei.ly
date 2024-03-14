@@ -1,4 +1,4 @@
-ChLargozwei = \new Voice \relative c' {
+LargoZwei = \new Voice \relative c' {
 \partial 4 d4\mf^\markup{\large {\bold {Largo in E-flat major, B.109}}}
 g2 (fis
 e2 dis

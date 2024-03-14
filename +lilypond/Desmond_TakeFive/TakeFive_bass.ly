@@ -1,4 +1,4 @@
-TakeFivebass = \new Voice \relative c {
+TakeFiveBass = \new Voice \relative c {
 \compressEmptyMeasures
 \set countPercentRepeats = ##t
 e4 \mf r8 e8 r4 b'4 b4
@@ -33,9 +33,9 @@ e,4 r8 e8 r4 b'4 b4
 } \bar "||" 
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

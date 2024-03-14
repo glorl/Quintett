@@ -6,9 +6,9 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-TakeFiveeins = \new Voice \relative c' {
+TakeFiveEins = \new Voice \relative c' {
 \compressEmptyMeasures
 \set countPercentRepeats = ##t
 r8 e4-.\mf \decresc r8 e4-. r4 d4-.
@@ -62,9 +62,9 @@ e8 (dis16 e g fis g a b bes a g fis8) b,4-. d16 (fis)
 e2 r4 b,8 (e g a) \bar "||" 
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

@@ -1,4 +1,4 @@
-CAveMariavier = \new Voice \relative c' {
+AveMariaVier = \new Voice \relative c' {
 b8 \pp (d16) r b8 (d16) r b8 (d16) r 
 b8 (d16) r b8 (d16) r b8 (d16) r 
 a8 (d16) r a8 (d16) r a8 (d16) r 

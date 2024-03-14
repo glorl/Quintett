@@ -1,4 +1,4 @@
-ChLargobass = \new Voice \relative c' {
+LargoBass = \new Voice \relative c' {
 \partial 4 d4\mf^\markup{\large {\bold {Largo in E-flat major, B.109}}}
 g,2 (d'4 dis
 e2 b)

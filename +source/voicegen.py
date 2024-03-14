@@ -15,7 +15,7 @@ horizontalshift = "-15mm"
 printpagenumber = "##f"
 
 # template lines 
-emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { \\sans {\\null} }} }'
+emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} }'
 staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
 titleline   = '        \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
 subtitleline= '        \\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
@@ -28,7 +28,7 @@ data = json.loads(finput.read())
 voices=data['Stuecke']['voices']
 for voice in voices:
 
-    ######## book ############        
+    ######## book ############
     ftemplate_book = open(os.path.join(path_templates,'book.lytex'),"r")        
     fcopy_book = open(os.path.join(path_voices,voice+'.lytex'),"wt")
     

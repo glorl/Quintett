@@ -1,4 +1,4 @@
-ChLargoeins = \new Voice \relative c'' {
+LargoEins = \new Voice \relative c'' {
 \partial 4 g4\mf^\markup{\large {\bold {Largo in E-flat major, B.109}}}
 b2 (a8 c b a
 g2 fis

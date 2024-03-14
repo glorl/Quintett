@@ -1,4 +1,4 @@
-UngTanzFzwei = \new Voice \relative c' {
+UngarischerTanzFZwei = \new Voice \relative c' {
 \compressEmptyMeasures
 r8 c\mf r c 
 r8 c r c 

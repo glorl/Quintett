@@ -1,4 +1,4 @@
-CAveMariazwei = \new Voice \relative c'' {
+AveMariaZwei = \new Voice \relative c'' {
 R2.*1
 g2_\markup{\dynamic p \italic dolce} (fis16 g a b 
 a2) r4 
