@@ -1,4 +1,4 @@
-Adagiozwei = \new Voice \relative c'' {
+CelloConcertoZwei = \new Voice \relative c'' {
 g2.\p \bar"||"
 g2.\segno \< 
 g2 \> (e4) \!

@@ -1,4 +1,4 @@
-Humoreskedrei = \new Voice \relative c' {
+HumoreskeDrei = \new Voice \relative c' {
 bes'16_\markup{\dynamic f \italic marcato} d d d es es c bes 
 a (c) a-- f-- f (bes8.) 
 bes16 d d d es8-- c16 (c) 
@@ -48,9 +48,9 @@ c8-- a16 g fis4\fermata  \bar"||"
 \key g \major
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda"} } } 
 | s1*1 \bar""
 | s1*1 \bar""

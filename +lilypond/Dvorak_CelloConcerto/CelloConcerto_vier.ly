@@ -1,4 +1,4 @@
-Adagiovier = \new Voice \relative c' {
+CelloConcertoVier = \new Voice \relative c' {
 g2\p (c4)\bar"||"
 g2.\segno\<
 d'2.\> 

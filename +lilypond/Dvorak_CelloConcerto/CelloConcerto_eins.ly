@@ -1,4 +1,4 @@
-Adagioeins = \new Voice \relative c' {
+CelloConcertoEins = \new Voice \relative c' {
 d'2\p (e8. c16)\bar"||"
 d4\segno r8 d8\< g d
 b4 \> (b4 \appoggiatura d8 c4) \!

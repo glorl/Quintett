@@ -1,4 +1,4 @@
-Adagiobass = \new Voice \relative c' {
+CelloConcertoBass = \new Voice \relative c' {
 g2\p (e4)\bar"||"
 g2.\<\segno
 d'2.\> 
