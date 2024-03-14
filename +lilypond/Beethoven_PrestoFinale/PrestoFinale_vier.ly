@@ -1,4 +1,4 @@
-Prestovier = \new Voice \relative c' {
+PrestoFinaleVier = \new Voice \relative c' {
 \compressEmptyMeasures
 \set Timing.beatStructure = #'(4)
 \partial 8 g'8-. \p
@@ -274,12 +274,12 @@ g!-. fis-. g-. e-.
 f-. e-. f-. d-. 
 e-. d-. e-. c-. 
 d-. c-. d-. e-. 
-f-. e-. f-. e-. 
+f-.\sf e-. f-. e-. 
 d-. c-. d-. e-. 
 f-. e-. f-. e-. 
 d-. c-. d-. e-. 
 f-. f4-> f8-. 
-dis-. dis4-> dis8-.
+dis-. dis4-> \sf dis8-.
 c2\fermata \noBreak
 \omit Score.BarLine
 \omit Score.SpanBar

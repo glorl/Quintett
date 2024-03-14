@@ -1,4 +1,4 @@
-Prestoeins = \new Voice \relative c' {
+PrestoFinaleEins = \new Voice \relative c' {
 \compressEmptyMeasures
 \set Timing.beatStructure = #'(4)
 \partial 8 g''8-.\p

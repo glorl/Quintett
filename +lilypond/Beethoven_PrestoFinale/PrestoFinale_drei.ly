@@ -1,4 +1,4 @@
-Prestodrei = \new Voice \relative c' {
+PrestoFinaleDrei = \new Voice \relative c' {
 \compressEmptyMeasures
 \set Timing.beatStructure = #'(4)
 \partial 8 r8
@@ -293,7 +293,7 @@ a-.\sf gis-. a-. g-.
 f-. e-. f-. g-. 
 a a4->\sf a8
 fis fis4->\sf fis8
-g2\sf \fermata \noBreak
+g2 \fermata \noBreak
 \omit Score.BarLine
 \omit Score.SpanBar
 \omit Score.BarNumber

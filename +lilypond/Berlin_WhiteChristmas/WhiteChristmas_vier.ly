@@ -1,4 +1,4 @@
-WhiteChristmasvier = \new Voice \relative c' {
+WhiteChristmasVier = \new Voice \relative c' {
 \partial 2 c4( \mf d)
 e2 cis
 d4. d8-- b4 g
@@ -70,9 +70,9 @@ g1
 f2~f8 \fermata r r8\fermata r\fermata \bar"||"
 \cadenzaOn
 \stopStaff
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }
 | s1*1 \bar""
 | s1*1 \bar""

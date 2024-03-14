@@ -1,4 +1,4 @@
-Prestozwei = \new Voice \relative c' {
+PrestoFinaleZwei = \new Voice \relative c' {
 \compressEmptyMeasures
 \set Timing.beatStructure = #'(4)
 \partial 8 e'8-.\p

@@ -1,4 +1,4 @@
-WhiteChristmasdrei = \new Voice \relative c' {
+WhiteChristmasDrei = \new Voice \relative c' {
 \partial 2 f4-- \mf f--
 g2 g
 f4. f8-- e4 d
@@ -70,9 +70,9 @@ g4-- r8 fis''16 (g dis8 e b bes
 a8 d a as) g \fermata r f,8\fermata f\fermata \bar"||"
 \cadenzaOn
 \stopStaff
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }
 | s1*1 \bar""
 | s1*1 \bar""

@@ -1,4 +1,4 @@
-WhiteChristmasbass = \new Voice \relative c {
+WhiteChristmasBass = \new Voice \relative c {
 \partial 2 f2 \mf
 c'4 b bes g
 f4 g b g
@@ -70,9 +70,9 @@ e4 d b g
 d'4 c g8\fermata r r8\fermata r\fermata \bar"||"
 \cadenzaOn
 \stopStaff
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }
 | s1*1 \bar""
 | s1*1 \bar""
