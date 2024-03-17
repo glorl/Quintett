@@ -1,4 +1,4 @@
-HaendelLargodrei= \new Voice \relative c' {
+OmbraMaiFuDrei= \new Voice \relative c' {
 g2.\mf (
 c2.)
 g4 g g 

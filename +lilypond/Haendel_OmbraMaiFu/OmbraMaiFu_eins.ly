@@ -1,4 +1,4 @@
-HaendelLargoeins= \new Voice \relative c'' {
+OmbraMaiFuEins= \new Voice \relative c'' {
 g2.\mf ~
 g4 fis-- e8. d16 
 d2.

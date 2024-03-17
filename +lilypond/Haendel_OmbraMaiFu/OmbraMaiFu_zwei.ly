@@ -1,4 +1,4 @@
-HaendelLargozwei= \new Voice \relative c' {
+OmbraMaiFuZwei= \new Voice \relative c' {
 d2.\mf ~
 d4 d-- c-- 
 d2.
