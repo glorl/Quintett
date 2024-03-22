@@ -1,4 +1,4 @@
-HallelujaZwei = \new Voice \relative c' {
+MessiasZweiDreineun = \new Voice \relative c' {
 fis4. \f a8-. b-. a-. r4
 d4. d8 cis-. d-. r a
 cis8 d4 cis8 d4 r

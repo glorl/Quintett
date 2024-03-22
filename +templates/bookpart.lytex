@@ -6,19 +6,7 @@
         horizontal-shift=-15\mm
         print-page-number=##f
     }
-    \markup {
-        \column{
-titleline
-        \fill-line {\line {} \line{\abs-fontsize #12 { \sans {composer_long} }} }
-        }
-    }
-    \score{
-        \layout{ system-system-spacing = #'((padding . padding_val) (basic-distance . basicdistance_val)) }
-        \new StaffGroup << 
-staff
-        >>
-    \header{}
-    }
+score_overall
     \markup {
         \column{
 emptyline

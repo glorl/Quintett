@@ -1,4 +1,4 @@
-HallelujaEins = \new Voice \relative c'' {
+MessiasEinsDreineun = \new Voice \relative c'' {
 d4. \f fis8-. g-. fis-. r4
 d4. fis8 g fis r a
 g8 fis e4 d r
