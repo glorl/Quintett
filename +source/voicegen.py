@@ -16,7 +16,7 @@ printpagenumber = "##f"
 
 # template lines 
 emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} }'
-staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoice >> '
+staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoiceSP >> '
 titleline   = '        \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
 subtitleline= '        \\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
 composerline= '        \\fill-line {\\line {} \\line{\\abs-fontsize #12 { \\sans {composer_long} }} }'
@@ -78,10 +78,10 @@ for voice in voices:
         else:
             if 'partvoices' in data_piece[voice]:
                 partvoices          = data_piece[voice]['partvoices']
-                rep["voice"]        = partvoices[0]+data_piece['base']['subpieces'][0]
+                rep["voice"]        = partvoices[0]
                 length_partvoices   = len(partvoices)
             else:
-                rep["voice"]        = voice+data_piece['base']['subpieces'][0]
+                rep["voice"]        = voice
                 length_partvoices   = 0
             
         
@@ -137,6 +137,8 @@ for voice in voices:
                 staffstring_i = staffline.replace('voice',partvoices[ipartvoices])
                 staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
                 staffstring = staffstring+'\n'+staffstring_i
+            
+            staffstring = staffstring.replace('SP','')
             rep["staff"]=staffstring
 
             # prepare score line 
@@ -144,39 +146,57 @@ for voice in voices:
             pattern = re.compile("|".join(rep.keys()))
             scorelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], scoreline)
             rep["scoreline"]=scorelinestring
+            
+            # prepare markup score output 
+            rep = dict((re.escape(k), v) for k, v in rep.items()) 
+            pattern = re.compile("|".join(rep.keys()))
+            scoreoverallstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], score_overall)
+            rep["score_overall"]=scoreoverallstring
+
 
         else:  # yes subpiece: title, subtitle in first loop, then each subpiece + score 
 
-            score_overall = 'markupline \n subpieceline \n  scoreline'
+            score_overall_i = 'markupline '
             
-            rep["sub_piece"]    = data_piece['base']['subpieces_long'][0]
-            rep = dict((re.escape(k), v) for k, v in rep.items()) 
-            pattern = re.compile("|".join(rep.keys()))
-            subpiecestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], subpieceline)
-            rep["subpieceline"]    = subpiecestring
-            
-            # prepare staff line
-            rep["staff"]    = staffline
-            rep = dict((re.escape(k), v) for k, v in rep.items()) 
-            pattern = re.compile("|".join(rep.keys()))
-            staffstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffline)
-            for ipartvoices in range(1,length_partvoices): 
-                staffstring_i = staffline.replace('voice',partvoices[ipartvoices]+data_piece['base']['subpieces'][0])
-                staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
-                staffstring = staffstring+'\n'+staffstring_i
-            rep["staff"]=staffstring
+            for i_subpieces in range(len(data_piece['base']['subpieces'])):
 
-            # prepare score line 
+                score_overall_i = score_overall_i+'\n subpieceline \n  scoreline'
+                
+                rep["sub_piece"]    = data_piece['base']['subpieces_long'][i_subpieces]
+                rep = dict((re.escape(k), v) for k, v in rep.items()) 
+                pattern = re.compile("|".join(rep.keys()))
+                subpiecestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], subpieceline)
+                rep["subpieceline"]    = subpiecestring
+                
+                # prepare staff line
+                rep["staff"]    = staffline
+                rep = dict((re.escape(k), v) for k, v in rep.items()) 
+                pattern = re.compile("|".join(rep.keys()))
+                staffstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffline)
+                for ipartvoices in range(1,length_partvoices): 
+                    staffstring_i = staffline.replace('voice',partvoices[ipartvoices])
+                    staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
+                    staffstring = staffstring+'\n'+staffstring_i
+                staffstring = staffstring.replace('SP',data_piece['base']['subpieces'][i_subpieces])
+                rep["staff"]=staffstring
+
+                # prepare score line 
+                rep = dict((re.escape(k), v) for k, v in rep.items()) 
+                pattern = re.compile("|".join(rep.keys()))
+                scorelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], scoreline)
+                rep["scoreline"]=scorelinestring
+                
+                rep = dict((re.escape(k), v) for k, v in rep.items()) 
+                pattern = re.compile("|".join(rep.keys()))
+                score_overall_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], score_overall_i)
+            
+            score_overall = score_overall_i
+
+            # prepare markup score output 
             rep = dict((re.escape(k), v) for k, v in rep.items()) 
             pattern = re.compile("|".join(rep.keys()))
-            scorelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], scoreline)
-            rep["scoreline"]=scorelinestring
-        
-        # prepare markup score output 
-        rep = dict((re.escape(k), v) for k, v in rep.items()) 
-        pattern = re.compile("|".join(rep.keys()))
-        scoreoverallstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], score_overall)
-        rep["score_overall"]=scoreoverallstring
+            scoreoverallstring = pattern.sub(lambda m: rep[re.escape(m.group(0))], score_overall)
+            rep["score_overall"]=scoreoverallstring
 
         # write output 
         rep = dict((re.escape(k), v) for k, v in rep.items()) 

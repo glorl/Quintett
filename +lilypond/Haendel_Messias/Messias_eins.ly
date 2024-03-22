@@ -1,4 +1,26 @@
 MessiasEinsDreineun = \new Voice \relative c'' {
+R1*3
+d4. \f a8-. b-. a-. r4
+d4. a8 b a r d16 d
+d8 d r d16 d d8 d r d
+cis8 d4 cis8 d4 r 
+e4. a,8 fis' e r4
+e4. a,8 fis' e r e16 e
+fis8 e r e16 e fis8 e r e
+fis8 e d4 cis r
+a2 \ff ^\markup{\large{\bold A}} b4 cis
+d8 d, d'2 cis4
+b2 a4 r8 e'16 e
+d8 cis r e16 e d8 cis r e16 e
+fis8 e r e16 e fis8 e r4
+R1^\markup{\large{\bold B}} 
+R1
+r2 r4 r8 d16 d
+d8 d r d16 d d8 d r d16 d
+d8 d r8 d16 d d8 d r4
+d2 ^\markup{\large{\bold C}} e4 fis
+}
+MessiasOldEinsHalleluja = \new Voice \relative c'' {
 d4. \f fis8-. g-. fis-. r4
 d4. fis8 g fis r a
 g8 fis e4 d r
