@@ -66,7 +66,7 @@ e4. a,8 fis' e r e16 e
 fis8 e r e16 e fis8 e r e
 fis8 e d4 cis r
 a2 b4 cis
-d8 d, d'2 cis4
+d8 d, d'4. d8 cis4
 b2 a4 r8 e'16 e
 d8 cis r e16 e d8 cis r e16 e
 fis8 e r e16 e fis8 e r4
