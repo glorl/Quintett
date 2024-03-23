@@ -1,8 +1,63 @@
-MessiasEinsDreineun = \new Voice \relative c'' {
+MessiasEinsZweifuenf = \transpose bes c' {\new Voice \relative c'' {
+\time 4/4
+\key es \major
+R1*11^\markup{\bold Allegro}
+r1 
+r1 
+r2 r4 c
+g4 a8 a bes g c4~
+c8 bes16 a bes8 c d bes es4
+r8 d d d g c, c4 
+r8 es d c bes4 a 
+g4 r r2 
+r8 c f es d8. c16 bes4 
+r8 bes c4~c8 c bes4 ~
+bes4 a bes r 
+R1*3
+r1 
+r8 f f' es d8. c16 bes4 
+r2 r4 bes
+es,4 f8 f g es as4~
+as8 g16 f g8 as bes g c4
+r8 bes bes bes es as, as4 
+r8 c bes as g4 f 
+es4 r r2
+r8 c' f f e8. d16 c4 
+r2 r8 g8 c bes 
+as8 g f e f4 des'
+c2 r8 g c bes 
+a8. g16 f4 r2
+r8 c' f es d8. c16 bes4 
+r8 c8 a bes c d es d 
+d4 c d8. d16 d4 
+R1*3
+r2 r8 d, d' c
+b8. a16 g4 r2 
+r8 d' g f es8. d16 c4 
+r8 c f es d8. c16 bes4 
+R1 
+r4 g' c, d8 d 
+es8 c f4~f8 es16 d es8 f 
+g8 es as4 r8 g g g 
+g8 f f4 r8 as g f 
+es4 d c r
+R1
+r8 bes es d c d16 es d8 c 
+b4 r r8 c bes as
+g8 es' d c b g g'4 ~
+g4 f8 es d bes! es4~
+es4 d8 c b8. b16 b4 
+r4^\markup{\bold Adagio} b c c 
+c2 b 
+c1
+\bar"|."
+}}
+
+MessiasEinsDreineun = \transpose bes c'{\new Voice \relative c'' {
 \time 4/4
 \key d \major
 R1*3^\markup{\bold Allegro}
-d4. \f a8-. b-. a-. r4
+d4. a8 b a r4
 d4. a8 b a r d16 d
 d8 d r d16 d d8 d r d
 cis8 d4 cis8 d4 r 
@@ -88,8 +143,8 @@ d8 d r d16 d d8 d r d16 d
 d8 d r4 r d 
 d2. d4 
 d1\bar"|."
-}
-MessiasEinsViereins = \new Voice \relative c'' {
+}}
+MessiasEinsViereins = \transpose bes c'{\new Voice \relative c'' {
 \time 4/4
 \key c \major
 R1^\markup{\bold Grave}
@@ -121,7 +176,7 @@ c4. c8 e4 b
 c4 b8 a gis4. gis8 
 a2 r 
 R1*3\bar"|."
-}
+}}
 MessiasOldEinsHalleluja = \new Voice \relative c'' {
 d4. \f fis8-. g-. fis-. r4
 d4. fis8 g fis r a
