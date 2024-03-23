@@ -1,6 +1,4 @@
 globalMessias = {
-\time 4/4
-\key d \major
 \compressEmptyMeasures
 }
 

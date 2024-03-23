@@ -28,7 +28,14 @@ scoreline = '    \\score{ \n \\layout{ system-system-spacing = #\'((padding . pa
 # specific parameters 
 finput = open (os.path.join(path_json,'input.json'), "r")
 data = json.loads(finput.read())
- 
+
+# define replacement loop 
+def rep_pattern(rep,string):
+    rep = dict((re.escape(k), v) for k, v in rep.items()) 
+    pattern = re.compile("|".join(rep.keys()))
+    stringout = pattern.sub(lambda m: rep[re.escape(m.group(0))], string)
+    return rep, stringout
+
 # Iterate through the json list
 voices=data['Stuecke']['voices']
 for voice in voices:
@@ -95,17 +102,16 @@ for voice in voices:
         rep["emptyline"]        = emptyline 
 
         ######## book ############
-        rep = dict((re.escape(k), v) for k, v in rep.items()) 
-        pattern = re.compile("|".join(rep.keys()))    
         includes_lyfile =includes_lyfile+'\n    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"')
         includes_lytex  =includes_lytex+'\n    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
         
         ######## bookpart ############
         # prepare title line 
-
         rep = dict((re.escape(k), v) for k, v in rep.items()) 
         pattern = re.compile("|".join(rep.keys()))
         titlelinestring = pattern.sub(lambda m: rep[re.escape(m.group(0))], titleline)
+        # rep, titlelinestring = rep_pattern(rep,titleline)
+
         if 'subtitle' in data_piece['base']:
             subtitle        = data_piece['base']['subtitle']
             rep['subtitle'] = subtitle
