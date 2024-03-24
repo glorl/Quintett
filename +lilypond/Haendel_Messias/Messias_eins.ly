@@ -177,7 +177,9 @@ c4 b8 a gis4. gis8
 a2 r 
 R1*3\bar"|."
 }}
-MessiasOldEinsHalleluja = \new Voice \relative c'' {
+MessiasEinsHalleluja = \transpose bes c'{\new Voice \relative c'' {
+\time 4/4
+\key d \major
 d4. \f fis8-. g-. fis-. r4
 d4. fis8 g fis r a
 g8 fis e4 d r
@@ -268,4 +270,4 @@ d8 fis16 fis a8 fis d8 fis16 fis a8 d,16 d
 b'8 a r4^\markup{\large{\bold Adagio.}} r a,
 b2. b4
 a1\fermata\bar"|."
-}
+}}
