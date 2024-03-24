@@ -1,11 +1,9 @@
-globalUngarischerTanzF= {
-\time 2/4
-\key c \major
+globalUngarischerTanz= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanzF_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanzF_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanzF_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanzF_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanzF_bass.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanz_eins.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanz_zwei.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanz_drei.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanz_vier.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Brahms_UngarischerTanz/UngarischerTanz_bass.ly"
