@@ -2,9 +2,14 @@ MessiasEinsZweifuenf = \transpose bes c' {\new Voice \relative c'' {
 \time 4/4
 \key es \major
 R1*11^\markup{\bold Allegro}
+<< \new CueVoice {
+\stemUp g8^"Viol. II" es as4 ~as8 g16 f g8 g 
+c8 f, f4 ~f8 g16 as g8 f
+es4 d c} 
+{r1 
 r1 
-r1 
-r2 r4 c
+r2 r4 }>> 
+c'4
 g4 a8 a bes g c4~
 c8 bes16 a bes8 c d bes es4
 r8 d d d g c, c4 
@@ -95,8 +100,12 @@ d4. cis8 d4 d
 cis4. a8 b4 cis 
 d2 r
 R1*5
-r1 
-r2 r4 d 
+<< \new CueVoice {
+\stemUp d,4 ^"Viol. I" r8 b e cis d4 ~
+d cis d}
+{r1
+r2 r4 }>> 
+d' 
 a'4 cis, fis a, 
 d4 cis8 b cis4 b8. a16 
 a2 a4 a 
@@ -147,9 +156,11 @@ d1\bar"|."
 MessiasEinsViereins = \transpose bes c'{\new Voice \relative c'' {
 \time 4/4
 \key c \major
-R1^\markup{\bold Grave}
-r1 
-r1 \bar"||"
+R1*4^\markup{\bold Grave}
+<< \new CueVoice {
+\stemUp d2 ^"Sopr." dis
+e1}
+{r1 r1} >>\bar"||"
 r4^\markup{\bold Allegro} r8 e8 g4 d 
 e4 c8 c g'4 d 
 e4 c g' d 
@@ -161,9 +172,14 @@ c4 b8 c a b c d
 e8 f g4 d4. d8 
 e4 r r2\bar"||"
 R1*4^\markup{\bold Grave}
-r1 
-r1 \bar"||"
-r4^\markup{\bold Allegro} a,8 a d4 cis
+<< \new CueVoice {
+\stemUp d2 ^"Sopr." d4 d 
+d2 (cis4 b)}
+\new CueVoice {
+\stemDown d4 d d d 
+cis1}
+{r1 r1} >>\bar"||"
+r4^\markup{\bold Allegro} a8 a d4 cis
 d4 r8 d d d cis cis 
 d4 a8 a d4 cis
 d4 r8 e d d c! c 
