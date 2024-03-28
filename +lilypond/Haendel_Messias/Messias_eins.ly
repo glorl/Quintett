@@ -3,13 +3,13 @@ MessiasEinsZweifuenf = \transpose bes c' {\new Voice \relative c'' {
 \key es \major
 R1*11^\markup{\bold Allegro}
 << \new CueVoice {
-\stemUp g8^"Viol. II" es as4 ~as8 g16 f g8 g 
+\stemDown g8_"Viol. II" es as4 ~as8 g16 f g8 g 
 c8 f, f4 ~f8 g16 as g8 f
 es4 d c} 
-{r1 
-r1 
-r2 r4 }>> 
-c'4
+{c'1\rest 
+c1\rest 
+c2\rest c4\rest }>> 
+c4
 g4 a8 a bes g c4~
 c8 bes16 a bes8 c d bes es4
 r8 d d d g c, c4 
@@ -19,8 +19,11 @@ r8 c f es d8. c16 bes4
 r8 bes c4~c8 c bes4 ~
 bes4 a bes r 
 R1*3
-r1 
-r8 f f' es d8. c16 bes4 
+<< \new CueVoice {
+\stemDown bes8_"Viol. II" es, es4 ~es8 f16 g f8 es 
+d8}
+{c'1\rest
+c8\rest}>>  f, f' es d8. c16 bes4 
 r2 r4 bes
 es,4 f8 f g es as4~
 as8 g16 f g8 as bes g c4
@@ -101,11 +104,11 @@ cis4. a8 b4 cis
 d2 r
 R1*5
 << \new CueVoice {
-\stemUp d,4 ^"Viol. I" r8 b e cis d4 ~
+\stemUp d,4_"Viol. I" r8 b e cis d4 ~
 d cis d}
-{r1
-r2 r4 }>> 
-d' 
+{c'1\rest
+c2\rest c4\rest }>> 
+d
 a'4 cis, fis a, 
 d4 cis8 b cis4 b8. a16 
 a2 a4 a 
