@@ -1,5 +1,4 @@
-Klarinettenmuckldrei = \new Voice \relative c' {
-\compressEmptyMeasures
+KlarinettenmucklDrei = \new Voice \relative c' {
 e2 \f f
 f f
 e d
@@ -56,16 +55,15 @@ d r r8 c4-. b8--
 \bar"||"
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
-\mBar
 g'4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r e'4-.-^\f
 \bar"||" \key f \major 
 f2->^\markup{Trio} f8 (c f f~

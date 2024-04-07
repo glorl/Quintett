@@ -1,4 +1,4 @@
-VerleihUnsFriedenzwei= \new Voice \relative c'{
+VerleihUnsFriedenZwei= \new Voice \relative c'{
 d4\mf (g g8 fis )
 g2 f4--
 e4 (g4. fis!8)

@@ -1,4 +1,4 @@
-Intermezzobass = \new Voice \relative c' {
+IntermezzoBass = \new Voice \relative c' {
 r2.
 d2 \pp e8 (f)
 fis4 (g fis)

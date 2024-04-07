@@ -1,4 +1,4 @@
-VerleihUnsFriedenbass= \new Voice \relative c'{
+VerleihUnsFriedenBass= \new Voice \relative c'{
 g4\mf (g) d'--
 e2 b4--
 c4-- b8 (c) d4--

@@ -1,4 +1,4 @@
-Intermezzoeins = \new Voice \relative c'' {
+IntermezzoEins = \new Voice \relative c'' {
 c4 \pp \< (e g)
 g4.\> (f8) e8 (d)\!
 a'8 (c,) e2

@@ -1,4 +1,4 @@
-Intermezzovier = \new Voice \relative c' {
+IntermezzoVier = \new Voice \relative c' {
 c4 \pp \< (b a )
 a2.\>
 a4\! (c2)

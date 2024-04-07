@@ -1,4 +1,4 @@
-Intermezzodrei = \new Voice \relative c' {
+IntermezzoDrei = \new Voice \relative c' {
 c2. \pp \<
 c2.\>
 c4\! (e2)

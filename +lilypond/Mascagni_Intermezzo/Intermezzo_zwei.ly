@@ -1,4 +1,4 @@
-Intermezzozwei = \new Voice \relative c'' {
+IntermezzoZwei = \new Voice \relative c'' {
 g2. \pp \<
 a2.\>
 a4\! (g2)

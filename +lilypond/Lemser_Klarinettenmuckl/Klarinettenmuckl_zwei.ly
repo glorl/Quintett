@@ -1,5 +1,4 @@
-Klarinettenmucklzwei = \new Voice \relative c'' {
-\compressEmptyMeasures
+KlarinettenmucklZwei = \new Voice \relative c'' {
 g2 \f a
 a c
 g f
@@ -23,7 +22,7 @@ e4-.\f^\markup { \fontsize #4 {\musicglyph #"scripts.coda" }} r r g,8 (f) \bar"|
 e [(dis e g,] ~g [a] \tuplet 3/2 {c [d dis]}
 e a g c ~c4.) e8
 dis (e g a c d dis e)
-% \override Glissando.style = #'zigzag
+% \override Glissando.style =.zigzag
 d4 \glissando a8 g ~g4 d,-.\mf 
 d-- d-. r d-.
 r d-. r d-.
@@ -57,17 +56,16 @@ g r r8 e4 (d8)
 \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
 \startStaff 
 \cadenzaOff
 \break
-\mBar
-e'4^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r g4-.-^\f
+e'4 ^\markup { \fontsize #3.5 {\musicglyph #"scripts.coda" Coda} } r r g4-.-^\f
 \bar"||" \key f \major 
 a2->^\markup{Trio} f8 (c gis a~
 a2) r

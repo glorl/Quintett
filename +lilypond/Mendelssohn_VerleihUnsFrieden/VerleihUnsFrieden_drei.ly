@@ -1,4 +1,4 @@
-VerleihUnsFriedendrei= \new Voice \relative c'{
+VerleihUnsFriedenDrei= \new Voice \relative c'{
 b4\mf (d ) d--
 b2 d4--
 g,4 b a
