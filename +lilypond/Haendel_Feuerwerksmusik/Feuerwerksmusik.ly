@@ -8,16 +8,3 @@ globalFeuerwerksmusik= {
 \include "/home/georg/Dokumente/Quintett/+lilypond/Haendel_Feuerwerksmusik/Feuerwerksmusik_vier.ly"
 \include "/home/georg/Dokumente/Quintett/+lilypond/Haendel_Feuerwerksmusik/Feuerwerksmusik_bass.ly"
 
-globalFeuerwerksmusikMenuett= {
-\time 3/4
-\key f \major
-\compressEmptyMeasures
-}
-
-
-globalFeuerwerksmusikFriede= {
-\time 6/8
-\key c \major
-\compressEmptyMeasures
-}
-

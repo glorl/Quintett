@@ -132,8 +132,103 @@ c4.^\markup{Fine}
 }
 \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #1
-\once \override TextScript #'Y-offset = #-1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #1
+\once \override TextScript.Y-offset = #-1
   s8 ^\markup { \center-column { "D.C. al Fine" } }  
+}
+
+FeuerwerksmusikBassFriede = \new Voice \relative c' {
+\time 6/8
+\key c \major
+\repeat volta 2{
+c4.\mf c4 c8 
+g4. ~g8 d'8 (b) 
+g8 (b) d g (d c) 
+b8 (g b) c4. 
+c8\f (g' e) c( e g) 
+c,8 g' (e) c4. 
+f,4 e8 d'4 c8 
+g4. ~g4 r8 
+c8 (d16 c d c b8) c16 (b c b 
+a8) b16 (a b a g4.) 
+g2.\p 
+~g4. ~g8 b (d) 
+b8\< (g) c d4\f g,8 
+d'4\p (g8) d4 (g8)
+b,4\f (c8) d4 e8 
+c8 d d g,4. 
+}
+\repeat volta 2{
+g4. g4 r8 
+c4. c4 r8 
+c4.\< bes 
+a8.\f (bes16 a8) a f c'
+f,4.\p c'8 (e c) 
+g4. d'8 (f d) 
+a4.\< e'8 ( c e) \!
+f8 \>(c e) g g f 
+e8\f (c) f g4 c,8 
+g4\p (c8) g4 (c8) 
+b4\f (c8) g4 (c8) 
+f,8 g g \>c4 c8 
+b8.\mf (a32 b c8) b8. (a32 b c8) 
+g4 c8 g4 c8 
+g4\f c8 g4 a8 
+f8 _\markup{Abschluss mit \italic rit.} g g c4.
+}
+}
+
+FeuerwerksmusikBassMenuett = \new Voice \relative c {
+\time 3/4
+\key f \major
+\repeat volta 2{
+f2\f r4
+f2 r4
+f2 r4
+f'4---. c---. a---.
+f4---. a---. f'---.
+c4-- r c---.
+f,4---. f---. f---.
+c'4---. d---. c---.
+f,4-- r f---.
+bes4-- r d---.
+c4---. bes---. c---.
+a4-- r a---.
+bes4-- r a---.
+g4---. c---. f,---.
+f4---. c'-- c-- 
+}
+\alternative {{
+f4 c8 bes a g}{
+f2._\markup{Fine}}}
+\repeat volta 2{
+d''2\mf d,4---.
+e4 (f) g---. 
+a2 a4---.
+d,4---. d'---. a---. 
+d,4---. f---. d---.
+g4---. c---. c,---.
+f4---. d---. g---. 
+a4-- cis,8 (d) e cis
+}
+\repeat volta 2{
+a2\p r4 
+d4---. g---. f---. 
+e4---.\< a---. g---. 
+f4---. bes---. a---. 
+g4---.\mf c---. c,---.
+f4---. a,---. d---.
+g,4---. a---. a---. 
+}
+\alternative {{
+d4---. a---. f---.}{
+d'4---. a---. d---.}}
+\bar"||"
+ \cadenzaOn 
+\stopStaff 
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #1
+\once \override TextScript.Y-offset = #-1
+| s2.*1^\markup { \center-column { "D.C. al Fine" } }  
 }
