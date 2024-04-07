@@ -1,4 +1,4 @@
-Coronationsmarschdrei= \new Voice \relative c'{
+CoronationsmarschDrei= \new Voice \relative c'{
 \tuplet 3/2 {e8\f d e} g4 e e
 f4 e e e
 f4 e e e

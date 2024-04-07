@@ -1,4 +1,4 @@
-Coronationsmarscheins= \new Voice \relative c''{
+CoronationsmarschEins= \new Voice \relative c''{
 \tuplet 3/2 {c8\f b c} d4 e c
 f4 e8. d16 e4 c
 f4 e8. d16 g4 f8. e16

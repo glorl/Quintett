@@ -1,4 +1,4 @@
-Coronationsmarschbass= \new Voice \relative c'{
+CoronationsmarschBass= \new Voice \relative c'{
 \tuplet 3/2 {c8\f g c} g4 c a
 d4 g, c e
 d4 e e a,

@@ -1,5 +1,6 @@
-MozartAdagiozwei = \new Voice \relative c'' {
-\compressEmptyMeasures
+KlarinettenkonzertZweiAdagio = \new Voice \relative c'' {
+\time 3/4
+\key f \major
 a8 \p (c, a' c a c)
 bes8 (c a c a c) 
 a8 (c a c a c) 

@@ -1,5 +1,6 @@
-MozartAdagiobass = \new Voice \relative c' {
-\compressEmptyMeasures
+KlarinettenkonzertBassAdagio = \new Voice \relative c' {
+\time 3/4
+\key f \major
 f2.\p
 c4-- f-- r 
 f2.

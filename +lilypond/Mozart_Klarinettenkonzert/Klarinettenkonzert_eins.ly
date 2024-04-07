@@ -1,5 +1,6 @@
-MozartAdagioeins = \new Voice \relative c'' {
-\compressEmptyMeasures
+KlarinettenkonzertEinsAdagio = \new Voice \relative c'' {
+\time 3/4
+\key f \major
 c4_\markup{\dynamic p \italic espressivo}^\markup{Solo} (f4. a8) 
 a8 (g f4) r 
 c4. (f8 a c) 
