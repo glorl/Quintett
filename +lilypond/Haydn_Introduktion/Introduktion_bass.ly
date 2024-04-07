@@ -1,4 +1,4 @@
-Introduktionbass = \new Voice \relative c' {
+IntroduktionBass = \new Voice \relative c' {
 d4-- \ff d8.. d32 e8---. e,8---. r4 
 cis'4-- cis8.. cis32 d8---. d8---. r4 
 r8 d \p ( bes f g gis a4) 

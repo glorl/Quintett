@@ -1,4 +1,4 @@
-DAveMariazwei = \new Voice \relative c''{
+AveMariaZwei = \new Voice \relative c''{
 r4 g \< fis( d)
 e4 (fis) g2
 g4 \> g g2

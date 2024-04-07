@@ -1,4 +1,4 @@
-DAveMariaeins = \new Voice \relative c''{
+AveMariaEins = \new Voice \relative c''{
 r4 b \< a (b)
 g4 (a) b2
 b4 \> (d) e2

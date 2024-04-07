@@ -1,4 +1,4 @@
-Introduktionzwei = \new Voice \relative c' {
+IntroduktionZwei = \new Voice \relative c' {
 a4--\ff a'8.. a32 bes8---. g'8---. r4 
 a,,4-- e''8.. e32 d8---. f8---. r4 
 d,2. \p (cis8 c) 

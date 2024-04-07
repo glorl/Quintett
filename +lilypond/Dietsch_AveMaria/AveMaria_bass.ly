@@ -1,4 +1,4 @@
-DAveMariabass = \new Voice \relative c'{
+AveMariaBass = \new Voice \relative c'{
 r4 g \< b g
 e'4 (d) g,2
 g4-- \> g-- g2

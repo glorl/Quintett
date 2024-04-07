@@ -1,4 +1,4 @@
-Introduktioneins = \new Voice \relative c' {
+IntroduktionEins = \new Voice \relative c' {
 d4-- \ff d'8.. d32 cis8---. bes'8---. r4 
 a,,4-- g''8.. g32 f8---. d'8---. r4 
 f,,2 \p (e4. fis16 g) 

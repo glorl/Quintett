@@ -1,4 +1,4 @@
-Introduktiondrei = \new Voice \relative c {
+IntroduktionDrei = \new Voice \relative c {
 f4-- \ff f'8.. f32 g8---. cis8---. r4 
 e,,4-- a'8.. a32 a8---. d8---. r4 
 f,2 \p (e4. fis16 g) 
