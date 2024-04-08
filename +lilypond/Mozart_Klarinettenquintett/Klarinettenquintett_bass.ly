@@ -1,4 +1,4 @@
-MozartLarghettobass = \new Voice \relative c' {
+KlarinettenquintettBassLarghetto = \new Voice \relative c' {
 \compressEmptyMeasures
 f,2.\p
 bes2.
