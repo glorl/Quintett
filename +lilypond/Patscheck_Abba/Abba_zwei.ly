@@ -1,4 +1,4 @@
-Abbazwei=\new Voice \relative c''{
+AbbaZwei=\new Voice \relative c''{
 r8^\markup{Ballade/Slow (\bold{I have a Dream})} c->\f c-> c-> c-> c-> c-> c-> 
 c8-- c8-. c-- (b-.) g-- g-. g-- g-.\bar"||" \time 2/4 
 g8-> (e) e-- e-. \bar"||" \time 4/4 

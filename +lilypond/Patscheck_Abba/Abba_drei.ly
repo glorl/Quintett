@@ -1,4 +1,4 @@
-Abbadrei=\new Voice \relative c''{
+AbbaDrei=\new Voice \relative c''{
 r8^\markup{Ballade/Slow (\bold{I have a Dream})} g->\f g-> g-> g-> g-> g-> g-> 
 g8-- g8-. g-- g-. e-- e-. e-- e-.\bar"||" \time 2/4 
 e8-> c-. e-- e-. \bar"||" \time 4/4 

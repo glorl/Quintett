@@ -1,4 +1,4 @@
-MuscatRamblebass = \new Voice \relative c {
+MuscatRambleBass = \new Voice \relative c {
 \compressEmptyMeasures
 f2-> \f ~f8 f'-- e4
 es2->  ~es8 es-- d4-. 
@@ -50,9 +50,9 @@ g r c r
 f c d e \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

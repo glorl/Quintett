@@ -1,4 +1,4 @@
-MuscatRambleeins = \new Voice \relative c'' {
+MuscatRambleEins = \new Voice \relative c'' {
 \compressEmptyMeasures
 f4.-> \f f8-^ r2 
 fis4.->  fis8-^ r2 
@@ -50,9 +50,9 @@ c8 ( b bes4) d8 (c a' as)
 g8 (f ~f4) r2 \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

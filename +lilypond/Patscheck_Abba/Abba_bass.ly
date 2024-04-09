@@ -1,4 +1,4 @@
-Abbabass=\new Voice \relative c'{
+AbbaBass=\new Voice \relative c'{
 c8->^\markup{Ballade/Slow (\bold{I have a Dream})}\f e,-> g-> e-> g-> e-> g-> e-> 
 c'8-> e,-> g-> e-> g-> e-> g-> e-> \bar"||" \time 2/4 
 c'8-> (g) c-> (g) \bar"||" \time 4/4 

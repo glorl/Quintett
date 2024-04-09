@@ -1,4 +1,4 @@
-Abbavier=\new Voice \relative c'{
+AbbaVier=\new Voice \relative c'{
 c8->^\markup{Ballade/Slow (\bold{I have a Dream})}\f e,-> g-> e-> g-> e-> g-> e-> 
 c'8-> e,-> g-> e-> g-> e-> g-> e-> \bar"||" \time 2/4 
 c'8-> (g) c-> (g) \bar"||" \time 4/4 
@@ -66,9 +66,9 @@ c1
 r4 g-- b4. (d8 )
 b2 r 
 c8->\f e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->
-c'8-> e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->
-c2(_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
-c'4)\fermata r^\markup{\bold{Fernando}} r2
+c'8-> e,8-> g8-> e8-> c'8-> e,8-> g8-> e8->\time 2/4
+c'2(_\markup{\italic{poco rit.}} \bar"||"\time 4/4 \key g \major 
+c4)\fermata r^\markup{\bold{Fernando}} r2
 g8 \mf (b d e) r b ( d b) 
 g8 (b e d) r2 
 g,8 (b e d) r2 

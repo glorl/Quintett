@@ -1,4 +1,4 @@
-Abbaeins=\new Voice \relative c''{
+AbbaEins=\new Voice \relative c''{
 r8^\markup{Ballade/Slow (\bold{I have a Dream})} f->\f f-> f-> f-> f-> f-> f-> 
 f8-> (e) e-> (d) d-> (c) c-> (b) \bar"||" \time 2/4 
 b8-> (a) a-> (g) \bar"||" \time 4/4 
@@ -37,12 +37,7 @@ R1
 f1
 R1
 c1
-
-
-
-
-
-
+R1*6
 r4 r d8 (e f8. g16) 
 e1
 ~e4 r e8 (f g8. a16) 
@@ -191,7 +186,7 @@ d4. (a16 b c4-- c-- )
 c8 (b a g~g2) 
 r4 r8 e'16 (fis g8 a g16 fis e fis
 g1)\bar"||"\time 5/4
-r4 r8 e16 (fis g8 a g16 fis e8 g a) \bar"||"\time 4/4
+r4 r8 e16 (fis g8 a g16 fis e8 g a) \bar"||" \time 4/4
 b8 (a16 g b8 g~g2) 
 r4 b,8 (c16 d ~d8 e fis g) 
 fis4. (e16 fis g4. e8 ) 
