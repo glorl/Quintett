@@ -1,4 +1,6 @@
-Ellingtonvier=\new Voice \relative c'{
+EllingtonVierVEins=\new Voice \relative c'{
+\time 2/2
+\key c \major
 r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c4-> r8 fis,8 (c'->) r8 d, (
@@ -209,8 +211,11 @@ a4-.\! es'8\f \< ( d des c b bes)
 fis'2-^\ff fis4-^ r\bar"|."
 }
 
-Ellingtonvierverzwei=\new Voice \relative c'{
+EllingtonVierVZwei=\new Voice \relative c'{
+\time 4/4
+\key c \major
 g2^\markup{Moderato Swing (\bold {Take The 'A' Train})}\mp fis 
+\ternaer 
 g2 fis8-- fis-. r4 
 r8 g4. fis2 
 g2 fis8-- fis-. r4 \bar"||" 

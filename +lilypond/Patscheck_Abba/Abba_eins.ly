@@ -36,9 +36,14 @@ c1
 R1
 f1
 R1
-c1
-R1*6
-r4 r d8 (e f8. g16) 
+c1~
+c4 r e8 (f g8. a16)
+g4 (d2.~
+d4) r d8 (e f8. g16)
+e1
+~e4 r e8 (f g8. a16)
+g4 (d2.~
+d4) r d8 (e f8. g16) 
 e1
 ~e4 r e8 (f g8. a16) 
 g4 (d2.

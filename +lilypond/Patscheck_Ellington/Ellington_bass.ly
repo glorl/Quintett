@@ -1,4 +1,6 @@
-Ellingtonbass=\new Voice \relative c'{
+EllingtonBassVEins=\new Voice \relative c'{
+\time 2/2
+\key c \major
 r8^\markup{Moderato Swing (\bold Perdido)} c4.-^\f e4-.-> g-.-> 
 f8 (e f fis-> ~fis f fis g->) 
 r8 c4-> r8 fis,8 (c'->) r8 d, (
@@ -207,8 +209,11 @@ a4-.\! es'8\f \< ( d des c b bes)
 a2-^\ff a4-^ r\bar"|."
 }
 
-Ellingtonbassverzwei=\new Voice \relative c'{
+EllingtonBassVZwei=\new Voice \relative c'{
+\time 4/4
+\key c \major
 r8^\markup{Moderato Swing (\bold {Take The 'A' Train})} e8\mf \noBeam (~e8 \tuplet 3/2{d16 c bes} as2)
+\ternaer 
 e'4  (~e8 \tuplet 3/2{d16 c bes} as8--) as-. r4
 R1*2   
 \bar"||"
