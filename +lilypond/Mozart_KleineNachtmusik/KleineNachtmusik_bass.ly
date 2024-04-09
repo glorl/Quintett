@@ -1,4 +1,4 @@
-MozartRomanzebass=\relative c'{
+KleineNachtmusikBassRomanze=\relative c'{
 \partial 2 r2
 c4 \p \< c c c 
 c4\> c \! r c 

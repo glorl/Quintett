@@ -1,4 +1,4 @@
-MozartRomanzedrei=\relative c'{
+KleineNachtmusikDreiRomanze=\relative c'{
 \partial 2 r2
 g2 \p \< g
 g4\> ~g8 \! r r4 c4

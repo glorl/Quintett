@@ -1,4 +1,4 @@
-MozartRomanzezwei=\relative c''{
+KleineNachtmusikZweiRomanze=\relative c''{
 \partial 2 c8-- \p r c-- r 
 c8 (\< g c e  )d8 (b  d f )\!
 e8. \> (c16) e8 \! r a8-. a4 (g8)
