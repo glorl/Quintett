@@ -1,4 +1,4 @@
-MozartMenuettvier=\relative c{
+SinfonieEsVierMenuett=\relative c{
 \repeat volta 2{
 f4---.\f c'4---. f4---.
 c4---. d---. c---.

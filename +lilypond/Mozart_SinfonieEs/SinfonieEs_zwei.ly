@@ -1,4 +1,4 @@
-MozartMenuettzwei=\relative c''{
+SinfonieEsZweiMenuett=\relative c''{
 \repeat volta 2{
 c2.--\f
 c,4---. d---. c---.
