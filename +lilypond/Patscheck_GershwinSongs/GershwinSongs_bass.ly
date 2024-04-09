@@ -1,4 +1,4 @@
-GershwinSongsbass = \new Voice \relative c' {
+GershwinSongsBass = \new Voice \relative c' {
 \compressEmptyMeasures
 g4^\markup{Swing (\bold{S'Wonderful})}\f b d e 
 g4 e cis bes 
@@ -168,9 +168,9 @@ c4 c a g
 c4 r4 r2\bar"||"
  \cadenzaOn
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

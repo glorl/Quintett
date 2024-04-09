@@ -7,7 +7,7 @@
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
 
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
 #(define (gliss-stencil grob)
          (ly:stencil-add
@@ -17,11 +17,11 @@ scoop = \once \override NoteHead #'stencil = #scoop-stencil
                                             #:translate '(-1.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -2.2 -2 -3 -0.0))))))
-gliss = \once \override NoteHead #'stencil = #gliss-stencil 
+gliss = \once \override NoteHead.stencil = #gliss-stencil 
 
-GershwinSongseins = \new Voice \relative c''' {
+GershwinSongsEins = \new Voice \relative c''' {
 \compressEmptyMeasures
-% \override Glissando.style = #'trill
+% \override Glissando.style =.trill
 g2^\markup{Swing (\bold{S'Wonderful})}\f g8-- g8-. r g-.
 r8 g4.->~g4 g-.
 g2 g8 (e es-- d-.) 
@@ -197,9 +197,9 @@ c4 g8 a es' d c a
 c8 ) r r4 e8\< (f g gis)\! \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

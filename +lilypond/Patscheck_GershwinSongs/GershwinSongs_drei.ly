@@ -1,6 +1,6 @@
-GershwinSongsdrei = \new Voice \relative c'' {
+GershwinSongsDrei = \new Voice \relative c'' {
 \compressEmptyMeasures
-% \override Glissando.style = #'trill
+% \override Glissando.style =.trill
 b2^\markup{Swing (\bold{S'Wonderful})}\f b8-- b8-. r b-.
 r8 bes4.->~bes4 bes-.
 c2 a8 (e a-- c-.) 
@@ -169,9 +169,9 @@ d2 d4-- d-.
 d4-. r4 g8\< (a b d)\! \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""
