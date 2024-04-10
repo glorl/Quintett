@@ -1,4 +1,4 @@
-Hirtzwei = \new Voice \relative c' {
+HirtZwei = \new Voice \relative c' {
 \compressEmptyMeasures
 \partial 16 e16 \p
 e2 r8. e16 

@@ -1,4 +1,4 @@
-Hirtdrei = \new Voice \relative c' {
+HirtDrei = \new Voice \relative c' {
 \compressEmptyMeasures
 \set countPercentRepeats = ##t
 \partial 16 e16 \p

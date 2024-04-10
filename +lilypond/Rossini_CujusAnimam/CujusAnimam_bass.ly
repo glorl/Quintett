@@ -1,4 +1,4 @@
-Cujusbass = \new Voice \relative c' {
+CujusAnimamBass = \new Voice \relative c' {
 \compressEmptyMeasures
 f4 \ff es8. des16 c4\fermata r4
 es4 des8. c16 bes4\fermata r4

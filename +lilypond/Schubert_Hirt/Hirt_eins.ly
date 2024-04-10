@@ -1,4 +1,4 @@
-Hirteins = \new Voice \relative c' {
+HirtEins = \new Voice \relative c' {
 \compressEmptyMeasures
 \partial 16 e16 \p
 e2 r8. e16 
