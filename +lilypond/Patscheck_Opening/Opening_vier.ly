@@ -6,9 +6,9 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-Openingvier = \new Voice \relative c {
+OpeningVier = \new Voice \relative c {
 \compressEmptyMeasures
 f4-.\f a-. c8-- d4-. c8-- 
 f,4-. a-. c8-- d4-. c8-- 

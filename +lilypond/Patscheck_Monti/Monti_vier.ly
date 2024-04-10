@@ -1,4 +1,4 @@
-Montivier=\new Voice \relative c'{
+MontiVier=\new Voice \relative c'{
 a4\f^\markup{Vivo}  r a r 
 g4-^ g2.\bar"||"
 g4 r r2\fermata\bar"||" 
@@ -42,7 +42,7 @@ r4 f-. f-. a-.
 a4 (cis8 d f e f g 
 a) e'4-. f8 (e bes a g) 
 f8 (a g f a d e f 
-e8 d~d4) r2
+e8 d~d4) d2\rest
 c8 (b c e ~e g bes b)
 c4-. bes!4-. a8 (e c b 
 bes! a d cis d f gis a
@@ -50,13 +50,13 @@ bes! a d cis d f gis a
 }
   \new Voice { \override Stem.direction = #DOWN 
 cis,,4-. g2-- a4-. 
-r4 g4-. g-. g-. 
+g4\rest g4-. g-. g-. 
 f4-. f2-- f4-. 
-r4 f r f 
-g4 r r bes4
-g4 r r g 
-f4 r r a4
-a4 r r a 
+f4\rest f f\rest f 
+g4 g\rest g\rest bes4
+g4 g\rest g\rest g 
+f4 f\rest f\rest a4
+a4 a\rest a\rest a 
 }
 >> \oneVoice 
 r4 cis4-. g2--

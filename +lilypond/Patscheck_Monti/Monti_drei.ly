@@ -7,11 +7,9 @@
                     #:path 0.25 '((moveto 0 0)
                         (curveto -0.5 -1 -1.5 -1.5 -2 0))))))
 %                         (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-
-
-Montidrei=\new Voice \relative c'{
+MontiDrei=\new Voice \relative c'{
 f4\f ^\markup{Vivo} r d r 
 bes4-^ d2.\bar"||"
 cis4 r r2\fermata \bar"||" 

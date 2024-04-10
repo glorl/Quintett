@@ -7,11 +7,9 @@
                     #:path 0.25 '((moveto 0 0)
                         (curveto -0.5 -1 -1.5 -1.5 -2 0))))))
 %                         (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-
-
-Montieins=\new Voice \relative c''{
+MontiEins=\new Voice \relative c''{
     d4\f ^\markup{Vivo} r a r 
 g4-^ bes2.\bar"||"
 a4 \breathe \afterGrace{a,2.\fermata}{bes8._\markup{\italic {ad lib.}} (a16 gis16.[ a32 d16. cis32] f16. [e32 g16. a32]) \tuplet 6/4 {bes16 ([cis e f g a])}bes4\fermata \glissando cis,!4 } \bar"||" 

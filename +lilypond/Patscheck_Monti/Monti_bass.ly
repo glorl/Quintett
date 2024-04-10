@@ -1,4 +1,4 @@
-Montibass=\new Voice \relative c'{
+MontiBass=\new Voice \relative c'{
 d4\f^\markup{Vivo}  r d r 
 g4-^ g,2.\bar"||"
 a4 r r2\fermata\bar"||" 
