@@ -1,4 +1,4 @@
-Airvier = \new Voice \relative c'{
+AirVier = \new Voice \relative c'{
 \repeat volta 2{
 \partial 8 g8 \f 
 c4 b c8 d16-. e-. c (d) e-. f-. 

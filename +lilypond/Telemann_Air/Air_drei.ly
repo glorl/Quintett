@@ -1,4 +1,4 @@
-Airdrei = \new Voice \relative c''{
+AirDrei = \new Voice \relative c''{
 \repeat volta 2{
 \partial 8 g8 \f
 e4 d e r8 e

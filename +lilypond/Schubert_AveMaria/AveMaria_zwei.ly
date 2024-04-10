@@ -1,4 +1,4 @@
-SAveMariazwei = \new Voice \relative c' {
+AveMariaZwei = \new Voice \relative c' {
 \tuplet 6/4 {r16 e-.\p\< g-. c-. g-. e-. } \tuplet 6/4 {r16 e-. g-. c-. g-. e-. } \tuplet 6/4 {r16 g-. c-. e-. c-. g-. } \tuplet 6/4 {r16 bes-. e-. g-. e-. bes-. }
 \tuplet 6/4 {r16 a-.\> c-. f-. c-. a-. } \tuplet 6/4 {r16 as-. b-. f'-. b,-. as-. } \tuplet 6/4 {r16 g-. c-. e-. c-. e,-. \!} \tuplet 6/4 {r16 e-._\markup{\italic sostenuto} g-. c-. g-. e-. }
 \repeat volta 2{

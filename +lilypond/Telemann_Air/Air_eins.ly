@@ -1,4 +1,4 @@
-Aireins = \new Voice \relative c''{
+AirEins = \new Voice \relative c''{
 \repeat volta 2{
 \partial 8 g8 \f
 c16 (d) e-. f-. d16 (e) f-. g-. e8 d16-. e-. c(d) e-. f-. 

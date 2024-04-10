@@ -1,4 +1,4 @@
-AndanteCantabilebass = \new Voice \relative c' {
+AndanteCantabileBass = \new Voice \relative c' {
 % \set countPercentRepeats = ##t
 c2_\markup{\dynamic mp \italic dolce}
 a4 (c \time 3/4

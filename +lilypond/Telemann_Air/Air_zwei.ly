@@ -1,4 +1,4 @@
-Airzwei = \new Voice \relative c''{
+AirZwei = \new Voice \relative c''{
 \repeat volta 2{
 \partial 8 g8 \f 
 g4 g g r8 c

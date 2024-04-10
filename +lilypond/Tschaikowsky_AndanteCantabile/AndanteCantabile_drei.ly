@@ -1,4 +1,4 @@
-AndanteCantabiledrei = \new Voice \relative c' {
+AndanteCantabileDrei = \new Voice \relative c' {
 % \set countPercentRepeats = ##t
 e2_\markup{\dynamic mp \italic dolce} 
 f4( g~) \time 3/4

@@ -1,4 +1,4 @@
-Airbass = \new Voice \relative c''{
+AirBass = \new Voice \relative c''{
 \repeat volta 2{
 \partial 8 g8 \f
 c,4 b c r8 a8 

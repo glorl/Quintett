@@ -1,4 +1,4 @@
-SAveMariavier = \new Voice \relative c' {
+AveMariaVier = \new Voice \relative c' {
 e4\p\< (g e' ~e
 f\> ~f e c_\markup{\italic {sostenuto}}) 
 \repeat volta 2{
