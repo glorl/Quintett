@@ -6,9 +6,9 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-GlennMillerStoryeins = \new Voice \relative c' {
+GlennMillerStoryEins = \new Voice \relative c' {
 \compressEmptyMeasures
 % \override Glissando.style = #'trill
 \partial 4 
