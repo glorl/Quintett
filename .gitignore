@@ -1,6 +1,7 @@
-+voices/
 */Handschriftl/
 */Handschriftlich/
++voices/
 *.pdf
 *.midi
+*.json
 .gitignore
