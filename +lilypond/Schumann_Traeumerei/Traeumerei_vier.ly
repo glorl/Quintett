@@ -1,4 +1,4 @@
-Traeumereivier = \new Voice \relative c' {
+TraeumereiVier = \new Voice \relative c' {
 \partial 4 r4 
 \repeat volta 2 { 
 r4 g2.\p\<

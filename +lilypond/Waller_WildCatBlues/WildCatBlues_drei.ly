@@ -6,10 +6,9 @@
                                             #:translate '(-0.2 . -0.5)
                                                          #:path 0.25 '((moveto 0 0)
                                                                        (curveto 0 -1 -1 -1.5 -1.5 -1.5))))))
-scoop = \once \override NoteHead #'stencil = #scoop-stencil 
+scoop = \once \override NoteHead.stencil = #scoop-stencil 
 
-WildCatBluesdrei = \new Voice \relative c' {
-\compressEmptyMeasures
+WildCatBluesDrei = \new Voice \relative c' {
 e2\f f
 e es
 c4-- c-. d-. c8-- b-. 
@@ -81,9 +80,9 @@ r2 r4 e'8. (c16)
 \bar"||"
  \cadenzaOn 
 \stopStaff 
-\once \override TextScript #'word-space = #1.5
-\once \override TextScript #'X-offset = #0
-\once \override TextScript #'Y-offset = #1
+\once \override TextScript.word-space = #1.5
+\once \override TextScript.X-offset = #0
+\once \override TextScript.Y-offset = #1
 | s1*1^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }  
 | s1*1 \bar""
 | s1*1 \bar""

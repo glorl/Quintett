@@ -1,4 +1,4 @@
-Traeumereidrei = \new Voice \relative c' {
+TraeumereiDrei = \new Voice \relative c' {
 \partial 4 r4 
 \repeat volta 2 { 
 r4 b2.\p\<

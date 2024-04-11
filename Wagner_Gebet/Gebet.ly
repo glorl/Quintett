@@ -4,8 +4,8 @@ globalGebet= {
 \compressEmptyMeasures
 }
 
-\include "../Wagner_Gebet/Gebet_eins.ly"
-\include "../Wagner_Gebet/Gebet_zwei.ly"
-\include "../Wagner_Gebet/Gebet_drei.ly"
-\include "../Wagner_Gebet/Gebet_vier.ly"
-\include "../Wagner_Gebet/Gebet_bass.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Wagner_Gebet/Gebet_eins.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Wagner_Gebet/Gebet_zwei.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Wagner_Gebet/Gebet_drei.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Wagner_Gebet/Gebet_vier.ly"
+\include "/home/georg/Dokumente/Quintett/+lilypond/Wagner_Gebet/Gebet_bass.ly"

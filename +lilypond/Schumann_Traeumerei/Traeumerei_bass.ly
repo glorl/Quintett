@@ -1,4 +1,4 @@
-Traeumereibass = \new Voice \relative c' {
+TraeumereiBass = \new Voice \relative c' {
 \partial 4 r4 
 \repeat volta 2 { 
 g1\p
