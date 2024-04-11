@@ -1,4 +1,7 @@
-Lyricsmode 
-naming convention for different Ave Marias 
-api
-sorted according to ensemble 
+- Lyricsmode 
+
+- naming convention for different Ave Marias 
+
+- api
+
+- sorted according to ensemble 
