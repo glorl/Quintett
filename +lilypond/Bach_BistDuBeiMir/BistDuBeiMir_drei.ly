@@ -1,4 +1,4 @@
-Bistdrei = \new Voice \relative c'{
+BistDuBeiMirDrei = \new Voice \relative c'{
 f4\mf f g
 g2.
 f4 d d

@@ -3,5 +3,5 @@ globalDuo= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lopez_Duo/Duo_Eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lopez_Duo/Duo_Bass.ly"
+\include "Duo_Eins.ly"
+\include "Duo_Bass.ly"

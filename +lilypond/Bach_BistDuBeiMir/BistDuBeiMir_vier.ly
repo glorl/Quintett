@@ -1,4 +1,4 @@
-Bistvier= \new Voice \relative c'{
+BistDuBeiMirVier= \new Voice \relative c'{
 f4\mf d g,
 c4 c c 
 a4 g f

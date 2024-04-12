@@ -4,8 +4,8 @@ globalPassacaglia= {
 \compressEmptyMeasures
 }
 
-\include "../Bach_Passacaglia/Passacaglia_eins.ly"
-\include "../Bach_Passacaglia/Passacaglia_zwei.ly"
-\include "../Bach_Passacaglia/Passacaglia_drei.ly"
-\include "../Bach_Passacaglia/Passacaglia_vier.ly"
-\include "../Bach_Passacaglia/Passacaglia_bass.ly"
+\include "Passacaglia_eins.ly"
+\include "Passacaglia_zwei.ly"
+\include "Passacaglia_drei.ly"
+\include "Passacaglia_vier.ly"
+\include "Passacaglia_bass.ly"

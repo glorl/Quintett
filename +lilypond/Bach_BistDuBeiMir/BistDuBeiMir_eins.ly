@@ -1,4 +1,4 @@
-Bisteins = \new Voice \relative c''{
+BistDuBeiMirEins = \new Voice \relative c''{
 c4\mf f4. (g8)
 e2.
 f4 bes, bes

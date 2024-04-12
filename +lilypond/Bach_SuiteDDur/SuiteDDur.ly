@@ -4,8 +4,8 @@ globalSuiteDDur= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Bach_SuiteDDur/SuiteDDur_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Bach_SuiteDDur/SuiteDDur_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Bach_SuiteDDur/SuiteDDur_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Bach_SuiteDDur/SuiteDDur_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Bach_SuiteDDur/SuiteDDur_bass.ly"
+\include "SuiteDDur_eins.ly"
+\include "SuiteDDur_zwei.ly"
+\include "SuiteDDur_drei.ly"
+\include "SuiteDDur_vier.ly"
+\include "SuiteDDur_bass.ly"

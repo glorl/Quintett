@@ -1,4 +1,4 @@
-Bistzwei= \new Voice \relative c''{
+BistDuBeiMirZwei= \new Voice \relative c''{
 a4\mf a bes
 c2.
 c4 f, f

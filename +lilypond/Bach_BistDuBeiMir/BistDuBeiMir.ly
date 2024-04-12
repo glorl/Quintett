@@ -1,11 +1,11 @@
-globalBist= {
+globalBistDuBeiMir= {
 \time 3/4
 \key f \major
 \compressEmptyMeasures
 }
 
-\include "../Bach_BistDuBeiMir/BistDuBeiMir_eins.ly"
-\include "../Bach_BistDuBeiMir/BistDuBeiMir_zwei.ly"
-\include "../Bach_BistDuBeiMir/BistDuBeiMir_drei.ly"
-\include "../Bach_BistDuBeiMir/BistDuBeiMir_vier.ly"
-\include "../Bach_BistDuBeiMir/BistDuBeiMir_bass.ly"
+\include "BistDuBeiMir_eins.ly"
+\include "BistDuBeiMir_zwei.ly"
+\include "BistDuBeiMir_drei.ly"
+\include "BistDuBeiMir_vier.ly"
+\include "BistDuBeiMir_bass.ly"
