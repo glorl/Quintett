@@ -5,10 +5,10 @@ globalPrestoFinale= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_bass.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Beethoven_PrestoFinale/PrestoFinale_cadenza.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_eins.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_zwei.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_drei.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_vier.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_bass.ly"
+\include "Beethoven_PrestoFinale/PrestoFinale_cadenza.ly"
 

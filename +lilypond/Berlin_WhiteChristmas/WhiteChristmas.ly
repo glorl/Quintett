@@ -4,8 +4,8 @@ globalWhiteChristmas= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Berlin_WhiteChristmas/WhiteChristmas_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Berlin_WhiteChristmas/WhiteChristmas_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Berlin_WhiteChristmas/WhiteChristmas_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Berlin_WhiteChristmas/WhiteChristmas_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Berlin_WhiteChristmas/WhiteChristmas_bass.ly"
+\include "Berlin_WhiteChristmas/WhiteChristmas_eins.ly"
+\include "Berlin_WhiteChristmas/WhiteChristmas_zwei.ly"
+\include "Berlin_WhiteChristmas/WhiteChristmas_drei.ly"
+\include "Berlin_WhiteChristmas/WhiteChristmas_vier.ly"
+\include "Berlin_WhiteChristmas/WhiteChristmas_bass.ly"

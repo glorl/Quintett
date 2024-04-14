@@ -4,8 +4,8 @@ globalLargo= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Chopin_Largo/Largo_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Chopin_Largo/Largo_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Chopin_Largo/Largo_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Chopin_Largo/Largo_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Chopin_Largo/Largo_bass.ly"
+\include "Chopin_Largo/Largo_eins.ly"
+\include "Chopin_Largo/Largo_zwei.ly"
+\include "Chopin_Largo/Largo_drei.ly"
+\include "Chopin_Largo/Largo_vier.ly"
+\include "Chopin_Largo/Largo_bass.ly"
