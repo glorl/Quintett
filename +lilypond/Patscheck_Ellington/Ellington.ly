@@ -1,10 +1,10 @@
 globalEllington= {
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/rhythmark.ly"
+\include "rhythmark.ly"
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/Ellington_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/Ellington_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/Ellington_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/Ellington_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Ellington/Ellington_bass.ly"
+\include "Ellington_eins.ly"
+\include "Ellington_zwei.ly"
+\include "Ellington_drei.ly"
+\include "Ellington_vier.ly"
+\include "Ellington_bass.ly"

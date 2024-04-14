@@ -4,8 +4,8 @@ globalAbba= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Abba/Abba_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Abba/Abba_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Abba/Abba_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Abba/Abba_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_Abba/Abba_bass.ly"
+\include "Abba_eins.ly"
+\include "Abba_zwei.ly"
+\include "Abba_drei.ly"
+\include "Abba_vier.ly"
+\include "Abba_bass.ly"
