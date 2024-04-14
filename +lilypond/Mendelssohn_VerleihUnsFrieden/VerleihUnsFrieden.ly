@@ -4,8 +4,8 @@ globalVerleihUnsFrieden= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mendelssohn_VerleihUnsFrieden/VerleihUnsFrieden_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mendelssohn_VerleihUnsFrieden/VerleihUnsFrieden_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mendelssohn_VerleihUnsFrieden/VerleihUnsFrieden_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mendelssohn_VerleihUnsFrieden/VerleihUnsFrieden_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mendelssohn_VerleihUnsFrieden/VerleihUnsFrieden_bass.ly"
+\include "VerleihUnsFrieden_eins.ly"
+\include "VerleihUnsFrieden_zwei.ly"
+\include "VerleihUnsFrieden_drei.ly"
+\include "VerleihUnsFrieden_vier.ly"
+\include "VerleihUnsFrieden_bass.ly"

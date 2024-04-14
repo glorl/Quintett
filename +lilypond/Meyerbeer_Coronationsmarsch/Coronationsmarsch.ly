@@ -4,8 +4,8 @@ globalCoronationsmarsch= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Meyerbeer_Coronationsmarsch/Coronationsmarsch_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Meyerbeer_Coronationsmarsch/Coronationsmarsch_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Meyerbeer_Coronationsmarsch/Coronationsmarsch_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Meyerbeer_Coronationsmarsch/Coronationsmarsch_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Meyerbeer_Coronationsmarsch/Coronationsmarsch_bass.ly"
+\include "Coronationsmarsch_eins.ly"
+\include "Coronationsmarsch_zwei.ly"
+\include "Coronationsmarsch_drei.ly"
+\include "Coronationsmarsch_vier.ly"
+\include "Coronationsmarsch_bass.ly"
