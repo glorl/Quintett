@@ -1,4 +1,4 @@
-Lohengrineins=\relative c''{
+LohengrinEins=\relative c''{
 \repeat volta 2{
 g4\mf (c8[) r16 c]
 c4. r8

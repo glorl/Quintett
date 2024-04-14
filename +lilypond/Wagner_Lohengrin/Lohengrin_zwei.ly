@@ -1,4 +1,4 @@
-Lohengrinzwei=\relative c'{
+LohengrinZwei=\relative c'{
 \repeat volta 2{
 e4\mf (g8[) r16 g]
 g4. r8

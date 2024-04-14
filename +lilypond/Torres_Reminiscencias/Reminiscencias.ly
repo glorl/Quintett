@@ -4,5 +4,5 @@ globalReminiscencias= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Torres_Reminiscencias/Reminiscencias_Eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Torres_Reminiscencias/Reminiscencias_Bass.ly"
+\include "Reminiscencias_Eins.ly"
+\include "Reminiscencias_Bass.ly"

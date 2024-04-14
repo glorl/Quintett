@@ -4,8 +4,8 @@ globalAveMaria= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_AveMaria/AveMaria_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_AveMaria/AveMaria_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_AveMaria/AveMaria_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_AveMaria/AveMaria_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_AveMaria/AveMaria_bass.ly"
+\include "AveMaria_eins.ly"
+\include "AveMaria_zwei.ly"
+\include "AveMaria_drei.ly"
+\include "AveMaria_vier.ly"
+\include "AveMaria_bass.ly"

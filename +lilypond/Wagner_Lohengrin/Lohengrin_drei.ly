@@ -1,4 +1,4 @@
-Lohengrindrei=\relative c'{
+LohengrinDrei=\relative c'{
 \repeat volta 2{
 c4\mf (e8[) r16 e]
 e4. r8

@@ -4,8 +4,8 @@ globalCujusAnimam= {
 }
 
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Rossini_CujusAnimam/CujusAnimam_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Rossini_CujusAnimam/CujusAnimam_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Rossini_CujusAnimam/CujusAnimam_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Rossini_CujusAnimam/CujusAnimam_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Rossini_CujusAnimam/CujusAnimam_bass.ly"
+\include "CujusAnimam_eins.ly"
+\include "CujusAnimam_zwei.ly"
+\include "CujusAnimam_drei.ly"
+\include "CujusAnimam_vier.ly"
+\include "CujusAnimam_bass.ly"

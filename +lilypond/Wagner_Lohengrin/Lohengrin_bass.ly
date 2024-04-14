@@ -1,4 +1,4 @@
-Lohengrinbass=\relative c'{
+LohengrinBass=\relative c'{
 \repeat volta 2{
 c4\mf  c8[ r16 c]
 c4. r8

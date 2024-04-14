@@ -3,8 +3,8 @@ globalGershwinSongs= {
 \key g \major
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GershwinSongs/GershwinSongs_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GershwinSongs/GershwinSongs_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GershwinSongs/GershwinSongs_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GershwinSongs/GershwinSongs_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GershwinSongs/GershwinSongs_bass.ly"
+\include "GershwinSongs_eins.ly"
+\include "GershwinSongs_zwei.ly"
+\include "GershwinSongs_drei.ly"
+\include "GershwinSongs_vier.ly"
+\include "GershwinSongs_bass.ly"

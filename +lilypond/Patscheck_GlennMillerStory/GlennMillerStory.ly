@@ -3,8 +3,8 @@ globalGlennMillerStory= {
 \key c \major
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GlennMillerStory/GlennMillerStory_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GlennMillerStory/GlennMillerStory_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GlennMillerStory/GlennMillerStory_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GlennMillerStory/GlennMillerStory_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Patscheck_GlennMillerStory/GlennMillerStory_bass.ly"
+\include "GlennMillerStory_eins.ly"
+\include "GlennMillerStory_zwei.ly"
+\include "GlennMillerStory_drei.ly"
+\include "GlennMillerStory_vier.ly"
+\include "GlennMillerStory_bass.ly"

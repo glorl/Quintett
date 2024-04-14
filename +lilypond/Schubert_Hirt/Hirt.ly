@@ -4,8 +4,8 @@ globalHirt= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_Hirt/Hirt_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_Hirt/Hirt_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_Hirt/Hirt_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_Hirt/Hirt_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schubert_Hirt/Hirt_bass.ly"
+\include "Hirt_eins.ly"
+\include "Hirt_zwei.ly"
+\include "Hirt_drei.ly"
+\include "Hirt_vier.ly"
+\include "Hirt_bass.ly"

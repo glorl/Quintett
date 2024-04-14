@@ -5,8 +5,8 @@ globalWildCatBlues= {
 }
 
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Waller_WildCatBlues/WildCatBlues_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Waller_WildCatBlues/WildCatBlues_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Waller_WildCatBlues/WildCatBlues_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Waller_WildCatBlues/WildCatBlues_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Waller_WildCatBlues/WildCatBlues_bass.ly"
+\include "WildCatBlues_eins.ly"
+\include "WildCatBlues_zwei.ly"
+\include "WildCatBlues_drei.ly"
+\include "WildCatBlues_vier.ly"
+\include "WildCatBlues_bass.ly"

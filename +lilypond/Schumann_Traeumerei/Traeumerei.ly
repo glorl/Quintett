@@ -4,8 +4,8 @@ globalTraeumerei= {
 }
 
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schumann_Traeumerei/Traeumerei_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schumann_Traeumerei/Traeumerei_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schumann_Traeumerei/Traeumerei_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schumann_Traeumerei/Traeumerei_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Schumann_Traeumerei/Traeumerei_bass.ly"
+\include "Traeumerei_eins.ly"
+\include "Traeumerei_zwei.ly"
+\include "Traeumerei_drei.ly"
+\include "Traeumerei_vier.ly"
+\include "Traeumerei_bass.ly"

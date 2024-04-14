@@ -4,8 +4,8 @@ globalAndanteCantabile= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Tschaikowsky_AndanteCantabile/AndanteCantabile_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Tschaikowsky_AndanteCantabile/AndanteCantabile_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Tschaikowsky_AndanteCantabile/AndanteCantabile_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Tschaikowsky_AndanteCantabile/AndanteCantabile_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Tschaikowsky_AndanteCantabile/AndanteCantabile_bass.ly"
+\include "AndanteCantabile_eins.ly"
+\include "AndanteCantabile_zwei.ly"
+\include "AndanteCantabile_drei.ly"
+\include "AndanteCantabile_vier.ly"
+\include "AndanteCantabile_bass.ly"
