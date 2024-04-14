@@ -3,8 +3,8 @@ globalKlarinettenmuckl= {
 \key c \major
 \compressEmptyMeasures
 }
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lemser_Klarinettenmuckl/Klarinettenmuckl_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lemser_Klarinettenmuckl/Klarinettenmuckl_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lemser_Klarinettenmuckl/Klarinettenmuckl_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lemser_Klarinettenmuckl/Klarinettenmuckl_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Lemser_Klarinettenmuckl/Klarinettenmuckl_bass.ly"
+\include "Klarinettenmuckl_eins.ly"
+\include "Klarinettenmuckl_zwei.ly"
+\include "Klarinettenmuckl_drei.ly"
+\include "Klarinettenmuckl_vier.ly"
+\include "Klarinettenmuckl_bass.ly"

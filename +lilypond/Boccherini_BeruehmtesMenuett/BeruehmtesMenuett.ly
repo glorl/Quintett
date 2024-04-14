@@ -4,8 +4,8 @@ globalBeruehmtesMenuett= {
 \compressEmptyMeasures
 }
 
-\include "Boccherini_BeruehmtesMenuett/BeruehmtesMenuett_eins.ly"
-\include "Boccherini_BeruehmtesMenuett/BeruehmtesMenuett_zwei.ly"
-\include "Boccherini_BeruehmtesMenuett/BeruehmtesMenuett_drei.ly"
-\include "Boccherini_BeruehmtesMenuett/BeruehmtesMenuett_vier.ly"
-\include "Boccherini_BeruehmtesMenuett/BeruehmtesMenuett_bass.ly"
+\include "BeruehmtesMenuett_eins.ly"
+\include "BeruehmtesMenuett_zwei.ly"
+\include "BeruehmtesMenuett_drei.ly"
+\include "BeruehmtesMenuett_vier.ly"
+\include "BeruehmtesMenuett_bass.ly"

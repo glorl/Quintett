@@ -4,8 +4,8 @@ globalAveMaria= {
 \compressEmptyMeasures
 }
 %
-\include "Dietsch_AveMaria/AveMaria_eins.ly"
-\include "Dietsch_AveMaria/AveMaria_zwei.ly"
-\include "Dietsch_AveMaria/AveMaria_drei.ly"
-\include "Dietsch_AveMaria/AveMaria_vier.ly"
-\include "Dietsch_AveMaria/AveMaria_bass.ly"
+\include "AveMaria_eins.ly"
+\include "AveMaria_zwei.ly"
+\include "AveMaria_drei.ly"
+\include "AveMaria_vier.ly"
+\include "AveMaria_bass.ly"

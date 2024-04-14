@@ -4,8 +4,8 @@ globalCelloConcerto= {
 \compressEmptyMeasures
 }
 
-\include "Dvorak_CelloConcerto/CelloConcerto_eins.ly"
-\include "Dvorak_CelloConcerto/CelloConcerto_zwei.ly"
-\include "Dvorak_CelloConcerto/CelloConcerto_drei.ly"
-\include "Dvorak_CelloConcerto/CelloConcerto_vier.ly"
-\include "Dvorak_CelloConcerto/CelloConcerto_bass.ly"
+\include "CelloConcerto_eins.ly"
+\include "CelloConcerto_zwei.ly"
+\include "CelloConcerto_drei.ly"
+\include "CelloConcerto_vier.ly"
+\include "CelloConcerto_bass.ly"

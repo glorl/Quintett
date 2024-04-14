@@ -4,8 +4,8 @@ globalWachetAuf= {
 \compressEmptyMeasures
 }
 
-\include "Bach_WachetAuf/WachetAuf_eins.ly"
-\include "Bach_WachetAuf/WachetAuf_zwei.ly"
-\include "Bach_WachetAuf/WachetAuf_drei.ly"
-\include "Bach_WachetAuf/WachetAuf_vier.ly"
-\include "Bach_WachetAuf/WachetAuf_bass.ly"
+\include "WachetAuf_eins.ly"
+\include "WachetAuf_zwei.ly"
+\include "WachetAuf_drei.ly"
+\include "WachetAuf_vier.ly"
+\include "WachetAuf_bass.ly"

@@ -4,8 +4,8 @@ globalIntroduktion= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Haydn_Introduktion/Introduktion_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Haydn_Introduktion/Introduktion_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Haydn_Introduktion/Introduktion_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Haydn_Introduktion/Introduktion_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Haydn_Introduktion/Introduktion_bass.ly"
+\include "Introduktion_eins.ly"
+\include "Introduktion_zwei.ly"
+\include "Introduktion_drei.ly"
+\include "Introduktion_vier.ly"
+\include "Introduktion_bass.ly"

@@ -4,8 +4,8 @@ globalWhiteChristmas= {
 \compressEmptyMeasures
 }
 
-\include "Berlin_WhiteChristmas/WhiteChristmas_eins.ly"
-\include "Berlin_WhiteChristmas/WhiteChristmas_zwei.ly"
-\include "Berlin_WhiteChristmas/WhiteChristmas_drei.ly"
-\include "Berlin_WhiteChristmas/WhiteChristmas_vier.ly"
-\include "Berlin_WhiteChristmas/WhiteChristmas_bass.ly"
+\include "WhiteChristmas_eins.ly"
+\include "WhiteChristmas_zwei.ly"
+\include "WhiteChristmas_drei.ly"
+\include "WhiteChristmas_vier.ly"
+\include "WhiteChristmas_bass.ly"

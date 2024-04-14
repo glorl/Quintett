@@ -2,8 +2,8 @@ globalUngarischerTanz= {
 \compressEmptyMeasures
 }
 
-\include "Brahms_UngarischerTanz/UngarischerTanz_eins.ly"
-\include "Brahms_UngarischerTanz/UngarischerTanz_zwei.ly"
-\include "Brahms_UngarischerTanz/UngarischerTanz_drei.ly"
-\include "Brahms_UngarischerTanz/UngarischerTanz_vier.ly"
-\include "Brahms_UngarischerTanz/UngarischerTanz_bass.ly"
+\include "UngarischerTanz_eins.ly"
+\include "UngarischerTanz_zwei.ly"
+\include "UngarischerTanz_drei.ly"
+\include "UngarischerTanz_vier.ly"
+\include "UngarischerTanz_bass.ly"

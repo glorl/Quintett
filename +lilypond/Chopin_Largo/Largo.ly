@@ -4,8 +4,8 @@ globalLargo= {
 \compressEmptyMeasures
 }
 
-\include "Chopin_Largo/Largo_eins.ly"
-\include "Chopin_Largo/Largo_zwei.ly"
-\include "Chopin_Largo/Largo_drei.ly"
-\include "Chopin_Largo/Largo_vier.ly"
-\include "Chopin_Largo/Largo_bass.ly"
+\include "Largo_eins.ly"
+\include "Largo_zwei.ly"
+\include "Largo_drei.ly"
+\include "Largo_vier.ly"
+\include "Largo_bass.ly"

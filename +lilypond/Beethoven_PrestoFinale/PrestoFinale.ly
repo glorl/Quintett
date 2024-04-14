@@ -5,10 +5,10 @@ globalPrestoFinale= {
 \compressEmptyMeasures
 }
 
-\include "Beethoven_PrestoFinale/PrestoFinale_eins.ly"
-\include "Beethoven_PrestoFinale/PrestoFinale_zwei.ly"
-\include "Beethoven_PrestoFinale/PrestoFinale_drei.ly"
-\include "Beethoven_PrestoFinale/PrestoFinale_vier.ly"
-\include "Beethoven_PrestoFinale/PrestoFinale_bass.ly"
-\include "Beethoven_PrestoFinale/PrestoFinale_cadenza.ly"
+\include "PrestoFinale_eins.ly"
+\include "PrestoFinale_zwei.ly"
+\include "PrestoFinale_drei.ly"
+\include "PrestoFinale_vier.ly"
+\include "PrestoFinale_bass.ly"
+\include "PrestoFinale_cadenza.ly"
 

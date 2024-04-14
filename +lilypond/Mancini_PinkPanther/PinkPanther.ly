@@ -3,8 +3,8 @@ globalPinkPanther= {
 \key c \major
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mancini_PinkPanther/PinkPanther_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mancini_PinkPanther/PinkPanther_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mancini_PinkPanther/PinkPanther_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mancini_PinkPanther/PinkPanther_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mancini_PinkPanther/PinkPanther_bass.ly"
+\include "PinkPanther_eins.ly"
+\include "PinkPanther_zwei.ly"
+\include "PinkPanther_drei.ly"
+\include "PinkPanther_vier.ly"
+\include "PinkPanther_bass.ly"

@@ -4,8 +4,8 @@ globalEhreGottes= {
 \compressEmptyMeasures
 }
 
-\include "Beethoven_EhreGottes/EhreGottes_eins.ly"
-\include "Beethoven_EhreGottes/EhreGottes_zwei.ly"
-\include "Beethoven_EhreGottes/EhreGottes_drei.ly"
-\include "Beethoven_EhreGottes/EhreGottes_vier.ly"
-\include "Beethoven_EhreGottes/EhreGottes_bass.ly"
+\include "EhreGottes_eins.ly"
+\include "EhreGottes_zwei.ly"
+\include "EhreGottes_drei.ly"
+\include "EhreGottes_vier.ly"
+\include "EhreGottes_bass.ly"

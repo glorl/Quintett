@@ -5,8 +5,8 @@ globalIntermezzo= {
 }
 
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mascagni_Intermezzo/Intermezzo_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mascagni_Intermezzo/Intermezzo_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mascagni_Intermezzo/Intermezzo_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mascagni_Intermezzo/Intermezzo_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mascagni_Intermezzo/Intermezzo_bass.ly"
+\include "Intermezzo_eins.ly"
+\include "Intermezzo_zwei.ly"
+\include "Intermezzo_drei.ly"
+\include "Intermezzo_vier.ly"
+\include "Intermezzo_bass.ly"

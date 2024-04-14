@@ -5,8 +5,8 @@ globalHumoreske= {
 }
 
 
-\include "Dvorak_Humoreske/Humoreske_eins.ly"
-\include "Dvorak_Humoreske/Humoreske_zwei.ly"
-\include "Dvorak_Humoreske/Humoreske_drei.ly"
-\include "Dvorak_Humoreske/Humoreske_vier.ly"
-\include "Dvorak_Humoreske/Humoreske_bass.ly"
+\include "Humoreske_eins.ly"
+\include "Humoreske_zwei.ly"
+\include "Humoreske_drei.ly"
+\include "Humoreske_vier.ly"
+\include "Humoreske_bass.ly"
