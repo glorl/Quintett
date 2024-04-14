@@ -4,8 +4,8 @@ globalKleineNachtmusik= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_KleineNachtmusik/KleineNachtmusik_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_KleineNachtmusik/KleineNachtmusik_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_KleineNachtmusik/KleineNachtmusik_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_KleineNachtmusik/KleineNachtmusik_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_KleineNachtmusik/KleineNachtmusik_bass.ly"
+\include "KleineNachtmusik_eins.ly"
+\include "KleineNachtmusik_zwei.ly"
+\include "KleineNachtmusik_drei.ly"
+\include "KleineNachtmusik_vier.ly"
+\include "KleineNachtmusik_bass.ly"

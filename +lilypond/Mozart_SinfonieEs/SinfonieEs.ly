@@ -4,8 +4,8 @@ globalSinfonieEs= {
 \compressEmptyMeasures
 }
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_SinfonieEs/SinfonieEs_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_SinfonieEs/SinfonieEs_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_SinfonieEs/SinfonieEs_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_SinfonieEs/SinfonieEs_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_SinfonieEs/SinfonieEs_bass.ly"
+\include "SinfonieEs_eins.ly"
+\include "SinfonieEs_zwei.ly"
+\include "SinfonieEs_drei.ly"
+\include "SinfonieEs_vier.ly"
+\include "SinfonieEs_bass.ly"

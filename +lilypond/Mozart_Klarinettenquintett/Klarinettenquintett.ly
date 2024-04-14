@@ -5,8 +5,8 @@ globalKlarinettenquintett= {
 }
 
 
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_Klarinettenquintett/Klarinettenquintett_eins.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_Klarinettenquintett/Klarinettenquintett_zwei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_Klarinettenquintett/Klarinettenquintett_drei.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_Klarinettenquintett/Klarinettenquintett_vier.ly"
-\include "/home/georg/Dokumente/Quintett/+lilypond/Mozart_Klarinettenquintett/Klarinettenquintett_bass.ly"
+\include "Klarinettenquintett_eins.ly"
+\include "Klarinettenquintett_zwei.ly"
+\include "Klarinettenquintett_drei.ly"
+\include "Klarinettenquintett_vier.ly"
+\include "Klarinettenquintett_bass.ly"
