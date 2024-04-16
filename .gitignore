@@ -1,7 +1,7 @@
 */Handschriftl/
 */Handschriftlich/
-+voices/
+# +voices/
 *.pdf
 *.midi
-*.json
+# *.json
 .gitignore

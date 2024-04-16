@@ -3,10 +3,10 @@ import json
 import re
 
 # paths 
-path_templates  = '/home/georg/Dokumente/Quintett/+templates/'
-path_voices     = '/home/georg/Dokumente/Quintett/+voices/'
-path_lilypond   = '/home/georg/Dokumente/Quintett/+lilypond/'
-path_json       = '/home/georg/Dokumente/Quintett/+voices' 
+path_templates  = '/home/georg/Dokumente/LilyArchive/+templates/'
+path_voices     = '/home/georg/Dokumente/LilyArchive/+voices/'
+path_lilypond   = '/home/georg/Dokumente/LilyArchive/+lilypond/'
+path_json       = '/home/georg/Dokumente/LilyArchive/+voices' 
 
 # global parameters
 paperheight = "#280"
