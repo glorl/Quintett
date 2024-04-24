@@ -30,10 +30,10 @@
 
 \begin{lilypond}
 
-    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Ory_MuscatRamble/MuscatRamble.ly"
+    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Patscheck_Ellington/Ellington.ly"
     \book{
 
-    \include "/home/georg/Dokumente/LilyArchive/+voices/Ory_MuscatRamble_Bass.lytex"
+    \include "/home/georg/Dokumente/LilyArchive/+voices/Patscheck_Ellington_Bass.lytex"
     }
 
 \end{lilypond}
