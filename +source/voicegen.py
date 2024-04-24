@@ -108,8 +108,8 @@ for voice in voices:
         rep["emptyline"]        = emptyline 
 
         ######## book ############
-        includes_lyfile =includes_lyfile+'\n    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"')
-        includes_lytex  =includes_lytex+'\n    \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"')
+        includes_lyfile =includes_lyfile+'    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"\n')
+        includes_lytex  =includes_lytex+'        \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"\n')
         
         ######## bookpart ############
         # prepare title line 

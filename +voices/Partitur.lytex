@@ -29,11 +29,13 @@
     
 
 \begin{lilypond}
+    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Bach_BistDuBeiMir/BistDuBeiMir.ly"
+    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Bach_WachetAuf/WachetAuf.ly"
 
-    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Wonder_SirDuke/SirDuke.ly"
     \book{
+        \include "/home/georg/Dokumente/LilyArchive/+voices/Bach_BistDuBeiMir_Partitur.lytex"
+        \include "/home/georg/Dokumente/LilyArchive/+voices/Bach_WachetAuf_Partitur.lytex"
 
-    \include "/home/georg/Dokumente/LilyArchive/+voices/Wonder_SirDuke_Partitur.lytex"
     }
 
 \end{lilypond}
