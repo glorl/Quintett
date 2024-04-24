@@ -1,4 +1,4 @@
-SirDukeVocal = \new Voice="SoloEins" \relative c'' {
+SirDukeVocal = \new Voice="VoiceSirDukeVocal" \relative c'' {
 \repeat volta 2{
 R1*3}
 \alternative{{
@@ -59,7 +59,7 @@ e4 (d16 c a8) c4 (d) }
 R1*8\bar"|."
 }
 
-SlyEins = \lyricmode{
+SirDukeVocalLyrics = \lyricmode{
 Mu- sic is a world with- in it- self
 With a lang- u- age we all un- der- stand
 With an e- qual opp- or- tu- ni- ty

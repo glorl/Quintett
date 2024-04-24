@@ -18,6 +18,7 @@ printpagenumber = "##f"
 # template lines 
 emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} }'
 staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoiceSP >> '
+lyricsline  = '            \\new Lyrics \\lyricsto "Voicetitle_shortvoiceSP" <<\\title_shortvoiceSPLyrics>>'
 titleline   = '            \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
 subtitleline= '\\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
 composerline= '            \\fill-line {\\line {} \\line{\\abs-fontsize #12 { \\sans {composer_long} }} }'
@@ -63,11 +64,13 @@ for voice in voices:
         title_long      = data_piece['base']['title_long']
         composer        = data_piece['base']['composer']
         composer_long   = data_piece['base']['composer_long']
-
+        
         padding         = data_piece[voice]['padding']
         basicdistance   = data_piece[voice]['basicdistance']
         instrumentname  = data_piece[voice]['instrumentname']
         
+        tf_lyrics = 'lyrics' in data_piece[voice]
+
         rep["title_short"]      = title_short
         rep["title_long"]       = title_long
         rep["composer_long"]    = composer_long
@@ -134,10 +137,21 @@ for voice in voices:
             rep["staff"]    = staffline
             rep, pattern, staffstring = rep_pattern(rep,staffline)
 
+            if tf_lyrics and (partvoices[0] in data_piece[voice]['lyrics']): 
+                lyricsline_i = lyricsline.replace('voice',partvoices[0])
+                lyricsline_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], lyricsline_i)
+                staffstring = staffstring+'\n'+lyricsline_i
+
             for ipartvoices in range(1,length_partvoices): 
                 staffstring_i = staffline.replace('voice',partvoices[ipartvoices])
                 staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
                 staffstring = staffstring+'\n'+staffstring_i
+                
+                if tf_lyrics and (partvoices[ipartvoices] in data_piece[voice]['lyrics']): 
+                    lyricsline_i = lyricsline.replace('voice',partvoices[ipartvoices])
+                    lyricsline_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], lyricsline_i)
+                    staffstring = staffstring+'\n'+lyricsline_i
+                
             
             staffstring = staffstring.replace('SP','')
             rep["staff"]=staffstring
@@ -167,10 +181,22 @@ for voice in voices:
                 # prepare staff line
                 rep["staff"]    = staffline
                 rep, pattern, staffstring = rep_pattern(rep,staffline)
+
+                if tf_lyrics and (partvoices[0] in data_piece[voice]['lyrics']): 
+                    lyricsline_i = lyricsline.replace('voice',partvoices[0])
+                    lyricsline_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], lyricsline_i)
+                    staffstring = staffstring+'\n'+lyricsline_i
+
                 for ipartvoices in range(1,length_partvoices): 
                     staffstring_i = staffline.replace('voice',partvoices[ipartvoices])
                     staffstring_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], staffstring_i)
                     staffstring = staffstring+'\n'+staffstring_i
+
+                    if tf_lyrics and (partvoices[ipartvoices] in data_piece[voice]['lyrics']): 
+                        lyricsline_i = lyricsline.replace('voice',partvoices[ipartvoices])
+                        lyricsline_i = pattern.sub(lambda m: rep[re.escape(m.group(0))], lyricsline_i)
+                        staffstring = staffstring+'\n'+lyricsline_i
+                                    
                 staffstring = staffstring.replace('SP',data_piece['base']['subpieces'][i_subpieces])
                 rep["staff"]=staffstring
 

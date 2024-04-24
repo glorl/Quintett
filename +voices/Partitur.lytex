@@ -30,10 +30,10 @@
 
 \begin{lilypond}
 
-    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Patscheck_Ellington/Ellington.ly"
+    \include "/home/georg/Dokumente/LilyArchive/+lilypond/Wonder_SirDuke/SirDuke.ly"
     \book{
 
-    \include "/home/georg/Dokumente/LilyArchive/+voices/Patscheck_Ellington_Partitur.lytex"
+    \include "/home/georg/Dokumente/LilyArchive/+voices/Wonder_SirDuke_Partitur.lytex"
     }
 
 \end{lilypond}

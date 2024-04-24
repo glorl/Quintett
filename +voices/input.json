@@ -2,7 +2,7 @@
     "Stuecke":
     {
         "voices": ["Partitur"],
-        "pieces": ["Patscheck_Ellington"]
+        "pieces": ["Wonder_SirDuke"]
     },
     "Abreu_TicoTico":
     {
@@ -1783,6 +1783,7 @@
             "padding": "3.2",
             "basicdistance": "2",
             "partvoices":["Vocal","Eins","Zwei","Drei","Vier","Bass"],
+            "lyrics":["Vocal"],
             "instrumentname":"Partitur"
         }
     }

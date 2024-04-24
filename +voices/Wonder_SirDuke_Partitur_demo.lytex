@@ -15,13 +15,13 @@
     \score{ 
         \layout{ system-system-spacing = #'((padding . 3.2) (basic-distance . 2)) } 
         \new StaffGroup <<
-            \new Staff << \globalSirDuke \SirDukeVocal >> 
-            \new Lyrics \lyricsto "VoiceSirDukeVocal" <<\SirDukeVocalLyrics>>
+            \new Staff << \globalSirDuke \SirDukeVocal >>
+            \new Lyrics \lyricsto "VoiceSirDukeVocal" <<\SirDukeVocalLyrics>>   
             \new Staff << \globalSirDuke \SirDukeEins >> 
             \new Staff << \globalSirDuke \SirDukeZwei >> 
             \new Staff << \globalSirDuke \SirDukeDrei >> 
             \new Staff << \globalSirDuke \SirDukeVier >> 
-            \new Staff << \globalSirDuke \SirDukeBass >>   
+            \new Staff << \globalSirDuke \SirDukeBass >>  
         >> 
     }
     \markup {
