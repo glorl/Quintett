@@ -109,7 +109,7 @@ for voice in voices:
 
         ######## book ############
         includes_lyfile =includes_lyfile+'    \\include \"'+os.path.join(path_lilypond,piece,title_short+'.ly\"\n')
-        includes_lytex  =includes_lytex+'        \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"\n')
+        includes_lytex  =includes_lytex +'        \\include \"'+os.path.join(path_voices,piece+'_'+voice+'.lytex\"\n')
         
         ######## bookpart ############
         # prepare title line 
@@ -212,12 +212,10 @@ for voice in voices:
             rep["score_overall"]=scoreoverallstring
 
         # write output 
-        rep = dict((re.escape(k), v) for k, v in rep.items()) 
-        pattern = re.compile("|".join(rep.keys()))
         ftemplate_bookpart = open(os.path.join(path_templates,'bookpart.lytex'),"r")        
         fcopy_bookpart = open(os.path.join(path_voices,composer+'_'+title_short+'_'+voice+'.lytex'),"wt")
         for line in ftemplate_bookpart:
-            line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
+            rep,pattern,line = rep_pattern(rep,line)
             fcopy_bookpart.write(line)
 
         fcopy_bookpart.close()
@@ -226,10 +224,8 @@ for voice in voices:
     rep["includes_lyfiles"] =includes_lyfile
     rep["includes_lytex"]   =includes_lytex
 
-    rep = dict((re.escape(k), v) for k, v in rep.items()) 
-    pattern = re.compile("|".join(rep.keys()))
     for line in ftemplate_book:
-        line = pattern.sub(lambda m: rep[re.escape(m.group(0))], line)
+        rep,pattern,line = rep_pattern(rep,line)
         fcopy_book.write(line)
 
     fcopy_book.close()
