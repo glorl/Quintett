@@ -3,10 +3,11 @@ import json
 import re
 
 # paths 
-path_templates  = '/home/georg/Dokumente/LilyArchive/+templates/'
-path_voices     = '/home/georg/Dokumente/LilyArchive/+voices/'
-path_lilypond   = '/home/georg/Dokumente/LilyArchive/+lilypond/'
-path_json       = '/home/georg/Dokumente/LilyArchive/+voices' 
+cwd = os.getcwd()
+path_templates  = os.path.join(cwd,'+templates')
+path_voices     = os.path.join(cwd,'+voices')
+path_lilypond   = os.path.join(cwd,'+lilypond')
+path_json       = os.path.join(cwd,'+voices') 
 
 # global parameters
 paperheight = "#280"
@@ -17,13 +18,15 @@ printpagenumber = "##f"
 # template lines 
 emptyline_i = '            \\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} }'
 staffline   = '            \\new Staff << \\globaltitle_short \\title_shortvoiceSP >> '
-titleline   = '        \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
-subtitleline= '        \\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
-composerline= '        \\fill-line {\\line {} \\line{\\abs-fontsize #12 { \\sans {composer_long} }} }'
+titleline   = '            \\fill-line {\\line{\\abs-fontsize #18 { \\sans {title_long} }} }'
+subtitleline= '\\fill-line {\\line{\\abs-fontsize #16 { \\sans {subtitle} }} }'
+composerline= '            \\fill-line {\\line {} \\line{\\abs-fontsize #12 { \\sans {composer_long} }} }'
 
-markupline = '    \\markup {\n \\column{ \n titleline \n composerline \n } \n }'
-subpieceline= '\n        \\markup{\\column{\\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} } \n         \\fill-line {\\line{\\abs-fontsize #14 { \\sans {sub_piece} }} \\line {} } }}'
-scoreline = '    \\score{ \n \\layout{ system-system-spacing = #\'((padding . padding_val) (basic-distance . basicdistance_val)) } \n \\new StaffGroup << staff  >> \n  }'
+markupline = '    \\markup{\n        \\column{ \ntitleline \ncomposerline \n        } \n    }'
+subpieceline='    \\markup{\n        \\column{\\fill-line {\\line{\\abs-fontsize #30 { {\\null} }} } \n'\
+    +'        \\fill-line {\\line{\\abs-fontsize #14 { \\sans {sub_piece} }} \\line {} } }\n    }'
+scoreline = '    \\score{ \n        \\layout{ system-system-spacing = #\'((padding . padding_val) (basic-distance . basicdistance_val)) } \n'\
+    +'        \\new StaffGroup <<\nstaff  \n        >> \n    }'
 
 # specific parameters 
 finput = open (os.path.join(path_json,'input.json'), "r")
@@ -126,7 +129,7 @@ for voice in voices:
         rep["markupline"]=markuplinestring
 
         if not('subpieces' in data_piece['base']): # no subpiece: only title, subtitle, 1 score 
-            score_overall = 'markupline \n  scoreline'
+            score_overall = 'markupline \nscoreline'
             # staff line
             rep["staff"]    = staffline
             rep, pattern, staffstring = rep_pattern(rep,staffline)
@@ -154,7 +157,7 @@ for voice in voices:
             
             for i_subpieces in range(len(data_piece['base']['subpieces'])):
 
-                score_overall_i = score_overall_i+'\n subpieceline \n  scoreline'
+                score_overall_i = score_overall_i+'\nsubpieceline \nscoreline'
                 
                 rep["sub_piece"]    = data_piece['base']['subpieces_long'][i_subpieces]
                 rep, pattern, subpiecestring = rep_pattern(rep,subpieceline)
