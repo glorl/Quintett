@@ -1,4 +1,4 @@
-KyrieZwei = \new Voice \relative c'' {
+MesseCZweiKyrie = \new Voice \relative c'' {
 c2. \f^\markup{\large {Andante maestoso}}
 ~c2.
 a2.\fermata
@@ -41,7 +41,7 @@ e8 c'4 b8 c e d4
 c4 r r2\fermata\bar"|."
 }
 
-GloriaZwei = \new Voice \relative c'{
+MesseCZweiGloria = \new Voice \relative c'{
 c1 \f^\markup{\large {Allegro assai}}
 ~c2 d
 ~d1
@@ -141,7 +141,7 @@ e'1
 ~e4 r r2^\fermata \bar"|."
 }
 
-CredoZwei = \new Voice \relative c''{
+MesseCZweiCredo = \new Voice \relative c''{
 g4-! \f^\markup{\large {Molto allegro}} e-! r
 a4-! g4-! r
 d'4\p (e) r
@@ -397,7 +397,7 @@ e4 r b'
 c r r\fermata \bar"|."
 }
 
-SanctusZwei = \new Voice \relative c''{
+MesseCZweiSanctus = \new Voice \relative c''{
 g2\f^\markup{\large Allegretto} a
 b2 c4 r
 c4 \p d8 e e (f) f4
@@ -430,7 +430,7 @@ b2 c4 b
 c4 r r2\fermata \bar"|."
 }
 
-BenedictusZwei = \new Voice \relative c'{
+MesseCZweiBenedictus = \new Voice \relative c'{
 <<
     { b1\rest^\markup{\large Allegro} }
   \new CueVoice {
@@ -524,7 +524,7 @@ b2 c4 b
 c4 r r2\fermata \bar"|."
 }
 
-AgnusdeiZwei = \new Voice \relative c'{
+MesseCZweiAgnusdei = \new Voice \relative c'{
 c4\f^\markup{\large {Andante maestoso}} e g
 c,4\p e g
 e'4\f d8 (cis d cis)
